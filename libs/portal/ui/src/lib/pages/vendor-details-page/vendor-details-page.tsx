@@ -1,8 +1,8 @@
 import { MdEdit } from 'react-icons/md'
 import { Link as RouterLink } from 'react-router-dom'
-import { Vendor } from '@redesignhealth/portal/data-assets'
-import { formatDate, printPersonName } from '@redesignhealth/portal/utils'
-import { HStack, Icon, IconButton } from '@redesignhealth/ui'
+import { Vendor } from '@acmehealth/portal/data-assets'
+import { formatDate, printPersonName } from '@acmehealth/portal/utils'
+import { HStack, Icon, IconButton } from '@acmehealth/ui'
 
 import DetailsCard from '../../details-card/details-card'
 import DetailsCardBody from '../../details-card/details-card-body'

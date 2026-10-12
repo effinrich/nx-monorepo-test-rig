@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { isRouteErrorResponse, useRouteError } from 'react-router-dom'
-import { Box, Button, Flex, Heading, Text } from '@redesignhealth/ui'
+import { Box, Button, Flex, Heading, Text } from '@acmehealth/ui'
 
 export interface ErrorFallbackProps {
   error: {

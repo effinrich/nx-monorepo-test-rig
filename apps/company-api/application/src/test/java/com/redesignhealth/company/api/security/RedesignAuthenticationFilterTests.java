@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
@@ -6,8 +6,8 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.PersonRef;
 import jakarta.servlet.FilterChain;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -77,13 +77,13 @@ public class RedesignAuthenticationFilterTests {
     when(authenticationManager.authenticate(any()))
         .thenReturn(
             new JwtAuthentication(
-                RedesignUserDetails.from(Person.from(PersonRef.of("test@redesignhealth.com")))));
+                RedesignUserDetails.from(Person.from(PersonRef.of("test@acmehealth.com")))));
     request.addHeader(HttpHeaders.AUTHORIZATION, "Bearer secret");
 
     filter.doFilter(request, response, filterChain);
 
     UserDetails user =
         (UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-    assertEquals("test@redesignhealth.com", user.getUsername());
+    assertEquals("test@acmehealth.com", user.getUsername());
   }
 }

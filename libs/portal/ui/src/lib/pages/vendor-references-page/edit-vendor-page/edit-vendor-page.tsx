@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
-import { useUpdateVendorById, Vendor } from '@redesignhealth/portal/data-assets'
-import { Box, SectionHeader } from '@redesignhealth/ui'
+import { useUpdateVendorById, Vendor } from '@acmehealth/portal/data-assets'
+import { Box, SectionHeader } from '@acmehealth/ui'
 
 import AxiosErrorAlert from '../../../axios-error-alert/axios-error-alert'
 import { VendorForm } from '../vendor-form/vendor-form'

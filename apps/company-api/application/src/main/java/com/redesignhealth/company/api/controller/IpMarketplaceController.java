@@ -1,20 +1,20 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.controller.util.Paths.IP_MARKETPLACE_ID;
+import static com.acmehealth.company.api.controller.util.Paths.IP_MARKETPLACE_ID;
 import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.http.HttpStatus.OK;
 
-import com.redesignhealth.company.api.assembler.IpMarketplaceAssembler;
-import com.redesignhealth.company.api.dto.FilterOptionsSummary;
-import com.redesignhealth.company.api.dto.IpMarketplaceContactInfoSummary;
-import com.redesignhealth.company.api.dto.IpMarketplaceSummary;
-import com.redesignhealth.company.api.dto.command.ipMarketplace.IpMarketplaceBaseCommand;
-import com.redesignhealth.company.api.dto.command.ipMarketplace.IpMarketplaceContactInfoCommand;
-import com.redesignhealth.company.api.dto.command.ipMarketplace.IpMarketplaceCreateCommand;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceRef;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.IpMarketplaceService;
+import com.acmehealth.company.api.assembler.IpMarketplaceAssembler;
+import com.acmehealth.company.api.dto.FilterOptionsSummary;
+import com.acmehealth.company.api.dto.IpMarketplaceContactInfoSummary;
+import com.acmehealth.company.api.dto.IpMarketplaceSummary;
+import com.acmehealth.company.api.dto.command.ipMarketplace.IpMarketplaceBaseCommand;
+import com.acmehealth.company.api.dto.command.ipMarketplace.IpMarketplaceContactInfoCommand;
+import com.acmehealth.company.api.dto.command.ipMarketplace.IpMarketplaceCreateCommand;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceRef;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.IpMarketplaceService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import java.util.ArrayList;

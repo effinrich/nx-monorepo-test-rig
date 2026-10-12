@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
 import static org.hamcrest.Matchers.is;
 import static org.mockito.Mockito.when;
@@ -6,12 +6,12 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
 import java.util.Optional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,11 +34,11 @@ public class UserInfoControllerTests {
 
   @Test
   @WithRedesignUser(
-      email = "test@redesignhealth.com",
+      email = "test@acmehealth.com",
       role = RoleAuthority.ROLE_RH_ADMIN,
       picture = "https://example.com/picture.jpg")
   public void testUserInfo() throws Exception {
-    PersonRef ref = PersonRef.of("test@redesignhealth.com");
+    PersonRef ref = PersonRef.of("test@acmehealth.com");
     Person person = Person.from(ref);
     person.setGivenName("Brett");
     person.setFamilyName("Shaheen");
@@ -49,7 +49,7 @@ public class UserInfoControllerTests {
     mockMvc
         .perform(get("/userinfo"))
         .andExpect(status().isOk())
-        .andExpect(jsonPath("$.email", is("test@redesignhealth.com")))
+        .andExpect(jsonPath("$.email", is("test@acmehealth.com")))
         .andExpect(jsonPath("$.picture", is("https://example.com/picture.jpg")))
         .andExpect(jsonPath("$.roles[0].authority", is("ROLE_RH_ADMIN")))
         .andExpect(jsonPath("$.roles[0].displayName", is("Admin")));

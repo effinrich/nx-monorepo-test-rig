@@ -1,6 +1,6 @@
 import { Link as RouterLink } from 'react-router-dom'
-import { render, screen } from '@redesignhealth/shared-utils-jest'
-import { Button, Text } from '@redesignhealth/ui'
+import { render, screen } from '@acmehealth/shared-utils-jest'
+import { Button, Text } from '@acmehealth/ui'
 import { within } from '@testing-library/react'
 
 import IPCard from './ip-card'
@@ -21,7 +21,7 @@ describe('IPCard', () => {
     requestCount: 5,
     seller: {
       name: 'Sazh Katzroy',
-      email: 'sazh.katzroy@redesignhealth.com'
+      email: 'sazh.katzroy@acmehealth.com'
     }
   }
   const expectedData = {

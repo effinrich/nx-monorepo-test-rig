@@ -1,16 +1,16 @@
-package com.redesignhealth.company.api;
+package com.acmehealth.company.api;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.redesignhealth.company.api.property.CeoDirectoryConverter;
-import com.redesignhealth.company.api.property.ExpertNoteEntityConverter;
-import com.redesignhealth.company.api.property.IpMarketplaceConverter;
-import com.redesignhealth.company.api.property.JiraClientProperties;
-import com.redesignhealth.company.api.property.JiraRequestProperties;
-import com.redesignhealth.company.api.property.ResearchArticleEntityConverter;
-import com.redesignhealth.company.api.property.ResearchEntityConverter;
-import com.redesignhealth.company.api.property.RocketChatSellerCredentials;
-import com.redesignhealth.company.api.taxonomy.CompanyTaxonomy;
-import com.redesignhealth.property.AwsSecretsManagerPropertySource;
+import com.acmehealth.company.api.property.CeoDirectoryConverter;
+import com.acmehealth.company.api.property.ExpertNoteEntityConverter;
+import com.acmehealth.company.api.property.IpMarketplaceConverter;
+import com.acmehealth.company.api.property.JiraClientProperties;
+import com.acmehealth.company.api.property.JiraRequestProperties;
+import com.acmehealth.company.api.property.ResearchArticleEntityConverter;
+import com.acmehealth.company.api.property.ResearchEntityConverter;
+import com.acmehealth.company.api.property.RocketChatSellerCredentials;
+import com.acmehealth.company.api.taxonomy.CompanyTaxonomy;
+import com.acmehealth.property.AwsSecretsManagerPropertySource;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.entity.ref;
+package com.acmehealth.company.api.entity.ref;
 
-import com.redesignhealth.company.api.taxonomy.TaxonomyTerm;
+import com.acmehealth.company.api.taxonomy.TaxonomyTerm;
 import lombok.Getter;
 
 /** Natural key for an {@link TaxonomyTerm} */

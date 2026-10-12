@@ -2,13 +2,13 @@ import useDrivePicker from 'react-google-drive-picker'
 import { MdLaunch } from 'react-icons/md'
 import { Link, useParams } from 'react-router-dom'
 import { useGoogleLogin } from '@react-oauth/google'
-import analytics from '@redesignhealth/analytics'
+import analytics from '@acmehealth/analytics'
 import {
   useGetCompanyById,
   useGetUserInfo
-} from '@redesignhealth/portal/data-assets'
-import { OverviewCard } from '@redesignhealth/portal/ui'
-import { Button, Card, Flex, Text } from '@redesignhealth/ui'
+} from '@acmehealth/portal/data-assets'
+import { OverviewCard } from '@acmehealth/portal/ui'
+import { Button, Card, Flex, Text } from '@acmehealth/ui'
 
 export const CompanyDetailsOverview = () => {
   const { companyId } = useParams()

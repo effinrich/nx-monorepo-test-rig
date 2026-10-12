@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
 import com.google.common.annotations.VisibleForTesting;
-import com.redesignhealth.company.api.entity.audit.Auditable;
-import com.redesignhealth.company.api.entity.converter.PersonRefConverter;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.entity.vendor.CompanyVendorContact;
+import com.acmehealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.converter.PersonRefConverter;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.entity.vendor.CompanyVendorContact;
 import jakarta.persistence.*;
 import java.util.HashSet;
 import java.util.Objects;

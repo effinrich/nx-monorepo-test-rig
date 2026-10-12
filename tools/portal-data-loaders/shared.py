@@ -15,13 +15,13 @@ import googleapiclient.discovery
 
 CONFIG_MAP = {
     'dev': {
-        'company-api-base-url': 'https://company-api.dev.redesignhealth.com'
+        'company-api-base-url': 'https://company-api.dev.acmehealth.com'
     },
     'staging': {
-        'company-api-base-url': 'https://company-api.staging.redesignhealth.com'
+        'company-api-base-url': 'https://company-api.staging.acmehealth.com'
     },
     'prod': {
-        'company-api-base-url': 'https://company-api.redesignhealth.com'
+        'company-api-base-url': 'https://company-api.acmehealth.com'
     },
     'local': {
         'company-api-base-url': 'http://localhost:8080'

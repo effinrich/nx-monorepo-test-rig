@@ -1,4 +1,4 @@
-import { Option } from '@redesignhealth/portal/data-assets'
+import { Option } from '@acmehealth/portal/data-assets'
 
 export const serviceArea: Option[] = [
   'All Domestic US',

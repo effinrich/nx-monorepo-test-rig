@@ -1,6 +1,6 @@
 import { MdLaunch } from 'react-icons/md'
-import { OverviewCard } from '@redesignhealth/portal/ui'
-import { Button, Text } from '@redesignhealth/ui'
+import { OverviewCard } from '@acmehealth/portal/ui'
+import { Button, Text } from '@acmehealth/ui'
 
 const EXPERT_NETWORK_HOSTNAME = import.meta.env.VITE_EXPERT_NETWORK_HOSTNAME
 const CompanyExpertNetwork = () => {

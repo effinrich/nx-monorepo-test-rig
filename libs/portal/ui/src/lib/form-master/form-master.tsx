@@ -7,7 +7,7 @@ import {
   Separator,
   Stack,
   StackSeparator
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface FormProps {
   children: React.ReactNode

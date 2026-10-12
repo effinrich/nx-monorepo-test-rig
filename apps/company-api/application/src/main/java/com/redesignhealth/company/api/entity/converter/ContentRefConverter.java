@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.entity.converter;
+package com.acmehealth.company.api.entity.converter;
 
-import com.redesignhealth.company.api.entity.ref.ContentRef;
+import com.acmehealth.company.api.entity.ref.ContentRef;
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
 

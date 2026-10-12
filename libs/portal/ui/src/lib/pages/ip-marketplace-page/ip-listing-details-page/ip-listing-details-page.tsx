@@ -1,15 +1,15 @@
 import { Link as RouterLink, Outlet, useParams } from 'react-router-dom'
-import analytics from '@redesignhealth/analytics'
+import analytics from '@acmehealth/analytics'
 import {
   IpExpansion,
   useGetIpListing,
   useGetUserInfo
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   CompanyMemberRole,
   getCompanyMemberRole,
   useGetActiveTab
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 import {
   Box,
   Loader,
@@ -17,7 +17,7 @@ import {
   TabList,
   TabsRoot,
   useDisclosure
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import DetailsCard from '../../../details-card/details-card'
 import DetailsCardHeader from '../../../details-card/details-card-header'

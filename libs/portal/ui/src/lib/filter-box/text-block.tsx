@@ -1,4 +1,4 @@
-import { Heading, Text } from '@redesignhealth/ui'
+import { Heading, Text } from '@acmehealth/ui'
 
 interface TextBlockProps {
   title?: string

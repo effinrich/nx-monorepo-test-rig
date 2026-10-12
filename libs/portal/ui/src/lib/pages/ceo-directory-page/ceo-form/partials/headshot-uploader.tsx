@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { useCreateAsset } from '@redesignhealth/portal/data-assets'
+import { useCreateAsset } from '@acmehealth/portal/data-assets'
 import {
   AvatarRoot,
   AvatarImage,
@@ -10,7 +10,7 @@ import {
   Stack,
   Text,
   useDisclosure
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import ImageCropper from '../image-cropper/image-cropper'
 

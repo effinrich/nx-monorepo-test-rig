@@ -1,5 +1,5 @@
-import { AddCompanyButton } from '@redesignhealth/portal/features/companies'
-import { AddOpCoIcon as AddCompanyIcon, CtaCard } from '@redesignhealth/ui'
+import { AddCompanyButton } from '@acmehealth/portal/features/companies'
+import { AddOpCoIcon as AddCompanyIcon, CtaCard } from '@acmehealth/ui'
 
 interface CompanyCtaCardProps {
   companiesExist?: boolean

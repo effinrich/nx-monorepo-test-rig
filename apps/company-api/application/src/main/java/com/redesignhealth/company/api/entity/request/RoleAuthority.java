@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.entity.request;
+package com.acmehealth.company.api.entity.request;
 
 public enum RoleAuthority {
   ROLE_SUPER_ADMIN(5, "Super Admin"),

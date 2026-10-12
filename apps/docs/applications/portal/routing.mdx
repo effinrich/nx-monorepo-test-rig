@@ -45,16 +45,16 @@ Routes are organized into feature groups under the dashboard layout:
 | Route | Feature | Library |
 |---|---|---|
 | `/` | Dashboard home | `apps/portal/src/routes/dashboard` |
-| `/companies/*` | Company management | `@redesignhealth/portal/features/companies` |
-| `/ceo-directory/*` | CEO directory | `@redesignhealth/portal/features/ceo-directory` |
-| `/ip-marketplace/*` | IP marketplace | `@redesignhealth/portal/features/ip-marketplace` |
-| `/research-hub/*` | Research hub | `@redesignhealth/portal/features/research-hub` |
-| `/library/*` | Solution library | `@redesignhealth/portal/features/library` |
+| `/companies/*` | Company management | `@acmehealth/portal/features/companies` |
+| `/ceo-directory/*` | CEO directory | `@acmehealth/portal/features/ceo-directory` |
+| `/ip-marketplace/*` | IP marketplace | `@acmehealth/portal/features/ip-marketplace` |
+| `/research-hub/*` | Research hub | `@acmehealth/portal/features/research-hub` |
+| `/library/*` | Solution library | `@acmehealth/portal/features/library` |
 | `/dev-library/*` | Developer library | `apps/portal/src/routes/dashboard/dev-library` |
-| `/vendors/*` | Vendor management | `@redesignhealth/portal/features/vendors` |
-| `/users/*` | User management | `@redesignhealth/portal/features/users` |
-| `/support` | Support | `@redesignhealth/portal/features/support` |
-| `/environment` | Environment details | `@redesignhealth/portal/features/admin` |
+| `/vendors/*` | Vendor management | `@acmehealth/portal/features/vendors` |
+| `/users/*` | User management | `@acmehealth/portal/features/users` |
+| `/support` | Support | `@acmehealth/portal/features/support` |
+| `/environment` | Environment details | `@acmehealth/portal/features/admin` |
 
 ## Nested routes
 
@@ -80,7 +80,7 @@ Actions receive the query client as a parameter, allowing them to invalidate cac
 
 ## Error handling
 
-The root route wraps all routes with a `RootBoundary` error element from `@redesignhealth/ui`. This catches unhandled errors and provides a consistent error recovery experience with a logout option.
+The root route wraps all routes with a `RootBoundary` error element from `@acmehealth/ui`. This catches unhandled errors and provides a consistent error recovery experience with a logout option.
 
 <Tip>
   When adding new routes, place the route element in the appropriate feature library and import it into `router.tsx`. Keep route components thin — delegate business logic to hooks and data-assets.

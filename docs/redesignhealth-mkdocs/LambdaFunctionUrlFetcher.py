@@ -22,24 +22,24 @@ CONFIG_MAP = {
         'ekl-library': 'BrhOU64b',
         'developer-library': '1omThfaC',
         'mkdocs-s3-bucket': 'rh-staging-developer-library',
-        'company-api-base-url': 'https://company-api.staging.redesignhealth.com'
+        'company-api-base-url': 'https://company-api.staging.acmehealth.com'
     },
     'dev': {
         'ekl-library': 'MnDeoylC',
         'developer-library': 'TkGC8nvM',
         'mkdocs-s3-bucket': 'rh-developer-library-dev',
-        'company-api-base-url': 'https://company-api.dev.redesignhealth.com'
+        'company-api-base-url': 'https://company-api.dev.acmehealth.com'
     },
     'prod': {
         'ekl-library': 'xoK3mG8Q',
         'developer-library': 'ELagNxhb',
         'mkdocs-s3-bucket': 'rh-developer-library-prod',
-        'company-api-base-url': 'https://company-api.redesignhealth.com'
+        'company-api-base-url': 'https://company-api.acmehealth.com'
     },
     'local': {
         'ekl-library': 'NFtgrVHV',
         'developer-library': 'Df7LyeJR',
-        'mkdocs-s3-bucket': 'dev-design.redesignhealth.com',
+        'mkdocs-s3-bucket': 'dev-design.acmehealth.com',
         'company-api-base-url': 'http://localhost:8080'
     }
 }
@@ -215,7 +215,7 @@ class LambdaFunctionUrlFetcher(BasePlugin):
     #     if not API_KEY:
     #         print("Can't publish_to_helpjuice() without HJ_API_KEY")
     #         return
-    #     URL = "https://redesignhealth.helpjuice.com/api/v3/articles?api_key=" + API_KEY
+    #     URL = "https://acmehealth.helpjuice.com/api/v3/articles?api_key=" + API_KEY
     #     print(f"LambdaFunctionUrlFetcher.publish_to_helpjuice: {slug}")
     #     body = soup.findChild('body').decode_contents()
     #     req = {

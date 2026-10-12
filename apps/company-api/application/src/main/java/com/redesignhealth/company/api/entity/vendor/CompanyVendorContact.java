@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.entity.vendor;
+package com.acmehealth.company.api.entity.vendor;
 
-import com.redesignhealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.Person;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;

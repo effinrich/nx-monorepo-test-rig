@@ -2,7 +2,7 @@
 id: flex
 category: layout
 title: Flex
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Flex is Box with display set to flex and comes with helpful style shorthand.
   It renders a `div` element.
@@ -13,7 +13,7 @@ description:
 ## Import
 
 ```js
-import { Flex, Spacer } from '@redesignhealth/ui'
+import { Flex, Spacer } from '@acmehealth/ui'
 ```
 
 - **Flex:** A `Box` with `display: flex`.

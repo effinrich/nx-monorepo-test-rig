@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from '@redesignhealth/ui'
+import { Button, ButtonProps } from '@acmehealth/ui'
 
 type SelectionBoxClearProps = Omit<ButtonProps, 'children'>
 

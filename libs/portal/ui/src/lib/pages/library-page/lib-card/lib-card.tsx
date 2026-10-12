@@ -7,7 +7,7 @@ import {
   CardHeader,
   Divider,
   Heading
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 export interface LibCardProps extends BoxProps {
   title: string

@@ -1,6 +1,6 @@
 import { css } from '@emotion/react'
-import { HighlightedText } from '@redesignhealth/portal/data-assets'
-import { Text } from '@redesignhealth/ui'
+import { HighlightedText } from '@acmehealth/portal/data-assets'
+import { Text } from '@acmehealth/ui'
 import parse from 'html-react-parser'
 
 /**

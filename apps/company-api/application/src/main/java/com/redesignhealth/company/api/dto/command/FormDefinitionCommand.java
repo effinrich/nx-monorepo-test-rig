@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
 import com.fasterxml.jackson.databind.JsonNode;
 

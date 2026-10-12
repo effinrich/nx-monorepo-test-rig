@@ -2,14 +2,14 @@
 id: sidenav
 category: navigation
 title: SideNav
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: SideNav is a composed component, or module, which provides an app wrapper to control layout, routing and mobile nav views.
 ---
 
 ## Import
 
 ```js
-import { SideNav } from '@redesignhealth/ui'
+import { SideNav } from '@acmehealth/ui'
 ```
 
 ## Usage

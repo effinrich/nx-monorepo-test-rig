@@ -2,7 +2,7 @@
 id: box
 category: layout
 title: Box
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Box is the most abstract component on top of which all other Redesign UI
   components are built. By default, it renders a `div` element
@@ -16,12 +16,12 @@ components are built. By default, it renders a `div` element
 ## Import
 
 ```js
-import { Box } from '@redesignhealth/ui'
+import { Box } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-layout-box--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-layout-box--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

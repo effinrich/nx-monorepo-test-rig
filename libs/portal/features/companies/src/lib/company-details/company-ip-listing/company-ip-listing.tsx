@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Link as RouterLink, useParams } from 'react-router-dom'
-import { useGetIPsByCompany } from '@redesignhealth/portal/data-assets'
-import { IPCard, OverviewCard, Pagination } from '@redesignhealth/portal/ui'
-import { printPersonName } from '@redesignhealth/portal/utils'
-import { Button, Loader, Stack, Text } from '@redesignhealth/ui'
+import { useGetIPsByCompany } from '@acmehealth/portal/data-assets'
+import { IPCard, OverviewCard, Pagination } from '@acmehealth/portal/ui'
+import { printPersonName } from '@acmehealth/portal/utils'
+import { Button, Loader, Stack, Text } from '@acmehealth/ui'
 
 import EmptyState from './partials/empty-state'
 
@@ -16,7 +16,7 @@ const CompanyIpListing = () => {
   return (
     <OverviewCard
       title="IP Records"
-      description="Contact platform-support@redesignhealth.com to make updates to any of your IP records."
+      description="Contact platform-support@acmehealth.com to make updates to any of your IP records."
     >
       {companyIp ? (
         companyIp.page.totalElements > 0 ? (

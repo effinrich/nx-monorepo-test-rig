@@ -1,4 +1,4 @@
-# @redesignhealth/portal/data-assets
+# @acmehealth/portal/data-assets
 
 Data-layer library for the Platform Portal. Contains all API clients, React Query hooks, TypeScript types, Zod schemas, Zustand stores, and mock/fixture data used by portal features.
 
@@ -29,7 +29,7 @@ import {
   useUserInfo,
   useResearchSprints,
   useCeos,
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 ```
 
 All hooks use **React Query** (`@tanstack/react-query`) for caching and synchronization. The query client is configured in the portal app root.

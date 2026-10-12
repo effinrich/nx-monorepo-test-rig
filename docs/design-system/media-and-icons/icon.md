@@ -2,7 +2,7 @@
 id: icon
 category: media-and-icons
 title: "Icon"
-package: "@redesignhealth/ui"
+package: "@acmehealth/ui"
 description: "Redesign UI provides a set of commonly used interface icons you can use in your
 project"
 ---
@@ -18,17 +18,17 @@ Redesign UI provides a set of commonly used interface icons you can use them in 
 project.
 
 These icons are published into a separate package that is not part of
-`@redesignhealth/ui` by default.
+`@acmehealth/ui` by default.
 
 ```bash
-npm i @redesignhealth/ui
+npm i @acmehealth/ui
 # or
-yarn add @redesignhealth/ui
+yarn add @acmehealth/ui
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-media-icons-icon--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-media-icons-icon--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 
@@ -51,7 +51,7 @@ Redesign UI provides multiple ways to use icons in your project:
 > instead.
 
 ```jsx
-import { PhoneIcon, AddIcon, WarningIcon } from '@redesignhealth/ui'
+import { PhoneIcon, AddIcon, WarningIcon } from '@acmehealth/ui'
 
 // The default icon size is 1em (16px)
 <PhoneIcon />
@@ -77,12 +77,12 @@ component names:
 To use third-party icon libraries like
 [`react-icons`](https://react-icons.github.io/react-icons/), here are the steps:
 
-1. Import the `Icon` component from `@redesignhealth/ui`
+1. Import the `Icon` component from `@acmehealth/ui`
 2. Pass the desired third party icon into the `as` prop
 
 ```jsx
 // 1. Import
-import { Icon } from '@redesignhealth/ui'
+import { Icon } from '@acmehealth/ui'
 import { MdSettings } from 'react-icons/md'
 
 // 2. Use the `as` prop
@@ -113,10 +113,10 @@ Redesign UI provides two methods for creating your custom icons:
 - Using the [Icon](#using-the-icon-component) component
 - Using the [createIcon](#using-the-createicon-function) function
 
-They can be imported from `@redesignhealth/ui`:
+They can be imported from `@acmehealth/ui`:
 
 ```jsx
-import { Icon, createIcon } from '@redesignhealth/ui'
+import { Icon, createIcon } from '@acmehealth/ui'
 ```
 
 Both `Icon` and `createIcon` enable you to style the icon using
@@ -170,7 +170,7 @@ generating icons with `Icon`, allowing you to achieve the same functionality
 with less effort.
 
 ```jsx
-import { createIcon } from '@redesignhealth/ui'
+import { createIcon } from '@acmehealth/ui'
 
 // using `path`
 export const UpDownIcon = createIcon({

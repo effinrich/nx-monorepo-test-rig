@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.entity.TaskHistory;
+import com.acmehealth.company.api.entity.TaskHistory;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.time.Instant;
 import org.springframework.hateoas.RepresentationModel;

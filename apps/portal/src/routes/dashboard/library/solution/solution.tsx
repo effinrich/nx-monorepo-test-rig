@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { MdChevronLeft } from 'react-icons/md'
 import { Link, Outlet, useParams } from 'react-router-dom'
-import { LibraryModulePage, Page } from '@redesignhealth/portal/ui'
-import { Box, Button, Loader } from '@redesignhealth/ui'
+import { LibraryModulePage, Page } from '@acmehealth/portal/ui'
+import { Box, Button, Loader } from '@acmehealth/ui'
 
 import { FeedbackFooter } from './feedback/feedback-footer'
 import { useGetSolutionByIdQuery } from './hooks'

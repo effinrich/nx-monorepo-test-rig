@@ -24,7 +24,7 @@ Super admins (`ROLE_SUPER_ADMIN`) can impersonate another user by including the 
 
 ```bash
 curl -H "Authorization: Bearer <google-id-token>" \
-     -H "RH-Impersonation-Email: user@redesignhealth.com" \
+     -H "RH-Impersonation-Email: user@acmehealth.com" \
      https://api.example.com/person
 ```
 
@@ -38,7 +38,7 @@ Cross-origin requests are configured per environment through application propert
 
 | Property | Description |
 | :--- | :--- |
-| `cors.allowedOriginPatterns` | Allowed origin patterns (e.g., `https://*.redesignhealth.com`) |
+| `cors.allowedOriginPatterns` | Allowed origin patterns (e.g., `https://*.acmehealth.com`) |
 | `cors.allowedMethods` | Allowed HTTP methods |
 | `cors.allowedHeaders` | Allowed request headers |
 

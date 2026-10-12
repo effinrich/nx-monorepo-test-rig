@@ -1,8 +1,8 @@
 import {
   RequestFormCommandStatusEnum,
   RequestFormSummary
-} from '@redesignhealth/company-api-types'
-import { Box, ListIcon, ListItem, Text } from '@redesignhealth/ui'
+} from '@acmehealth/company-api-types'
+import { Box, ListIcon, ListItem, Text } from '@acmehealth/ui'
 
 import { CompletedIcon, IncompletedIcon, InProgressIcon } from './partials'
 

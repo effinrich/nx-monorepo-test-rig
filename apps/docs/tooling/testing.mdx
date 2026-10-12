@@ -226,7 +226,7 @@ function renderWithQuery(ui: React.ReactElement) {
 
 ### Mock fixtures
 
-The `@redesignhealth/shared-utils-jest` library provides shared test utilities and fixtures. Use `@faker-js/faker` for generating realistic test data.
+The `@acmehealth/shared-utils-jest` library provides shared test utilities and fixtures. Use `@faker-js/faker` for generating realistic test data.
 
 ---
 
@@ -254,7 +254,7 @@ The `@redesignhealth/shared-utils-jest` library provides shared test utilities a
     Use `jest.mock()` or `vi.mock()` for module-level mocking. Prefer mocking at the API boundary rather than internal implementation.
 
     ```tsx
-    jest.mock('@redesignhealth/portal/data-assets', () => ({
+    jest.mock('@acmehealth/portal/data-assets', () => ({
       useCompanies: jest.fn(() => ({
         data: mockCompanies,
         isLoading: false,

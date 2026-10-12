@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.redesignhealth</groupId>
+  <groupId>com.acmehealth</groupId>
   <artifactId>company-api-parent</artifactId>
   <version>0.0.23-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -13,7 +13,7 @@
   </modules>
 
   <scm>
-    <developerConnection>scm:git:https://github.com/redesignhealth/rh-design-system.git</developerConnection>
+    <developerConnection>scm:git:https://github.com/acmehealth/rh-design-system.git</developerConnection>
     <tag>company-api-0.0.21</tag>
   </scm>
   <build>

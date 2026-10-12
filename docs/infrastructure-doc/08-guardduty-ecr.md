@@ -21,7 +21,7 @@ The following diagram illustrates the configuration managed by the GuardDuty mod
 * Amazon Simple Notification Service (SNS) sends email alerts on malicious findings.
 * Amazon DynamoDB stores malicious IPs in its database to enable tracking and analysis.
 
-![Diagram of GuardDuty module](https://assets.redesignhealth.com/O0B7OS43cf86Oh0LO1sqaNCbvVskpIbOrXKDt8Vh/guard-duty-module.png)
+![Diagram of GuardDuty module](https://assets.acmehealth.com/O0B7OS43cf86Oh0LO1sqaNCbvVskpIbOrXKDt8Vh/guard-duty-module.png)
 
 
 

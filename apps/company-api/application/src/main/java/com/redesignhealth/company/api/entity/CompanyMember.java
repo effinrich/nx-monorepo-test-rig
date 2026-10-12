@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
 import static jakarta.persistence.EnumType.STRING;
 
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Enumerated;

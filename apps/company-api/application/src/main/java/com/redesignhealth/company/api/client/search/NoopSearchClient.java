@@ -1,13 +1,13 @@
-package com.redesignhealth.company.api.client.search;
+package com.acmehealth.company.api.client.search;
 
-import com.redesignhealth.company.api.client.search.command.SearchCommand;
-import com.redesignhealth.company.api.client.search.command.SearchDeleteDocCommand;
-import com.redesignhealth.company.api.client.search.command.SearchFilterOptionsCommand;
-import com.redesignhealth.company.api.client.search.command.SearchGetCommand;
-import com.redesignhealth.company.api.client.search.command.SearchIndex;
-import com.redesignhealth.company.api.client.search.command.SearchIndexCommand;
-import com.redesignhealth.company.api.client.search.entity.FilterOptions;
-import com.redesignhealth.company.api.client.search.entity.SearchResult;
+import com.acmehealth.company.api.client.search.command.SearchCommand;
+import com.acmehealth.company.api.client.search.command.SearchDeleteDocCommand;
+import com.acmehealth.company.api.client.search.command.SearchFilterOptionsCommand;
+import com.acmehealth.company.api.client.search.command.SearchGetCommand;
+import com.acmehealth.company.api.client.search.command.SearchIndex;
+import com.acmehealth.company.api.client.search.command.SearchIndexCommand;
+import com.acmehealth.company.api.client.search.entity.FilterOptions;
+import com.acmehealth.company.api.client.search.entity.SearchResult;
 import java.io.InputStream;
 import java.util.List;
 import java.util.Optional;

@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.client.search.utils;
+package com.acmehealth.company.api.client.search.utils;
 
-import com.redesignhealth.company.api.client.search.command.SearchCommand;
-import com.redesignhealth.company.api.client.search.entity.SearchResult;
-import com.redesignhealth.company.api.dto.SearchFilter;
-import com.redesignhealth.company.api.property.EntityConverter;
-import com.redesignhealth.company.api.util.ApiToSearchConverter;
+import com.acmehealth.company.api.client.search.command.SearchCommand;
+import com.acmehealth.company.api.client.search.entity.SearchResult;
+import com.acmehealth.company.api.dto.SearchFilter;
+import com.acmehealth.company.api.property.EntityConverter;
+import com.acmehealth.company.api.util.ApiToSearchConverter;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;

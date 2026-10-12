@@ -9,7 +9,7 @@ const storybookTheme = create({
   colorPrimary: '#B540EC',
   colorSecondary: '#9425C9',
   brandTitle: 'Redesign Health',
-  brandUrl: 'https://github.com/redesignhealth/rh-design-system',
+  brandUrl: 'https://github.com/acmehealth/rh-design-system',
   brandImage: Logo
 })
 

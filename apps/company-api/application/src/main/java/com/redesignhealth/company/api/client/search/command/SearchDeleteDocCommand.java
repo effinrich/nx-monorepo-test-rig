@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.search.command;
+package com.acmehealth.company.api.client.search.command;
 
 import lombok.Builder;
 import lombok.Getter;

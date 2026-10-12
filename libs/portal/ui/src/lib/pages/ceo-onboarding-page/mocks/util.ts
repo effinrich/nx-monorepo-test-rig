@@ -11,7 +11,7 @@ export const registerMockEndpoints = () => [
   http.get('/userinfo', () => {
     return HttpResponse.json(userInfo)
   }),
-  http.get('/person/sazh.katzroy@redesignhealth.com', () => {
+  http.get('/person/sazh.katzroy@acmehealth.com', () => {
     return HttpResponse.json(person)
   })
 ]

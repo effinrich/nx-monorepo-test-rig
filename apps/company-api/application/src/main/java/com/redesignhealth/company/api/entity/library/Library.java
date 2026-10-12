@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.entity.library;
+package com.acmehealth.company.api.entity.library;
 
-import com.redesignhealth.company.api.entity.converter.LibraryRefConverter;
-import com.redesignhealth.company.api.entity.ref.LibraryRef;
+import com.acmehealth.company.api.entity.converter.LibraryRefConverter;
+import com.acmehealth.company.api.entity.ref.LibraryRef;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;

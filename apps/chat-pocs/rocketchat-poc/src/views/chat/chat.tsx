@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { EmbeddedChat } from '@embeddedchat/react'
 import { useGoogleLogin } from '@react-oauth/google'
-import { Loader } from '@redesignhealth/ui'
+import { Loader } from '@acmehealth/ui'
 
-// import { rh } from '@redesignhealth/ui'
+// import { rh } from '@acmehealth/ui'
 import { getAccessToken, getIdToken, setAccessToken } from '../../utils/auth'
 // const RhEmbeddedChat = rh(EmbeddedChat)
 
@@ -35,7 +35,7 @@ export function Chat() {
   }
   return (
     <EmbeddedChat
-      host="https://rocketchat-poc.dev.redesignhealth.com"
+      host="https://rocketchat-poc.dev.acmehealth.com"
       roomId="GENERAL"
       auth={{
         flow: 'TOKEN',

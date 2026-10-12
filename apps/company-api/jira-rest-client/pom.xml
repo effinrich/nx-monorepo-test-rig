@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.redesignhealth</groupId>
+  <groupId>com.acmehealth</groupId>
   <artifactId>jira-rest-client</artifactId>
   <version>0.0.23-SNAPSHOT</version>
   <properties>
@@ -61,7 +61,7 @@
               <generateModelDocumentation>false</generateModelDocumentation>
               <generateSupportingFiles>false</generateSupportingFiles>
               <configOptions>
-                <modelPackage>com.redesignhealth.jira.rest.client.model</modelPackage>
+                <modelPackage>com.acmehealth.jira.rest.client.model</modelPackage>
                 <!-- used to force jackson instead of gson -->
                 <library>jersey2</library>
                 <!-- without this joda is used and I wanted to avoid adding another library -->

@@ -5,7 +5,7 @@ import {
   RadioGroupItemHiddenInput,
   Text,
   rh
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface ButtonRadioProps {
   value: string

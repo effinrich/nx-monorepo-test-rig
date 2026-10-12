@@ -1,7 +1,7 @@
 import { Fragment, useState } from 'react'
 import { CredentialResponse, GoogleLogin } from '@react-oauth/google'
-import { setUserAccessToken } from '@redesignhealth/third-party-network/utils'
-import { AlertRoot, Box } from '@redesignhealth/ui'
+import { setUserAccessToken } from '@acmehealth/third-party-network/utils'
+import { AlertRoot, Box } from '@acmehealth/ui'
 
 import { useCurrentUserQuery } from '../hooks'
 

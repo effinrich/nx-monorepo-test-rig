@@ -8,13 +8,13 @@ import {
   mockIpListingWithOwner,
   mockIpListingWithRequests,
   mockIpMarketplaceFilters
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   fireEvent,
   mocks,
   render,
   screen
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 import { setupServer } from 'msw/node'
 
 import IPMarketplacePage from './ip-marketplace-page'
@@ -110,7 +110,7 @@ describe('IP Listing Page - Seller', () => {
         ...mockIpListingWithOwner,
         id: '123abc',
         owner: {
-          email: 'sazh.katzroy@redesignhealth.com'
+          email: 'sazh.katzroy@acmehealth.com'
         }
       }
     ])

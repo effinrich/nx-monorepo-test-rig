@@ -5,7 +5,7 @@ import {
   ModalContent,
   ModalFooter,
   ModalHeader
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface SuccessProps {
   onConfirmation(): void

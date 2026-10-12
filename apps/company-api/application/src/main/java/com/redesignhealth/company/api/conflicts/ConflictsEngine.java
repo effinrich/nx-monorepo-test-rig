@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.conflicts;
+package com.acmehealth.company.api.conflicts;
 
 import com.google.common.annotations.VisibleForTesting;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.repository.CompanyConflictRepository;
-import com.redesignhealth.company.api.security.AuthChecks;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.repository.CompanyConflictRepository;
+import com.acmehealth.company.api.security.AuthChecks;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

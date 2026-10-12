@@ -1,21 +1,21 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
 import static jakarta.persistence.EnumType.STRING;
 
 import com.google.common.annotations.VisibleForTesting;
-import com.redesignhealth.company.api.client.search.entity.CeoDirectoryDoc;
-import com.redesignhealth.company.api.client.search.entity.SearchResult;
-import com.redesignhealth.company.api.dto.SerializableEnum;
-import com.redesignhealth.company.api.dto.enums.CeoBusinessFocusArea;
-import com.redesignhealth.company.api.dto.enums.CeoBusinessType;
-import com.redesignhealth.company.api.dto.enums.CeoCustomerSegment;
-import com.redesignhealth.company.api.dto.enums.CeoHealthcareSector;
-import com.redesignhealth.company.api.dto.enums.CeoVisible;
-import com.redesignhealth.company.api.entity.audit.Auditable;
-import com.redesignhealth.company.api.entity.converter.CeoRefConverter;
-import com.redesignhealth.company.api.entity.converter.PersonRefConverter;
-import com.redesignhealth.company.api.entity.ref.CeoRef;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.client.search.entity.CeoDirectoryDoc;
+import com.acmehealth.company.api.client.search.entity.SearchResult;
+import com.acmehealth.company.api.dto.SerializableEnum;
+import com.acmehealth.company.api.dto.enums.CeoBusinessFocusArea;
+import com.acmehealth.company.api.dto.enums.CeoBusinessType;
+import com.acmehealth.company.api.dto.enums.CeoCustomerSegment;
+import com.acmehealth.company.api.dto.enums.CeoHealthcareSector;
+import com.acmehealth.company.api.dto.enums.CeoVisible;
+import com.acmehealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.converter.CeoRefConverter;
+import com.acmehealth.company.api.entity.converter.PersonRefConverter;
+import com.acmehealth.company.api.entity.ref.CeoRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;

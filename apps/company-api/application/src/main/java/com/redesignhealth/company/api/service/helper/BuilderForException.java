@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.service.helper;
+package com.acmehealth.company.api.service.helper;
 
-import com.redesignhealth.company.api.exception.InvalidFieldException;
-import com.redesignhealth.company.api.exception.dto.FieldErrorDetails;
-import com.redesignhealth.company.api.exception.dto.FieldErrorType;
+import com.acmehealth.company.api.exception.InvalidFieldException;
+import com.acmehealth.company.api.exception.dto.FieldErrorDetails;
+import com.acmehealth.company.api.exception.dto.FieldErrorType;
 import java.util.Objects;
 
 public class BuilderForException {

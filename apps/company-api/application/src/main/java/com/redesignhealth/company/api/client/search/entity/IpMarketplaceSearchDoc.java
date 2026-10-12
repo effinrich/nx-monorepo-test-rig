@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.client.search.entity;
+package com.acmehealth.company.api.client.search.entity;
 
-import static com.redesignhealth.company.api.util.Transformation.getValueListFromEnum;
+import static com.acmehealth.company.api.util.Transformation.getValueListFromEnum;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.redesignhealth.company.api.entity.IpMarketplace;
+import com.acmehealth.company.api.entity.IpMarketplace;
 import java.time.Instant;
 import java.util.List;
 import lombok.Builder;

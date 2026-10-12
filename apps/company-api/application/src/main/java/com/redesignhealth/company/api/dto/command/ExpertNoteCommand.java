@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.redesignhealth.company.api.client.search.entity.ResearchAuthor;
-import com.redesignhealth.company.api.dto.LinkRef;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.client.search.entity.ResearchAuthor;
+import com.acmehealth.company.api.dto.LinkRef;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;

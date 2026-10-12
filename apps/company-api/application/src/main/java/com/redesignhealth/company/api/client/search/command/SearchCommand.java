@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.client.search.command;
+package com.acmehealth.company.api.client.search.command;
 
-import com.redesignhealth.company.api.dto.SearchFilter;
+import com.acmehealth.company.api.dto.SearchFilter;
 import java.util.List;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;

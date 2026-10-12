@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 
-import com.redesignhealth.company.api.assembler.google.GoogleDocsLinkGenerator;
-import com.redesignhealth.company.api.controller.LibraryController;
-import com.redesignhealth.company.api.document.Topic;
-import com.redesignhealth.company.api.dto.TopicSummary;
+import com.acmehealth.company.api.assembler.google.GoogleDocsLinkGenerator;
+import com.acmehealth.company.api.controller.LibraryController;
+import com.acmehealth.company.api.document.Topic;
+import com.acmehealth.company.api.dto.TopicSummary;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;

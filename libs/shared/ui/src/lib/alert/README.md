@@ -2,7 +2,7 @@
 id: alert
 category: feedback
 title: Alert
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Alerts are used to communicate a state that affects a system, feature or page.
 ---
 
@@ -25,7 +25,7 @@ import {
   AlertIcon,
   AlertTitle,
   AlertDescription
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 ## Usage

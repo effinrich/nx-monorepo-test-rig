@@ -1,6 +1,6 @@
-import { UserInfoSummary } from '@redesignhealth/company-api-types'
-import { axiosApi } from '@redesignhealth/portal/data-assets'
-import { parseRequest } from '@redesignhealth/portal/utils'
+import { UserInfoSummary } from '@acmehealth/company-api-types'
+import { axiosApi } from '@acmehealth/portal/data-assets'
+import { parseRequest } from '@acmehealth/portal/utils'
 
 export const getUserInfo = async () => {
   const { error, response } = await parseRequest<UserInfoSummary>(

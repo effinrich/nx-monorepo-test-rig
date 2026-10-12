@@ -1,5 +1,5 @@
-import { printPersonName } from '@redesignhealth/portal/utils'
-import { Link, Text } from '@redesignhealth/ui'
+import { printPersonName } from '@acmehealth/portal/utils'
+import { Link, Text } from '@acmehealth/ui'
 /*
  * If the user is a Buyer, only release Seller information if releasedDate is set
  * If the user is a Seller, only release Buyer information if the releaseDate is set

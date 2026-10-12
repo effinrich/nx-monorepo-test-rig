@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.client.file;
+package com.acmehealth.company.api.client.file;
 
-import com.redesignhealth.company.api.exception.UnsupportedMimeTypeException;
+import com.acmehealth.company.api.exception.UnsupportedMimeTypeException;
 import org.springframework.util.MimeType;
 import org.springframework.util.MimeTypeUtils;
 import org.springframework.web.reactive.function.client.WebClient;

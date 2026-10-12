@@ -2,7 +2,7 @@
 id: section-header
 category: layout
 title: Section Header
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Section Header is a pattern component for rendering page/view title headers and accepts props for title, givenName, helpText and rightElement.
 ---
 
@@ -13,7 +13,7 @@ Section Header is a pattern component for rendering page/view title headers and 
 ## Import
 
 ```js
-import { SectionHeader } from '@redesignhealth/ui'
+import { SectionHeader } from '@acmehealth/ui'
 ```
 
 ## Usage

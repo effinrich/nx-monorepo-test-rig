@@ -1,4 +1,4 @@
-import { HighlightedText } from '@redesignhealth/portal/data-assets'
+import { HighlightedText } from '@acmehealth/portal/data-assets'
 
 import { ListCardRow } from '../list-card/list-card-row'
 import { SearchMatches } from '../search-matches/search-matches'

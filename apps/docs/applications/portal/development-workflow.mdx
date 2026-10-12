@@ -38,7 +38,7 @@ This page covers the common commands and workflows you will use when developing 
     Confirm the path alias exists in `tsconfig.base.json`. Nx generators usually add this automatically:
     ```json
     {
-      "@redesignhealth/portal/features/my-feature": [
+      "@acmehealth/portal/features/my-feature": [
         "libs/portal/features/my-feature/src/index.ts"
       ]
     }
@@ -47,7 +47,7 @@ This page covers the common commands and workflows you will use when developing 
   <Step title="Add routes">
     Import the feature component in `apps/portal/src/router.tsx` and add the route:
     ```tsx
-    import { MyFeature } from '@redesignhealth/portal/features/my-feature'
+    import { MyFeature } from '@acmehealth/portal/features/my-feature'
 
     <Route path="my-feature" element={<MyFeature />} />
     ```
@@ -115,7 +115,7 @@ Generate or regenerate the Company API TypeScript client from the OpenAPI specif
     ```bash
     nx generate-company-api-client portal
     ```
-    Pulls the OpenAPI spec from `https://company-api.dev.redesignhealth.com/public/open-api`.
+    Pulls the OpenAPI spec from `https://company-api.dev.acmehealth.com/public/open-api`.
   </Tab>
   <Tab title="From local backend">
     ```bash

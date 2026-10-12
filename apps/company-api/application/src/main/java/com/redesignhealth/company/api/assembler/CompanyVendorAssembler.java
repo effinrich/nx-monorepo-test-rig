@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
-import com.redesignhealth.company.api.controller.CompanyVendorController;
-import com.redesignhealth.company.api.dto.CompanyVendorSummary;
-import com.redesignhealth.company.api.entity.vendor.CompanyVendor;
+import com.acmehealth.company.api.controller.CompanyVendorController;
+import com.acmehealth.company.api.dto.CompanyVendorSummary;
+import com.acmehealth.company.api.entity.vendor.CompanyVendor;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;
 

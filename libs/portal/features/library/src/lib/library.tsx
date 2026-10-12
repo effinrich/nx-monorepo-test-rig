@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
-import { useLibraryStore } from '@redesignhealth/portal/data-assets'
-import { LibraryPage, Page } from '@redesignhealth/portal/ui'
+import { useLibraryStore } from '@acmehealth/portal/data-assets'
+import { LibraryPage, Page } from '@acmehealth/portal/ui'
 
 import { useGetAllContent, useGetCategories } from './hooks'
 

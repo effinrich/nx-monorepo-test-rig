@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.assembler.jira;
+package com.acmehealth.company.api.assembler.jira;
 
-import com.redesignhealth.company.api.assembler.LinkGenerator;
-import com.redesignhealth.company.api.property.JiraClientProperties;
+import com.acmehealth.company.api.assembler.LinkGenerator;
+import com.acmehealth.company.api.property.JiraClientProperties;
 import org.springframework.hateoas.Link;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;

@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.client.file;
+package com.acmehealth.company.api.client.file;
 
-import com.redesignhealth.company.api.client.file.dto.RemoteFile;
+import com.acmehealth.company.api.client.file.dto.RemoteFile;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

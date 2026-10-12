@@ -4,11 +4,11 @@ This is a Redesign Health UI theme provider. This is a required wrapper for any 
 
 ## Usage
 
-Use use the default theme from `@redesignhealth/ui` or a custom theme for the theme prop.
+Use use the default theme from `@acmehealth/ui` or a custom theme for the theme prop.
 
 ```tsx
 import * as React from 'react'
-import { RhProvider } from '@redesignhealth/ui'
+import { RhProvider } from '@acmehealth/ui'
 import theme from './theme'
 
 function App() {

@@ -2,7 +2,7 @@
 id: form-control
 category: form
 title: Form Control
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Form Control provides context such as `isInvalid`, `isDisabled`, and
   `isRequired` to form elements
@@ -32,12 +32,12 @@ import {
   FormLabel,
   FormErrorMessage,
   FormHelperText
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-formcontrol--basic&viewMode=story"width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-formcontrol--basic&viewMode=story"width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

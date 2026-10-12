@@ -1,5 +1,5 @@
-import { useHasUserConsented } from '@redesignhealth/portal/data-assets'
-import { Loader, useDisclosure } from '@redesignhealth/ui'
+import { useHasUserConsented } from '@acmehealth/portal/data-assets'
+import { Loader, useDisclosure } from '@acmehealth/ui'
 
 import Terms from '../terms'
 

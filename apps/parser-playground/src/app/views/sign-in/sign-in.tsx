@@ -8,7 +8,7 @@ import {
   CardHeader,
   Heading,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { getUserToken, setUserToken } from '../../store'
 

@@ -1,19 +1,19 @@
-package com.redesignhealth.company.api.service;
+package com.acmehealth.company.api.service;
 
-import static com.redesignhealth.company.api.util.SpecificationUtil.searchAndFilter;
+import static com.acmehealth.company.api.util.SpecificationUtil.searchAndFilter;
 
-import com.redesignhealth.company.api.dto.CategorySummary;
-import com.redesignhealth.company.api.dto.SearchFilter;
-import com.redesignhealth.company.api.dto.command.CategoryCommand;
-import com.redesignhealth.company.api.entity.Category;
-import com.redesignhealth.company.api.entity.id.ApiIdGenerator;
-import com.redesignhealth.company.api.entity.ref.CategoryRef;
-import com.redesignhealth.company.api.exception.CategoryNotFoundException;
-import com.redesignhealth.company.api.exception.UnsupportedExpansionException;
-import com.redesignhealth.company.api.exception.dto.FieldErrorType;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.repository.CategoryRepository;
-import com.redesignhealth.company.api.service.helper.BuilderForException;
+import com.acmehealth.company.api.dto.CategorySummary;
+import com.acmehealth.company.api.dto.SearchFilter;
+import com.acmehealth.company.api.dto.command.CategoryCommand;
+import com.acmehealth.company.api.entity.Category;
+import com.acmehealth.company.api.entity.id.ApiIdGenerator;
+import com.acmehealth.company.api.entity.ref.CategoryRef;
+import com.acmehealth.company.api.exception.CategoryNotFoundException;
+import com.acmehealth.company.api.exception.UnsupportedExpansionException;
+import com.acmehealth.company.api.exception.dto.FieldErrorType;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.repository.CategoryRepository;
+import com.acmehealth.company.api.service.helper.BuilderForException;
 import jakarta.annotation.Nullable;
 import jakarta.transaction.Transactional;
 import java.util.List;

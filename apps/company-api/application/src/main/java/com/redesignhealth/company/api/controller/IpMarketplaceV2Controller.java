@@ -1,14 +1,14 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.controller.util.Paths.IP_MARKETPLACE_ID;
-import static com.redesignhealth.company.api.controller.util.Paths.IP_MARKETPLACE_TRACK_ID;
+import static com.acmehealth.company.api.controller.util.Paths.IP_MARKETPLACE_ID;
+import static com.acmehealth.company.api.controller.util.Paths.IP_MARKETPLACE_TRACK_ID;
 import static org.springframework.http.HttpStatus.OK;
 
-import com.redesignhealth.company.api.dto.IpMarketplaceContactInfoV2Summary;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceRef;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceTrackRef;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.IpMarketplaceService;
+import com.acmehealth.company.api.dto.IpMarketplaceContactInfoV2Summary;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceRef;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceTrackRef;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.IpMarketplaceService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.http.ResponseEntity;

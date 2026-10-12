@@ -1,17 +1,17 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.controller.util.Paths.COMPANY_ID;
-import static com.redesignhealth.company.api.controller.util.Paths.COMPANY_VENDOR_ID;
+import static com.acmehealth.company.api.controller.util.Paths.COMPANY_ID;
+import static com.acmehealth.company.api.controller.util.Paths.COMPANY_VENDOR_ID;
 
-import com.redesignhealth.company.api.assembler.CompanyVendorAssembler;
-import com.redesignhealth.company.api.dto.CompanyVendorSummary;
-import com.redesignhealth.company.api.dto.command.vendor.CompanyVendorCommand;
-import com.redesignhealth.company.api.dto.command.vendor.CreateCompanyVendorCommand;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.ref.CompanyVendorRef;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.CompanyVendorService;
+import com.acmehealth.company.api.assembler.CompanyVendorAssembler;
+import com.acmehealth.company.api.dto.CompanyVendorSummary;
+import com.acmehealth.company.api.dto.command.vendor.CompanyVendorCommand;
+import com.acmehealth.company.api.dto.command.vendor.CreateCompanyVendorCommand;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.ref.CompanyVendorRef;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.CompanyVendorService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

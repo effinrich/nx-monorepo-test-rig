@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.dto.command.ipMarketplace.MarketplaceUserInfo;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceTrackContactInfo;
-import com.redesignhealth.company.api.entity.IpMarketplaceTrack;
-import com.redesignhealth.company.api.exception.CompanyMemberNotFoundException;
+import com.acmehealth.company.api.dto.command.ipMarketplace.MarketplaceUserInfo;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceTrackContactInfo;
+import com.acmehealth.company.api.entity.IpMarketplaceTrack;
+import com.acmehealth.company.api.exception.CompanyMemberNotFoundException;
 import java.time.Instant;
 import lombok.Getter;
 

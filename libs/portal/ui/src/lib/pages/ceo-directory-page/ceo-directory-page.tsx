@@ -6,8 +6,8 @@ import {
   CeoSearchValues,
   useGetCeos,
   useGetUserInfo
-} from '@redesignhealth/portal/data-assets'
-import { HasRole } from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/data-assets'
+import { HasRole } from '@acmehealth/portal/utils'
 import {
   Box,
   Button,
@@ -15,7 +15,7 @@ import {
   Loader,
   SectionHeader,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { BannerAlert } from '../../banner-alert/banner-alert'
 import { NoSearchResults } from '../../no-search-results/no-search-results'

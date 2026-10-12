@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.entity.Category;
+import com.acmehealth.company.api.entity.Category;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.List;
 import lombok.Builder;

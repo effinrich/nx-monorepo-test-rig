@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.service;
+package com.acmehealth.company.api.service;
 
-import com.redesignhealth.company.api.dto.command.FormDefinitionCommand;
-import com.redesignhealth.company.api.entity.FormDefinition;
-import com.redesignhealth.company.api.exception.FormDefinitionNotFoundException;
-import com.redesignhealth.company.api.exception.InvalidFieldException;
-import com.redesignhealth.company.api.repository.FormDefinitionRepository;
-import com.redesignhealth.company.api.util.JsonSchemaUtils;
+import com.acmehealth.company.api.dto.command.FormDefinitionCommand;
+import com.acmehealth.company.api.entity.FormDefinition;
+import com.acmehealth.company.api.exception.FormDefinitionNotFoundException;
+import com.acmehealth.company.api.exception.InvalidFieldException;
+import com.acmehealth.company.api.repository.FormDefinitionRepository;
+import com.acmehealth.company.api.util.JsonSchemaUtils;
 import org.springframework.stereotype.Service;
 
 @Service

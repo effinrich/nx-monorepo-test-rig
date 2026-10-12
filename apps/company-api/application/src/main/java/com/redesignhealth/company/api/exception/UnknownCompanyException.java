@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.exception;
+package com.acmehealth.company.api.exception;
 
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.exception.status.BadRequestException;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.exception.status.BadRequestException;
 
 public class UnknownCompanyException extends BadRequestException {
 

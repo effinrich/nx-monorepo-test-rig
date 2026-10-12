@@ -10,7 +10,7 @@ Use it in inside your RhProvider
 
 ```tsx
 import * as React from 'react'
-import { RhProvider } from '@redesignhealth/ui'
+import { RhProvider } from '@acmehealth/ui'
 import theme from './theme'
 
 function App() {

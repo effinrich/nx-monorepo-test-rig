@@ -24,11 +24,11 @@ aws:
   s3:
     assets:
       bucket: rh-prod-assets
-      url: https://assets.redesignhealth.com
+      url: https://assets.acmehealth.com
 
 jira:
   enabled: true
-  username: jiraplatformservice@redesignhealth.com
+  username: jiraplatformservice@acmehealth.com
   request:
     user:
       project: 10106 # DP (DevOps Platform)
@@ -40,9 +40,9 @@ search:
 
 notification:
   portal:
-    hostname: https://platform.redesignhealth.com
+    hostname: https://platform.acmehealth.com
   advise:
-    hostname: https://third-party-network.redesignhealth.com
+    hostname: https://third-party-network.acmehealth.com
 
 google-drive-lambda:
   hostname: https://v4dpmmyj5axaperrq3bug3pi7y0ogflc.lambda-url.us-east-1.on.aws
@@ -50,13 +50,13 @@ mkdocs-lambda:
   hostname: https://v4dpmmyj5axaperrq3bug3pi7y0ogflc.lambda-url.us-east-1.on.aws
 
 company-vendor-change:
-  recipients: vendors@redesignhealth.com
+  recipients: vendors@acmehealth.com
 
 library-feedback:
-  recipients: platform-library-feedback@redesignhealth.com
+  recipients: platform-library-feedback@acmehealth.com
 
 xcloud:
-  url: https://redesignhealth.my.site.com/OpCo
+  url: https://acmehealth.my.site.com/OpCo
   only-offer-to: >
     HVflLrdo,
     317XU0m2,
@@ -74,4 +74,4 @@ xcloud:
     M6yABxYZ
 
 prometheus-service:
-  instance: company-api.redesignhealth.com:80
+  instance: company-api.acmehealth.com:80

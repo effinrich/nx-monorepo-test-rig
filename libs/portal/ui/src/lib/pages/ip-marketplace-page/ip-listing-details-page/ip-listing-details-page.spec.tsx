@@ -9,13 +9,13 @@ import {
   mockIpListingWithRequests,
   mockIpMarketplaceContactInfo,
   mockPutMeIpMarketplaceContactInfo
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   fireEvent,
   render,
   screen,
   waitForLoadingToFinish
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 import { waitForElementToBeRemoved } from '@testing-library/react'
 import { setupServer } from 'msw/node'
 

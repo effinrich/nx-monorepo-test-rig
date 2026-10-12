@@ -1,6 +1,6 @@
 import { act } from 'react'
 import { createToaster } from '@chakra-ui/react'
-import { render, screen, waitFor } from '@redesignhealth/shared-utils-jest'
+import { render, screen, waitFor } from '@acmehealth/shared-utils-jest'
 
 import { Toaster } from './toaster'
 

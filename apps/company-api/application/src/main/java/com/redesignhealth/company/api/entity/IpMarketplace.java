@@ -1,20 +1,20 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
 import static jakarta.persistence.EnumType.STRING;
 
-import com.redesignhealth.company.api.dto.LinkRef;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceFreedomToOperateCertification;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceOrganOfFocus;
-import com.redesignhealth.company.api.dto.enums.IpMarketplacePatentGeographyValidity;
-import com.redesignhealth.company.api.dto.enums.IpMarketplacePatentStatus;
-import com.redesignhealth.company.api.dto.enums.IpMarketplacePreferredTerms;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceSpeciality;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceStatus;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceTechnologyLevelOfMaturity;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceTechnologyType;
-import com.redesignhealth.company.api.entity.audit.Auditable;
-import com.redesignhealth.company.api.entity.converter.IpMarketPlaceConverter;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceRef;
+import com.acmehealth.company.api.dto.LinkRef;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceFreedomToOperateCertification;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceOrganOfFocus;
+import com.acmehealth.company.api.dto.enums.IpMarketplacePatentGeographyValidity;
+import com.acmehealth.company.api.dto.enums.IpMarketplacePatentStatus;
+import com.acmehealth.company.api.dto.enums.IpMarketplacePreferredTerms;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceSpeciality;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceStatus;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceTechnologyLevelOfMaturity;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceTechnologyType;
+import com.acmehealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.converter.IpMarketPlaceConverter;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceRef;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

@@ -8,12 +8,12 @@ import {
   useCreateEditCompanyMember,
   useGetCompanies,
   useGetPersonByEmail
-} from '@redesignhealth/portal/data-assets'
-import { CustomDrawer } from '@redesignhealth/portal/ui'
+} from '@acmehealth/portal/data-assets'
+import { CustomDrawer } from '@acmehealth/portal/ui'
 import {
   getCurrentUserRole,
   isSuperAdminRole
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 import {
   Flex,
   FormControl,
@@ -24,7 +24,7 @@ import {
   Loader,
   Radio,
   RadioGroupRoot
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { Select as MultiSelect } from 'chakra-react-select'
 import * as yup from 'yup'
 

@@ -1,4 +1,4 @@
-import { AvatarRoot, AvatarImage, AvatarFallback, Button, Text } from '@redesignhealth/ui'
+import { AvatarRoot, AvatarImage, AvatarFallback, Button, Text } from '@acmehealth/ui'
 
 import type { Meta, StoryObj } from '@storybook/react-vite'
 

@@ -1,4 +1,4 @@
-import { ListRoot, type ListRootProps } from '@redesignhealth/ui'
+import { ListRoot, type ListRootProps } from '@acmehealth/ui'
 
 type ListCardRowsContainerProps = ListRootProps
 

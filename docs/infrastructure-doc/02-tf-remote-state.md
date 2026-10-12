@@ -97,7 +97,7 @@ output "tf-state" {
 
 The terraform module deploys the S3 backend. The backend will be fully encrypted and versioned. The Amazon DynamoDB allows state locking so that a terraform module is locked for other users while it is being deployed.
 
- ![Diagram of Terraform State Module Architecture](https://assets.redesignhealth.com/ibTE0lXXzTb611mWAlCglVnrAke0Ne1ErUnhSyy7/tf-remote-architecture.png)
+ ![Diagram of Terraform State Module Architecture](https://assets.acmehealth.com/ibTE0lXXzTb611mWAlCglVnrAke0Ne1ErUnhSyy7/tf-remote-architecture.png)
 
 
 

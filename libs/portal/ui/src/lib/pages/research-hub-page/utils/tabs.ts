@@ -1,4 +1,4 @@
-import { TabConfig, useSetActiveTab } from '@redesignhealth/portal/utils'
+import { TabConfig, useSetActiveTab } from '@acmehealth/portal/utils'
 
 export const useGetTabs = (hideArticleSupport?: boolean) => {
   const tabs = getTabs(hideArticleSupport)

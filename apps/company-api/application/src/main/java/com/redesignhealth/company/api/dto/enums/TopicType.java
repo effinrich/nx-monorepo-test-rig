@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto.enums;
+package com.acmehealth.company.api.dto.enums;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
-import com.redesignhealth.company.api.dto.SerializableEnum;
+import com.acmehealth.company.api.dto.SerializableEnum;
 import java.util.Map;
 
 public enum TopicType implements SerializableEnum {

@@ -1,5 +1,5 @@
 import { MdCorporateFare, MdEmail } from 'react-icons/md'
-import { CardRoot, CardBody, Flex, Link, Text } from '@redesignhealth/ui'
+import { CardRoot, CardBody, Flex, Link, Text } from '@acmehealth/ui'
 
 import SecondaryText from './secondary-text'
 

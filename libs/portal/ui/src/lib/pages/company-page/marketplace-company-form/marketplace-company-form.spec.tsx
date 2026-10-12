@@ -1,4 +1,4 @@
-import { TEXTAREA_CHARACTER_LIMIT } from '@redesignhealth/portal/utils'
+import { TEXTAREA_CHARACTER_LIMIT } from '@acmehealth/portal/utils'
 import {
   changeAndBlur,
   fireEvent,
@@ -7,7 +7,7 @@ import {
   screen,
   selectReactSelectOption,
   waitFor
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 
 import MarketplaceCompanyForm from './marketplace-company-form'
 

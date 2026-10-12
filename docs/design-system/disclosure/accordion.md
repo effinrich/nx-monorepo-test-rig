@@ -2,7 +2,7 @@
 id: accordion
 title: Accordion
 category: 'disclosure'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Accordions display a list of high-level options that can expand/collapse to
   reveal more information.
@@ -33,12 +33,12 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-disclosure-accordion--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-disclosure-accordion--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

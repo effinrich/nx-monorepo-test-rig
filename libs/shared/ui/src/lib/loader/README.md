@@ -2,14 +2,14 @@
 id: loader
 category: feedback
 title: Loader
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Loader is a pattern component consisting of the Spinner component and Flex component, and best used as a loading feedback for pages/views or sections.
 ---
 
 ## Import
 
 ```js
-import { Loader } from '@redesignhealth/ui'
+import { Loader } from '@acmehealth/ui'
 ```
 
 ## Usage

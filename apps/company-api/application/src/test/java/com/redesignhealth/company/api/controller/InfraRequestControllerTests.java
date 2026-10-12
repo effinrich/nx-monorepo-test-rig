@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.entity.FormDefinition.Type.*;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.*;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
-import static com.redesignhealth.company.api.expansion.Expansion.FORMS;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.*;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.*;
+import static com.acmehealth.company.api.entity.FormDefinition.Type.*;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.*;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
+import static com.acmehealth.company.api.expansion.Expansion.FORMS;
+import static com.acmehealth.company.api.scaffolding.DocUtils.*;
+import static com.acmehealth.company.api.scaffolding.Fixtures.*;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -24,23 +24,23 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.redesignhealth.company.api.assembler.InfraRequestAssembler;
-import com.redesignhealth.company.api.assembler.jira.JiraLinkGenerator;
-import com.redesignhealth.company.api.client.jira.IssueCreated;
-import com.redesignhealth.company.api.client.jira.JiraClient;
-import com.redesignhealth.company.api.entity.request.*;
-import com.redesignhealth.company.api.exception.InfraRequestAlreadySubmittedException;
-import com.redesignhealth.company.api.exception.RequiredFormsMissingException;
-import com.redesignhealth.company.api.exception.UnknownCompanyException;
-import com.redesignhealth.company.api.property.JiraRequestProperties;
-import com.redesignhealth.company.api.repository.CompanyRepository;
-import com.redesignhealth.company.api.repository.FormDefinitionRepository;
-import com.redesignhealth.company.api.repository.InfraRequestRepository;
-import com.redesignhealth.company.api.repository.RequestFormRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.InfraRequestService;
-import com.redesignhealth.company.api.template.TemplateGenerator;
+import com.acmehealth.company.api.assembler.InfraRequestAssembler;
+import com.acmehealth.company.api.assembler.jira.JiraLinkGenerator;
+import com.acmehealth.company.api.client.jira.IssueCreated;
+import com.acmehealth.company.api.client.jira.JiraClient;
+import com.acmehealth.company.api.entity.request.*;
+import com.acmehealth.company.api.exception.InfraRequestAlreadySubmittedException;
+import com.acmehealth.company.api.exception.RequiredFormsMissingException;
+import com.acmehealth.company.api.exception.UnknownCompanyException;
+import com.acmehealth.company.api.property.JiraRequestProperties;
+import com.acmehealth.company.api.repository.CompanyRepository;
+import com.acmehealth.company.api.repository.FormDefinitionRepository;
+import com.acmehealth.company.api.repository.InfraRequestRepository;
+import com.acmehealth.company.api.repository.RequestFormRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.InfraRequestService;
+import com.acmehealth.company.api.template.TemplateGenerator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -138,7 +138,7 @@ public class InfraRequestControllerTests {
         .andExpect(jsonPath("$.links", hasSize(2)))
         .andExpect(jsonPath("$.links[1].rel", is("jiraTicket")))
         .andExpect(
-            jsonPath("$.links[1].href", is("https://redesignhealth.atlassian.net/browse/TEST-1")))
+            jsonPath("$.links[1].href", is("https://acmehealth.atlassian.net/browse/TEST-1")))
         .andDo(
             document(
                 "get",

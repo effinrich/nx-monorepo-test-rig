@@ -8,7 +8,7 @@ import {
   PopoverBody,
   PopoverCloseTrigger
 } from '@chakra-ui/react'
-import { Flex, IconButton, Text } from '@redesignhealth/ui'
+import { Flex, IconButton, Text } from '@acmehealth/ui'
 
 interface GroupPopoverProps {
   description?: string

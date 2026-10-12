@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.dto.enums.CompanyMemberAuditOperation;
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.dto.enums.CompanyMemberAuditOperation;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
 import java.time.Instant;
 import lombok.Getter;
 import lombok.Setter;

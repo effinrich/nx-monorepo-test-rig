@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.scaffolding;
+package com.acmehealth.company.api.scaffolding;
 
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import org.springframework.security.test.context.support.WithSecurityContext;

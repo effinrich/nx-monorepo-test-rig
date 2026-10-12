@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.client.file.dto.RemoteFile;
+import com.acmehealth.company.api.client.file.dto.RemoteFile;
 import lombok.Getter;
 
 @Getter

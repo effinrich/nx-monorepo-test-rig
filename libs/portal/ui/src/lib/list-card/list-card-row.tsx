@@ -1,5 +1,5 @@
-import { type ListItemProps } from '@redesignhealth/ui'
-import { Box, Flex, ListItem, Text } from '@redesignhealth/ui'
+import { type ListItemProps } from '@acmehealth/ui'
+import { Box, Flex, ListItem, Text } from '@acmehealth/ui'
 
 export interface ListCardRowProps extends ListItemProps {
   title?: string

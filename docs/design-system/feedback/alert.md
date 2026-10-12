@@ -2,7 +2,7 @@
 id: alert
 category: feedback
 title: Alert
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Alerts are used to communicate a state that affects a system, feature or page.
 ---
 
@@ -27,12 +27,12 @@ import {
   AlertIcon,
   AlertTitle,
   AlertDescription
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-feedback-alert--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-feedback-alert--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

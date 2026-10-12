@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.exception;
+package com.acmehealth.company.api.exception;
 
-import com.redesignhealth.company.api.exception.status.InternalServerErrorException;
+import com.acmehealth.company.api.exception.status.InternalServerErrorException;
 
 public class InvalidJiraCredentialsException extends InternalServerErrorException {
   public InvalidJiraCredentialsException() {

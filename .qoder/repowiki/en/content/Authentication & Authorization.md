@@ -9,12 +9,12 @@
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts)
 - [libs/portal/utils/src/lib/has-role.tsx](file://libs/portal/utils/src/lib/has-role.tsx)
 - [libs/third-party-network/utils/src/lib/authentication.ts](file://libs/third-party-network/utils/src/lib/authentication.ts)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/JwtService.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/JwtService.java)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/AuthChecks.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/AuthChecks.java)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/RoleController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/RoleController.java)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/JwtService.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/JwtService.java)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/AuthChecks.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/AuthChecks.java)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/RoleController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/RoleController.java)
 - [libs/company-api-types/src/api.ts](file://libs/company-api-types/src/api.ts)
 - [apps/company-api/application/src/docs/asciidoc/index.adoc](file://apps/company-api/application/src/docs/asciidoc/index.adoc)
 </cite>
@@ -71,8 +71,8 @@ OauthGen --> CompanyAPI
 - [apps/chat-pocs/rocketchat-auth-api/src/main.ts:1-59](file://apps/chat-pocs/rocketchat-auth-api/src/main.ts#L1-L59)
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/auth.ts:1-61](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/auth.ts#L1-L61)
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts:1-49](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts#L1-L49)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java:24-88](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java#L24-L88)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java:24-88](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java#L24-L88)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
 
 **Section sources**
 - [apps/oauth-jwt-generator/src/index.ts:1-74](file://apps/oauth-jwt-generator/src/index.ts#L1-L74)
@@ -80,7 +80,7 @@ OauthGen --> CompanyAPI
 - [apps/chat-pocs/rocketchat-auth-api/src/main.ts:1-59](file://apps/chat-pocs/rocketchat-auth-api/src/main.ts#L1-L59)
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/auth.ts:1-61](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/auth.ts#L1-L61)
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts:1-49](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts#L1-L49)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java:24-88](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java#L24-L88)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java:24-88](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java#L24-L88)
 
 ## Core Components
 - Google OAuth integration: A dedicated service handles OAuth redirects and exchanges authorization codes for ID tokens.
@@ -92,9 +92,9 @@ OauthGen --> CompanyAPI
 
 **Section sources**
 - [apps/oauth-jwt-generator/src/index.ts:1-74](file://apps/oauth-jwt-generator/src/index.ts#L1-L74)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java:1-41](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java#L1-L41)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/AuthChecks.java:1-41](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/AuthChecks.java#L1-L41)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java:1-41](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java#L1-L41)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/AuthChecks.java:1-41](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/AuthChecks.java#L1-L41)
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/auth.ts:1-61](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/auth.ts#L1-L61)
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts:1-49](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts#L1-L49)
 - [libs/portal/utils/src/lib/has-role.tsx:1-29](file://libs/portal/utils/src/lib/has-role.tsx#L1-L29)
@@ -121,7 +121,7 @@ Backend-->>Browser : Authorized response
 
 **Diagram sources**
 - [apps/oauth-jwt-generator/src/index.ts:32-65](file://apps/oauth-jwt-generator/src/index.ts#L32-L65)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java:29-53](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java#L29-L53)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java:29-53](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java#L29-L53)
 
 ## Detailed Component Analysis
 
@@ -176,13 +176,13 @@ RedesignAuthenticationFilter --> JwtService : "uses"
 ```
 
 **Diagram sources**
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/JwtService.java:1-17](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/JwtService.java#L1-L17)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java:1-41](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java#L1-L41)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/JwtService.java:1-17](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/JwtService.java#L1-L17)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java:1-41](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java#L1-L41)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
 
 **Section sources**
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java:1-41](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java#L1-L41)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java:1-41](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java#L1-L41)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
 
 ### Authentication Middleware and Security Filters
 - The filter chain is configured to be stateless, disables CSRF, and applies a custom filter before the default username/password filter.
@@ -204,12 +204,12 @@ Deny --> Next
 ```
 
 **Diagram sources**
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java:37-61](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java#L37-L61)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java:29-53](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java#L29-L53)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java:37-61](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java#L37-L61)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java:29-53](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java#L29-L53)
 
 **Section sources**
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java:24-88](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java#L24-L88)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java:24-88](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java#L24-L88)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
 
 ### Role-Based Access Control (RBAC)
 - Roles and permissions are defined and documented in the API documentation.
@@ -236,15 +236,15 @@ RoleController --> RoleAuthority : "returns summaries"
 ```
 
 **Diagram sources**
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/AuthChecks.java:1-41](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/AuthChecks.java#L1-L41)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/RoleController.java:1-26](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/RoleController.java#L1-L26)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/AuthChecks.java:1-41](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/AuthChecks.java#L1-L41)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/RoleController.java:1-26](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/RoleController.java#L1-L26)
 - [apps/company-api/application/src/docs/asciidoc/index.adoc:39-93](file://apps/company-api/application/src/docs/asciidoc/index.adoc#L39-L93)
 
 **Section sources**
 - [apps/company-api/application/src/docs/asciidoc/index.adoc:39-93](file://apps/company-api/application/src/docs/asciidoc/index.adoc#L39-L93)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/RoleController.java:1-26](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/RoleController.java#L1-L26)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/RoleController.java:1-26](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/RoleController.java#L1-L26)
 - [libs/portal/utils/src/lib/has-role.tsx:1-29](file://libs/portal/utils/src/lib/has-role.tsx#L1-L29)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/AuthChecks.java:1-41](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/AuthChecks.java#L1-L41)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/AuthChecks.java:1-41](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/AuthChecks.java#L1-L41)
 
 ### Session Handling and Token Persistence
 - Frontends persist tokens in local storage and attach Authorization headers to requests.
@@ -308,15 +308,15 @@ SecFilter --> JwtSvc["JwtService (GoogleJwtService)"]
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/auth.ts:1-61](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/auth.ts#L1-L61)
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts:1-49](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts#L1-L49)
 - [apps/chat-pocs/rocketchat-api-v2/src/main.ts:1-47](file://apps/chat-pocs/rocketchat-api-v2/src/main.ts#L1-L47)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java:1-41](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java#L1-L41)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java:1-41](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java#L1-L41)
 
 **Section sources**
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/auth.ts:1-61](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/auth.ts#L1-L61)
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts:1-49](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts#L1-L49)
 - [apps/chat-pocs/rocketchat-api-v2/src/main.ts:1-47](file://apps/chat-pocs/rocketchat-api-v2/src/main.ts#L1-L47)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java:1-41](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/GoogleJwtService.java#L1-L41)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java:1-55](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java#L1-L55)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java:1-41](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/GoogleJwtService.java#L1-L41)
 
 ## Performance Considerations
 - Stateless JWT validation avoids server-side session storage.
@@ -333,9 +333,9 @@ Common issues and remedies:
 - Role mismatches: Confirm user roles and company membership; admin privileges apply across companies.
 
 **Section sources**
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java:35-50](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/RedesignAuthenticationFilter.java#L35-L50)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java:35-50](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/RedesignAuthenticationFilter.java#L35-L50)
 - [apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts:18-33](file://apps/chat-pocs/rocketchat-poc-v2/src/utils/api.ts#L18-L33)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/AuthChecks.java:15-39](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/security/AuthChecks.java#L15-L39)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/security/AuthChecks.java:15-39](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/security/AuthChecks.java#L15-L39)
 
 ## Conclusion
 The platform implements a robust, stateless authentication and authorization system centered on Google OAuth and JWT verification. Spring Security enforces RBAC, while frontends manage tokens locally and refresh them automatically. Additional enhancements could include MFA, password reset flows, and hardened session controls for healthcare compliance.
@@ -348,4 +348,4 @@ The platform implements a robust, stateless authentication and authorization sys
 
 **Section sources**
 - [libs/company-api-types/src/api.ts:3631-3633](file://libs/company-api-types/src/api.ts#L3631-L3633)
-- [apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/RoleController.java:21-25](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/RoleController.java#L21-L25)
+- [apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/RoleController.java:21-25](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/RoleController.java#L21-L25)

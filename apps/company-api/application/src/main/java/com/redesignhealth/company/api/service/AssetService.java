@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.service;
+package com.acmehealth.company.api.service;
 
-import com.redesignhealth.company.api.client.file.RemoteFileUploader;
-import com.redesignhealth.company.api.dto.AssetSummary;
-import com.redesignhealth.company.api.exception.RemoteUploadException;
+import com.acmehealth.company.api.client.file.RemoteFileUploader;
+import com.acmehealth.company.api.dto.AssetSummary;
+import com.acmehealth.company.api.exception.RemoteUploadException;
 import java.io.IOException;
 import java.util.List;
 import org.springframework.stereotype.Service;

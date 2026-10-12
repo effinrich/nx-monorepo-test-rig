@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.exception.status;
+package com.acmehealth.company.api.exception.status;
 
 import org.springframework.http.HttpStatus;
 

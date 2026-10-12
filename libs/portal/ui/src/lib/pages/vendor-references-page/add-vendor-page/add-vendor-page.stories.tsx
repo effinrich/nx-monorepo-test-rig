@@ -1,4 +1,4 @@
-import { VendorFormProps } from '@redesignhealth/portal/data-assets'
+import { VendorFormProps } from '@acmehealth/portal/data-assets'
 import { withRouter } from 'storybook-addon-react-router-v6'
 
 import { action } from 'storybook/actions'

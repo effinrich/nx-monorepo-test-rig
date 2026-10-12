@@ -12,7 +12,7 @@ export const IGNORED_FILES = [
 
 export const CHAKRA_IMPORTS = [
   '@chakra-ui/react',
-  '@redesignhealth/ui',
+  '@acmehealth/ui',
 ];
 
 export const ROUTER_IMPORTS = [

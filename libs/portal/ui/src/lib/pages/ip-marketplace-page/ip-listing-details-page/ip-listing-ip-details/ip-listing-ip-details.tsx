@@ -3,9 +3,9 @@ import { useParams } from 'react-router-dom'
 import {
   CompanyApiEnum,
   useGetIpListing
-} from '@redesignhealth/portal/data-assets'
-import { formatDate, printPersonName } from '@redesignhealth/portal/utils'
-import { Icon, Link, Loader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/data-assets'
+import { formatDate, printPersonName } from '@acmehealth/portal/utils'
+import { Icon, Link, Loader } from '@acmehealth/ui'
 
 import DetailsCardBody from '../../../../details-card/details-card-body'
 import DetailsCardRow from '../../../../details-card/details-card-row'

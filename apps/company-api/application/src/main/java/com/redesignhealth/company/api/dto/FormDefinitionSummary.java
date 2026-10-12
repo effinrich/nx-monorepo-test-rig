@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.redesignhealth.company.api.entity.FormDefinition;
+import com.acmehealth.company.api.entity.FormDefinition;
 import org.springframework.hateoas.RepresentationModel;
 
 public class FormDefinitionSummary extends RepresentationModel<FormDefinitionSummary> {

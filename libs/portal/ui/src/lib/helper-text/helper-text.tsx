@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { type TextProps, Text } from '@redesignhealth/ui'
+import { type TextProps, Text } from '@acmehealth/ui'
 
 interface HelperTextProps extends TextProps {
   helpText: ReactNode

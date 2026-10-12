@@ -20,10 +20,10 @@ aws:
   s3:
     assets:
       bucket: rh-core-assets
-      url: https://assets.core.redesignhealth.com
+      url: https://assets.core.acmehealth.com
 jira:
   enabled: true
-  username: jiraplatformservice@redesignhealth.com
+  username: jiraplatformservice@acmehealth.com
   # password supplied through secret manager
 
 search:

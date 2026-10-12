@@ -1,4 +1,4 @@
-import { UserInfoSummary } from '@redesignhealth/portal/data-assets'
+import { UserInfoSummary } from '@acmehealth/portal/data-assets'
 import {
   Box,
   DrawerBackdrop,
@@ -9,7 +9,7 @@ import {
   RedesignLogo,
   rh,
   useDisclosure
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { Nav } from './nav'
 

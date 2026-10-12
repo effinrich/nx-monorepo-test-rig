@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
-import analytics from '@redesignhealth/analytics'
-import { useRequestIpListingContactInfo } from '@redesignhealth/portal/data-assets'
-import { Modal, ModalOverlay } from '@redesignhealth/ui'
+import analytics from '@acmehealth/analytics'
+import { useRequestIpListingContactInfo } from '@acmehealth/portal/data-assets'
+import { Modal, ModalOverlay } from '@acmehealth/ui'
 
 import Disclaimer from './partials/disclaimer'
 import Success from './partials/success'

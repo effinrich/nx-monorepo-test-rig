@@ -416,7 +416,7 @@ export interface components {
       name?: string
     }
     PersonReducedInfo: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email?: string
       /** @example Sazh */
       givenName?: string
@@ -428,7 +428,7 @@ export interface components {
       displayName?: string
     }
     VendorPersonReducedInfo: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email?: string
       /** @example Sazh */
       givenName?: string
@@ -492,7 +492,7 @@ export interface components {
       links?: components['schemas']['Link'][]
     }
     PersonSummary: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email: string
       /** @example Sazh */
       givenName?: string
@@ -735,7 +735,7 @@ export interface components {
       links?: components['schemas']['Link'][]
     }
     CompanyMemberSummary: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email: string
       /** @example Sazh */
       givenName?: string
@@ -906,7 +906,7 @@ export interface components {
       visible?: 'OPT_IN' | 'OPT_OUT'
     }
     CeoMemberOfSummary: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email?: string
       /** @example Sazh */
       givenName?: string
@@ -1060,7 +1060,7 @@ export interface components {
       specializedMethods?: string[]
       /**
        * @example [
-       *   "terra.branford@redesignhealth.com"
+       *   "terra.branford@acmehealth.com"
        * ]
        */
       authors: string[]
@@ -1219,11 +1219,11 @@ export interface components {
         | 'ROLE_RH_USER'
         | 'ROLE_OP_CO_USER'
         | 'ROLE_OP_CO_CONTRACTOR'
-      /** @example brett.shaheen@redesignhealth.com */
+      /** @example brett.shaheen@acmehealth.com */
       email: string
     }
     PersonRequestCommand: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email?: string
       /** @example Katzroy */
       familyName?: string
@@ -1243,7 +1243,7 @@ export interface components {
       givenName?: string
       /** @example Katzroy */
       familyName?: string
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email: string
       /** @example TICKET-1 */
       jiraIssueId?: string
@@ -1339,7 +1339,7 @@ export interface components {
       intervieweeCompany?: string
       /** @example jane.doe@example.com */
       intervieweeEmail?: string
-      /** @example test@redesignhealth.com */
+      /** @example test@acmehealth.com */
       noteTaker?: string
       /**
        * Format: date-time
@@ -1556,7 +1556,7 @@ export interface components {
       linkedinHref?: string
       /** @enum {string} */
       visible?: 'OPT_IN' | 'OPT_OUT'
-      /** @example rh@redesignhealth.com */
+      /** @example rh@acmehealth.com */
       email: string
     }
     AssetSummary: {
@@ -1571,7 +1571,7 @@ export interface components {
       accessToken?: string
     }
     TaskCommand: {
-      /** @example com.redesignhealth.company.api.task.UpdateInfraStatusTask */
+      /** @example com.acmehealth.company.api.task.UpdateInfraStatusTask */
       name?: string
     }
     TaskSummary: {
@@ -1587,7 +1587,7 @@ export interface components {
       content?: components['schemas']['CompanyVendorSummary'][]
     }
     UserInfoSummary: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email: string
       /** @example Sazh */
       givenName?: string

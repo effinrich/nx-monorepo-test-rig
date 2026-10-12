@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceOrganizationType;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceRegion;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceType;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceOrganizationType;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceRegion;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceType;
 import lombok.Getter;
 
 @Getter

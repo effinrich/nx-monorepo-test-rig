@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.entity.ref;
+package com.acmehealth.company.api.entity.ref;
 
-import com.redesignhealth.company.api.controller.util.Paths;
-import com.redesignhealth.company.api.entity.library.LibraryContent;
+import com.acmehealth.company.api.controller.util.Paths;
+import com.acmehealth.company.api.entity.library.LibraryContent;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
 

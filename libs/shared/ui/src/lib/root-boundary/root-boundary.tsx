@@ -42,7 +42,7 @@ const ErrorFallback = ({ error }: ErrorFallbackProps) => {
     if (isRouteErrorResponse(error)) {
       if (error.status === 400) {
         // NOTE: The 400 error code message may need to be updated in the future when we have the
-        // ability to test appropriately (see https://redesignhealth.atlassian.net/browse/PDEV-90)
+        // ability to test appropriately (see https://acmehealth.atlassian.net/browse/PDEV-90)
         setErrorMessage(
           `Sorry, your request resulted in an error. You might not have permission to perform this action.`
         )

@@ -1,4 +1,4 @@
-# @redesignhealth/shared-utils-jest
+# @acmehealth/shared-utils-jest
 
 Test utilities for Jest and Vitest used across Redesign Health frontend libraries. Provides a pre-configured `render` helper, common mocks, and re-exports from `@testing-library/react`.
 
@@ -15,7 +15,7 @@ Test utilities for Jest and Vitest used across Redesign Health frontend librarie
 ## Usage
 
 ```ts
-import { render, screen, fireEvent } from '@redesignhealth/shared-utils-jest'
+import { render, screen, fireEvent } from '@acmehealth/shared-utils-jest'
 import { MyComponent } from './MyComponent'
 
 it('renders correctly', () => {

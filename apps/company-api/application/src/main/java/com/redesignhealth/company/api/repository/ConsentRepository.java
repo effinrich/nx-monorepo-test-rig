@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.Consent;
-import com.redesignhealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.Consent;
+import com.acmehealth.company.api.entity.Person;
 import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

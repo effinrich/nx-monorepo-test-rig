@@ -78,7 +78,7 @@ H --> I["concat-glossary.py<br/>Concatenate glossary entries"]
 The documentation architecture is driven by MkDocs and Material theme, with plugins enabling Swagger rendering, search, and custom extensions. The navigation structure separates Expert Knowledge Library and Platform Developer Library, reflecting distinct audiences and content domains. Plugins include:
 - render_swagger: renders Swagger/OpenAPI specifications.
 - search: enables site-wide search.
-- redesignhealth-mkdocs: custom plugin for the Knowledge Hub.
+- acmehealth-mkdocs: custom plugin for the Knowledge Hub.
 - mkdocs-video: embeds videos.
 
 ```mermaid
@@ -89,7 +89,7 @@ THEME["Material Theme"]
 PLUG1["render_swagger"]
 PLUG2["search"]
 PLUG3["mkdocs-video"]
-PLUG4["redesignhealth-mkdocs"]
+PLUG4["acmehealth-mkdocs"]
 end
 subgraph "Content Sources"
 EKL["Expert Knowledge Library"]
@@ -125,14 +125,14 @@ THEME --> INF
 - Navigation: hierarchical navigation groups Expert Knowledge Library and Platform Developer Library, with nested topics and subtopics.
 - Theme: Material theme with navigation tabs and sections; icons for admonitions; primary color customization.
 - Markdown extensions: admonitions, attribute lists, syntax highlighting, snippet inclusion, and Mermaid fenced code blocks.
-- Plugins: Swagger rendering, search, video embedding, and the custom redesignhealth-mkdocs plugin.
+- Plugins: Swagger rendering, search, video embedding, and the custom acmehealth-mkdocs plugin.
 
 ```mermaid
 flowchart TD
 Start(["Load mkdocs.yml"]) --> ParseNav["Parse nav configuration"]
 ParseNav --> LoadTheme["Load Material theme<br/>with palette and features"]
 LoadTheme --> Extensions["Enable markdown extensions<br/>admonition, attr_list,<br/>highlight, snippets, superfences"]
-Extensions --> Plugins["Activate plugins<br/>render_swagger, search,<br/>mkdocs-video, redesignhealth-mkdocs"]
+Extensions --> Plugins["Activate plugins<br/>render_swagger, search,<br/>mkdocs-video, acmehealth-mkdocs"]
 Plugins --> BuildSite["Build documentation site"]
 BuildSite --> Serve["Serve locally or deploy"]
 ```
@@ -328,7 +328,7 @@ Serve --> Preview["Preview on localhost:8000"]
 - [mkdocs.yml](file://mkdocs.yml)
 
 ## Dependency Analysis
-The documentation system depends on MkDocs and its ecosystem, with specific plugin and theme requirements. The custom redesignhealth-mkdocs plugin extends functionality for the Knowledge Hub. The glossary script depends on Python standard libraries and CLI arguments.
+The documentation system depends on MkDocs and its ecosystem, with specific plugin and theme requirements. The custom acmehealth-mkdocs plugin extends functionality for the Knowledge Hub. The glossary script depends on Python standard libraries and CLI arguments.
 
 ```mermaid
 graph TB
@@ -336,7 +336,7 @@ Mk["MkDocs"] --> Mat["Material Theme"]
 Mk --> Plg1["render_swagger"]
 Mk --> Plg2["search"]
 Mk --> Plg3["mkdocs-video"]
-Mk --> Plg4["redesignhealth-mkdocs"]
+Mk --> Plg4["acmehealth-mkdocs"]
 Mk --> Ext["Markdown Extensions"]
 Ext --> Snip["snippets"]
 Ext --> Mermaid["superfences (Mermaid)"]

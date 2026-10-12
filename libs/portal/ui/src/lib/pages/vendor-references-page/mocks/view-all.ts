@@ -11,7 +11,7 @@ export const viewAll = {
       contact: {},
       contacts: [
         {
-          email: 'kyle.copeland@redesignhealth.com',
+          email: 'kyle.copeland@acmehealth.com',
           givenName: 'Kyle',
           familyName: 'Copeland',
           willingToDiscuss: true

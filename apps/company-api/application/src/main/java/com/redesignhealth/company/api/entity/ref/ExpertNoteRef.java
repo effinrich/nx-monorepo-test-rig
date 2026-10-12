@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.entity.ref;
+package com.acmehealth.company.api.entity.ref;
 
-import static com.redesignhealth.company.api.controller.util.Paths.EXPERT_NOTE_ID_VARIABLE;
+import static com.acmehealth.company.api.controller.util.Paths.EXPERT_NOTE_ID_VARIABLE;
 
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;

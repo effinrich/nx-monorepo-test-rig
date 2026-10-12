@@ -1,5 +1,5 @@
 import { Link as RouterLink, Outlet } from 'react-router-dom'
-import { useGetActiveTab } from '@redesignhealth/portal/utils'
+import { useGetActiveTab } from '@acmehealth/portal/utils'
 import {
   Box,
   SectionHeader,
@@ -7,7 +7,7 @@ import {
   Tab,
   TabList,
   TabsRoot
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { AddResearchMenu } from './add-research-menu/add-research-menu'
 import { useGetTabs } from './utils/tabs'

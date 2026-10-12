@@ -1,6 +1,6 @@
 import { IconType } from 'react-icons/lib'
 import { NavLink } from 'react-router-dom'
-import { Button, Flex, HStack, Icon, Link, Text } from '@redesignhealth/ui'
+import { Button, Flex, HStack, Icon, Link, Text } from '@acmehealth/ui'
 
 interface NavButtonProps {
   children: React.ReactNode

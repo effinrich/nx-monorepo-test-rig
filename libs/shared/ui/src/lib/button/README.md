@@ -2,7 +2,7 @@
 id: button
 category: form
 title: Button
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Button component is used to trigger an action or event, such as submitting a
   form, opening a Dialog, canceling an action, or performing a delete operation.
@@ -13,7 +13,7 @@ description:
 ## Import
 
 ```js
-import { Button, ButtonGroup } from '@redesignhealth/ui'
+import { Button, ButtonGroup } from '@acmehealth/ui'
 ```
 
 - **Button:** The button component with support for custom icons, spinners, etc.

@@ -1,4 +1,4 @@
-import { type ApiError } from '@redesignhealth/portal/data-assets'
+import { type ApiError } from '@acmehealth/portal/data-assets'
 import {
   type BoxProps,
   AlertRoot,
@@ -7,7 +7,7 @@ import {
   AlertTitle,
   Box,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface AxiosErrorAlertProps extends BoxProps {
   error?: ApiError | string

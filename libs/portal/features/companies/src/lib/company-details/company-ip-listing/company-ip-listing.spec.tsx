@@ -1,12 +1,12 @@
 import {
   mockGetIpMarketplace,
   mockIpListing
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   render,
   screen,
   waitForLoadingToFinish
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 import { setupServer } from 'msw/node'
 
 import CompanyIpListing from './company-ip-listing'

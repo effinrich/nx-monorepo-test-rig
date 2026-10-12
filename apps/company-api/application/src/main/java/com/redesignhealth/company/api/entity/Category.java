@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
-import com.redesignhealth.company.api.entity.audit.Auditable;
-import com.redesignhealth.company.api.entity.converter.CategoryRefConverter;
-import com.redesignhealth.company.api.entity.ref.CategoryRef;
+import com.acmehealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.converter.CategoryRefConverter;
+import com.acmehealth.company.api.entity.ref.CategoryRef;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;

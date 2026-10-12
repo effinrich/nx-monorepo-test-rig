@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
-import { useGetIpListing } from '@redesignhealth/portal/data-assets'
-import { Loader, Stack } from '@redesignhealth/ui'
+import { useGetIpListing } from '@acmehealth/portal/data-assets'
+import { Loader, Stack } from '@acmehealth/ui'
 
 import IPCard from '../../ip-card/ip-card'
 import { BuyerSellerDetailsReleaseView } from '../../partials/buyer-seller-details-release-view'

@@ -1,34 +1,34 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.client.search.entity.ExpertNoteSearchDoc.INTERVIEWEE_NAME_FIELD;
-import static com.redesignhealth.company.api.client.search.entity.ExpertNoteSearchDoc.STAKEHOLDERS_FIELD;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.canAccessField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.companiesField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.createdField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.expandQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.filterQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.highlightedTextField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.idField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.keyField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.linksField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.optionsField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pageFields;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pageQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.qQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.sizeQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.sortQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.stakeholdersField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.taxonomyTag1Field;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.taxonomyTag2Field;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.taxonomyTag3Field;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompany;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyRef;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testExpertCallSearchDoc;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testExpertNote;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testExpertNoteRef;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testHighlightedText;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPersonRef;
-import static com.redesignhealth.company.api.service.ExpertNoteService.VALID_SEARCH_FILTERS;
+import static com.acmehealth.company.api.client.search.entity.ExpertNoteSearchDoc.INTERVIEWEE_NAME_FIELD;
+import static com.acmehealth.company.api.client.search.entity.ExpertNoteSearchDoc.STAKEHOLDERS_FIELD;
+import static com.acmehealth.company.api.scaffolding.DocUtils.canAccessField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.companiesField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.createdField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.expandQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.filterQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.highlightedTextField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.idField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.keyField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.linksField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.optionsField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pageFields;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pageQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.qQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.sizeQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.sortQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.stakeholdersField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.taxonomyTag1Field;
+import static com.acmehealth.company.api.scaffolding.DocUtils.taxonomyTag2Field;
+import static com.acmehealth.company.api.scaffolding.DocUtils.taxonomyTag3Field;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompany;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyRef;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testExpertCallSearchDoc;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testExpertNote;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testExpertNoteRef;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testHighlightedText;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPersonRef;
+import static com.acmehealth.company.api.service.ExpertNoteService.VALID_SEARCH_FILTERS;
 import static org.hamcrest.Matchers.hasItem;
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
@@ -48,26 +48,26 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.client.file.GoogleDriveClient;
-import com.redesignhealth.company.api.client.search.SearchClient;
-import com.redesignhealth.company.api.client.search.command.SearchCommand;
-import com.redesignhealth.company.api.client.search.command.SearchFilterOptionsCommand;
-import com.redesignhealth.company.api.client.search.command.SearchIndex;
-import com.redesignhealth.company.api.client.search.entity.ExpertNoteSearchDoc;
-import com.redesignhealth.company.api.client.search.entity.FilterOptions;
-import com.redesignhealth.company.api.client.search.entity.SearchResult;
-import com.redesignhealth.company.api.client.search.entity.Term;
-import com.redesignhealth.company.api.conflicts.ConflictsEngine;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.property.ExpertNoteEntityConverter;
-import com.redesignhealth.company.api.repository.CompanyRepository;
-import com.redesignhealth.company.api.repository.ExpertNoteRepository;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.ExpertNoteService;
-import com.redesignhealth.company.api.taxonomy.CompanyTaxonomy;
+import com.acmehealth.company.api.client.file.GoogleDriveClient;
+import com.acmehealth.company.api.client.search.SearchClient;
+import com.acmehealth.company.api.client.search.command.SearchCommand;
+import com.acmehealth.company.api.client.search.command.SearchFilterOptionsCommand;
+import com.acmehealth.company.api.client.search.command.SearchIndex;
+import com.acmehealth.company.api.client.search.entity.ExpertNoteSearchDoc;
+import com.acmehealth.company.api.client.search.entity.FilterOptions;
+import com.acmehealth.company.api.client.search.entity.SearchResult;
+import com.acmehealth.company.api.client.search.entity.Term;
+import com.acmehealth.company.api.conflicts.ConflictsEngine;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.property.ExpertNoteEntityConverter;
+import com.acmehealth.company.api.repository.CompanyRepository;
+import com.acmehealth.company.api.repository.ExpertNoteRepository;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.ExpertNoteService;
+import com.acmehealth.company.api.taxonomy.CompanyTaxonomy;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -212,7 +212,7 @@ class ExpertNoteControllerTests {
          "noteHref": "https://docs.google.com/document/d/123",
          "attachments": [{ "name": "name.txt", "href": "https://example.com"}],
          "isAttachmentDisclaimerAccepted": true,
-         "noteTaker": "test@redesignhealth.com"
+         "noteTaker": "test@acmehealth.com"
        }
        """
                         .formatted(testCompanyRef())))
@@ -274,7 +274,7 @@ class ExpertNoteControllerTests {
                  "type": "Expert Call",
                  "sourceOfInterview": "Organically Sourced (Paid)",
                  "companyIds": ["1jlaksd1"],
-                 "noteTaker": "test@redesignhealth.com"
+                 "noteTaker": "test@acmehealth.com"
               }
         """))
         .andExpect(status().isUnprocessableEntity())
@@ -297,13 +297,13 @@ class ExpertNoteControllerTests {
          "type": "Expert Call",
          "sourceOfInterview": "Organically Sourced (Paid)",
          "companyIds": ["1jlaksd1"],
-         "noteTaker": "test@redesignhealth.com",
+         "noteTaker": "test@acmehealth.com",
          "noteHref": "https://example.com"
       }
 """))
         .andExpect(status().isUnprocessableEntity())
         .andExpect(jsonPath("$.errors[0].name", is("noteTaker")))
-        .andExpect(jsonPath("$.errors[0].rejectedValue", is("test@redesignhealth.com")))
+        .andExpect(jsonPath("$.errors[0].rejectedValue", is("test@acmehealth.com")))
         .andExpect(jsonPath("$.errors[0].description", is("must exist")));
   }
 
@@ -322,7 +322,7 @@ class ExpertNoteControllerTests {
                  "type": "Expert Call",
                  "sourceOfInterview": "Organically Sourced (Paid)",
                  "companyIds": ["1jlaksd1", "G2F3asd"],
-                 "noteTaker": "test@redesignhealth.com",
+                 "noteTaker": "test@acmehealth.com",
                  "noteHref": "https://example.com"
               }
         """))

@@ -1,5 +1,5 @@
 {
-  "name": "@redesignhealth/analytics",
+  "name": "@acmehealth/analytics",
   "version": "2.0.0",
   "main": "./index.js",
   "types": "./index.d.ts",

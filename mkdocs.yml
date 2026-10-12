@@ -5,7 +5,7 @@ nav:
       - Company Foundations:
           - Corporate Governance:
               - Overview: expert-knowledge-library/company-foundations/corporate-governance/0-corporate-governance-overview.md
-              - Introduction to Redesign Governance: expert-knowledge-library/company-foundations/corporate-governance/introduction-to-redesign-governance.md
+              - Introduction to Redesign Governance: expert-knowledge-library/company-foundations/corporate-governance/introduction-to-acme-governance.md
               - Best Practices for Managing Your Cap Table Post Financing: expert-knowledge-library/company-foundations/corporate-governance/cap-table-best-practices.md
               - "Managing Your Company's Treasury Strategy": expert-knowledge-library/company-foundations/corporate-governance/managing-company-treasury-strategy.md
               - Governance Playbook: expert-knowledge-library/company-foundations/corporate-governance/acceleration-governance-playbook.md
@@ -324,6 +324,6 @@ markdown_extensions:
 plugins:
   - render_swagger
   - search
-  - redesignhealth-mkdocs
+  - acmehealth-mkdocs
   - mkdocs-video:
       is_video: True

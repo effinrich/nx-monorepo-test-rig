@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.client.jira;
+package com.acmehealth.company.api.client.jira;
 
-import com.redesignhealth.company.api.exception.InvalidJiraCredentialsException;
-import com.redesignhealth.company.api.exception.JiraClientException;
+import com.acmehealth.company.api.exception.InvalidJiraCredentialsException;
+import com.acmehealth.company.api.exception.JiraClientException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

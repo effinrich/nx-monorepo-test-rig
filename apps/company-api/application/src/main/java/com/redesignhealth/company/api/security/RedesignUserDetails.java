@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;

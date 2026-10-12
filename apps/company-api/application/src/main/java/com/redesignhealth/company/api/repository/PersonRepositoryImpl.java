@@ -1,13 +1,13 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import static com.redesignhealth.company.api.entity.ref.Ref.COMPANY;
-import static com.redesignhealth.company.api.entity.ref.Ref.DEFAULT_REF_COLUMN_NAME;
-import static com.redesignhealth.company.api.expansion.Expansion.MEMBER_OF;
+import static com.acmehealth.company.api.entity.ref.Ref.COMPANY;
+import static com.acmehealth.company.api.entity.ref.Ref.DEFAULT_REF_COLUMN_NAME;
+import static com.acmehealth.company.api.expansion.Expansion.MEMBER_OF;
 
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.expansion.Expansion;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import java.util.List;

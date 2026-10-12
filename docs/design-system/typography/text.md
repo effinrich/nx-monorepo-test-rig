@@ -2,7 +2,7 @@
 id: text
 category: typography
 title: Text
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Text is the used to render text and paragraphs within an interface.
 ---
 
@@ -13,12 +13,12 @@ Use the `Text` component to render text and paragraphs within an interface.
 ## Import
 
 ```js
-import { Text } from '@redesignhealth/ui'
+import { Text } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-typography-text--default&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-typography-text--default&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Changing the font size
 

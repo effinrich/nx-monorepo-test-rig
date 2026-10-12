@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.entity.converter;
+package com.acmehealth.company.api.entity.converter;
 
-import com.redesignhealth.company.api.entity.ref.CategoryRef;
+import com.acmehealth.company.api.entity.ref.CategoryRef;
 import jakarta.persistence.AttributeConverter;
 
 public class CategoryRefConverter implements AttributeConverter<CategoryRef, String> {

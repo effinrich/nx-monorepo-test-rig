@@ -1,17 +1,17 @@
 import { useEffect, useState } from 'react'
 import { Outlet } from 'react-router-dom'
-import analytics from '@redesignhealth/analytics'
+import analytics from '@acmehealth/analytics'
 import {
   useGetCompanies,
   useGetUserInfo
-} from '@redesignhealth/portal/data-assets'
-import { MobileNav, Nav, TermsChecker } from '@redesignhealth/portal/ui'
+} from '@acmehealth/portal/data-assets'
+import { MobileNav, Nav, TermsChecker } from '@acmehealth/portal/ui'
 import {
   getImpersonatedEmail,
   SCROLL_CONTAINER_ID,
   setCurrentUserRole
-} from '@redesignhealth/portal/utils'
-import { Box, Loader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/utils'
+import { Box, Loader } from '@acmehealth/ui'
 
 import ImpersonateBanner from './partials/impersonate-banner'
 

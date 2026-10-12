@@ -1,4 +1,4 @@
-import { Box, SectionHeader } from '@redesignhealth/ui'
+import { Box, SectionHeader } from '@acmehealth/ui'
 
 import type { Meta } from '@storybook/react-vite'
 

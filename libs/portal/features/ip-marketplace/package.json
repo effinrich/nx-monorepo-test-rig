@@ -1,5 +1,5 @@
 {
-  "name": "@redesignhealth/portal/features/ip-marketplace",
+  "name": "@acmehealth/portal/features/ip-marketplace",
   "version": "2.0.0",
   "main": "./index.js",
   "types": "./index.d.ts",

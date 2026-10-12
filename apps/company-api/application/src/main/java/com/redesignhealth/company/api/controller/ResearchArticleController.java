@@ -1,14 +1,14 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
 import static org.springframework.http.HttpStatus.CREATED;
 
-import com.redesignhealth.company.api.assembler.ResearchArticleAssembler;
-import com.redesignhealth.company.api.dto.FilterOptionsSummary;
-import com.redesignhealth.company.api.dto.ResearchArticleSummary;
-import com.redesignhealth.company.api.dto.command.ResearchArticleCommand;
-import com.redesignhealth.company.api.entity.ResearchArticle;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.ResearchArticleService;
+import com.acmehealth.company.api.assembler.ResearchArticleAssembler;
+import com.acmehealth.company.api.dto.FilterOptionsSummary;
+import com.acmehealth.company.api.dto.ResearchArticleSummary;
+import com.acmehealth.company.api.dto.command.ResearchArticleCommand;
+import com.acmehealth.company.api.entity.ResearchArticle;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.ResearchArticleService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import java.util.List;

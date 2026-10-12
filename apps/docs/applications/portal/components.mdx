@@ -24,10 +24,10 @@ Portal libraries live under `libs/portal/` and are imported via path aliases:
 
 | Library | Import path | Purpose |
 |---|---|---|
-| Features | `@redesignhealth/portal/features/*` | Feature modules with route components |
-| Data assets | `@redesignhealth/portal/data-assets` | API clients, hooks, types |
-| UI | `@redesignhealth/portal/ui` | Portal-specific UI components |
-| Utils | `@redesignhealth/portal/utils` | Shared utilities |
+| Features | `@acmehealth/portal/features/*` | Feature modules with route components |
+| Data assets | `@acmehealth/portal/data-assets` | API clients, hooks, types |
+| UI | `@acmehealth/portal/ui` | Portal-specific UI components |
+| Utils | `@acmehealth/portal/utils` | Shared utilities |
 
 ## Feature modules
 
@@ -73,13 +73,13 @@ The codebase enforces consistent naming through ESLint rules:
 
 ## Shared UI integration
 
-Portal components build on top of the shared design system at `@redesignhealth/ui`:
+Portal components build on top of the shared design system at `@acmehealth/ui`:
 
 ```tsx
-import { Loader, RootBoundary } from '@redesignhealth/ui'
+import { Loader, RootBoundary } from '@acmehealth/ui'
 ```
 
-The shared UI library provides foundational components (buttons, inputs, layout primitives, loaders) that are themed with Chakra UI v3. Portal-specific components in `@redesignhealth/portal/ui` extend these with domain-specific behavior.
+The shared UI library provides foundational components (buttons, inputs, layout primitives, loaders) that are themed with Chakra UI v3. Portal-specific components in `@acmehealth/portal/ui` extend these with domain-specific behavior.
 
 ## Component patterns
 
@@ -104,7 +104,7 @@ export function Companies() {
 Components that need server data use React Query hooks from data-assets:
 
 ```tsx
-import { useCompanies } from '@redesignhealth/portal/data-assets'
+import { useCompanies } from '@acmehealth/portal/data-assets'
 
 export function CompanyList() {
   const { data, isLoading } = useCompanies()
@@ -115,7 +115,7 @@ export function CompanyList() {
 
 ### Presentational components
 
-Pure UI components receive data through props and live in either `@redesignhealth/portal/ui` or `@redesignhealth/ui`:
+Pure UI components receive data through props and live in either `@acmehealth/portal/ui` or `@acmehealth/ui`:
 
 ```tsx
 export function CompanyTable({ companies }: CompanyTableProps) {

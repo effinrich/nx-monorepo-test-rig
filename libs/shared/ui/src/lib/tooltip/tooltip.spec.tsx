@@ -5,7 +5,7 @@ import {
   screen,
   testA11y,
   waitFor
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 
 import {
   TooltipRoot,

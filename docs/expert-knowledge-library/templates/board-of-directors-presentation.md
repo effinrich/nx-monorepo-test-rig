@@ -7,7 +7,7 @@ googleDocId: 1exg2Jyr3hJ2d4QfWbgT3nW-taDiQ5mK79b84gQxXbms
 ---
 
 # Template: Board of Directors Meeting Presentation (Acceleration)
-Use this template in conjunction with the [Acceleration Governance Playbook](https://platform.redesignhealth.com/library/BVfr9ugU/module/Jd6o2Fza) to prepare for an acceleration board meeting.
+Use this template in conjunction with the [Acceleration Governance Playbook](https://platform.acmehealth.com/library/BVfr9ugU/module/Jd6o2Fza) to prepare for an acceleration board meeting.
 
 During your bounded engagement, work with your Relationship Manager and Redesign Legal Point of Contact for questions about how to best use this template.
 

@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.expansion.Expansion;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.domain.Page;

@@ -14,7 +14,7 @@ spring:
 
 db:
   seed:
-    emails: devops-test@redesignhealth.com, RhDevOpsTest2@gmail.com
+    emails: devops-test@acmehealth.com, RhDevOpsTest2@gmail.com
 
 search:
   hostname: opensearch

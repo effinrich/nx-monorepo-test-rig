@@ -16,7 +16,7 @@ The following diagram illustrates what is deployed through the WAF module.
 
 WAF  filters incoming traffic before reaching load balancers, cloud front distributions, or API gateways. Various rules within WAF are designed to filter out malicious traffic, including bad bots, cross-site scripting, SQL injection, and more.
 
-![WAF Module Architecture](https://assets.redesignhealth.com/pt3yBOlSFtYTQCNFzYU1bNJWqCkfGeIbvbBCiIgl/waf-architecture.png)
+![WAF Module Architecture](https://assets.acmehealth.com/pt3yBOlSFtYTQCNFzYU1bNJWqCkfGeIbvbBCiIgl/waf-architecture.png)
 
 ## High-Level Process
 

@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.config;
+package com.acmehealth.company.api.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.redesignhealth.company.api.client.message.JiraIssueMessageClient;
-import com.redesignhealth.company.api.client.message.MessageClient;
-import com.redesignhealth.company.api.client.message.NoopMessageClient;
-import com.redesignhealth.company.api.dto.command.InfraRequestCommand;
-import com.redesignhealth.company.api.property.JiraRequestProperties;
+import com.acmehealth.company.api.client.message.JiraIssueMessageClient;
+import com.acmehealth.company.api.client.message.MessageClient;
+import com.acmehealth.company.api.client.message.NoopMessageClient;
+import com.acmehealth.company.api.dto.command.InfraRequestCommand;
+import com.acmehealth.company.api.property.JiraRequestProperties;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;

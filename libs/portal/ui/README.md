@@ -1,6 +1,6 @@
-# @redesignhealth/portal/ui
+# @acmehealth/portal/ui
 
-Portal-specific UI components used across multiple feature libraries within the Platform Portal. Built on `@redesignhealth/ui` (Chakra v3).
+Portal-specific UI components used across multiple feature libraries within the Platform Portal. Built on `@acmehealth/ui` (Chakra v3).
 
 ## What's in Here
 
@@ -19,7 +19,7 @@ Reusable presentational components that are scoped to the portal domain but shar
 ## Usage
 
 ```tsx
-import { ListCard, SectionHeader, FilterBox } from '@redesignhealth/portal/ui'
+import { ListCard, SectionHeader, FilterBox } from '@acmehealth/portal/ui'
 ```
 
 ## Running Tests

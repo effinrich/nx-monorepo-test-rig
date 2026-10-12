@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 

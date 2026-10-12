@@ -2,7 +2,7 @@
 id: switch
 category: form
 title: Switch
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: 'The Switch component is used as an alternative for the checkbox component.'
 ---
 
@@ -18,12 +18,12 @@ workflow as a `Checkbox`.
 ## Import
 
 ```js
-import { Switch } from '@redesignhealth/ui'
+import { Switch } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-switch--usage&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-switch--usage&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
-import com.redesignhealth.company.api.entity.converter.TaskRefConverter;
-import com.redesignhealth.company.api.entity.ref.TaskRef;
+import com.acmehealth.company.api.entity.converter.TaskRefConverter;
+import com.acmehealth.company.api.entity.ref.TaskRef;
 import jakarta.persistence.*;
 import java.time.Instant;
 

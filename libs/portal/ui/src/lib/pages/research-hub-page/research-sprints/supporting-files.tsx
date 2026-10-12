@@ -1,5 +1,5 @@
 import { MdLock, MdOpenInNew } from 'react-icons/md'
-import { Link } from '@redesignhealth/ui'
+import { Link } from '@acmehealth/ui'
 
 interface SupportingFileProps {
   isConflict?: boolean

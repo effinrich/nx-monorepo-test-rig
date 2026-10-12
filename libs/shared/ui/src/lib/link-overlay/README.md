@@ -5,7 +5,7 @@
 - id: link-overlay
 - category: navigation
 - title: Link Overlay
-- package: "@redesignhealth/ui"
+- package: "@acmehealth/ui"
 - description: "Link overlay is a semantic component used to wrap elements (cards, blog post,
   articles, etc.) in a link."
 
@@ -14,7 +14,7 @@
 ## Import
 
 ```js
-import { LinkBox, LinkOverlay } from '@redesignhealth/ui'
+import { LinkBox, LinkOverlay } from '@acmehealth/ui'
 ```
 
 ## Usage

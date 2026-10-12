@@ -2,14 +2,14 @@
 id: divider
 title: Divider
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Dividers are used to visually separate content in a list or group.
 ---
 
 ## Import
 
 ```js
-import { Divider } from '@redesignhealth/ui'
+import { Divider } from '@acmehealth/ui'
 ```
 
 ## Usage

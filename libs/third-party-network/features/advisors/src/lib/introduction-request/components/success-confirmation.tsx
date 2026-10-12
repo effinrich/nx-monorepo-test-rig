@@ -8,7 +8,7 @@ import {
   ModalHeader,
   ModalOverlay,
   UseDisclosureReturn
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface SuccessConfirmationProps {
   advisorName?: string

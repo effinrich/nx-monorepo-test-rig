@@ -75,7 +75,7 @@ Essential commands (from the root):
 Workspace notes:
 - One root package.json installs all packages; Nx resolves per-project needs
 - Affected commands run only on changed projects
-- Path aliases under @redesignhealth/*
+- Path aliases under @acmehealth/*
 
 **Section sources**
 - [README.md:28-40](file://README.md#L28-L40)
@@ -220,7 +220,7 @@ Workspace-specific commands:
 - [.devcontainer/devcontainer.json:129-131](file://.devcontainer/devcontainer.json#L129-L131)
 
 ### Path Aliases and Imports
-- The base tsconfig defines @redesignhealth/* aliases for shared and portal libraries.
+- The base tsconfig defines @acmehealth/* aliases for shared and portal libraries.
 - These aliases simplify imports across the monorepo.
 
 **Section sources**

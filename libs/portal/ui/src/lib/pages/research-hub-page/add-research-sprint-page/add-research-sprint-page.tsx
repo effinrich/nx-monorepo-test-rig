@@ -1,4 +1,4 @@
-import { SectionHeader } from '@redesignhealth/ui'
+import { SectionHeader } from '@acmehealth/ui'
 
 import AddResearchSprintForm from './add-research-sprint-form'
 

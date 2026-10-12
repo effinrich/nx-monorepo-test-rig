@@ -1,4 +1,4 @@
-import { getSolutionById } from '@redesignhealth/portal/data-assets'
+import { getSolutionById } from '@acmehealth/portal/data-assets'
 import { useMutation, useQuery } from '@tanstack/react-query'
 
 import { postCopyTemplate } from './api'

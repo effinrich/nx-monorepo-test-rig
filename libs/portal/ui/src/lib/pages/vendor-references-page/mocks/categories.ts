@@ -9,7 +9,7 @@ export const categories = [
     links: [
       {
         rel: 'self',
-        href: 'https://company-api.dev.redesignhealth.com/library-content/34xLXsjr'
+        href: 'https://company-api.dev.acmehealth.com/library-content/34xLXsjr'
       }
     ]
   },
@@ -23,7 +23,7 @@ export const categories = [
     links: [
       {
         rel: 'self',
-        href: 'https://company-api.dev.redesignhealth.com/library-content/77IDX47u'
+        href: 'https://company-api.dev.acmehealth.com/library-content/77IDX47u'
       }
     ]
   },
@@ -37,7 +37,7 @@ export const categories = [
     links: [
       {
         rel: 'self',
-        href: 'https://company-api.dev.redesignhealth.com/library-content/UtzLUqXi'
+        href: 'https://company-api.dev.acmehealth.com/library-content/UtzLUqXi'
       }
     ]
   },
@@ -51,7 +51,7 @@ export const categories = [
     links: [
       {
         rel: 'self',
-        href: 'https://company-api.dev.redesignhealth.com/library-content/vcOHuYGP'
+        href: 'https://company-api.dev.acmehealth.com/library-content/vcOHuYGP'
       }
     ]
   },
@@ -65,7 +65,7 @@ export const categories = [
     links: [
       {
         rel: 'self',
-        href: 'https://company-api.dev.redesignhealth.com/library-content/cC9O628c'
+        href: 'https://company-api.dev.acmehealth.com/library-content/cC9O628c'
       }
     ]
   },
@@ -79,7 +79,7 @@ export const categories = [
     links: [
       {
         rel: 'self',
-        href: 'https://company-api.dev.redesignhealth.com/library-content/JidbHibE'
+        href: 'https://company-api.dev.acmehealth.com/library-content/JidbHibE'
       }
     ]
   },
@@ -93,7 +93,7 @@ export const categories = [
     links: [
       {
         rel: 'self',
-        href: 'https://company-api.dev.redesignhealth.com/library-content/0cdPuvjj'
+        href: 'https://company-api.dev.acmehealth.com/library-content/0cdPuvjj'
       }
     ]
   },
@@ -107,7 +107,7 @@ export const categories = [
     links: [
       {
         rel: 'self',
-        href: 'https://company-api.dev.redesignhealth.com/library-content/iL6q5BvP'
+        href: 'https://company-api.dev.acmehealth.com/library-content/iL6q5BvP'
       }
     ]
   }

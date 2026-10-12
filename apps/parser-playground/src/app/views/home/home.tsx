@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useErrorBoundary } from 'react-error-boundary'
-import { Box, Loader } from '@redesignhealth/ui'
+import { Box, Loader } from '@acmehealth/ui'
 import parse, { HTMLReactParserOptions } from 'html-react-parser'
 
 import { useGetTopicByIdQuery } from './hooks'

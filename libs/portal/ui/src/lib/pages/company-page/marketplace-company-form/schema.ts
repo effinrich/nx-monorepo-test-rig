@@ -2,7 +2,7 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import {
   FORM_ERROR_MESSAGES,
   TEXTAREA_CHARACTER_LIMIT
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 import * as yup from 'yup'
 
 const { REQUIRED, INVALID_URL } = FORM_ERROR_MESSAGES

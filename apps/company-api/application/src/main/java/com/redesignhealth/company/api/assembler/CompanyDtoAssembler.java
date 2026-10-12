@@ -1,12 +1,12 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 
-import com.redesignhealth.company.api.assembler.google.OnboardDocsLinkGenerator;
-import com.redesignhealth.company.api.assembler.google.XCloudCrmLinkGenerator;
-import com.redesignhealth.company.api.controller.CompanyController;
-import com.redesignhealth.company.api.dto.CompanyDto;
-import com.redesignhealth.company.api.dto.CompanyDtoSummary;
+import com.acmehealth.company.api.assembler.google.OnboardDocsLinkGenerator;
+import com.acmehealth.company.api.assembler.google.XCloudCrmLinkGenerator;
+import com.acmehealth.company.api.controller.CompanyController;
+import com.acmehealth.company.api.dto.CompanyDto;
+import com.acmehealth.company.api.dto.CompanyDtoSummary;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.hateoas.Link;

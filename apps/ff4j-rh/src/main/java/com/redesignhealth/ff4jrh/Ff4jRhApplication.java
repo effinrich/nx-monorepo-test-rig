@@ -1,4 +1,4 @@
-package com.redesignhealth.ff4jrh;
+package com.acmehealth.ff4jrh;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

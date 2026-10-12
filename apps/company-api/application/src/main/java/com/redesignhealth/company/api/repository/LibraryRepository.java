@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.library.Library;
-import com.redesignhealth.company.api.entity.ref.LibraryRef;
+import com.acmehealth.company.api.entity.library.Library;
+import com.acmehealth.company.api.entity.ref.LibraryRef;
 import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;

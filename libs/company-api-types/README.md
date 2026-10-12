@@ -7,7 +7,7 @@ Auto-generated TypeScript types for the Redesign Health Company API (OpenAPI v0.
 ## Usage
 
 ```ts
-import { Company, Vendor, CeoProfile } from '@redesignhealth/company-api-types'
+import { Company, Vendor, CeoProfile } from '@acmehealth/company-api-types'
 ```
 
 ## Regenerating Types

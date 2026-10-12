@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.redesignhealth.company.api.entity.FormDefinition;
-import com.redesignhealth.company.api.entity.request.PublicationStatus;
-import com.redesignhealth.company.api.entity.request.RequestForm;
+import com.acmehealth.company.api.entity.FormDefinition;
+import com.acmehealth.company.api.entity.request.PublicationStatus;
+import com.acmehealth.company.api.entity.request.RequestForm;
 import io.swagger.v3.oas.annotations.media.Schema;
 import org.springframework.hateoas.RepresentationModel;
 

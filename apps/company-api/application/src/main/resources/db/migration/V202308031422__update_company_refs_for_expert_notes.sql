@@ -1,5 +1,5 @@
 -- Expert Notes
--- Related ticket: https://redesignhealth.atlassian.net/browse/PUD-393
+-- Related ticket: https://acmehealth.atlassian.net/browse/PUD-393
 
 -- DELETE old company references for Expert Notes with more than 3 Company references
 DELETE FROM expert_note_companies

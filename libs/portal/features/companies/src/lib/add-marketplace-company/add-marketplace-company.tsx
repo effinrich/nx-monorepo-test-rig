@@ -1,12 +1,12 @@
 import { Helmet } from 'react-helmet'
 import { useNavigate } from 'react-router-dom'
-import { useCreateCompany } from '@redesignhealth/portal/data-assets'
+import { useCreateCompany } from '@acmehealth/portal/data-assets'
 import {
   BackButton,
   MarketplaceCompanyForm,
   Page
-} from '@redesignhealth/portal/ui'
-import { SectionHeader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/ui'
+import { SectionHeader } from '@acmehealth/ui'
 
 const AddMarketplaceCompany = () => {
   const { mutateAsync: createCompany } = useCreateCompany()

@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.config;
+package com.acmehealth.company.api.config;
 
-import com.redesignhealth.company.api.client.prometheus.ExternalPrometheusClient;
-import com.redesignhealth.company.api.client.prometheus.NoopPrometheusClient;
-import com.redesignhealth.company.api.client.prometheus.PrometheusClient;
+import com.acmehealth.company.api.client.prometheus.ExternalPrometheusClient;
+import com.acmehealth.company.api.client.prometheus.NoopPrometheusClient;
+import com.acmehealth.company.api.client.prometheus.PrometheusClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

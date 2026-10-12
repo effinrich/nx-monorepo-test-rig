@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
-import com.redesignhealth.company.api.dto.enums.TopicType;
+import com.acmehealth.company.api.dto.enums.TopicType;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

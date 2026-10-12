@@ -5,7 +5,7 @@ import {
   Tr,
   useBreakpoint,
   VisuallyHidden
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 const TableHeader = () => {
   const breakpoint = useBreakpoint({ ssr: false })

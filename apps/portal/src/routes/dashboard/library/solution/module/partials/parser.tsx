@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react'
 import { MdLaunch } from 'react-icons/md'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
-import { axiosApi, LibraryDoc } from '@redesignhealth/portal/data-assets'
+import { axiosApi, LibraryDoc } from '@acmehealth/portal/data-assets'
 import {
   Box,
   Button,
   Link as ChakraLink,
   Prose,
   SectionHeader
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import parse, {
   attributesToProps,
   domToReact,
@@ -97,7 +97,7 @@ export const Parser = ({
           props.href = location.pathname + href
           return <a {...props}>{domToReact(children, parserOptions)}</a>
         }
-        if (href && href.indexOf('redesignhealth.helpjuice.com') !== -1) {
+        if (href && href.indexOf('acmehealth.helpjuice.com') !== -1) {
           const props = attributesToProps(attribs)
           props.href = `${location.pathname}#`
           props.target = '_self'

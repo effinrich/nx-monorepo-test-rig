@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.util;
+package com.acmehealth.company.api.util;
 
-import com.redesignhealth.company.api.dto.SerializableEnum;
+import com.acmehealth.company.api.dto.SerializableEnum;
 import java.util.ArrayList;
 import java.util.List;
 

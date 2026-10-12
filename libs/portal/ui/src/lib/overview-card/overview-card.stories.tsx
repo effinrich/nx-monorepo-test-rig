@@ -8,7 +8,7 @@ import {
   Th,
   Thead,
   Tr
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import type { Meta, StoryObj } from '@storybook/react-vite'
 

@@ -55,11 +55,11 @@ prom["prometheus"]
 tpn["third-party-network"]
 end
 subgraph "Libraries"
-shared_ui["@redesignhealth/ui"]
-shared_utils["@redesignhealth/shared-*"]
-portal_libs["@redesignhealth/portal/*"]
-tpn_libs["@redesignhealth/third-party-network/*"]
-company_types["@redesignhealth/company-api-types"]
+shared_ui["@acmehealth/ui"]
+shared_utils["@acmehealth/shared-*"]
+portal_libs["@acmehealth/portal/*"]
+tpn_libs["@acmehealth/third-party-network/*"]
+company_types["@acmehealth/company-api-types"]
 end
 tools["Tools<br/>ForgeKit Nx Storybook, MCP Server"]
 docs["Docs<br/>MkDocs, Expert Knowledge Library"]
@@ -297,7 +297,7 @@ Quality gates enforced by CI:
 
 ### Working with the Monorepo Structure and Dependencies
 - Install dependencies at the root; Nx prunes unused packages during builds
-- Use path aliases for libraries (e.g., @redesignhealth/ui)
+- Use path aliases for libraries (e.g., @acmehealth/ui)
 - Respect module boundaries enforced by ESLint
 - Prefer Nx generators for scaffolding new apps/libs/components
 - Keep root package.json scripts aligned with project targets

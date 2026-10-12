@@ -1,22 +1,22 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.controller.util.Paths.*;
+import static com.acmehealth.company.api.controller.util.Paths.*;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.http.HttpStatus.CREATED;
 
-import com.redesignhealth.company.api.assembler.CompanyMemberAuditAssembler;
-import com.redesignhealth.company.api.assembler.PersonAssembler;
-import com.redesignhealth.company.api.dto.CompanyMemberAuditSummary;
-import com.redesignhealth.company.api.dto.PersonSummary;
-import com.redesignhealth.company.api.dto.command.CreatePersonCommand;
-import com.redesignhealth.company.api.dto.command.PersonCommand;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.exception.RoleNotFoundException;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.PersonService;
+import com.acmehealth.company.api.assembler.CompanyMemberAuditAssembler;
+import com.acmehealth.company.api.assembler.PersonAssembler;
+import com.acmehealth.company.api.dto.CompanyMemberAuditSummary;
+import com.acmehealth.company.api.dto.PersonSummary;
+import com.acmehealth.company.api.dto.command.CreatePersonCommand;
+import com.acmehealth.company.api.dto.command.PersonCommand;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.exception.RoleNotFoundException;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.PersonService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.tags.Tag;

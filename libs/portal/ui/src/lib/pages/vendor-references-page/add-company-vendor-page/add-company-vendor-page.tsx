@@ -2,8 +2,8 @@ import { useNavigate, useParams } from 'react-router-dom'
 import {
   CompanyVendorProps,
   usePostCompanyVendor
-} from '@redesignhealth/portal/data-assets'
-import { Box, SectionHeader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/data-assets'
+import { Box, SectionHeader } from '@acmehealth/ui'
 
 import AxiosErrorAlert from '../../../axios-error-alert/axios-error-alert'
 import { CompanyVendorForm } from '../company-vendor-form/company-vendor-form'

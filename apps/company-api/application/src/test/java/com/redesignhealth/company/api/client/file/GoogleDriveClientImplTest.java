@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.file;
+package com.acmehealth.company.api.client.file;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.springframework.http.MediaType.TEXT_PLAIN;

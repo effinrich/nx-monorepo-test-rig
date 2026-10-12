@@ -1,13 +1,13 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
 import static org.hamcrest.Matchers.is;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

@@ -1,9 +1,9 @@
 import { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import { useLocation, useParams } from 'react-router-dom'
-import analytics from '@redesignhealth/analytics'
-import { SCROLL_CONTAINER_ID, scrollToTop } from '@redesignhealth/portal/utils'
-import { Box, Loader } from '@redesignhealth/ui'
+import analytics from '@acmehealth/analytics'
+import { SCROLL_CONTAINER_ID, scrollToTop } from '@acmehealth/portal/utils'
+import { Box, Loader } from '@acmehealth/ui'
 
 import { Parser } from './partials/parser'
 import { useGetArticleLinkMap, useGetModuleByIdQuery } from './hooks'

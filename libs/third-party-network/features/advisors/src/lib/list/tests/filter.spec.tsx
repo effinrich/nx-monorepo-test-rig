@@ -1,4 +1,4 @@
-import { RhProvider, theme } from '@redesignhealth/ui'
+import { RhProvider, theme } from '@acmehealth/ui'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { beforeEach, describe, it, vi } from 'vitest'

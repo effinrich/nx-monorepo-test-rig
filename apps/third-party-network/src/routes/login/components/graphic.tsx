@@ -1,4 +1,4 @@
-import { Box } from '@redesignhealth/ui'
+import { Box } from '@acmehealth/ui'
 
 export const Graphic = () => {
   return (

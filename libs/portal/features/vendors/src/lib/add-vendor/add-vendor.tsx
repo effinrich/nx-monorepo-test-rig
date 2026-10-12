@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet'
-import { AddVendorPage, Page } from '@redesignhealth/portal/ui'
+import { AddVendorPage, Page } from '@acmehealth/portal/ui'
 
 export const AddVendor = () => {
   return (

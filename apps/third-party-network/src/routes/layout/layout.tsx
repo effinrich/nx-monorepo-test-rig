@@ -1,7 +1,7 @@
 import { Navigate, Outlet, useLocation } from 'react-router-dom'
-import { useCurrentUserQuery } from '@redesignhealth/third-party-network/features/authentication'
-import { removeUserAccessToken } from '@redesignhealth/third-party-network/utils'
-import { Container, Loader } from '@redesignhealth/ui'
+import { useCurrentUserQuery } from '@acmehealth/third-party-network/features/authentication'
+import { removeUserAccessToken } from '@acmehealth/third-party-network/utils'
+import { Container, Loader } from '@acmehealth/ui'
 
 import { AvatarMenu } from './components/avatar-menu'
 

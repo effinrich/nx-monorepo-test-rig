@@ -13,12 +13,12 @@ import {
   Image,
   Stack,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import axios from 'axios'
 
 import BackgroundImage from '../../assets/background.jpeg'
-import RedesignHealthPrism from '../../assets/redesign-health-prism.svg'
-import RedesignHealthText from '../../assets/redesign-health-text.svg'
+import RedesignHealthPrism from '../../assets/acme-health-prism.svg'
+import RedesignHealthText from '../../assets/acme-health-text.svg'
 import { setIdToken, setTokens } from '../../utils/auth'
 
 export const SignIn = () => {

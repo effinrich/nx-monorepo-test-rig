@@ -56,7 +56,7 @@ export interface UserInfoSummary extends PersonSummary {
 }
 
 /**
- * https://company-api.redesignhealth.com/public/docs/index.html#_pagination
+ * https://company-api.acmehealth.com/public/docs/index.html#_pagination
  */
 export interface PagedResult<T> {
   content: T[]

@@ -1,4 +1,4 @@
-package com.redesignhealth.ff4jrh.config;
+package com.acmehealth.ff4jrh.config;
 
 import org.ff4j.FF4j;
 import org.ff4j.audit.repository.InMemoryEventRepository;

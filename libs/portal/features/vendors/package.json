@@ -1,5 +1,5 @@
 {
-  "name": "@redesignhealth/portal/features/vendors",
+  "name": "@acmehealth/portal/features/vendors",
   "version": "2.0.0",
   "main": "./index.js",
   "types": "./index.d.ts",

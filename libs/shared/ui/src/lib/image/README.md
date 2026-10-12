@@ -2,14 +2,14 @@
 id: image
 category: media-and-icons
 title: Image
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: The Image component is used to display images with support for fallback.
 ---
 
 ## Import
 
 ```js
-import { Image } from '@redesignhealth/ui'
+import { Image } from '@acmehealth/ui'
 ```
 
 ## Usage
@@ -82,7 +82,7 @@ You can also opt out of this behavior by passing the `ignoreFallback` prop.
 ## Usage with SSR
 
 ```js
-import { Img } from '@redesignhealth/ui'
+import { Img } from '@acmehealth/ui'
 ```
 
 The `Img` Component provides a fallback for SSR applications which uses the

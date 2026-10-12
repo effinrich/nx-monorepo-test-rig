@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.Company;
 import java.util.List;
 import lombok.Getter;
 import lombok.Setter;

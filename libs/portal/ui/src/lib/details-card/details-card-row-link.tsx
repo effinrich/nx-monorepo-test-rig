@@ -1,4 +1,4 @@
-import { Link } from '@redesignhealth/ui'
+import { Link } from '@acmehealth/ui'
 
 export interface DetailsCardRowLinkProps {
   href?: string

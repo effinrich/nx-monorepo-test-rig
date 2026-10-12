@@ -3,8 +3,8 @@ import {
   BackButton,
   EditCompanyVendorPage,
   Page
-} from '@redesignhealth/portal/ui'
-import { Box } from '@redesignhealth/ui'
+} from '@acmehealth/portal/ui'
+import { Box } from '@acmehealth/ui'
 
 export const EditCompanyVendor = () => {
   return (

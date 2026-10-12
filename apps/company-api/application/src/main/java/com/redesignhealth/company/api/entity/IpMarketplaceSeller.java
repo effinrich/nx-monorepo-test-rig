@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
-import com.redesignhealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.audit.Auditable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;

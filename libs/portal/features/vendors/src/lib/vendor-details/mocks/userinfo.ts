@@ -1,4 +1,4 @@
-import { UserInfoSummary } from '@redesignhealth/portal/data-assets'
+import { UserInfoSummary } from '@acmehealth/portal/data-assets'
 
 export const adminUser: UserInfoSummary = {
   email: 'jane.doe@example.com',

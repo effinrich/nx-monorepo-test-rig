@@ -7,7 +7,7 @@ import {
   Input,
   InputGroup,
   SearchIcon
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { useDebounce } from 'rooks'
 interface SearchProps
   extends Omit<InputProps, 'onChange' | 'defaultValue' | 'value'> {

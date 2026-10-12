@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet'
 import { useParams } from 'react-router-dom'
-import { useGetCompanyById } from '@redesignhealth/portal/data-assets'
-import { CompanyDetailsPage, Page } from '@redesignhealth/portal/ui'
+import { useGetCompanyById } from '@acmehealth/portal/data-assets'
+import { CompanyDetailsPage, Page } from '@acmehealth/portal/ui'
 
 const CompanyDetails = () => {
   const { companyId } = useParams()

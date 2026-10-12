@@ -17,7 +17,7 @@ import {
   SliderFilledTrack,
   SliderThumb,
   SliderTrack
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { getCroppedImg } from './util'
 

@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom'
-import { Box } from '@redesignhealth/ui'
+import { Box } from '@acmehealth/ui'
 
 export const Layout = () => {
   return (

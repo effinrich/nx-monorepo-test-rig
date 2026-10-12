@@ -278,7 +278,7 @@ V2App --> ErrorBoundary["ErrorBoundary + Suspense"]
 
 ## Dependency Analysis
 - Frontend dependencies:
-  - v1: @embeddedchat/react, @react-oauth/google, @redesignhealth/ui.
+  - v1: @embeddedchat/react, @react-oauth/google, @acmehealth/ui.
   - v2: @chakra-ui/react, @react-oauth/google, axios, axios-auth-refresh, react-error-boundary, @tanstack/react-query, react-toastify.
 - Backend dependencies:
   - google-auth-library (OAuth2Client, UserRefreshClient).

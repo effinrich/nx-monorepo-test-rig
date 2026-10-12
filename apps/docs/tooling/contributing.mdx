@@ -36,7 +36,7 @@ Imports are automatically sorted by `simple-import-sort` in this order:
 
 1. Side-effect imports
 2. React and external packages
-3. Internal aliases (`@redesignhealth/*`, `components`, `libs`, etc.)
+3. Internal aliases (`@acmehealth/*`, `components`, `libs`, etc.)
 4. Parent imports (`../`)
 5. Sibling imports (`./`)
 6. CSS imports
@@ -277,9 +277,9 @@ npm install -D <package-name> --legacy-peer-deps
 Import shared libraries using TypeScript path aliases defined in `tsconfig.base.json`:
 
 ```tsx
-import { Button } from '@redesignhealth/ui'
-import { useCompanies } from '@redesignhealth/portal/data-assets'
-import { formatDate } from '@redesignhealth/shared-utils'
+import { Button } from '@acmehealth/ui'
+import { useCompanies } from '@acmehealth/portal/data-assets'
+import { formatDate } from '@acmehealth/shared-utils'
 ```
 
 ### Module boundary rules

@@ -3,7 +3,7 @@ import {
   Option,
   useLibraryStore,
   VIEW_ALL_OPTION
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 
 import { Filter } from '../../../filter-box'
 

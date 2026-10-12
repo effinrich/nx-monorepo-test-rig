@@ -21,7 +21,7 @@ export const mockCompanyVendor: CompanyVendor = {
   ],
   contacts: [
     {
-      email: 'sazh.katzroy@redesignhealth.com',
+      email: 'sazh.katzroy@acmehealth.com',
       givenName: 'Sazh',
       familyName: 'Katzroy',
       willingToDiscuss: true

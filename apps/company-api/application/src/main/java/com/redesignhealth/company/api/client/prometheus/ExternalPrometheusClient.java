@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.client.prometheus;
+package com.acmehealth.company.api.client.prometheus;
 
-import com.redesignhealth.company.api.dto.prometheus.PrometheusMetric;
+import com.acmehealth.company.api.dto.prometheus.PrometheusMetric;
 import org.springframework.web.reactive.function.client.WebClient;
 
 public class ExternalPrometheusClient implements PrometheusClient {

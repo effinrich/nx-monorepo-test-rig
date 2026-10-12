@@ -1,6 +1,6 @@
-import { useGetUserInfo } from '@redesignhealth/portal/data-assets'
-import { HasRole, isAdminRole } from '@redesignhealth/portal/utils'
-import { Box, Flex, Text } from '@redesignhealth/ui'
+import { useGetUserInfo } from '@acmehealth/portal/data-assets'
+import { HasRole, isAdminRole } from '@acmehealth/portal/utils'
+import { Box, Flex, Text } from '@acmehealth/ui'
 
 import AddCompanyButton from '../../add-company-button/add-company-button'
 

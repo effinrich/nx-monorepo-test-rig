@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 
-import com.redesignhealth.company.api.assembler.jira.JiraLinkGenerator;
-import com.redesignhealth.company.api.controller.InfraRequestController;
-import com.redesignhealth.company.api.dto.InfraRequestSummary;
-import com.redesignhealth.company.api.entity.request.InfrastructureRequest;
+import com.acmehealth.company.api.assembler.jira.JiraLinkGenerator;
+import com.acmehealth.company.api.controller.InfraRequestController;
+import com.acmehealth.company.api.dto.InfraRequestSummary;
+import com.acmehealth.company.api.entity.request.InfrastructureRequest;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;

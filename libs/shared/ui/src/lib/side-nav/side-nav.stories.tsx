@@ -54,13 +54,13 @@ export default {
   args: {
     router,
     userProfile: {
-      email: 'richard.tillman@redesignhealth.com',
+      email: 'richard.tillman@acmehealth.com',
       picture:
         'https://lh3.googleusercontent.com/a/ALm5wu3xqiIM7DBR3gV5QZF_1J3NWa5asPvc1l1Z0EKD=s96-c',
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/person/richard.tillman@redesignhealth.com'
+          href: 'https://company-api.dev.acmehealth.com/person/richard.tillman@acmehealth.com'
         }
       ],
       givenName: 'Rich',
@@ -80,13 +80,13 @@ export default {
 export const Default = {
   args: {
     userProfile: {
-      email: 'richard.tillman@redesignhealth.com',
+      email: 'richard.tillman@acmehealth.com',
       picture:
         'https://lh3.googleusercontent.com/a/ALm5wu3xqiIM7DBR3gV5QZF_1J3NWa5asPvc1l1Z0EKD=s96-c',
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/person/richard.tillman@redesignhealth.com'
+          href: 'https://company-api.dev.acmehealth.com/person/richard.tillman@acmehealth.com'
         }
       ],
       givenName: 'Rich',

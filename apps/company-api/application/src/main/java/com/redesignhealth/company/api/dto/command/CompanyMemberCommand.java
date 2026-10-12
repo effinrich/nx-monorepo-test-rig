@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.Optional;
 import lombok.Getter;

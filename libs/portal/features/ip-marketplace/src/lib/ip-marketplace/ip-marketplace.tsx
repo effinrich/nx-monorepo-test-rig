@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet'
-import { IPMarketplacePage, Page } from '@redesignhealth/portal/ui'
+import { IPMarketplacePage, Page } from '@acmehealth/portal/ui'
 
 export const IPMarketplace = () => {
   return (

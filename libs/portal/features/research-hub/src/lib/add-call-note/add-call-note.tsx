@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet'
-import { AddCallNotePage, Page } from '@redesignhealth/portal/ui'
+import { AddCallNotePage, Page } from '@acmehealth/portal/ui'
 
 export const AddCallNote = () => {
   return (

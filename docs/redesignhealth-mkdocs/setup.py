@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='redesignhealth-mkdocs',
+    name='acmehealth-mkdocs',
     version='0.0.2',
     install_requires=[
         'requests',
@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         'mkdocs.plugins': [
-          'redesignhealth-mkdocs = LambdaFunctionUrlFetcher:LambdaFunctionUrlFetcher'
+          'acmehealth-mkdocs = LambdaFunctionUrlFetcher:LambdaFunctionUrlFetcher'
         ]
     }
 )

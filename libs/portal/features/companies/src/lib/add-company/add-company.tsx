@@ -6,9 +6,9 @@ import {
   CompanyCommand,
   useCreateCompany,
   useGetCompanies
-} from '@redesignhealth/portal/data-assets'
-import { CustomDrawer } from '@redesignhealth/portal/ui'
-import { dirtyValuesOnly } from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/data-assets'
+import { CustomDrawer } from '@acmehealth/portal/ui'
+import { dirtyValuesOnly } from '@acmehealth/portal/utils'
 import * as yup from 'yup'
 
 import { type OptionsProps, CompanyForm } from '../ui/company-form/company-form'

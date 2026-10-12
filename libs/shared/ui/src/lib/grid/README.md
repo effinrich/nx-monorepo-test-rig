@@ -2,7 +2,7 @@
 id: grid
 category: layout
 title: Grid
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Grid is a layout for managing grid layouts
 ---
 
@@ -11,7 +11,7 @@ description: Grid is a layout for managing grid layouts
 ## Import
 
 ```js
-import { Grid, GridItem } from '@redesignhealth/ui'
+import { Grid, GridItem } from '@acmehealth/ui'
 ```
 
 - **Grid:** The main wrapper with `display: grid`.

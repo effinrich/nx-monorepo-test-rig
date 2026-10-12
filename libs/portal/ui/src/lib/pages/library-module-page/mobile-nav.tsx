@@ -1,6 +1,6 @@
 import { ChangeEvent } from 'react'
-import { type LibraryDoc } from '@redesignhealth/portal/data-assets'
-import { type BoxProps, Box, Select, Text } from '@redesignhealth/ui'
+import { type LibraryDoc } from '@acmehealth/portal/data-assets'
+import { type BoxProps, Box, Select, Text } from '@acmehealth/ui'
 
 interface MobileNavProps extends BoxProps {
   modules: LibraryDoc[]

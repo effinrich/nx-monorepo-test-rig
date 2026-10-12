@@ -1,13 +1,13 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.List;
 
 public class PersonRequestCommand {
 
-  @Schema(example = "sazh.katzroy@redesignhealth.com")
+  @Schema(example = "sazh.katzroy@acmehealth.com")
   private String email;
 
   @Schema(example = "Katzroy")

@@ -1,14 +1,14 @@
-package com.redesignhealth.company.api.task;
+package com.acmehealth.company.api.task;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
-import com.redesignhealth.company.api.entity.TaskHistory;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.entity.ref.TaskRef;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.repository.TaskRepository;
+import com.acmehealth.company.api.entity.TaskHistory;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.ref.TaskRef;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.repository.TaskRepository;
 import java.util.List;
 import java.util.Optional;
 import org.junit.jupiter.api.Test;
@@ -26,7 +26,7 @@ class SeedDbWithPeopleTaskTests {
 
   TaskHistory taskHistory = TaskHistory.from(TaskRef.of(SeedDbWithPeopleTask.class.getName()));
 
-  private final PersonRef email = PersonRef.of("test@redesignhealth.com");
+  private final PersonRef email = PersonRef.of("test@acmehealth.com");
 
   @Test
   void testRun_noEmailsProvided() {

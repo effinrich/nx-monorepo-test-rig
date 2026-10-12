@@ -1,6 +1,6 @@
 import { useLocalStorage } from 'react-use'
-import { CategoryGrouping } from '@redesignhealth/portal/data-assets'
-import { Box, Loader, SectionHeader } from '@redesignhealth/ui'
+import { CategoryGrouping } from '@acmehealth/portal/data-assets'
+import { Box, Loader, SectionHeader } from '@acmehealth/ui'
 
 import { DisclaimerBox, DisclaimerText } from '../../disclaimer'
 

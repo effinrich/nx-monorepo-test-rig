@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
-import com.redesignhealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
 import java.util.Collection;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;

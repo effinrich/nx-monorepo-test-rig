@@ -3,12 +3,12 @@ import {
   mockGetIpListing,
   mockGetUserInfo,
   mockIpListingWithMetrics
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   render,
   waitFor,
   waitForLoadingToFinish
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 import { setupServer } from 'msw/node'
 
 import IpListingDetails from './ip-listing-details'

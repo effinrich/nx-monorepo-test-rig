@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { Flex, FlexProps, Text } from '@redesignhealth/ui'
+import { Flex, FlexProps, Text } from '@acmehealth/ui'
 
 interface SelectionBoxFiltersContainerProps extends FlexProps {
   clearButton?: ReactNode

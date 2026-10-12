@@ -1,13 +1,13 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import static com.redesignhealth.company.api.expansion.Expansion.MEMBERS;
+import static com.acmehealth.company.api.expansion.Expansion.MEMBERS;
 
-import com.redesignhealth.company.api.dto.CompanyMemberDto;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.CompanyMember;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.dto.CompanyMemberDto;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.CompanyMember;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.expansion.Expansion;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import java.util.List;
@@ -53,7 +53,7 @@ public class CompanyRepositoryImpl extends BaseCustomRepository<Company>
 
   public List<CompanyMemberDto> getMembers(CompanyRef apiId) {
     String query =
-        "select new com.redesignhealth.company.api.dto.CompanyMemberDto(p , cm) "
+        "select new com.acmehealth.company.api.dto.CompanyMemberDto(p , cm) "
             + "from Person p inner join CompanyMember cm on p.id = cm.person.id where cm.company.apiId = ?1";
     return em.createQuery(query, CompanyMemberDto.class).setParameter(1, apiId).getResultList();
   }

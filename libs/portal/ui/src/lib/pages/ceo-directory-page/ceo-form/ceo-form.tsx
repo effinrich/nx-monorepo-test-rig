@@ -4,8 +4,8 @@ import {
   Option,
   ReactSelectOption,
   useGetUser
-} from '@redesignhealth/portal/data-assets'
-import { printPersonName } from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/data-assets'
+import { printPersonName } from '@acmehealth/portal/utils'
 import {
   CheckboxRoot,
   CheckboxControl,
@@ -18,7 +18,7 @@ import {
   RadioGroupRoot,
   Stack,
   Textarea
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { Select } from 'chakra-react-select'
 
 import CeoSummaryCard from './partials/ceo-summary'

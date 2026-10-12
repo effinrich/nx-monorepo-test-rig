@@ -1,4 +1,4 @@
-import { type CardProps, CardRoot } from '@redesignhealth/ui'
+import { type CardProps, CardRoot } from '@acmehealth/ui'
 
 interface DetailsCardProps extends CardProps {
   children: React.ReactNode

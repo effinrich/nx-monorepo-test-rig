@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.service.helper;
+package com.acmehealth.company.api.service.helper;
 
-import com.redesignhealth.company.api.client.search.SearchClient;
-import com.redesignhealth.company.api.client.search.command.SearchFilterOptionsCommand;
-import com.redesignhealth.company.api.client.search.command.SearchIndex;
-import com.redesignhealth.company.api.client.search.entity.FilterOptions;
-import com.redesignhealth.company.api.property.EntityConverter;
+import com.acmehealth.company.api.client.search.SearchClient;
+import com.acmehealth.company.api.client.search.command.SearchFilterOptionsCommand;
+import com.acmehealth.company.api.client.search.command.SearchIndex;
+import com.acmehealth.company.api.client.search.entity.FilterOptions;
+import com.acmehealth.company.api.property.EntityConverter;
 import java.util.List;
 
 public class Filter {

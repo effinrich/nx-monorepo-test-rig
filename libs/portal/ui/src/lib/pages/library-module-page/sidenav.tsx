@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
-import { type LibraryDoc } from '@redesignhealth/portal/data-assets'
-import { Link, Stack, StackProps, Text } from '@redesignhealth/ui'
+import { type LibraryDoc } from '@acmehealth/portal/data-assets'
+import { Link, Stack, StackProps, Text } from '@acmehealth/ui'
 
 interface SideNavProps extends StackProps {
   modules: LibraryDoc[]

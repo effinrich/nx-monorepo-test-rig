@@ -29,7 +29,7 @@ The Portal application initializes the Chakra UI provider at the root and render
 
 ```mermaid
 graph TB
-Root["apps/portal/src/main.tsx<br/>Root entrypoint"] --> Provider["RhProvider<br/>theme from @redesignhealth/ui"]
+Root["apps/portal/src/main.tsx<br/>Root entrypoint"] --> Provider["RhProvider<br/>theme from @acmehealth/ui"]
 Provider --> App["apps/portal/src/app/app.tsx<br/>RouterProvider + Helmet + Speed Insights"]
 App --> Routes["apps/portal/src/routes/*<br/>Route components"]
 App --> Assets["apps/portal/src/assets/*<br/>Banner SVG"]
@@ -72,7 +72,7 @@ B --> C["Routes<br/>Feature pages"]
 B --> D["Assets<br/>SVG Banner"]
 B --> E["Shims<br/>chakra-react-select"]
 end
-subgraph "Shared UI Library (@redesignhealth/ui)"
+subgraph "Shared UI Library (@acmehealth/ui)"
 T["Theme definition"] --> P["RhProvider"]
 end
 A --> P
@@ -192,7 +192,7 @@ The following conceptual sequence illustrates how the provider and theme influen
 sequenceDiagram
 participant Root as "main.tsx"
 participant Provider as "RhProvider"
-participant Theme as "theme (@redesignhealth/ui)"
+participant Theme as "theme (@acmehealth/ui)"
 participant App as "app.tsx"
 participant Route as "Route Components"
 participant Asset as "Banner SVG"
@@ -211,7 +211,7 @@ The Portal app depends on a shared UI library for theme and provider. The provid
 
 ```mermaid
 graph TB
-Portal["apps/portal/src/main.tsx"] --> UI["@redesignhealth/ui<br/>RhProvider + theme"]
+Portal["apps/portal/src/main.tsx"] --> UI["@acmehealth/ui<br/>RhProvider + theme"]
 Portal --> App["apps/portal/src/app/app.tsx"]
 App --> Routes["apps/portal/src/routes/*"]
 App --> Assets["apps/portal/src/assets/*"]

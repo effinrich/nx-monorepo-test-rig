@@ -1,4 +1,4 @@
-import { CompanySummary, Option } from '@redesignhealth/portal/data-assets'
+import { CompanySummary, Option } from '@acmehealth/portal/data-assets'
 
 export const transformOptionsFormat = (
   options: string[] | undefined

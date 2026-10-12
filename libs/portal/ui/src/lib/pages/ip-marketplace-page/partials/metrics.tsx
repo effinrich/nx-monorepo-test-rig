@@ -1,4 +1,4 @@
-import { HStack, Text } from '@redesignhealth/ui'
+import { HStack, Text } from '@acmehealth/ui'
 
 interface MetricsProps {
   viewCount?: number

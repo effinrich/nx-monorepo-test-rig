@@ -2,12 +2,12 @@ import { useState } from 'react'
 import { Helmet } from 'react-helmet'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { CredentialResponse, GoogleLogin } from '@react-oauth/google'
-import { setUserAccessToken } from '@redesignhealth/portal/utils'
-import { Flex, Image, Stack, Text } from '@redesignhealth/ui'
+import { setUserAccessToken } from '@acmehealth/portal/utils'
+import { Flex, Image, Stack, Text } from '@acmehealth/ui'
 
 import BackgroundImage from './assets/background.jpeg'
-import RedesignHealthPrism from './assets/redesign-health-prism.svg'
-import RedesignHealthText from './assets/redesign-health-text.svg'
+import RedesignHealthPrism from './assets/acme-health-prism.svg'
+import RedesignHealthText from './assets/acme-health-text.svg'
 
 export const SignIn = () => {
   const [isError, setIsError] = useState<boolean>(false)

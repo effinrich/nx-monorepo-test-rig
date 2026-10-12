@@ -1,5 +1,5 @@
 import { MdFileCopy } from 'react-icons/md'
-import { Flex, HStack, IconButton, Link, Text } from '@redesignhealth/ui'
+import { Flex, HStack, IconButton, Link, Text } from '@acmehealth/ui'
 
 export interface VendorContactInfoProps {
   name: string

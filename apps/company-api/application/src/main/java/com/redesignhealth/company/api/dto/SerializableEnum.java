@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;

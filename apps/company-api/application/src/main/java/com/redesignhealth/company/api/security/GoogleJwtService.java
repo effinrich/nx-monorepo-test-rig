@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
 import com.google.api.client.googleapis.auth.oauth2.GoogleIdTokenVerifier;
 import java.io.IOException;

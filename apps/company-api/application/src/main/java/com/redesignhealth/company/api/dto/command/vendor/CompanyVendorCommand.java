@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto.command.vendor;
+package com.acmehealth.company.api.dto.command.vendor;
 
-import com.redesignhealth.company.api.dto.SubcategorySummary;
-import com.redesignhealth.company.api.dto.enums.CompanyVendorEngagementStatus;
+import com.acmehealth.company.api.dto.SubcategorySummary;
+import com.acmehealth.company.api.dto.enums.CompanyVendorEngagementStatus;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotEmpty;
 import java.time.Instant;

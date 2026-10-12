@@ -72,13 +72,13 @@ company_api["Spring Boot Company API"]
 third_party_network["Third-Party Network Portal"]
 end
 subgraph "Libraries (libs)"
-shared_ui["@redesignhealth/ui<br/>Chakra UI v3 components"]
-shared_analytics["@redesignhealth/analytics"]
-shared_hooks["@redesignhealth/hooks"]
-shared_utils["@redesignhealth/utils"]
-portal_features["@redesignhealth/portal/*<br/>features, data-assets, ui, utils"]
-tpn_features["@redesignhealth/third-party-network/*"]
-company_api_types["@redesignhealth/company-api-types"]
+shared_ui["@acmehealth/ui<br/>Chakra UI v3 components"]
+shared_analytics["@acmehealth/analytics"]
+shared_hooks["@acmehealth/hooks"]
+shared_utils["@acmehealth/utils"]
+portal_features["@acmehealth/portal/*<br/>features, data-assets, ui, utils"]
+tpn_features["@acmehealth/third-party-network/*"]
+company_api_types["@acmehealth/company-api-types"]
 end
 subgraph "Tooling (tools)"
 forgekit_plugin["forgekit-nx-storybook<br/>Nx plugin"]
@@ -110,10 +110,10 @@ This section outlines the primary building blocks of the platform and their resp
 
 - Portal (React 19): The main user interface application built with Vite, routing via React Router, and powered by Chakra UI v3. It integrates analytics, performance insights, and a robust routing system.
 - Mock API Server (Express + tsx): A lightweight Express server providing REST endpoints for companies, vendors, IP marketplace, research hub, user info, and consent management. It simulates backend interactions for development and testing.
-- Shared UI (@redesignhealth/ui): A comprehensive Chakra UI v3 component library with design system tokens, theme configuration, and standardized components. It includes shims for backward compatibility during the v2→v3 migration.
-- Portal Features (@redesignhealth/portal/*): Feature-sliced modules for companies, users, library, and other domain areas. They encapsulate data assets, UI components, utilities, and page-level logic.
-- Third-Party Network (@redesignhealth/third-party-network/*): Dedicated features for advisor networks and related functionality.
-- Company API Types (@redesignhealth/company-api-types): OpenAPI-generated TypeScript types for the Spring Boot Company API, enabling type-safe client integrations.
+- Shared UI (@acmehealth/ui): A comprehensive Chakra UI v3 component library with design system tokens, theme configuration, and standardized components. It includes shims for backward compatibility during the v2→v3 migration.
+- Portal Features (@acmehealth/portal/*): Feature-sliced modules for companies, users, library, and other domain areas. They encapsulate data assets, UI components, utilities, and page-level logic.
+- Third-Party Network (@acmehealth/third-party-network/*): Dedicated features for advisor networks and related functionality.
+- Company API Types (@acmehealth/company-api-types): OpenAPI-generated TypeScript types for the Spring Boot Company API, enabling type-safe client integrations.
 - forgekit-nx-storybook: An Nx plugin that auto-generates Storybook stories, interaction tests, Playwright component tests, and accessibility audits from component analysis.
 
 Practical examples of platform capabilities:
@@ -137,18 +137,18 @@ The system architecture is layered and modular, emphasizing separation of concer
 graph TB
 subgraph "Frontend Layer"
 portal_app["Portal App<br/>React 19 + Vite"]
-shared_ui_lib["@redesignhealth/ui<br/>Chakra UI v3"]
-portal_features_lib["@redesignhealth/portal/*"]
+shared_ui_lib["@acmehealth/ui<br/>Chakra UI v3"]
+portal_features_lib["@acmehealth/portal/*"]
 end
 subgraph "Backend Layer"
 mock_api["Mock API Server<br/>Express + tsx"]
 company_api_service["Company API<br/>Spring Boot"]
 end
 subgraph "Shared Layer"
-shared_analytics["@redesignhealth/analytics"]
-shared_hooks["@redesignhealth/hooks"]
-shared_utils["@redesignhealth/utils"]
-company_api_types["@redesignhealth/company-api-types"]
+shared_analytics["@acmehealth/analytics"]
+shared_hooks["@acmehealth/hooks"]
+shared_utils["@acmehealth/utils"]
+company_api_types["@acmehealth/company-api-types"]
 end
 portal_app --> shared_ui_lib
 portal_app --> portal_features_lib
@@ -177,7 +177,7 @@ sequenceDiagram
 participant Browser as "Browser"
 participant App as "App (React 19)"
 participant Router as "RouterProvider"
-participant Analytics as "@redesignhealth/analytics"
+participant Analytics as "@acmehealth/analytics"
 participant SI as "Speed Insights"
 Browser->>App : Mount application
 App->>Router : Initialize router with fallback
@@ -268,12 +268,12 @@ The portal features module encapsulates company-related functionality, including
 ```mermaid
 flowchart TD
 CompaniesFeature["Companies Feature"] --> Details["Company Details Page"]
-Details --> DataAssets["@redesignhealth/portal/data-assets"]
-Details --> UIComponents["@redesignhealth/portal/ui"]
-Details --> Utils["@redesignhealth/portal/utils"]
+Details --> DataAssets["@acmehealth/portal/data-assets"]
+Details --> UIComponents["@acmehealth/portal/ui"]
+Details --> Utils["@acmehealth/portal/utils"]
 DataAssets --> API["API Clients"]
-UIComponents --> SharedUI["@redesignhealth/ui"]
-Utils --> Hooks["@redesignhealth/hooks"]
+UIComponents --> SharedUI["@acmehealth/ui"]
+Utils --> Hooks["@acmehealth/hooks"]
 ```
 
 **Diagram sources**
@@ -288,10 +288,10 @@ The third-party network module provides advisor network features and related UI 
 
 ```mermaid
 graph LR
-TPN_Features["@redesignhealth/third-party-network/features"] --> AdvisorNetwork["Advisor Network"]
-AdvisorNetwork --> TPN_UI["@redesignhealth/third-party-network/ui"]
-AdvisorNetwork --> TPN_Utils["@redesignhealth/third-party-network/utils"]
-AdvisorNetwork --> TPN_Data["@redesignhealth/third-party-network/data-assets"]
+TPN_Features["@acmehealth/third-party-network/features"] --> AdvisorNetwork["Advisor Network"]
+AdvisorNetwork --> TPN_UI["@acmehealth/third-party-network/ui"]
+AdvisorNetwork --> TPN_Utils["@acmehealth/third-party-network/utils"]
+AdvisorNetwork --> TPN_Data["@acmehealth/third-party-network/data-assets"]
 ```
 
 **Diagram sources**
@@ -328,11 +328,11 @@ The monorepo enforces clear boundaries between applications and libraries, with 
 graph TB
 portal_proj["apps/portal"] --> shared_ui_proj["libs/shared/ui"]
 portal_proj --> portal_data_assets_proj["libs/portal/data-assets"]
-portal_proj --> shared_analytics_proj["@redesignhealth/analytics"]
-portal_proj --> shared_hooks_proj["@redesignhealth/hooks"]
-portal_proj --> shared_utils_proj["@redesignhealth/utils"]
+portal_proj --> shared_analytics_proj["@acmehealth/analytics"]
+portal_proj --> shared_hooks_proj["@acmehealth/hooks"]
+portal_proj --> shared_utils_proj["@acmehealth/utils"]
 api_server_proj["apps/api-server"] --> portal_proj
-company_api_proj["apps/company-api"] --> company_api_types_proj["@redesignhealth/company-api-types"]
+company_api_proj["apps/company-api"] --> company_api_types_proj["@acmehealth/company-api-types"]
 forgekit_plugin["tools/forgekit-nx-storybook"] --> shared_ui_proj
 ```
 

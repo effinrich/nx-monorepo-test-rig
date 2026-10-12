@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.entity.IpMarketplace;
-import com.redesignhealth.company.api.util.Transformation;
+import com.acmehealth.company.api.entity.IpMarketplace;
+import com.acmehealth.company.api.util.Transformation;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import java.time.Instant;

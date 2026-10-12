@@ -5,7 +5,7 @@
 - id: link
 - category: navigation
 - title: Link
-- package: '@redesignhealth/ui'
+- package: '@acmehealth/ui'
 - description: Link is an accessible element for navigation.
 
 ---
@@ -13,7 +13,7 @@
 ## Imports
 
 ```js
-import { ExternalLinkIcon, Link } from '@redesignhealth/ui'
+import { ExternalLinkIcon, Link } from '@acmehealth/ui'
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ import { ExternalLinkIcon, Link } from '@redesignhealth/ui'
 ### External Link
 
 ```jsx
-<Link href="https://redesignhealth.com" isExternal>
+<Link href="https://acmehealth.com" isExternal>
   Redesign Health design system <ExternalLinkIcon mx="2px" />
 </Link>
 ```
@@ -81,7 +81,7 @@ prop to the Next.js's link to opt out of the new behavior, and also the
 
 ```jsx
 import NextLink from 'next/link'
-import { Link, Heading } from '@redesignhealth/ui'
+import { Link, Heading } from '@acmehealth/ui'
 ...
 <NextLink href='...' legacyBehavior passHref>
   <Link>
@@ -95,7 +95,7 @@ component using the Redesign UI Factory function:
 
 ```jsx
 import NextLink, { type LinkProps as NextLinkProps } from 'next/link'
-import { rh } from '@redesignhealth/ui'
+import { rh } from '@acmehealth/ui'
 
 // wrap the NextLink with Redesign UI's factory function
 const MagicLink = rh<typeof NextLink, NextLinkProps>(NextLink, {

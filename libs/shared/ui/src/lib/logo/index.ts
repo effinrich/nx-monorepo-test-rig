@@ -1,2 +1,2 @@
 export { Logo } from './logo'
-export { RedesignHealthPrismIcon } from './redesign-health-prism'
+export { RedesignHealthPrismIcon } from './acme-health-prism'

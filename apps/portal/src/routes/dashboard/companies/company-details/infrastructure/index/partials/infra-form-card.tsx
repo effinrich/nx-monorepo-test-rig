@@ -4,9 +4,9 @@ import {
   InfraRequestCommandStatusEnum,
   RequestFormCommandStatusEnum,
   RequestFormSummary
-} from '@redesignhealth/company-api-types'
-import { useGetInfraRequest } from '@redesignhealth/portal/data-assets'
-import { Box, Button, Card, Flex, Icon, Text } from '@redesignhealth/ui'
+} from '@acmehealth/company-api-types'
+import { useGetInfraRequest } from '@acmehealth/portal/data-assets'
+import { Box, Button, Card, Flex, Icon, Text } from '@acmehealth/ui'
 
 export const InfraFormCard = ({
   form,

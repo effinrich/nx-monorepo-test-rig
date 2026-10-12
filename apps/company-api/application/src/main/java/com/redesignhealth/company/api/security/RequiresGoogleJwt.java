@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
 import static java.lang.annotation.ElementType.ANNOTATION_TYPE;
 import static java.lang.annotation.ElementType.METHOD;

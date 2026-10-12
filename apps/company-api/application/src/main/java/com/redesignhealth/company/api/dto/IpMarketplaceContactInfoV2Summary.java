@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceTrackRef;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceTrackRef;
 import java.time.Instant;
 import lombok.Getter;
 

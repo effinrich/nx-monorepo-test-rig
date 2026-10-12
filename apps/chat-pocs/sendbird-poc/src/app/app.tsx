@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import React, { useEffect, useMemo, useState } from 'react'
 import styled from '@emotion/styled'
-import { Box } from '@redesignhealth/ui'
+import { Box } from '@acmehealth/ui'
 import { Channel, ChannelList } from '@sendbird/uikit-react'
 import SessionHandler from '@sendbird/uikit-react/handlers/SessionHandler'
 import SendbirdProvider from '@sendbird/uikit-react/SendbirdProvider'

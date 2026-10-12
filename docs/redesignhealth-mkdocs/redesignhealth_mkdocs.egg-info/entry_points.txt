@@ -1,2 +1,2 @@
 [mkdocs.plugins]
-redesignhealth-mkdocs = LambdaFunctionUrlFetcher:LambdaFunctionUrlFetcher
+acmehealth-mkdocs = LambdaFunctionUrlFetcher:LambdaFunctionUrlFetcher

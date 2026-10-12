@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
 import static org.springframework.http.HttpStatus.CREATED;
 
-import com.redesignhealth.company.api.dto.AssetSummary;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.AssetService;
+import com.acmehealth.company.api.dto.AssetSummary;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.AssetService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import java.util.List;
 import org.springframework.hateoas.CollectionModel;

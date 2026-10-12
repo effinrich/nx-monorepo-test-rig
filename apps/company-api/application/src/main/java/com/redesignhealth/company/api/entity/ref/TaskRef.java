@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.entity.ref;
+package com.acmehealth.company.api.entity.ref;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.redesignhealth.company.api.entity.TaskHistory;
+import com.acmehealth.company.api.entity.TaskHistory;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 /** Natural key for a {@link TaskHistory} */
-@Schema(type = "string", example = "com.redesignhealth.company.api.task.UpdateInfraStatusTask")
+@Schema(type = "string", example = "com.acmehealth.company.api.task.UpdateInfraStatusTask")
 public class TaskRef extends Ref {
   private final String name;
 

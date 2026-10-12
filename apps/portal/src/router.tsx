@@ -3,8 +3,8 @@ import {
   createRoutesFromElements,
   Route
 } from 'react-router-dom'
-import { getUserInfo } from '@redesignhealth/portal/data-assets'
-import { EnvironmentDetails } from '@redesignhealth/portal/features/admin'
+import { getUserInfo } from '@acmehealth/portal/data-assets'
+import { EnvironmentDetails } from '@acmehealth/portal/features/admin'
 import {
   AddCeo,
   CeoDirectory,
@@ -12,7 +12,7 @@ import {
   CeoOnboardingSuccess,
   CeoProfileDetails,
   EditCeo
-} from '@redesignhealth/portal/features/ceo-directory'
+} from '@acmehealth/portal/features/ceo-directory'
 import {
   AddCompany,
   AddMarketplaceCompany,
@@ -24,22 +24,22 @@ import {
   CompanyVendors,
   EditCompany,
   EditMarketplaceCompany
-} from '@redesignhealth/portal/features/companies'
+} from '@acmehealth/portal/features/companies'
 import {
   IpListing,
   IpListingDetails,
   IpMarketplace,
   MyRequests
-} from '@redesignhealth/portal/features/ip-marketplace'
-import { Library } from '@redesignhealth/portal/features/library'
+} from '@acmehealth/portal/features/ip-marketplace'
+import { Library } from '@acmehealth/portal/features/library'
 import {
   AddCallNote,
   AddResearchSprint,
   ResearchHub
-} from '@redesignhealth/portal/features/research-hub'
-import { SignIn } from '@redesignhealth/portal/features/sign-in'
-import { Support } from '@redesignhealth/portal/features/support'
-import { AddUser, EditUser } from '@redesignhealth/portal/features/users'
+} from '@acmehealth/portal/features/research-hub'
+import { SignIn } from '@acmehealth/portal/features/sign-in'
+import { Support } from '@acmehealth/portal/features/support'
+import { AddUser, EditUser } from '@acmehealth/portal/features/users'
 import {
   AddCompanyVendor,
   AddVendor,
@@ -47,16 +47,16 @@ import {
   EditVendor,
   VendorDetails,
   Vendors
-} from '@redesignhealth/portal/features/vendors'
+} from '@acmehealth/portal/features/vendors'
 import {
   CallNotes,
   ExternalContent,
   IpListingIpDetails,
   IpListingRequests,
   ResearchSprints
-} from '@redesignhealth/portal/ui'
-import { logout } from '@redesignhealth/portal/utils'
-import { RootBoundary } from '@redesignhealth/ui'
+} from '@acmehealth/portal/ui'
+import { logout } from '@acmehealth/portal/utils'
+import { RootBoundary } from '@acmehealth/ui'
 
 import { directQueryClient } from './api/react-query'
 import {

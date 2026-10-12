@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.dto.command.ipMarketplace;
+package com.acmehealth.company.api.dto.command.ipMarketplace;
 
-import com.redesignhealth.company.api.dto.PersonReducedInfo;
-import com.redesignhealth.company.api.entity.IpMarketplace;
-import com.redesignhealth.company.api.entity.Person;
+import com.acmehealth.company.api.dto.PersonReducedInfo;
+import com.acmehealth.company.api.entity.IpMarketplace;
+import com.acmehealth.company.api.entity.Person;
 import java.net.URI;
 import lombok.Getter;
 

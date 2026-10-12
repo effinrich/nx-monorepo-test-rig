@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.entity.library.Library;
+import com.acmehealth.company.api.entity.library.Library;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import org.springframework.hateoas.RepresentationModel;

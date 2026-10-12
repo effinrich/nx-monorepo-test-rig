@@ -1,21 +1,21 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_RH_USER;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.apiIdField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.createdField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.hasPlatformAgreementField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.lastModifiedField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.linksField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.nameVendorField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pricingField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.subcategoriesField;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCategory;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyRef;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyVendor;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPerson;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testSubcategory;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testVendor;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_RH_USER;
+import static com.acmehealth.company.api.scaffolding.DocUtils.apiIdField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.createdField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.hasPlatformAgreementField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.lastModifiedField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.linksField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.nameVendorField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pricingField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.subcategoriesField;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCategory;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyRef;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyVendor;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPerson;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testSubcategory;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testVendor;
 import static org.hamcrest.Matchers.is;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
@@ -31,15 +31,15 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.entity.vendor.Vendor;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.repository.VendorRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.SubcategoryService;
-import com.redesignhealth.company.api.service.VendorService;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.entity.vendor.Vendor;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.repository.VendorRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.SubcategoryService;
+import com.acmehealth.company.api.service.VendorService;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -126,7 +126,7 @@ public class VendorControllerTests {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "adminUser@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "adminUser@acmehealth.com")
   public void testCreateVendorData_Is_OK_First_Time() throws Exception {
     var vendor = testVendor(testCompanyVendor());
     when(vendorRepository.save(ArgumentMatchers.any(Vendor.class))).thenReturn(vendor);
@@ -195,14 +195,14 @@ public class VendorControllerTests {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "adminUser@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "adminUser@acmehealth.com")
   public void testCreateVendorData_Data_Should_Be_Created_If_Subcategory_Info_Is_Not_Defined()
       throws Exception {
     var person = testPerson(ROLE_RH_ADMIN);
-    var email = "rh@redesignhealth.com";
+    var email = "rh@acmehealth.com";
     when(vendorRepository.save(ArgumentMatchers.any(Vendor.class))).thenReturn(testVendor());
     when(personRepository.findByEmail(PersonRef.of(email))).thenReturn(Optional.of(person));
-    when(personRepository.findByEmail(PersonRef.of("adminUser@redesignhealth.com")))
+    when(personRepository.findByEmail(PersonRef.of("adminUser@acmehealth.com")))
         .thenReturn(Optional.of(person));
     var payload =
         """
@@ -292,7 +292,7 @@ public class VendorControllerTests {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "adminUser@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "adminUser@acmehealth.com")
   public void testUpdateVendorData_Is_OK() throws Exception {
     var vendor = testVendor(testCompanyVendor());
     when(vendorRepository.findByApiId(vendor.getApiId())).thenReturn(Optional.of(vendor));

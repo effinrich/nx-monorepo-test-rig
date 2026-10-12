@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.client.file;
+package com.acmehealth.company.api.client.file;
 
-import static com.redesignhealth.company.api.service.InfraRequestService.logger;
+import static com.acmehealth.company.api.service.InfraRequestService.logger;
 
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.HttpResponseException;
@@ -18,13 +18,13 @@ import com.google.auth.oauth2.AccessToken;
 import com.google.auth.oauth2.OAuth2Credentials;
 import com.google.auth.oauth2.ServiceAccountCredentials;
 import com.google.common.annotations.VisibleForTesting;
-import com.redesignhealth.company.api.client.file.dto.FileFields;
-import com.redesignhealth.company.api.client.file.dto.JsonEnum;
-import com.redesignhealth.company.api.client.file.dto.PermissionFields;
-import com.redesignhealth.company.api.client.file.dto.PermissionType;
-import com.redesignhealth.company.api.client.file.dto.Role;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.exception.GoogleDriveException;
+import com.acmehealth.company.api.client.file.dto.FileFields;
+import com.acmehealth.company.api.client.file.dto.JsonEnum;
+import com.acmehealth.company.api.client.file.dto.PermissionFields;
+import com.acmehealth.company.api.client.file.dto.PermissionType;
+import com.acmehealth.company.api.client.file.dto.Role;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.exception.GoogleDriveException;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

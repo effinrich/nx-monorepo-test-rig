@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.Category;
-import com.redesignhealth.company.api.entity.Subcategory;
-import com.redesignhealth.company.api.entity.ref.SubcategoryRef;
+import com.acmehealth.company.api.entity.Category;
+import com.acmehealth.company.api.entity.Subcategory;
+import com.acmehealth.company.api.entity.ref.SubcategoryRef;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;

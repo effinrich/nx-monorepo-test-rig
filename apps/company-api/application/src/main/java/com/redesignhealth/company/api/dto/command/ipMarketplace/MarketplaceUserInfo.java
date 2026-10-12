@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto.command.ipMarketplace;
+package com.acmehealth.company.api.dto.command.ipMarketplace;
 
-import com.redesignhealth.company.api.dto.PersonReducedInfo;
+import com.acmehealth.company.api.dto.PersonReducedInfo;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 

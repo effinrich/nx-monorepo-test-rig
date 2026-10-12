@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.client.email;
+package com.acmehealth.company.api.client.email;
 
-import com.redesignhealth.company.api.dto.command.LibraryFeedbackCommand;
-import com.redesignhealth.company.api.dto.command.ipMarketplace.IpMarketplaceBuyerRequestContactInfoCommand;
-import com.redesignhealth.company.api.dto.command.ipMarketplace.IpMarketplaceNewMessageChatCommand;
-import com.redesignhealth.company.api.dto.command.ipMarketplace.IpMarketplaceSellerReleaseContactInfoCommand;
-import com.redesignhealth.company.api.dto.command.vendor.CompanyVendorChangeCommand;
-import com.redesignhealth.company.api.entity.Person;
+import com.acmehealth.company.api.dto.command.LibraryFeedbackCommand;
+import com.acmehealth.company.api.dto.command.ipMarketplace.IpMarketplaceBuyerRequestContactInfoCommand;
+import com.acmehealth.company.api.dto.command.ipMarketplace.IpMarketplaceNewMessageChatCommand;
+import com.acmehealth.company.api.dto.command.ipMarketplace.IpMarketplaceSellerReleaseContactInfoCommand;
+import com.acmehealth.company.api.dto.command.vendor.CompanyVendorChangeCommand;
+import com.acmehealth.company.api.entity.Person;
 import java.net.URI;
 import java.util.List;
 import java.util.Set;

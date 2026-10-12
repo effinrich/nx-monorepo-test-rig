@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto.enums;
+package com.acmehealth.company.api.dto.enums;
 
-import com.redesignhealth.company.api.dto.SerializableEnum;
+import com.acmehealth.company.api.dto.SerializableEnum;
 
 public enum CompanyIPMarketplaceOrganizationType implements SerializableEnum {
   IDN_HEALTH_SYSTEM("IDN/Health System"),

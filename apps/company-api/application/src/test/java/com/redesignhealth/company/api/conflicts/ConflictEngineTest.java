@@ -1,18 +1,18 @@
-package com.redesignhealth.company.api.conflicts;
+package com.acmehealth.company.api.conflicts;
 
-import static com.redesignhealth.company.api.scaffolding.Fixtures.TEST_COMPANY_ID;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompany;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyRef;
+import static com.acmehealth.company.api.scaffolding.Fixtures.TEST_COMPANY_ID;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompany;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyRef;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;
 
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.CompanyConflict;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.repository.CompanyConflictRepository;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.CompanyConflict;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.repository.CompanyConflictRepository;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
 import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -233,7 +233,7 @@ graph TB
 SBApp["sendbird-poc/src/app/app.tsx"]
 UIKit["@sendbird/uikit-react"]
 Emotion["@emotion/styled"]
-DesignBox["@redesignhealth/ui Box"]
+DesignBox["@acmehealth/ui Box"]
 SBApp --> UIKit
 SBApp --> Emotion
 SBApp --> DesignBox

@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.entity.request;
+package com.acmehealth.company.api.entity.request;
 
-import com.redesignhealth.company.api.dto.SerializableEnum;
+import com.acmehealth.company.api.dto.SerializableEnum;
 
 public enum RequestStatus implements SerializableEnum {
   AWAITING_SUBMISSION("Awaiting submission"),

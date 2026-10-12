@@ -1,4 +1,4 @@
-import { getUserAccessToken } from '@redesignhealth/third-party-network/utils'
+import { getUserAccessToken } from '@acmehealth/third-party-network/utils'
 import axios, { AxiosRequestHeaders } from 'axios'
 import qs from 'qs'
 

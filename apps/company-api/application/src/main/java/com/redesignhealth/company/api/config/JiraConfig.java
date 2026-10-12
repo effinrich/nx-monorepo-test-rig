@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.config;
+package com.acmehealth.company.api.config;
 
-import com.redesignhealth.company.api.client.jira.JiraClient;
-import com.redesignhealth.company.api.client.jira.JiraClientImpl;
-import com.redesignhealth.company.api.client.jira.NoopJiraClient;
-import com.redesignhealth.company.api.property.JiraClientProperties;
+import com.acmehealth.company.api.client.jira.JiraClient;
+import com.acmehealth.company.api.client.jira.JiraClientImpl;
+import com.acmehealth.company.api.client.jira.NoopJiraClient;
+import com.acmehealth.company.api.property.JiraClientProperties;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

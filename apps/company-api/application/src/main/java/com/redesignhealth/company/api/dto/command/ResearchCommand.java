@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.redesignhealth.company.api.dto.LinkRef;
+import com.acmehealth.company.api.dto.LinkRef;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
@@ -21,7 +21,7 @@ public class ResearchCommand {
   private String title;
 
   @Schema(
-      example = "[\"terra.branford@redesignhealth.com\"]",
+      example = "[\"terra.branford@acmehealth.com\"]",
       requiredMode = Schema.RequiredMode.REQUIRED)
   @JsonProperty(AUTHORS_FIELD)
   @NotEmpty

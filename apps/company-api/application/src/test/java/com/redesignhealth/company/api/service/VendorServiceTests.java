@@ -1,20 +1,20 @@
-package com.redesignhealth.company.api.service;
+package com.acmehealth.company.api.service;
 
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCategory;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyVendor;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPerson;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testSubcategory;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testVendor;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCategory;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyVendor;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPerson;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testSubcategory;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testVendor;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-import com.redesignhealth.company.api.dto.SearchFilter;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.repository.VendorRepository;
-import com.redesignhealth.company.api.security.JwtAuthentication;
-import com.redesignhealth.company.api.security.RedesignUserDetails;
+import com.acmehealth.company.api.dto.SearchFilter;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.repository.VendorRepository;
+import com.acmehealth.company.api.security.JwtAuthentication;
+import com.acmehealth.company.api.security.RedesignUserDetails;
 import java.util.List;
 import java.util.Set;
 import org.junit.jupiter.api.AfterEach;

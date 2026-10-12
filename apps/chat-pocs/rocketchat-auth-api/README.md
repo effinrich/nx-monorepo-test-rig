@@ -8,12 +8,12 @@
 - if you don't, the download is just a static binary and you can drop it in `/usr/local/bin` or similar for convenience.
 
 2. Connect to VPN
-3. Use the Okta method to login to our Vault instance at https://vault.core.redesignhealth.com
+3. Use the Okta method to login to our Vault instance at https://vault.core.acmehealth.com
 4. Select the person icon in the top of the left hand nav, then "copy token". You'll need this in step 6.
 5. Open a new Terminal and tell Vault our instance address:
 
 ```
-% export VAULT_ADDR=https://vault.core.redesignhealth.com
+% export VAULT_ADDR=https://vault.core.acmehealth.com
 ```
 
 6. Login to Vault from this terminal. Paste the token from step 4 when prompted. You should see a success message.

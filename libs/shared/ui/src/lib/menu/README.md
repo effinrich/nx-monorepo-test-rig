@@ -1,4 +1,4 @@
-# @redesignhealth/ui - Menu
+# @acmehealth/ui - Menu
 
 An accessible dropdown menu for the common dropdown menu button design pattern.
 Menu uses roving tabIndex for focus management.
@@ -6,11 +6,11 @@ Menu uses roving tabIndex for focus management.
 ## Installation
 
 ```sh
-yarn add @redesignhealth/ui
+yarn add @acmehealth/ui
 
 # or
 
-npm i @redesignhealth/ui
+npm i @acmehealth/ui
 ```
 
 ## Import components
@@ -25,7 +25,7 @@ import {
   MenuDivider,
   MenuOptionGroup,
   MenuItemOption
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 ## Usage

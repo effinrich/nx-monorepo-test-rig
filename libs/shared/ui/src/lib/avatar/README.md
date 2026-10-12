@@ -2,7 +2,7 @@
 id: avatar
 category: media-and-icons
 title: Avatar
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   The Avatar component is used to represent user, and displays the profile
   picture, initials or fallback icon.
@@ -20,7 +20,7 @@ Redesign UI exports 3 avatar-related components:
 - `AvatarGroup`: A wrapper to stack multiple Avatars together.
 
 ```js
-import { Avatar, AvatarBadge, AvatarGroup } from '@redesignhealth/ui'
+import { Avatar, AvatarBadge, AvatarGroup } from '@acmehealth/ui'
 ```
 
 ## Usage

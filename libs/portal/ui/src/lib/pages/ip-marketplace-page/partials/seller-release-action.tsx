@@ -1,5 +1,5 @@
-import analytics from '@redesignhealth/analytics'
-import { Button, useDisclosure } from '@redesignhealth/ui'
+import analytics from '@acmehealth/analytics'
+import { Button, useDisclosure } from '@acmehealth/ui'
 
 import SellerReleaseModal from '../seller-release-modal/seller-release-modal'
 interface SellerReleaseActionProps {

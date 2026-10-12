@@ -2,7 +2,7 @@
 id: badge
 title: Badge
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Badges are used to highlight an item's status for quick recognition.
 ---
 
@@ -11,7 +11,7 @@ description: Badges are used to highlight an item's status for quick recognition
 ## Import
 
 ```js
-import { Badge } from '@redesignhealth/ui'
+import { Badge } from '@acmehealth/ui'
 ```
 
 ## Usage

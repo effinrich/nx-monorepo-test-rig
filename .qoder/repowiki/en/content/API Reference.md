@@ -7,13 +7,13 @@
 - [index.adoc](file://apps/company-api/application/src/docs/asciidoc/index.adoc)
 - [person.adoc](file://apps/company-api/application/src/docs/asciidoc/person.adoc)
 - [vendor.adoc](file://apps/company-api/application/src/docs/asciidoc/vendor.adoc)
-- [OpenApiConfig.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/OpenApiConfig.java)
-- [SecurityConfig.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java)
+- [OpenApiConfig.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/OpenApiConfig.java)
+- [SecurityConfig.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java)
 - [application.yml](file://apps/company-api/application/src/main/resources/application.yml)
-- [GlobalExceptionHandler.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/handler/GlobalExceptionHandler.java)
-- [PersonController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/PersonController.java)
-- [VendorController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/VendorController.java)
-- [CompanyController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/CompanyController.java)
+- [GlobalExceptionHandler.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/handler/GlobalExceptionHandler.java)
+- [PersonController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/PersonController.java)
+- [VendorController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/VendorController.java)
+- [CompanyController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/CompanyController.java)
 </cite>
 
 ## Table of Contents
@@ -56,9 +56,9 @@ OAS --> OpenAPI
 ```
 
 **Diagram sources**
-- [OpenApiConfig.java:1-59](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/OpenApiConfig.java#L1-L59)
-- [SecurityConfig.java:1-89](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java#L1-L89)
-- [GlobalExceptionHandler.java:1-157](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/handler/GlobalExceptionHandler.java#L1-L157)
+- [OpenApiConfig.java:1-59](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/OpenApiConfig.java#L1-L59)
+- [SecurityConfig.java:1-89](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java#L1-L89)
+- [GlobalExceptionHandler.java:1-157](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/handler/GlobalExceptionHandler.java#L1-L157)
 - [company-api.json:1-16776](file://contracts/company-api/v1/company-api.json#L1-L16776)
 
 **Section sources**
@@ -78,11 +78,11 @@ OAS --> OpenAPI
   - Distinction between generic and field-specific validation errors.
 
 **Section sources**
-- [OpenApiConfig.java:18-44](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/OpenApiConfig.java#L18-L44)
-- [SecurityConfig.java:28-72](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java#L28-L72)
+- [OpenApiConfig.java:18-44](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/OpenApiConfig.java#L18-L44)
+- [SecurityConfig.java:28-72](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java#L28-L72)
 - [application.yml:104-107](file://apps/company-api/application/src/main/resources/application.yml#L104-L107)
 - [index.adoc:5-37](file://apps/company-api/application/src/docs/asciidoc/index.adoc#L5-L37)
-- [GlobalExceptionHandler.java:28-157](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/handler/GlobalExceptionHandler.java#L28-L157)
+- [GlobalExceptionHandler.java:28-157](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/handler/GlobalExceptionHandler.java#L28-L157)
 
 ## Architecture Overview
 The API uses stateless authentication, method-level authorization, and HATEOAS-friendly responses. CORS is configured centrally, and the OpenAPI configuration defines security schemes for JWT and impersonation.
@@ -111,9 +111,9 @@ end
 ```
 
 **Diagram sources**
-- [SecurityConfig.java:38-61](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java#L38-L61)
-- [OpenApiConfig.java:21-44](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/OpenApiConfig.java#L21-L44)
-- [GlobalExceptionHandler.java:28-157](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/handler/GlobalExceptionHandler.java#L28-L157)
+- [SecurityConfig.java:38-61](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java#L38-L61)
+- [OpenApiConfig.java:21-44](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/OpenApiConfig.java#L21-L44)
+- [GlobalExceptionHandler.java:28-157](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/handler/GlobalExceptionHandler.java#L28-L157)
 
 ## Detailed Component Analysis
 
@@ -128,8 +128,8 @@ end
   - Allowed origin patterns, methods, and headers are configurable.
 
 **Section sources**
-- [OpenApiConfig.java:18-44](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/OpenApiConfig.java#L18-L44)
-- [SecurityConfig.java:28-72](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java#L28-L72)
+- [OpenApiConfig.java:18-44](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/OpenApiConfig.java#L18-L44)
+- [SecurityConfig.java:28-72](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java#L28-L72)
 - [application.yml:104-107](file://apps/company-api/application/src/main/resources/application.yml#L104-L107)
 - [index.adoc:17-37](file://apps/company-api/application/src/docs/asciidoc/index.adoc#L17-L37)
 
@@ -167,7 +167,7 @@ Security
 - Requires Bearer JWT; impersonation allowed via header for super admins.
 
 **Section sources**
-- [PersonController.java:58-136](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/PersonController.java#L58-L136)
+- [PersonController.java:58-136](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/PersonController.java#L58-L136)
 - [person.adoc:1-67](file://apps/company-api/application/src/docs/asciidoc/person.adoc#L1-L67)
 - [company-api.json:350-681](file://contracts/company-api/v1/company-api.json#L350-L681)
 
@@ -200,7 +200,7 @@ Security
 - Requires Bearer JWT; impersonation allowed via header for super admins.
 
 **Section sources**
-- [VendorController.java:53-112](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/VendorController.java#L53-L112)
+- [VendorController.java:53-112](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/VendorController.java#L53-L112)
 - [vendor.adoc:1-44](file://apps/company-api/application/src/docs/asciidoc/vendor.adoc#L1-L44)
 - [company-api.json:39-348](file://contracts/company-api/v1/company-api.json#L39-L348)
 
@@ -245,7 +245,7 @@ Security
 - Requires Bearer JWT; impersonation allowed via header for super admins.
 
 **Section sources**
-- [CompanyController.java:73-175](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/CompanyController.java#L73-L175)
+- [CompanyController.java:73-175](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/CompanyController.java#L73-L175)
 - [company-api.json:39-348](file://contracts/company-api/v1/company-api.json#L39-L348)
 
 ### Additional Endpoints (from OpenAPI)
@@ -285,17 +285,17 @@ CompanyController --> GlobalExceptionHandler : "throws/returns"
 ```
 
 **Diagram sources**
-- [OpenApiConfig.java:18-44](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/OpenApiConfig.java#L18-L44)
-- [SecurityConfig.java:38-88](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java#L38-L88)
-- [GlobalExceptionHandler.java:28-157](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/handler/GlobalExceptionHandler.java#L28-L157)
-- [PersonController.java:38-136](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/PersonController.java#L38-L136)
-- [VendorController.java:39-112](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/VendorController.java#L39-L112)
-- [CompanyController.java:42-175](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/CompanyController.java#L42-L175)
+- [OpenApiConfig.java:18-44](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/OpenApiConfig.java#L18-L44)
+- [SecurityConfig.java:38-88](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java#L38-L88)
+- [GlobalExceptionHandler.java:28-157](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/handler/GlobalExceptionHandler.java#L28-L157)
+- [PersonController.java:38-136](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/PersonController.java#L38-L136)
+- [VendorController.java:39-112](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/VendorController.java#L39-L112)
+- [CompanyController.java:42-175](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/CompanyController.java#L42-L175)
 
 **Section sources**
-- [OpenApiConfig.java:18-44](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/OpenApiConfig.java#L18-L44)
-- [SecurityConfig.java:38-88](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/SecurityConfig.java#L38-L88)
-- [GlobalExceptionHandler.java:28-157](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/handler/GlobalExceptionHandler.java#L28-L157)
+- [OpenApiConfig.java:18-44](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/OpenApiConfig.java#L18-L44)
+- [SecurityConfig.java:38-88](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/SecurityConfig.java#L38-L88)
+- [GlobalExceptionHandler.java:28-157](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/handler/GlobalExceptionHandler.java#L28-L157)
 
 ## Performance Considerations
 - Pagination
@@ -310,7 +310,7 @@ CompanyController --> GlobalExceptionHandler : "throws/returns"
 - [application.yml:9-11](file://apps/company-api/application/src/main/resources/application.yml#L9-L11)
 - [application.yml:211-214](file://apps/company-api/application/src/main/resources/application.yml#L211-L214)
 - [index.adoc:243-295](file://apps/company-api/application/src/docs/asciidoc/index.adoc#L243-L295)
-- [VendorController.java:53-68](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/VendorController.java#L53-L68)
+- [VendorController.java:53-68](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/VendorController.java#L53-L68)
 
 ## Troubleshooting Guide
 Common issues and resolutions:
@@ -328,7 +328,7 @@ Common issues and resolutions:
 
 **Section sources**
 - [index.adoc:5-37](file://apps/company-api/application/src/docs/asciidoc/index.adoc#L5-L37)
-- [GlobalExceptionHandler.java:42-120](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/handler/GlobalExceptionHandler.java#L42-L120)
+- [GlobalExceptionHandler.java:42-120](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/handler/GlobalExceptionHandler.java#L42-L120)
 - [application.yml:104-107](file://apps/company-api/application/src/main/resources/application.yml#L104-L107)
 
 ## Conclusion

@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 
-import com.redesignhealth.company.api.controller.LibraryController;
-import com.redesignhealth.company.api.dto.LibrarySummary;
-import com.redesignhealth.company.api.entity.library.Library;
+import com.acmehealth.company.api.controller.LibraryController;
+import com.acmehealth.company.api.dto.LibrarySummary;
+import com.acmehealth.company.api.entity.library.Library;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 

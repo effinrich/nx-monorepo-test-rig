@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

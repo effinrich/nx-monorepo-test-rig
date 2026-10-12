@@ -2,7 +2,7 @@
 id: spinner
 category: feedback
 title: Spinner
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Spinners provide a visual cue that an action is processing awaiting a course
   of change or a result.
@@ -16,12 +16,12 @@ of change or a result.
 ## Import
 
 ```js
-import { Spinner } from '@redesignhealth/ui'
+import { Spinner } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-feedback-spinner--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-feedback-spinner--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

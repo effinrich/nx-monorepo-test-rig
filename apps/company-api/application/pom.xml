@@ -7,7 +7,7 @@
     <version>3.1.5</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>com.redesignhealth</groupId>
+  <groupId>com.acmehealth</groupId>
   <artifactId>company-api</artifactId>
   <version>0.0.23-SNAPSHOT</version>
   <name>Company API</name>
@@ -33,7 +33,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages from rh-design-library</name>
-      <url>https://maven.pkg.github.com/redesignhealth/rh-design-system</url>
+      <url>https://maven.pkg.github.com/acmehealth/rh-design-system</url>
     </repository>
   </repositories>
 
@@ -144,7 +144,7 @@
     </dependency>
     <!-- AWS -->
     <dependency>
-      <groupId>com.redesignhealth</groupId>
+      <groupId>com.acmehealth</groupId>
       <artifactId>aws-secrets-manager-property-source</artifactId>
       <version>${aws.secrets.manager.property.source.version}</version>
     </dependency>
@@ -195,7 +195,7 @@
       <version>${google.api.services.drive.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.redesignhealth</groupId>
+      <groupId>com.acmehealth</groupId>
       <artifactId>jira-rest-client</artifactId>
       <version>0.0.23-SNAPSHOT</version>
       <exclusions>
@@ -319,7 +319,7 @@
             <tocLevels>3</tocLevels>
             <stylesheet>assets/style.css</stylesheet>
             <source-highlighter>highlight.js</source-highlighter>
-            <service-host>https://dev-company-api.redesignhealth.com</service-host>
+            <service-host>https://dev-company-api.acmehealth.com</service-host>
           </attributes>
         </configuration>
         <dependencies>

@@ -4,7 +4,7 @@ import {
   mocks,
   render,
   screen
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 import { setupServer } from 'msw/node'
 
 import CeoDirectoryOnboardingPage from './ceo-onboarding-page'

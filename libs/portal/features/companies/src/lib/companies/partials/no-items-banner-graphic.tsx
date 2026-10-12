@@ -1,4 +1,4 @@
-import { rh } from '@redesignhealth/ui'
+import { rh } from '@acmehealth/ui'
 
 const NoItemsBannerGraphic = () => {
   return (

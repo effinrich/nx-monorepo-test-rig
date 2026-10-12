@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.document;
+package com.acmehealth.company.api.document;
 
-import com.redesignhealth.company.api.dto.enums.TopicType;
+import com.acmehealth.company.api.dto.enums.TopicType;
 import java.util.Map;
 
 /**

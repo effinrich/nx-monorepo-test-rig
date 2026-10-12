@@ -1,17 +1,17 @@
-# @redesignhealth/ui — Shared UI Library
+# @acmehealth/ui — Shared UI Library
 
 The Redesign Health component library for React, built on top of [Chakra UI v3](https://www.chakra-ui.com). Consumed by `apps/portal` and other frontend applications in this monorepo.
 
 ## Documentation & Storybook
 
-- **Platform Docs:** https://dev-design.redesignhealth.com/platform-documentation-library/platform-intro.html
-- **Storybook:** https://dev-design.redesignhealth.com/storybook/shared-ui/index.html
+- **Platform Docs:** https://dev-design.acmehealth.com/platform-documentation-library/platform-intro.html
+- **Storybook:** https://dev-design.acmehealth.com/storybook/shared-ui/index.html
 - **Migration Guide:** [MIGRATION.md](./MIGRATION.md) — Chakra UI v2 → v3 changes
 
 ## Usage
 
 ```tsx
-import { Button, Card, CardBody, Input, Modal } from '@redesignhealth/ui'
+import { Button, Card, CardBody, Input, Modal } from '@acmehealth/ui'
 ```
 
 All public components, hooks, and utilities are re-exported from the package root (`libs/shared/ui/src/index.ts`).

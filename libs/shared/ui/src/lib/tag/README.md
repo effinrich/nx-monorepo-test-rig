@@ -2,7 +2,7 @@
 id: tag
 title: Tag
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: "Tag component is used for items that need to be labeled, categorized, or
 organized using keywords that describe them."
 ---
@@ -24,7 +24,7 @@ import {
   TagLeftIcon,
   TagRightIcon,
   TagCloseButton
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 ## Usage

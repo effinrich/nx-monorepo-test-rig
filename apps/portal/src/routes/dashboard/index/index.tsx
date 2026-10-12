@@ -7,9 +7,9 @@ import {
   useGetUserInfo,
   useGetUsersList
   // useGetUsersList
-} from '@redesignhealth/portal/data-assets'
-import { Page } from '@redesignhealth/portal/ui'
-import { isAdminRole } from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/data-assets'
+import { Page } from '@acmehealth/portal/ui'
+import { isAdminRole } from '@acmehealth/portal/utils'
 import {
   AddUserIcon,
   Box,
@@ -17,7 +17,7 @@ import {
   SectionHeader,
   SimpleGrid,
   StatCard
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import CompanyCtaCard from './partials/company-cta-card'
 

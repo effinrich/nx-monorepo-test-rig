@@ -5,7 +5,7 @@ import { HStack } from '../h-stack/h-stack'
 import { VStack } from '../v-stack/v-stack'
 
 import { Logo } from './logo'
-import { RedesignHealthPrismIcon } from './redesign-health-prism'
+import { RedesignHealthPrismIcon } from './acme-health-prism'
 
 export default {
   component: Logo,

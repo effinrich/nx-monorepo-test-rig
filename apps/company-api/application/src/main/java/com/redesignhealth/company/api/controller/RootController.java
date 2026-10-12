@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 

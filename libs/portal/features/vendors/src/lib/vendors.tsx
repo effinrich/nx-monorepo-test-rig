@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet'
 import { Outlet } from 'react-router-dom'
-import { Page, VendorReferencesPage } from '@redesignhealth/portal/ui'
+import { Page, VendorReferencesPage } from '@acmehealth/portal/ui'
 
 export const Vendors = () => {
   return (

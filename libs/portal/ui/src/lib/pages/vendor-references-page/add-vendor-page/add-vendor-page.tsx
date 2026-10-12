@@ -2,8 +2,8 @@ import { useNavigate } from 'react-router-dom'
 import {
   useCreateVendor,
   VendorFormProps
-} from '@redesignhealth/portal/data-assets'
-import { Box, SectionHeader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/data-assets'
+import { Box, SectionHeader } from '@acmehealth/ui'
 
 import { VendorForm } from '../vendor-form/vendor-form'
 

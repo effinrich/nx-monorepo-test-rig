@@ -1,4 +1,4 @@
-import { createRequest } from '@redesignhealth/third-party-network/data-assets'
+import { createRequest } from '@acmehealth/third-party-network/data-assets'
 
 export interface CreateIntroductionRequest {
   advisorId: string

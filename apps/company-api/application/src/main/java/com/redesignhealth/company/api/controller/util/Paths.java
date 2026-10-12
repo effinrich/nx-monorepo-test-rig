@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.controller.util;
+package com.acmehealth.company.api.controller.util;
 
 import org.springdoc.core.annotations.ParameterObject;
 

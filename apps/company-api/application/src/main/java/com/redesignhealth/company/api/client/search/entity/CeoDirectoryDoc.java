@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.client.search.entity;
+package com.acmehealth.company.api.client.search.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.redesignhealth.company.api.dto.SerializableEnum;
-import com.redesignhealth.company.api.entity.Ceo;
-import com.redesignhealth.company.api.entity.Person;
+import com.acmehealth.company.api.dto.SerializableEnum;
+import com.acmehealth.company.api.entity.Ceo;
+import com.acmehealth.company.api.entity.Person;
 import java.util.List;
 import lombok.Builder;
 import lombok.Getter;

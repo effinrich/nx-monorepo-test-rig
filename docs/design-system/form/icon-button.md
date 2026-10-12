@@ -2,7 +2,7 @@
 id: icon-button
 category: form
 title: Icon Button
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Icon button renders an icon within in a button.
 ---
 
@@ -13,12 +13,12 @@ The `Icon button` component renders an icon within in a button.
 ## Import
 
 ```js
-import { IconButton } from '@redesignhealth/ui'
+import { IconButton } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-iconbutton--default&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-iconbutton--default&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

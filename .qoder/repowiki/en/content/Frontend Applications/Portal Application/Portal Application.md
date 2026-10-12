@@ -122,7 +122,7 @@ subgraph "State"
 RQ["react-query.ts (QueryClient + Keys)"]
 end
 subgraph "Integration"
-DA["@redesignhealth/portal/data-assets"]
+DA["@acmehealth/portal/data-assets"]
 EXT["Generated API Clients"]
 end
 subgraph "Infrastructure"
@@ -170,7 +170,7 @@ participant Main as "main.tsx"
 participant App as "app.tsx"
 participant Router as "router.tsx"
 participant Layout as "layout.tsx"
-participant DataAssets as "@redesignhealth/portal/data-assets"
+participant DataAssets as "@acmehealth/portal/data-assets"
 Browser->>Main : Mount providers
 Main->>App : Render App
 App->>Router : RouterProvider(router)
@@ -356,15 +356,15 @@ M --> RQ["@tanstack/react-query"]
 M --> GA["react-ga4"]
 M --> HJ["@hotjar/browser"]
 M --> GO["@react-oauth/google"]
-M --> RH["@redesignhealth/ui"]
+M --> RH["@acmehealth/ui"]
 APP["app.tsx"] --> HM["react-helmet"]
 APP --> SI["@vercel/speed-insights"]
-RT["router.tsx"] --> DA["@redesignhealth/portal/data-assets"]
-RT --> FE["@redesignhealth/portal/features/*"]
-RT --> UI["@redesignhealth/portal/ui"]
+RT["router.tsx"] --> DA["@acmehealth/portal/data-assets"]
+RT --> FE["@acmehealth/portal/features/*"]
+RT --> UI["@acmehealth/portal/ui"]
 LYT["layout.tsx"] --> DA
 LYT --> UI
-LYT --> UT["@redesignhealth/portal/utils"]
+LYT --> UT["@acmehealth/portal/utils"]
 RQF["react-query.ts"] --> RQ
 ```
 

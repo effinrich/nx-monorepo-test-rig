@@ -3,7 +3,7 @@ import {
   mockGetCategories,
   mockGetVendors,
   mockVendor
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   fireEvent,
   mocks,
@@ -12,7 +12,7 @@ import {
   selectReactSelectOption,
   waitFor,
   waitForLoadingToFinish
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 import { setupServer } from 'msw/node'
 
 import { CompanyVendorForm } from './company-vendor-form'
@@ -80,7 +80,7 @@ describe('CompanyVendorForm', () => {
     ).toBeInTheDocument()
   })
 
-  // Fix me: https://redesignhealth.atlassian.net/browse/PUD-1044
+  // Fix me: https://acmehealth.atlassian.net/browse/PUD-1044
   it.skip('submits the full form', async () => {
     render(
       <CompanyVendorForm

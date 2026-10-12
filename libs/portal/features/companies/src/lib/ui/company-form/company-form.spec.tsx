@@ -7,7 +7,7 @@ import {
   mocks,
   render,
   screen
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 
 import { CompanyForm, OptionsProps } from './company-form'
 

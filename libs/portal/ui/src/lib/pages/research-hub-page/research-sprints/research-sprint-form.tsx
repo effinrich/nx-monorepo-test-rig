@@ -5,7 +5,7 @@ import {
   NewSprintProps,
   PersonSummary,
   TaxonomySummary
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   AlertRoot,
   AlertDescription,
@@ -18,7 +18,7 @@ import {
   NumberInputField,
   Text,
   Textarea
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { Select } from 'chakra-react-select'
 
 import { FormField } from '../../../form-field/form-field'

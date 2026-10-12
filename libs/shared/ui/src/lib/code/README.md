@@ -2,7 +2,7 @@
 id: code
 title: Code
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Code is a component used to display inline code. It is composed from the Box
   component with a font family of `mono` for displaying code.
@@ -13,7 +13,7 @@ description:
 ## Import
 
 ```js
-import { Code } from '@redesignhealth/ui'
+import { Code } from '@acmehealth/ui'
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ prop.
 ```jsx
 <Stack direction="row">
   <Code children="console.log(welcome)" />
-  <Code colorScheme="red" children="var redesign = 'awesome!'" />
-  <Code colorScheme="yellow" children="npm install redesign" />
+  <Code colorScheme="red" children="var acme = 'awesome!'" />
+  <Code colorScheme="yellow" children="npm install acme" />
 </Stack>
 ```

@@ -5,8 +5,8 @@ import {
   useNavigate,
   useRouteError
 } from 'react-router-dom'
-import { ApiError } from '@redesignhealth/portal/data-assets'
-import { Box, Button, Flex, Heading, Text } from '@redesignhealth/ui'
+import { ApiError } from '@acmehealth/portal/data-assets'
+import { Box, Button, Flex, Heading, Text } from '@acmehealth/ui'
 import {  AxiosResponse } from 'axios'
 
 import { logout } from '../store'

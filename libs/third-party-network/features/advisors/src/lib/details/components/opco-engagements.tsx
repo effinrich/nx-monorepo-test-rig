@@ -7,7 +7,7 @@ import {
   Loader,
   StarIcon,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { useOpcoEngagementsQuery } from '../hooks'
 

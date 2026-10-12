@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.ExpertNote;
-import com.redesignhealth.company.api.entity.ref.ExpertNoteRef;
+import com.acmehealth.company.api.entity.ExpertNote;
+import com.acmehealth.company.api.entity.ref.ExpertNoteRef;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;

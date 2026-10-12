@@ -7,7 +7,7 @@ import {
   Heading,
   HStack,
   Stack
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import BackButton from '../back-button/back-button'
 

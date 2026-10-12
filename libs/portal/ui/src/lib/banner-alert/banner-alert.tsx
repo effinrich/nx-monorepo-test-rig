@@ -1,6 +1,6 @@
 import React from 'react'
 import { IconType } from 'react-icons/lib'
-import { type AlertRootProps, AlertRoot, AlertIcon, HStack } from '@redesignhealth/ui'
+import { type AlertRootProps, AlertRoot, AlertIcon, HStack } from '@acmehealth/ui'
 
 export interface BannerAlert extends AlertRootProps {
   children: React.ReactNode

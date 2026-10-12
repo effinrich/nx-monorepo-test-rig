@@ -3,7 +3,7 @@ import {
   getFirstOpcoEngagementDate,
   getOpcoEngagementNames,
   getTaxonomyTagsText
-} from '@redesignhealth/third-party-network/data-assets'
+} from '@acmehealth/third-party-network/data-assets'
 
 import { Advisor, OpcoEngagement } from './types'
 

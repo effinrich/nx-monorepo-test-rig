@@ -1,14 +1,14 @@
-package com.redesignhealth.company.api.client.message;
+package com.acmehealth.company.api.client.message;
 
-import static com.redesignhealth.company.api.property.JiraRequestProperties.Issue.GITHUB_FIELD;
-import static com.redesignhealth.company.api.property.JiraRequestProperties.Issue.SSO_FIELD;
+import static com.acmehealth.company.api.property.JiraRequestProperties.Issue.GITHUB_FIELD;
+import static com.acmehealth.company.api.property.JiraRequestProperties.Issue.SSO_FIELD;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.redesignhealth.company.api.dto.command.InfraRequestCommand;
-import com.redesignhealth.company.api.entity.request.RequestStatus;
-import com.redesignhealth.company.api.client.jira.ChangeDetails;
-import com.redesignhealth.company.api.property.JiraRequestProperties;
+import com.acmehealth.company.api.dto.command.InfraRequestCommand;
+import com.acmehealth.company.api.entity.request.RequestStatus;
+import com.acmehealth.company.api.client.jira.ChangeDetails;
+import com.acmehealth.company.api.property.JiraRequestProperties;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;

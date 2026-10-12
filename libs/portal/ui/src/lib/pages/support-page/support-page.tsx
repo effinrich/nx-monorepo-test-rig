@@ -1,6 +1,6 @@
 import { MdFeed, MdFeedback, MdHelp } from 'react-icons/md'
-import { useGetMeConsent } from '@redesignhealth/portal/data-assets'
-import { formatDate } from '@redesignhealth/portal/utils'
+import { useGetMeConsent } from '@acmehealth/portal/data-assets'
+import { formatDate } from '@acmehealth/portal/utils'
 import {
   Box,
   Circle,
@@ -9,7 +9,7 @@ import {
   SectionHeader,
   SimpleGrid,
   useDisclosure
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import Terms from '../../terms/terms'
 
@@ -32,8 +32,8 @@ const SupportPage = () => {
           }
           title="Need help? Send us an email!"
           ctaVariant="link"
-          ctaText="platform-support@redesignhealth.com"
-          href="mailto:platform-support@redesignhealth.com"
+          ctaText="platform-support@acmehealth.com"
+          href="mailto:platform-support@acmehealth.com"
           variant="filled"
         />
         <CtaCard

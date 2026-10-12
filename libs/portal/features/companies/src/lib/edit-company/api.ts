@@ -2,7 +2,7 @@ import {
   type CompanyCommand,
   type CompanySummary,
   axiosApi
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 
 export interface ConflictsProps {
   links?: string[]

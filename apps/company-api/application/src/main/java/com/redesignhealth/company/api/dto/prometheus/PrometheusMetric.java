@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.dto.prometheus;
+package com.acmehealth.company.api.dto.prometheus;
 
 import lombok.Getter;
 

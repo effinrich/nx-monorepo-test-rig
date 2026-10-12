@@ -2,7 +2,7 @@
 id: shadow-box
 category: layout
 title: ShadowBox
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: ShadowBox component is used to display content in a specifically styled Box, which extends BoxProps.
 ---
 
@@ -13,7 +13,7 @@ Use the `ShadowBox` component to display content in a specifically styled Box, w
 ## Import
 
 ```js
-import { ShadowBox } from '@redesignhealth/ui'
+import { ShadowBox } from '@acmehealth/ui'
 ```
 
 ## Usage

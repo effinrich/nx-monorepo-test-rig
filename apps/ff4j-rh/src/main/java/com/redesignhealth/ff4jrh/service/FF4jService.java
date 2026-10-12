@@ -1,6 +1,6 @@
-package com.redesignhealth.ff4jrh.service;
+package com.acmehealth.ff4jrh.service;
 
-import com.redesignhealth.ff4jrh.config.FF4jConfig;
+import com.acmehealth.ff4jrh.config.FF4jConfig;
 import org.ff4j.FF4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;

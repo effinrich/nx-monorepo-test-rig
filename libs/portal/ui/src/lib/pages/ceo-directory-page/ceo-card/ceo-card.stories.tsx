@@ -13,7 +13,7 @@ const Story: Meta<typeof CeoCard> = {
     ceoFamilyName: 'Lockhart',
     ceoEmail: 'tifa.lockhart@avalanche.org',
     ceoPictureHref:
-      'https://assets.redesignhealth.com/oRn0Y8FtND62hxJVw6bDWMLHI9SmyhDNyWB9WRxD/FF7_-_Tifa_Portrait.webp',
+      'https://assets.acmehealth.com/oRn0Y8FtND62hxJVw6bDWMLHI9SmyhDNyWB9WRxD/FF7_-_Tifa_Portrait.webp',
     location: 'Sector 7',
     company: {
       name: 'Avalanche',

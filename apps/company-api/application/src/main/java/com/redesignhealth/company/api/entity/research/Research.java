@@ -1,13 +1,13 @@
-package com.redesignhealth.company.api.entity.research;
+package com.acmehealth.company.api.entity.research;
 
-import com.redesignhealth.company.api.client.search.entity.ResearchAuthor;
-import com.redesignhealth.company.api.client.search.entity.ResearchSearchDoc;
-import com.redesignhealth.company.api.client.search.entity.SearchResult;
-import com.redesignhealth.company.api.dto.LinkRef;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.audit.Auditable;
-import com.redesignhealth.company.api.entity.converter.ResearchRefConverter;
-import com.redesignhealth.company.api.entity.ref.ResearchRef;
+import com.acmehealth.company.api.client.search.entity.ResearchAuthor;
+import com.acmehealth.company.api.client.search.entity.ResearchSearchDoc;
+import com.acmehealth.company.api.client.search.entity.SearchResult;
+import com.acmehealth.company.api.dto.LinkRef;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.converter.ResearchRefConverter;
+import com.acmehealth.company.api.entity.ref.ResearchRef;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;

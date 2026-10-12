@@ -1,4 +1,4 @@
-import { Link, Text } from '@redesignhealth/ui'
+import { Link, Text } from '@acmehealth/ui'
 
 interface SellerInfoProps {
   name?: string

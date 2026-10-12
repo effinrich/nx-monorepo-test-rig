@@ -2,13 +2,13 @@ import { useEffect, useRef, useState } from 'react'
 import { Controller, useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import { yupResolver } from '@hookform/resolvers/yup'
-import { useGetCompanies } from '@redesignhealth/portal/data-assets'
-import { CustomDrawer } from '@redesignhealth/portal/ui'
+import { useGetCompanies } from '@acmehealth/portal/data-assets'
+import { CustomDrawer } from '@acmehealth/portal/ui'
 import {
   dirtyValuesOnly,
   getCurrentUserRole,
   isSuperAdminRole
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 import {
   Flex,
   FormControl,
@@ -18,7 +18,7 @@ import {
   Input,
   Radio,
   RadioGroupRoot
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { Select as MultiSelect } from 'chakra-react-select'
 import * as yup from 'yup'
 

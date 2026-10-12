@@ -24,12 +24,12 @@ Content-Length: 1052
     "legalName" : "Springtide Child Development, Inc.",
     "description" : "The integrated, evidence-based autism center that seeks to transform the way families receive care.",
     "members" : [ {
-      "email" : "test@redesignhealth.com",
+      "email" : "test@acmehealth.com",
       "givenName" : "Terra",
       "familyName" : "Branford",
       "links" : [ {
         "rel" : "self",
-        "href" : "http://localhost:8080/person/test@redesignhealth.com"
+        "href" : "http://localhost:8080/person/test@acmehealth.com"
       } ]
     } ],
     "created" : "1970-01-01T00:00:00Z",

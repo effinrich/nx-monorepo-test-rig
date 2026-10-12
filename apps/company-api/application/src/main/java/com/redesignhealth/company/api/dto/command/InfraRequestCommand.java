@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.redesignhealth.company.api.entity.request.RequestStatus;
+import com.acmehealth.company.api.entity.request.RequestStatus;
 import java.net.URI;
 
 public class InfraRequestCommand {

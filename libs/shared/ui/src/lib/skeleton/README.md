@@ -3,7 +3,7 @@ id: skeleton
 category: feedback
 title: Skeleton
 description: Skeleton is used to display the loading state of some component.
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 ---
 
 # Skeleton
@@ -11,7 +11,7 @@ package: '@redesignhealth/ui'
 ## Import
 
 ```js
-import { Skeleton, SkeletonCircle, SkeletonText } from '@redesignhealth/ui'
+import { Skeleton, SkeletonCircle, SkeletonText } from '@acmehealth/ui'
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ Or to wrap another component to take the same height and width.
 Useful when fetching remote data.
 
 ```js live=false
-import { Box } from '@redesignhealth/ui'
+import { Box } from '@acmehealth/ui'
 
 function Card() {
   const { data, loading, error } = useRemoteData()

@@ -1,32 +1,32 @@
-package com.redesignhealth.company.api.service;
+package com.acmehealth.company.api.service;
 
 import static org.springframework.util.MimeTypeUtils.TEXT_HTML;
 import static org.springframework.util.MimeTypeUtils.TEXT_PLAIN;
 
-import com.redesignhealth.company.api.client.file.GoogleDriveClient;
-import com.redesignhealth.company.api.client.file.GoogleDriveClientImpl;
-import com.redesignhealth.company.api.client.file.RemoteFileClient;
-import com.redesignhealth.company.api.client.search.SearchClient;
-import com.redesignhealth.company.api.client.search.command.SearchCommand;
-import com.redesignhealth.company.api.client.search.command.SearchFilterOptionsCommand;
-import com.redesignhealth.company.api.client.search.command.SearchGetCommand;
-import com.redesignhealth.company.api.client.search.command.SearchIndex;
-import com.redesignhealth.company.api.client.search.command.SearchIndexCommand;
-import com.redesignhealth.company.api.client.search.entity.FilterOptions;
-import com.redesignhealth.company.api.client.search.entity.SearchResult;
-import com.redesignhealth.company.api.client.search.entity.Term;
-import com.redesignhealth.company.api.document.Topic;
-import com.redesignhealth.company.api.dto.LibraryCommand;
-import com.redesignhealth.company.api.dto.command.TopicCommand;
-import com.redesignhealth.company.api.dto.enums.RemoteContentSource;
-import com.redesignhealth.company.api.entity.id.ApiIdGenerator;
-import com.redesignhealth.company.api.entity.library.Library;
-import com.redesignhealth.company.api.entity.ref.LibraryRef;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.exception.LibraryNotFoundException;
-import com.redesignhealth.company.api.exception.SearchServerException;
-import com.redesignhealth.company.api.exception.TopicNotFoundException;
-import com.redesignhealth.company.api.repository.LibraryRepository;
+import com.acmehealth.company.api.client.file.GoogleDriveClient;
+import com.acmehealth.company.api.client.file.GoogleDriveClientImpl;
+import com.acmehealth.company.api.client.file.RemoteFileClient;
+import com.acmehealth.company.api.client.search.SearchClient;
+import com.acmehealth.company.api.client.search.command.SearchCommand;
+import com.acmehealth.company.api.client.search.command.SearchFilterOptionsCommand;
+import com.acmehealth.company.api.client.search.command.SearchGetCommand;
+import com.acmehealth.company.api.client.search.command.SearchIndex;
+import com.acmehealth.company.api.client.search.command.SearchIndexCommand;
+import com.acmehealth.company.api.client.search.entity.FilterOptions;
+import com.acmehealth.company.api.client.search.entity.SearchResult;
+import com.acmehealth.company.api.client.search.entity.Term;
+import com.acmehealth.company.api.document.Topic;
+import com.acmehealth.company.api.dto.LibraryCommand;
+import com.acmehealth.company.api.dto.command.TopicCommand;
+import com.acmehealth.company.api.dto.enums.RemoteContentSource;
+import com.acmehealth.company.api.entity.id.ApiIdGenerator;
+import com.acmehealth.company.api.entity.library.Library;
+import com.acmehealth.company.api.entity.ref.LibraryRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.exception.LibraryNotFoundException;
+import com.acmehealth.company.api.exception.SearchServerException;
+import com.acmehealth.company.api.exception.TopicNotFoundException;
+import com.acmehealth.company.api.repository.LibraryRepository;
 import jakarta.transaction.Transactional;
 import java.util.List;
 import java.util.Map;
@@ -142,16 +142,16 @@ public class LibraryService {
   public Topic copyToGoogleDrive(String fileId, String accessToken) {
     var oauthClient = GoogleDriveClientImpl.getOauthClient(accessToken);
 
-    var redesignFolderId =
+    var acmeFolderId =
         oauthClient
             .getFolder(REDESIGN_HEALTH_FOLDER_NAME)
             .orElseGet(() -> oauthClient.createFolder(REDESIGN_HEALTH_FOLDER_NAME));
 
-    if (!googleDriveClient.canEdit(redesignFolderId)) {
-      oauthClient.grantEditAccess(redesignFolderId, PersonRef.of(googleServiceEmail));
+    if (!googleDriveClient.canEdit(acmeFolderId)) {
+      oauthClient.grantEditAccess(acmeFolderId, PersonRef.of(googleServiceEmail));
     }
 
-    var copyId = googleDriveClient.copy(fileId, redesignFolderId);
+    var copyId = googleDriveClient.copy(fileId, acmeFolderId);
     return Topic.builder().id(copyId).build();
   }
 

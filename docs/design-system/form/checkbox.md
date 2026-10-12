@@ -2,7 +2,7 @@
 id: checkbox
 category: form
 title: Checkbox
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Checkbox component is used in forms when a user needs to select multiple
   values from several options.
@@ -16,12 +16,12 @@ values from several options.
 ## Import
 
 ```js
-import { Checkbox, CheckboxGroup } from '@redesignhealth/ui'
+import { Checkbox, CheckboxGroup } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?globals=&id=components-forms-checkbox--indeterminate&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?globals=&id=components-forms-checkbox--indeterminate&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

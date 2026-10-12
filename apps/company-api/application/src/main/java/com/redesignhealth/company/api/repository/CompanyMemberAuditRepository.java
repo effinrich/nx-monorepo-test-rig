@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.CompanyMemberAudit;
+import com.acmehealth.company.api.entity.CompanyMemberAudit;
 import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

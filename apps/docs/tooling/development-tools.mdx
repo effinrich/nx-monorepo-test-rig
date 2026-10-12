@@ -240,7 +240,7 @@ The root `.eslintrc.json` extends multiple plugin configurations and enforces st
     `simple-import-sort/imports` enforces a specific import order:
     1. Side-effect imports
     2. React and external packages (`^react`, `^@?\w`)
-    3. Internal aliases (`@redesignhealth/*`, `components`, `libs`, etc.)
+    3. Internal aliases (`@acmehealth/*`, `components`, `libs`, etc.)
     4. Parent imports (`../`)
     5. Sibling imports (`./`)
     6. CSS imports
@@ -335,14 +335,14 @@ TypeScript path aliases in `tsconfig.base.json` enable clean imports across the 
 
 | Alias | Target |
 | :--- | :--- |
-| `@redesignhealth/ui` | `libs/shared/ui/src/index.ts` |
-| `@redesignhealth/portal/data-assets` | `libs/portal/data-assets/src/index.ts` |
-| `@redesignhealth/portal/features/*` | `libs/portal/features/*/src/index.ts` |
-| `@redesignhealth/portal/ui` | `libs/portal/ui/src/index.ts` |
-| `@redesignhealth/hooks` | `libs/shared/hooks/src/index.ts` |
-| `@redesignhealth/analytics` | `libs/shared/analytics/src/index.ts` |
-| `@redesignhealth/shared-utils` | `libs/shared/utils/src/index.ts` |
-| `@redesignhealth/third-party-network/*` | `libs/third-party-network/*/src/index.ts` |
+| `@acmehealth/ui` | `libs/shared/ui/src/index.ts` |
+| `@acmehealth/portal/data-assets` | `libs/portal/data-assets/src/index.ts` |
+| `@acmehealth/portal/features/*` | `libs/portal/features/*/src/index.ts` |
+| `@acmehealth/portal/ui` | `libs/portal/ui/src/index.ts` |
+| `@acmehealth/hooks` | `libs/shared/hooks/src/index.ts` |
+| `@acmehealth/analytics` | `libs/shared/analytics/src/index.ts` |
+| `@acmehealth/shared-utils` | `libs/shared/utils/src/index.ts` |
+| `@acmehealth/third-party-network/*` | `libs/third-party-network/*/src/index.ts` |
 
 <Tip>
   When you generate a new library with Nx, the path alias is automatically added to `tsconfig.base.json`. You rarely need to edit it manually.

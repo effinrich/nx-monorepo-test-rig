@@ -1,6 +1,6 @@
-import { CollectionModelRole } from '@redesignhealth/company-api-types'
-import { axiosApi } from '@redesignhealth/portal/data-assets'
-import { parseRequest } from '@redesignhealth/portal/utils'
+import { CollectionModelRole } from '@acmehealth/company-api-types'
+import { axiosApi } from '@acmehealth/portal/data-assets'
+import { parseRequest } from '@acmehealth/portal/utils'
 
 export const getRoles = async () => {
   const { error, response } = await parseRequest<CollectionModelRole>(

@@ -106,7 +106,7 @@ export const mockIpListing: IpMarketplaceSummary = {
 export const mockIpListingWithOwner: IpMarketplaceSummary = {
   ...mockIpListing,
   owner: {
-    email: 'snow.villiers@redesignhealth.com',
+    email: 'snow.villiers@acmehealth.com',
     givenName: 'Snow',
     familyName: 'Villiers'
   }

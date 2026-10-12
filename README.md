@@ -48,7 +48,7 @@ rh-nx-monorepo/
 │   └── company-api/          # Spring Boot Company API
 ├── libs/
 │   ├── shared/
-│   │   ├── ui/               # @redesignhealth/ui — shared Chakra v3 component library
+│   │   ├── ui/               # @acmehealth/ui — shared Chakra v3 component library
 │   │   ├── analytics/        # Google Analytics 4 event helpers
 │   │   ├── hooks/            # Shared React hooks
 │   │   ├── utils/            # General-purpose utilities
@@ -122,7 +122,7 @@ VITE_HOTJAR_ID=XXXXXXX                  # optional
 
 - **One root `package.json`** — install all packages here. Nx pulls only what each app needs during build.
 - **Affected commands** — `nx affected -t test` or `nx affected -t build` run only on projects changed since the last commit, keeping CI fast.
-- **Path aliases** — libraries are imported as `@redesignhealth/<lib>` (e.g., `@redesignhealth/ui`, `@redesignhealth/portal/data-assets`).
+- **Path aliases** — libraries are imported as `@acmehealth/<lib>` (e.g., `@acmehealth/ui`, `@acmehealth/portal/data-assets`).
 - **Shared UI is on Chakra v3** — components that were renamed or restructured in the v2→v3 migration have backward-compatible shims in `libs/shared/ui/src/lib/`.
 
 ## VS Code Setup
@@ -162,5 +162,5 @@ Additional reading: [VS Code Containers docs](https://code.visualstudio.com/docs
 
 - [Nx Documentation](https://nx.dev)
 - [Chakra UI v3 Docs](https://www.chakra-ui.com)
-- [Platform Documentation](https://dev-design.redesignhealth.com/platform-documentation-library/platform-intro.html)
-- [Storybook](https://dev-design.redesignhealth.com/storybook/shared-ui/index.html)
+- [Platform Documentation](https://dev-design.acmehealth.com/platform-documentation-library/platform-intro.html)
+- [Storybook](https://dev-design.acmehealth.com/storybook/shared-ui/index.html)

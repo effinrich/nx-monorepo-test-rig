@@ -2,7 +2,7 @@
 id: modal
 category: overlay
 title: Modal
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   A modal is a dialog that focuses the user's attention exclusively on an
   information via a window that is overlaid on primary content.
@@ -29,7 +29,7 @@ import {
   ModalFooter,
   ModalBody,
   ModalCloseButton
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 ## Usage

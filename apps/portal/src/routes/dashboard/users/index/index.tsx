@@ -1,13 +1,13 @@
 import { Helmet } from 'react-helmet'
 import { Link, Outlet, useNavigate } from 'react-router-dom'
-import { useGetUsersList } from '@redesignhealth/portal/data-assets'
-import { Page, UsersTable } from '@redesignhealth/portal/ui'
+import { useGetUsersList } from '@acmehealth/portal/data-assets'
+import { Page, UsersTable } from '@acmehealth/portal/ui'
 import {
   getCurrentUserRole,
   isSuperAdminRole,
   setImpersonatedEmail
-} from '@redesignhealth/portal/utils'
-import { Button, Loader, SectionHeader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/utils'
+import { Button, Loader, SectionHeader } from '@acmehealth/ui'
 import { useQueryClient } from '@tanstack/react-query'
 
 export const Users = () => {

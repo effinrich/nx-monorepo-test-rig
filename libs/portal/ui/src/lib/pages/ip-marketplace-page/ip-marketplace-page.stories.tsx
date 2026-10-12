@@ -6,7 +6,7 @@ import {
   mockIpListingWithRequests,
   mockIpMarketplaceFilters,
   mockIpMarketplaceNoResults
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import { http, HttpResponse } from 'msw'
 import { withRouter } from 'storybook-addon-react-router-v6'
 
@@ -159,7 +159,7 @@ export const SellerViewHideOneListing = {
                 ...mockIpListingWithOwner,
                 id: '123abc',
                 owner: {
-                  email: 'sazh.katzroy@redesignhealth.com'
+                  email: 'sazh.katzroy@acmehealth.com'
                 }
               }
             ],

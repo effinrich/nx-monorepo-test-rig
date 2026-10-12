@@ -21,7 +21,7 @@ The following diagram illustrates the configuration managed by the WAF module.
 * Authenticated and authorized users establish encrypted tunnels with the load balancer.
 * Single client session enables access to different accounts (e.g., core, production).
 
-![Diagram of VPN architecture](https://assets.redesignhealth.com/qUa9FMJ7laI4J8J9piz9aiBNFMmj0MUIQm6QVr89/vpn-architecture.png)
+![Diagram of VPN architecture](https://assets.acmehealth.com/qUa9FMJ7laI4J8J9piz9aiBNFMmj0MUIQm6QVr89/vpn-architecture.png)
 
 
 

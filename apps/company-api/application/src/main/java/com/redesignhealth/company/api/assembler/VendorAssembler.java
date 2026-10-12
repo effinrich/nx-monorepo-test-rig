@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
-import com.redesignhealth.company.api.controller.VendorController;
-import com.redesignhealth.company.api.dto.VendorSummary;
-import com.redesignhealth.company.api.entity.vendor.Vendor;
+import com.acmehealth.company.api.controller.VendorController;
+import com.acmehealth.company.api.dto.VendorSummary;
+import com.acmehealth.company.api.entity.vendor.Vendor;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 
 public class VendorAssembler extends RepresentationModelAssemblerSupport<Vendor, VendorSummary> {

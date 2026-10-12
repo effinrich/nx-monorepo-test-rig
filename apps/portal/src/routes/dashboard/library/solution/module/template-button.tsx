@@ -1,9 +1,9 @@
 import { memo } from 'react'
 import { MdLaunch } from 'react-icons/md'
 import { useGoogleLogin } from '@react-oauth/google'
-import analytics from '@redesignhealth/analytics'
-import { useGetUserInfo } from '@redesignhealth/portal/data-assets'
-import { Button } from '@redesignhealth/ui'
+import analytics from '@acmehealth/analytics'
+import { useGetUserInfo } from '@acmehealth/portal/data-assets'
+import { Button } from '@acmehealth/ui'
 
 import { usePostCopyTemplateMutation } from './hooks'
 

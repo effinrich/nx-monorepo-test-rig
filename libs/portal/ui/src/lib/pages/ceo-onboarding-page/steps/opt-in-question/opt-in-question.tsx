@@ -4,7 +4,7 @@ import {
   CardFooter,
   CardHeader,
   Divider
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import OptInForm from './partials/opt-in-form'
 

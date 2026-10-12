@@ -248,11 +248,11 @@ const generateData = () => {
   const vendors = generateVendors(100);
   const ceos = generateCeos(50, companies);
   const ipListings = generateIpListings(100);
-  
+
   // Specific users
   const users = [
     {
-      email: 'sazh.katzroy@redesignhealth.com',
+      email: 'sazh.katzroy@acmehealth.com',
       givenName: 'Sazh',
       familyName: 'Katzroy',
       role: { authority: 'ROLE_SUPER_ADMIN', displayName: 'Super Admin' },

@@ -1,5 +1,5 @@
-import { mockGetUserInfo, mockRhUser } from '@redesignhealth/portal/data-assets'
-import { render, screen } from '@redesignhealth/shared-utils-jest'
+import { mockGetUserInfo, mockRhUser } from '@acmehealth/portal/data-assets'
+import { render, screen } from '@acmehealth/shared-utils-jest'
 import { setupServer } from 'msw/node'
 
 import Terms from './terms'

@@ -1,14 +1,14 @@
-package com.redesignhealth.company.api.template;
+package com.acmehealth.company.api.template;
 
-import com.redesignhealth.company.api.dto.command.LibraryFeedbackCommand;
-import com.redesignhealth.company.api.dto.command.ipMarketplace.IpMarketplaceBuyerRequestContactInfoCommand;
-import com.redesignhealth.company.api.dto.command.ipMarketplace.IpMarketplaceNewMessageChatCommand;
-import com.redesignhealth.company.api.dto.command.ipMarketplace.IpMarketplaceSellerReleaseContactInfoCommand;
-import com.redesignhealth.company.api.dto.command.vendor.CompanyVendorChangeCommand;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.template.data.FormAnswer;
-import com.redesignhealth.company.api.template.data.TechStackOption;
+import com.acmehealth.company.api.dto.command.LibraryFeedbackCommand;
+import com.acmehealth.company.api.dto.command.ipMarketplace.IpMarketplaceBuyerRequestContactInfoCommand;
+import com.acmehealth.company.api.dto.command.ipMarketplace.IpMarketplaceNewMessageChatCommand;
+import com.acmehealth.company.api.dto.command.ipMarketplace.IpMarketplaceSellerReleaseContactInfoCommand;
+import com.acmehealth.company.api.dto.command.vendor.CompanyVendorChangeCommand;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.template.data.FormAnswer;
+import com.acmehealth.company.api.template.data.TechStackOption;
 import java.net.URI;
 import java.util.List;
 import java.util.Locale;

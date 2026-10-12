@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { useState } from 'react'
-import { Box } from '@redesignhealth/ui'
+import { Box } from '@acmehealth/ui'
 
 import type { Meta, StoryObj } from '@storybook/react-vite'
 

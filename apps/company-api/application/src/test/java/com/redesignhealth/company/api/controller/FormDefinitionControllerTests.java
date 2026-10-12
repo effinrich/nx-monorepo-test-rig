@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.entity.FormDefinition.Type.PRIVACY_QUESTIONNAIRE;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.linksField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.selfLink;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.mapper;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testFormDefinition;
+import static com.acmehealth.company.api.entity.FormDefinition.Type.PRIVACY_QUESTIONNAIRE;
+import static com.acmehealth.company.api.scaffolding.DocUtils.linksField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.selfLink;
+import static com.acmehealth.company.api.scaffolding.Fixtures.mapper;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testFormDefinition;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
 import static org.mockito.ArgumentMatchers.any;
@@ -16,12 +16,12 @@ import static org.springframework.restdocs.payload.PayloadDocumentation.subsecti
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.entity.FormDefinition;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.repository.FormDefinitionRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.FormDefinitionService;
+import com.acmehealth.company.api.entity.FormDefinition;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.repository.FormDefinitionRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.FormDefinitionService;
 import java.util.Optional;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;

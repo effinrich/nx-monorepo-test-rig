@@ -4,7 +4,7 @@ import logging
 from shared import DataLoader
 
 # Google Sheets file ID
-# Must be shared with km-docs-svc@redesign-os.iam.gserviceaccount.com
+# Must be shared with km-docs-svc@acme-os.iam.gserviceaccount.com
 # We only import the *first* tab
 SHEET_ID = '1LJoWG7Go9JkdvO3RvbS_7do58NTC8G2GDlR8yFHCFQM'
 
@@ -73,7 +73,7 @@ class IpMarketplaceDataLoader(DataLoader):
             'disease': disease,
             'technologyLevelOfMaturity': technologyLevelOfMaturity,
             'patentStatus': patentStatus
-          
+
         }
         logging.debug(pprint.pformat(body))
         exists = self.ip_by_name(name)

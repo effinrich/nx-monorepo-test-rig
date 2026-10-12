@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.client.prometheus;
+package com.acmehealth.company.api.client.prometheus;
 
-import com.redesignhealth.company.api.dto.prometheus.PrometheusMetric;
+import com.acmehealth.company.api.dto.prometheus.PrometheusMetric;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

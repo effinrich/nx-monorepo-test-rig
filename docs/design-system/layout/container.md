@@ -2,7 +2,7 @@
 id: container
 category: layout
 title: 'Container'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Containers are used to constrain a content's width to the current breakpoint,
   while keeping it fluid.
@@ -16,12 +16,12 @@ while keeping it fluid.
 ## Import
 
 ```js
-import { Container } from '@redesignhealth/ui'
+import { Container } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=maxW:300&id=components-layout-container--default&viewMode=story" height="150px" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=maxW:300&id=components-layout-container--default&viewMode=story" height="150px" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

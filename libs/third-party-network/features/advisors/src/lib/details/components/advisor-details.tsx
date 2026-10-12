@@ -1,4 +1,4 @@
-import { useCurrentUserQuery } from '@redesignhealth/third-party-network/features/authentication'
+import { useCurrentUserQuery } from '@acmehealth/third-party-network/features/authentication'
 import {
   Box,
   Button,
@@ -11,7 +11,7 @@ import {
   TagLabel,
   Text,
   useDisclosure
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { IntroductionRequestForm } from '../../introduction-request/introduction-request'
 import { useAdvisorQuery } from '../hooks'
@@ -186,8 +186,8 @@ export const AdvisorDetails = ({ advisorId }: AdvisorDetailsProps) => {
       <Box as="aside" mt="32">
         <Text as="p" fontSize="sm" fontStyle="italic">
           Please email Rachel Soffer{' '}
-          <Link href="mailto:rachel.soffer@redesignhealth.com" color="blue.600">
-            (rachel.soffer@redesignhealth.com)
+          <Link href="mailto:rachel.soffer@acmehealth.com" color="blue.600">
+            (rachel.soffer@acmehealth.com)
           </Link>{' '}
           to request this advisor's CV
         </Text>

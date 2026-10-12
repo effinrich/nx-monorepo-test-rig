@@ -1,5 +1,5 @@
 {
-  "name": "@redesignhealth/hooks",
+  "name": "@acmehealth/hooks",
   "version": "2.0.0",
   "main": "./index.js",
   "types": "./index.d.ts",

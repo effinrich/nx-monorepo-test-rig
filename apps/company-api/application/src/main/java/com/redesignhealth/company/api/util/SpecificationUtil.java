@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.util;
+package com.acmehealth.company.api.util;
 
-import com.redesignhealth.company.api.dto.SearchFilter;
+import com.acmehealth.company.api.dto.SearchFilter;
 import jakarta.annotation.Nullable;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.Predicate;

@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import com.redesignhealth.company.api.dto.RoleSummary;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.security.AuthChecks;
+import com.acmehealth.company.api.dto.RoleSummary;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.security.AuthChecks;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import java.util.Arrays;

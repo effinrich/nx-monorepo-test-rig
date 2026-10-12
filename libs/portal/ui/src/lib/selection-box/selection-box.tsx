@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@redesignhealth/ui'
+import { Box, BoxProps } from '@acmehealth/ui'
 
 import { SelectionBoxClear } from './selection-box-clear'
 import { SelectionBoxFilter } from './selection-box-filter'

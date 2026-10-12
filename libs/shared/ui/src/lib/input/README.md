@@ -2,7 +2,7 @@
 id: input
 category: form
 title: Input
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Input component is a component that is used to get user input in a text field.
 video: 'https://youtu.be/4y86kDy3Z2E'
 ---
@@ -10,7 +10,7 @@ video: 'https://youtu.be/4y86kDy3Z2E'
 ## Import
 
 ```js
-import { Input } from '@redesignhealth/ui'
+import { Input } from '@acmehealth/ui'
 ```
 
 ## Usage

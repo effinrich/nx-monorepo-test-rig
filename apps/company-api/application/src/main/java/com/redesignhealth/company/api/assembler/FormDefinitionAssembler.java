@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 
-import com.redesignhealth.company.api.controller.FormDefinitionController;
-import com.redesignhealth.company.api.dto.FormDefinitionSummary;
-import com.redesignhealth.company.api.entity.FormDefinition;
+import com.acmehealth.company.api.controller.FormDefinitionController;
+import com.acmehealth.company.api.dto.FormDefinitionSummary;
+import com.acmehealth.company.api.entity.FormDefinition;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 

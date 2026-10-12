@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.expansion;
+package com.acmehealth.company.api.expansion;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 
@@ -22,7 +22,7 @@ import com.fasterxml.jackson.annotation.JsonValue;
  * </pre>
  *
  * <p>Repositories that extend {@link
- * com.redesignhealth.company.api.repository.BaseCustomRepository} have access to pass {@link
+ * com.acmehealth.company.api.repository.BaseCustomRepository} have access to pass {@link
  * Expansion} to hydrate desired fields.
  */
 public enum Expansion {

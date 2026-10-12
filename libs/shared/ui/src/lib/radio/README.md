@@ -2,14 +2,14 @@
 id: radio
 category: form
 title: Radio
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Radios are used when only one choice may be selected in a series of options.
 ---
 
 ## Import
 
 ```js
-import { Radio, RadioGroup } from '@redesignhealth/ui'
+import { Radio, RadioGroup } from '@acmehealth/ui'
 ```
 
 ### Usage

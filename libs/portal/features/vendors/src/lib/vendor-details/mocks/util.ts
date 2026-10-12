@@ -1,4 +1,4 @@
-import { UserInfoSummary } from '@redesignhealth/portal/data-assets'
+import { UserInfoSummary } from '@acmehealth/portal/data-assets'
 import { http, HttpResponse } from 'msw'
 
 import { vendor } from './.'

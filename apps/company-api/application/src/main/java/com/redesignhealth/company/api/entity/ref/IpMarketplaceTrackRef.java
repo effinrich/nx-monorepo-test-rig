@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.entity.ref;
+package com.acmehealth.company.api.entity.ref;
 
-import com.redesignhealth.company.api.controller.util.Paths;
+import com.acmehealth.company.api.controller.util.Paths;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import lombok.Getter;

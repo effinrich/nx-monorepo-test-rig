@@ -3,7 +3,7 @@ import { useDisclosure } from '../hooks/use-disclosure/use-disclosure'
 import { Box } from '../box/box'
 import { Drawer } from '../drawer/drawer'
 import { Flex } from '../flex/flex'
-import { RedesignLogo } from '../logos/redesign-logo/redesign-logo'
+import { RedesignLogo } from '../logos/acme-logo/acme-logo'
 
 import { Nav } from './nav'
 import { ToggleButton } from './toggle-button'

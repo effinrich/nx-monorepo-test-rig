@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet'
 import { RouterProvider } from 'react-router-dom'
-import analytics from '@redesignhealth/analytics'
-import { Loader } from '@redesignhealth/ui'
+import analytics from '@acmehealth/analytics'
+import { Loader } from '@acmehealth/ui'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 
 import { router } from '../router'

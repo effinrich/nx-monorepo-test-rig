@@ -2,17 +2,17 @@
 
 <cite>
 **Referenced Files in This Document**
-- [RocketChatClient.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClient.java)
-- [RocketChatClientImpl.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java)
-- [NoopRocketChatClient.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/NoopRocketChatClient.java)
-- [RocketChatClientConfig.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/RocketChatClientConfig.java)
-- [AuthInfo.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/AuthInfo.java)
-- [LoginResponse.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/LoginResponse.java)
-- [CreateRoomResponse.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/CreateRoomResponse.java)
-- [GroupCountersResponse.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/GroupCountersResponse.java)
-- [GroupMembersResponse.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/GroupMembersResponse.java)
-- [UserCreateTokenResponse.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/UserCreateTokenResponse.java)
-- [UnreadResponse.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/UnreadResponse.java)
+- [RocketChatClient.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClient.java)
+- [RocketChatClientImpl.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java)
+- [NoopRocketChatClient.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/NoopRocketChatClient.java)
+- [RocketChatClientConfig.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/RocketChatClientConfig.java)
+- [AuthInfo.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/AuthInfo.java)
+- [LoginResponse.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/LoginResponse.java)
+- [CreateRoomResponse.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/CreateRoomResponse.java)
+- [GroupCountersResponse.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/GroupCountersResponse.java)
+- [GroupMembersResponse.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/GroupMembersResponse.java)
+- [UserCreateTokenResponse.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/UserCreateTokenResponse.java)
+- [UnreadResponse.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/UnreadResponse.java)
 - [application.yml](file://apps/company-api/application/src/main/resources/application.yml)
 - [application-dev.yml](file://apps/company-api/application/src/main/resources/application-dev.yml)
 </cite>
@@ -69,23 +69,23 @@ IMPL --> DTO7
 ```
 
 **Diagram sources**
-- [RocketChatClientConfig.java:10-18](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/RocketChatClientConfig.java#L10-L18)
-- [RocketChatClient.java:11-25](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClient.java#L11-L25)
-- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
-- [NoopRocketChatClient.java:13](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/NoopRocketChatClient.java#L13)
-- [AuthInfo.java:8-11](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/AuthInfo.java#L8-L11)
-- [LoginResponse.java:6-9](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/LoginResponse.java#L6-L9)
-- [CreateRoomResponse.java:7-10](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/CreateRoomResponse.java#L7-L10)
-- [GroupCountersResponse.java:7-16](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/GroupCountersResponse.java#L7-L16)
-- [GroupMembersResponse.java:8-14](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/GroupMembersResponse.java#L8-L14)
-- [UserCreateTokenResponse.java:7-10](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/UserCreateTokenResponse.java#L7-L10)
-- [UnreadResponse.java:8-12](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/UnreadResponse.java#L8-L12)
+- [RocketChatClientConfig.java:10-18](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/RocketChatClientConfig.java#L10-L18)
+- [RocketChatClient.java:11-25](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClient.java#L11-L25)
+- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
+- [NoopRocketChatClient.java:13](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/NoopRocketChatClient.java#L13)
+- [AuthInfo.java:8-11](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/AuthInfo.java#L8-L11)
+- [LoginResponse.java:6-9](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/LoginResponse.java#L6-L9)
+- [CreateRoomResponse.java:7-10](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/CreateRoomResponse.java#L7-L10)
+- [GroupCountersResponse.java:7-16](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/GroupCountersResponse.java#L7-L16)
+- [GroupMembersResponse.java:8-14](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/GroupMembersResponse.java#L8-L14)
+- [UserCreateTokenResponse.java:7-10](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/UserCreateTokenResponse.java#L7-L10)
+- [UnreadResponse.java:8-12](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/UnreadResponse.java#L8-L12)
 
 **Section sources**
-- [RocketChatClientConfig.java:10-18](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/RocketChatClientConfig.java#L10-L18)
-- [RocketChatClient.java:11-25](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClient.java#L11-L25)
-- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
-- [NoopRocketChatClient.java:13](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/NoopRocketChatClient.java#L13)
+- [RocketChatClientConfig.java:10-18](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/RocketChatClientConfig.java#L10-L18)
+- [RocketChatClient.java:11-25](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClient.java#L11-L25)
+- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
+- [NoopRocketChatClient.java:13](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/NoopRocketChatClient.java#L13)
 
 ## Core Components
 - RocketChatClient: Defines the contract for chat operations including login, room creation, logout, unread counts, member retrieval, token creation, and scoped login execution.
@@ -101,15 +101,15 @@ Key capabilities:
 - Optional operation: fallback behavior when base URL is not configured
 
 **Section sources**
-- [RocketChatClient.java:11-25](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClient.java#L11-L25)
-- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
-- [RocketChatClientImpl.java:44-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L44-L60)
-- [RocketChatClientImpl.java:62-73](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L62-L73)
-- [RocketChatClientImpl.java:75-96](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L75-L96)
-- [RocketChatClientImpl.java:98-121](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L98-L121)
-- [RocketChatClientImpl.java:123-141](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L123-L141)
-- [RocketChatClientImpl.java:143-151](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L143-L151)
-- [NoopRocketChatClient.java:13-56](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/NoopRocketChatClient.java#L13-L56)
+- [RocketChatClient.java:11-25](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClient.java#L11-L25)
+- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
+- [RocketChatClientImpl.java:44-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L44-L60)
+- [RocketChatClientImpl.java:62-73](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L62-L73)
+- [RocketChatClientImpl.java:75-96](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L75-L96)
+- [RocketChatClientImpl.java:98-121](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L98-L121)
+- [RocketChatClientImpl.java:123-141](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L123-L141)
+- [RocketChatClientImpl.java:143-151](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L143-L151)
+- [NoopRocketChatClient.java:13-56](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/NoopRocketChatClient.java#L13-L56)
 
 ## Architecture Overview
 The Rocket.Chat client integrates as a Spring-managed bean. The configuration checks for a base URL and wires either the real implementation or the no-op client. The implementation uses WebClient to call Rocket.Chat REST endpoints with proper headers and parses responses into DTOs.
@@ -131,14 +131,14 @@ Impl-->>Caller : Optional<AuthInfo>
 ```
 
 **Diagram sources**
-- [RocketChatClientConfig.java:12-17](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/RocketChatClientConfig.java#L12-L17)
-- [RocketChatClient.java:12](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClient.java#L12)
-- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
-- [LoginResponse.java:6-9](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/LoginResponse.java#L6-L9)
+- [RocketChatClientConfig.java:12-17](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/RocketChatClientConfig.java#L12-L17)
+- [RocketChatClient.java:12](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClient.java#L12)
+- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
+- [LoginResponse.java:6-9](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/LoginResponse.java#L6-L9)
 
 **Section sources**
-- [RocketChatClientConfig.java:10-18](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/RocketChatClientConfig.java#L10-L18)
-- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
+- [RocketChatClientConfig.java:10-18](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/RocketChatClientConfig.java#L10-L18)
+- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
 
 ## Detailed Component Analysis
 
@@ -181,14 +181,14 @@ RocketChatClient <|.. NoopRocketChatClient
 ```
 
 **Diagram sources**
-- [RocketChatClient.java:11-25](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClient.java#L11-L25)
-- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
-- [NoopRocketChatClient.java:13](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/NoopRocketChatClient.java#L13)
+- [RocketChatClient.java:11-25](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClient.java#L11-L25)
+- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
+- [NoopRocketChatClient.java:13](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/NoopRocketChatClient.java#L13)
 
 **Section sources**
-- [RocketChatClient.java:11-25](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClient.java#L11-L25)
-- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
-- [NoopRocketChatClient.java:13](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/NoopRocketChatClient.java#L13)
+- [RocketChatClient.java:11-25](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClient.java#L11-L25)
+- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
+- [NoopRocketChatClient.java:13](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/NoopRocketChatClient.java#L13)
 
 ### DTO Structures
 The DTOs model Rocket.Chat API responses and internal auth data used across operations.
@@ -235,22 +235,22 @@ class UnreadResponse {
 ```
 
 **Diagram sources**
-- [AuthInfo.java:8-11](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/AuthInfo.java#L8-L11)
-- [LoginResponse.java:6-9](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/LoginResponse.java#L6-L9)
-- [CreateRoomResponse.java:7-10](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/CreateRoomResponse.java#L7-L10)
-- [GroupCountersResponse.java:7-16](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/GroupCountersResponse.java#L7-L16)
-- [GroupMembersResponse.java:8-14](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/GroupMembersResponse.java#L8-L14)
-- [UserCreateTokenResponse.java:7-10](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/UserCreateTokenResponse.java#L7-L10)
-- [UnreadResponse.java:8-12](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/UnreadResponse.java#L8-L12)
+- [AuthInfo.java:8-11](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/AuthInfo.java#L8-L11)
+- [LoginResponse.java:6-9](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/LoginResponse.java#L6-L9)
+- [CreateRoomResponse.java:7-10](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/CreateRoomResponse.java#L7-L10)
+- [GroupCountersResponse.java:7-16](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/GroupCountersResponse.java#L7-L16)
+- [GroupMembersResponse.java:8-14](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/GroupMembersResponse.java#L8-L14)
+- [UserCreateTokenResponse.java:7-10](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/UserCreateTokenResponse.java#L7-L10)
+- [UnreadResponse.java:8-12](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/UnreadResponse.java#L8-L12)
 
 **Section sources**
-- [AuthInfo.java:8-11](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/AuthInfo.java#L8-L11)
-- [LoginResponse.java:6-9](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/LoginResponse.java#L6-L9)
-- [CreateRoomResponse.java:7-10](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/CreateRoomResponse.java#L7-L10)
-- [GroupCountersResponse.java:7-16](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/GroupCountersResponse.java#L7-L16)
-- [GroupMembersResponse.java:8-14](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/GroupMembersResponse.java#L8-L14)
-- [UserCreateTokenResponse.java:7-10](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/UserCreateTokenResponse.java#L7-L10)
-- [UnreadResponse.java:8-12](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/dto/UnreadResponse.java#L8-L12)
+- [AuthInfo.java:8-11](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/AuthInfo.java#L8-L11)
+- [LoginResponse.java:6-9](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/LoginResponse.java#L6-L9)
+- [CreateRoomResponse.java:7-10](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/CreateRoomResponse.java#L7-L10)
+- [GroupCountersResponse.java:7-16](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/GroupCountersResponse.java#L7-L16)
+- [GroupMembersResponse.java:8-14](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/GroupMembersResponse.java#L8-L14)
+- [UserCreateTokenResponse.java:7-10](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/UserCreateTokenResponse.java#L7-L10)
+- [UnreadResponse.java:8-12](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/dto/UnreadResponse.java#L8-L12)
 
 ### Configuration Management
 The client bean is conditionally created based on the presence of a base URL. When configured, the implementation uses WebClient with the base URL; otherwise, the no-op client is returned.
@@ -267,12 +267,12 @@ Register --> End(["Ready"])
 ```
 
 **Diagram sources**
-- [RocketChatClientConfig.java:12-17](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/RocketChatClientConfig.java#L12-L17)
+- [RocketChatClientConfig.java:12-17](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/RocketChatClientConfig.java#L12-L17)
 - [application.yml:610-616](file://apps/company-api/application/src/main/resources/application.yml#L610-L616)
 - [application-dev.yml:39-41](file://apps/company-api/application/src/main/resources/application-dev.yml#L39-L41)
 
 **Section sources**
-- [RocketChatClientConfig.java:10-18](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/RocketChatClientConfig.java#L10-L18)
+- [RocketChatClientConfig.java:10-18](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/RocketChatClientConfig.java#L10-L18)
 - [application.yml:610-616](file://apps/company-api/application/src/main/resources/application.yml#L610-L616)
 - [application-dev.yml:39-41](file://apps/company-api/application/src/main/resources/application-dev.yml#L39-L41)
 
@@ -304,14 +304,14 @@ RC-->>Impl : LogoutResponse
 ```
 
 **Diagram sources**
-- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
-- [RocketChatClientImpl.java:62-73](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L62-L73)
-- [RocketChatClientImpl.java:143-151](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L143-L151)
+- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
+- [RocketChatClientImpl.java:62-73](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L62-L73)
+- [RocketChatClientImpl.java:143-151](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L143-L151)
 
 **Section sources**
-- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
-- [RocketChatClientImpl.java:62-73](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L62-L73)
-- [RocketChatClientImpl.java:143-151](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L143-L151)
+- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
+- [RocketChatClientImpl.java:62-73](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L62-L73)
+- [RocketChatClientImpl.java:143-151](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L143-L151)
 
 ### Room Management and User Invitation Workflows
 - Create room: Posts to groups.create with a list of member usernames and room name; returns the new room ID.
@@ -342,14 +342,14 @@ Impl-->>Svc : Optional<Map<String,String>>(username->userId)
 ```
 
 **Diagram sources**
-- [RocketChatClientImpl.java:44-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L44-L60)
-- [RocketChatClientImpl.java:75-96](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L75-L96)
-- [RocketChatClientImpl.java:98-121](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L98-L121)
+- [RocketChatClientImpl.java:44-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L44-L60)
+- [RocketChatClientImpl.java:75-96](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L75-L96)
+- [RocketChatClientImpl.java:98-121](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L98-L121)
 
 **Section sources**
-- [RocketChatClientImpl.java:44-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L44-L60)
-- [RocketChatClientImpl.java:75-96](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L75-L96)
-- [RocketChatClientImpl.java:98-121](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L98-L121)
+- [RocketChatClientImpl.java:44-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L44-L60)
+- [RocketChatClientImpl.java:75-96](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L75-L96)
+- [RocketChatClientImpl.java:98-121](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L98-L121)
 
 ### Message Moderation Features
 - Token-based delegation: The createAuthUserToken endpoint allows generating tokens for specific users, enabling controlled access for moderation tasks.
@@ -369,10 +369,10 @@ Impl-->>Svc : Optional<AuthInfo>(userId,token)
 ```
 
 **Diagram sources**
-- [RocketChatClientImpl.java:123-141](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L123-L141)
+- [RocketChatClientImpl.java:123-141](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L123-L141)
 
 **Section sources**
-- [RocketChatClientImpl.java:123-141](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L123-L141)
+- [RocketChatClientImpl.java:123-141](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L123-L141)
 
 ### Webhook Processing and Real-time Event Handling
 - The repository includes database migration files indicating chat-related monitoring and IP marketplace attributes, suggesting potential integration points for chat events and notifications.
@@ -397,12 +397,12 @@ Impl --> DTOs["DTOs"]
 ```
 
 **Diagram sources**
-- [RocketChatClientConfig.java:12-17](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/RocketChatClientConfig.java#L12-L17)
-- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
+- [RocketChatClientConfig.java:12-17](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/RocketChatClientConfig.java#L12-L17)
+- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
 
 **Section sources**
-- [RocketChatClientConfig.java:10-18](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/RocketChatClientConfig.java#L10-L18)
-- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
+- [RocketChatClientConfig.java:10-18](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/RocketChatClientConfig.java#L10-L18)
+- [RocketChatClientImpl.java:19-24](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L19-L24)
 
 ## Performance Considerations
 - Synchronous blocking: The implementation uses blockOptional() on Mono responses, which blocks threads. In high-throughput scenarios, consider reactive streams end-to-end to avoid thread blocking.
@@ -425,12 +425,12 @@ Operational tips:
 - Use scoped login for short-lived operations to minimize token lifetime.
 
 **Section sources**
-- [RocketChatClientConfig.java:12-17](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/config/RocketChatClientConfig.java#L12-L17)
-- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
-- [RocketChatClientImpl.java:44-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L44-L60)
-- [RocketChatClientImpl.java:75-96](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L75-L96)
-- [RocketChatClientImpl.java:98-121](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L98-L121)
-- [RocketChatClientImpl.java:123-141](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/client/rocketchat/RocketChatClientImpl.java#L123-L141)
+- [RocketChatClientConfig.java:12-17](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/config/RocketChatClientConfig.java#L12-L17)
+- [RocketChatClientImpl.java:26-42](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L26-L42)
+- [RocketChatClientImpl.java:44-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L44-L60)
+- [RocketChatClientImpl.java:75-96](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L75-L96)
+- [RocketChatClientImpl.java:98-121](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L98-L121)
+- [RocketChatClientImpl.java:123-141](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/client/rocketchat/RocketChatClientImpl.java#L123-L141)
 
 ## Conclusion
 The Rocket.Chat integration in the Company API provides a clean, configurable client abstraction with DTO-driven responses. It supports essential chat operations and can be extended to handle webhooks and real-time events. Proper configuration, resilient HTTP client setup, and careful logging are key to reliable operation.

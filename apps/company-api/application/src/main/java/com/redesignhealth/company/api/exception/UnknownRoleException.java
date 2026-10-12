@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.exception;
+package com.acmehealth.company.api.exception;
 
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.exception.status.BadRequestException;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.exception.status.BadRequestException;
 
 public class UnknownRoleException extends BadRequestException {
 

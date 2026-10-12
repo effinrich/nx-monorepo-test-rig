@@ -21,14 +21,14 @@ This is the **Redesign Health Design System** monorepo, built with Nx. It contai
 
 Libraries are organized by scope and domain:
 
-- **@redesignhealth/ui** - Shared design system components (Chakra UI-based)
-- **@redesignhealth/portal/\*** - Portal-specific features, data access, and UI
+- **@acmehealth/ui** - Shared design system components (Chakra UI-based)
+- **@acmehealth/portal/\*** - Portal-specific features, data access, and UI
   - `features/*` - Feature modules (companies, ceo-directory, library, ip-marketplace, etc.)
   - `data-assets` - API clients, hooks, types
   - `ui` - Portal-specific UI components
   - `utils` - Portal utilities
-- **@redesignhealth/third-party-network/\*** - Third-party network modules
-- **@redesignhealth/shared-\*** - Shared utilities, hooks, and analytics
+- **@acmehealth/third-party-network/\*** - Third-party network modules
+- **@acmehealth/shared-\*** - Shared utilities, hooks, and analytics
 
 All library imports use TypeScript path aliases defined in `tsconfig.base.json`.
 
@@ -162,7 +162,7 @@ Imports are automatically sorted by `simple-import-sort` plugin with this order:
 
 1. Side-effect imports
 2. React and external packages
-3. Internal aliases (@redesignhealth/\*, components, libs, etc.)
+3. Internal aliases (@acmehealth/\*, components, libs, etc.)
 4. Parent imports (../)
 5. Sibling imports (./)
 6. CSS imports
@@ -272,7 +272,7 @@ npm run chromatic  # Run visual tests (only changed, debug mode)
 1. Generate feature library: `nx g @nx/react:lib my-feature --directory=libs/portal/features`
 2. Add exports to library's `src/index.ts`
 3. Add path alias to `tsconfig.base.json` if needed (usually auto-generated)
-4. Import in portal routes/components using `@redesignhealth/portal/features/my-feature`
+4. Import in portal routes/components using `@acmehealth/portal/features/my-feature`
 5. Add tests in `*.spec.tsx` files
 6. Run `nx test portal-features-my-feature` and `nx lint portal-features-my-feature --fix`
 

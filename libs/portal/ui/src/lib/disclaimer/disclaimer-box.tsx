@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { Box } from '@redesignhealth/ui'
+import { Box } from '@acmehealth/ui'
 
 import { InfoAlert } from '../info-alert/info-alert'
 

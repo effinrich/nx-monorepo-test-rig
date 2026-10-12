@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
-import com.redesignhealth.company.api.entity.ref.TaskRef;
+import com.acmehealth.company.api.entity.ref.TaskRef;
 
 public class TaskCommand {
 

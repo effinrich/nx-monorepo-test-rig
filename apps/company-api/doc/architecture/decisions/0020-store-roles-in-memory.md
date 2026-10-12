@@ -17,7 +17,7 @@ This would allow us to dynamically update roles as needed. This had some uninten
 
 ## Decision
 
-1. Roles will now be stored in code via [RoleAuthority](../../../application/src/main/java/com/redesignhealth/company/api/entity/request/RoleAuthority.java).
+1. Roles will now be stored in code via [RoleAuthority](../../../application/src/main/java/com/acmehealth/company/api/entity/request/RoleAuthority.java).
 2. `person` and `person_request` tables will only allow one role to be assigned.
 3. `roles` will always be included on `person` resource requests and `expand=roles` will do nothing.
 

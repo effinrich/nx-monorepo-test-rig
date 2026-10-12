@@ -1,4 +1,4 @@
-import * as auth from '@redesignhealth/third-party-network/features/authentication'
+import * as auth from '@acmehealth/third-party-network/features/authentication'
 import { QueryObserverSuccessResult } from '@tanstack/react-query'
 import { vi } from 'vitest'
 

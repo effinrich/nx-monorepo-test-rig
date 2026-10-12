@@ -1,4 +1,4 @@
-import { Box, TableRoot, TableContainer } from '@redesignhealth/ui'
+import { Box, TableRoot, TableContainer } from '@acmehealth/ui'
 
 import TableBody from './partials/table-body'
 import TableHeader from './partials/table-header'

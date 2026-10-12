@@ -1,6 +1,6 @@
 ---
 title: 'useTheme'
-package: '@redesignhealth/hooks'
+package: '@acmehealth/hooks'
 description: 'React hook to get access to theme by reading from theme context'
 ---
 
@@ -11,7 +11,7 @@ description: 'React hook to get access to theme by reading from theme context'
 ## Import
 
 ```js
-import { useTheme } from '@redesignhealth/hooks'
+import { useTheme } from '@acmehealth/hooks'
 ```
 
 ## Return value

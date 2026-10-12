@@ -1,5 +1,5 @@
 import { Md3DRotation } from 'react-icons/md'
-import { testA11y } from '@redesignhealth/shared-utils-jest'
+import { testA11y } from '@acmehealth/shared-utils-jest'
 
 import { Icon } from './icon'
 

@@ -6,13 +6,13 @@ Responsible for creating companies and spinning up services for those companies
 
 ## Documentation
 
-- [Client Docs](https://dev-company-api.redesignhealth.com/public/docs)
-- [Swagger](https://dev-company-api.redesignhealth.com/public/swagger)
-- [OpenApi Definition](https://dev-company-api.redesignhealth.com/public/open-api)
+- [Client Docs](https://dev-company-api.acmehealth.com/public/docs)
+- [Swagger](https://dev-company-api.acmehealth.com/public/swagger)
+- [OpenApi Definition](https://dev-company-api.acmehealth.com/public/open-api)
 
 ## Environments
 
-- [Dev](https://dev-company-api.redesignhealth.com)
+- [Dev](https://dev-company-api.acmehealth.com)
 
 ## Running Locally
 
@@ -68,9 +68,9 @@ $ npm install --legacy-peer-deps
 
 ## Run with docker-compose
 
-1. Install Rancher Desktop ([guide](https://redesignhealth.atlassian.net/wiki/spaces/PP/pages/208240686/Using+Docker+via+Rancher+Desktop#Download))
-2. Update the Docker daemon to use Dockerd ([guide](https://redesignhealth.atlassian.net/wiki/spaces/PP/pages/208240686/Using+Docker+via+Rancher+Desktop#Configure-the-Docker-Daemon))
-3. Add configuration to support search memory needs ([guide](https://redesignhealth.atlassian.net/wiki/spaces/PP/pages/208240686/Using+Docker+via+Rancher+Desktop#How-to-get-Elasticsearch%2FOpenSearch-running-locally))
+1. Install Rancher Desktop ([guide](https://acmehealth.atlassian.net/wiki/spaces/PP/pages/208240686/Using+Docker+via+Rancher+Desktop#Download))
+2. Update the Docker daemon to use Dockerd ([guide](https://acmehealth.atlassian.net/wiki/spaces/PP/pages/208240686/Using+Docker+via+Rancher+Desktop#Configure-the-Docker-Daemon))
+3. Add configuration to support search memory needs ([guide](https://acmehealth.atlassian.net/wiki/spaces/PP/pages/208240686/Using+Docker+via+Rancher+Desktop#How-to-get-Elasticsearch%2FOpenSearch-running-locally))
 4. Build target jar
 
 ```java
@@ -178,7 +178,7 @@ $ docker run -e SPRING_PROFILES_ACTIVE=local -p 8080:8080 -p 5005:5005 company-a
 
 Authorization is done with a JSON Web Token (JWT). JWTs are generated with [Google ID](https://developers.google.com/identity/gsi/web/guides/overview).
 
-Information on retrieving a JWT can be found here: https://redesignhealth.atlassian.net/wiki/x/AYCICQ
+Information on retrieving a JWT can be found here: https://acmehealth.atlassian.net/wiki/x/AYCICQ
 
 Note: Your user email must be in the database in order for the authorization to work. i.e. if running the backend locally, your user must be in the users table in the local database as well. Another way to preseed that information is to update the [application.yml](./application/src/main/resources/application.yml) file with your email. Check `db.seed.emails``.
 

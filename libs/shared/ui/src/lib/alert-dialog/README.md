@@ -2,7 +2,7 @@
 id: alert-dialog
 category: overlay
 title: Alert Dialog
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   AlertDialog component is used to interrupt the user with a mandatory confirmation
   or action.
@@ -30,7 +30,7 @@ import {
   AlertDialogHeader,
   AlertDialogContent,
   AlertDialogOverlay
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 ## Usage

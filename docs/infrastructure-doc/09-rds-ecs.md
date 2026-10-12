@@ -18,7 +18,7 @@ The following diagram illustrates what the ECS module manages.
 
 In a high-level view, an incoming front-end request from a domain like example.com travels through ingress (Route 53) to reach a load balancer. This load balancer, with security measures  (WAF) in place, forwards the request to the appropriate ports of the container. Behind this setup, an ECS Fargate cluster manages services, and within these services, multiple task definitions can be configured. Task definitions can include various tasks and are equipped with CloudWatch insights and blocks for monitoring CPU memory utilization and container logs.
 
-![Diagram of ECS Module Architecture](https://assets.redesignhealth.com/40OE7lNDjrFXbVsvukrt7tFCU9CRtmag2KtkuRyM/ecs-module.png)
+![Diagram of ECS Module Architecture](https://assets.acmehealth.com/40OE7lNDjrFXbVsvukrt7tFCU9CRtmag2KtkuRyM/ecs-module.png)
 
 ## High-Level Process
 
