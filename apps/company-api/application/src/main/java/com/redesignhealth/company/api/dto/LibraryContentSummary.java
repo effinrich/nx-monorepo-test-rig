@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.entity.library.LibraryContent;
+import com.acmehealth.company.api.entity.library.LibraryContent;
 import java.util.List;
 import lombok.Getter;
 import org.springframework.hateoas.RepresentationModel;

@@ -1,6 +1,6 @@
 import React from 'react'
-import { type CardHeaderProps } from '@redesignhealth/ui'
-import { Box, CardHeader, Divider, Flex, Text } from '@redesignhealth/ui'
+import { type CardHeaderProps } from '@acmehealth/ui'
+import { Box, CardHeader, Divider, Flex, Text } from '@acmehealth/ui'
 
 interface ListCardHeaderProps extends Omit<CardHeaderProps, 'title'> {
   title?: React.ReactNode

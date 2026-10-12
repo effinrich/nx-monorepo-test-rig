@@ -3,9 +3,9 @@ import { useParams } from 'react-router-dom'
 import {
   useGetUserInfo,
   useGetVendorById
-} from '@redesignhealth/portal/data-assets'
-import { Page, VendorDetailsPage } from '@redesignhealth/portal/ui'
-import { Loader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/data-assets'
+import { Page, VendorDetailsPage } from '@acmehealth/portal/ui'
+import { Loader } from '@acmehealth/ui'
 
 const VendorDetails = () => {
   const { vendorId } = useParams()

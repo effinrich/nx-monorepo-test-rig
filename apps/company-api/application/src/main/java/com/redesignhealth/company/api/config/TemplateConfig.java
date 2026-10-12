@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.config;
+package com.acmehealth.company.api.config;
 
 import org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties;
 import org.springframework.context.ApplicationContext;

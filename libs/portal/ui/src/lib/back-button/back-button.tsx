@@ -1,6 +1,6 @@
 import { MdChevronLeft } from 'react-icons/md'
 import { useNavigate } from 'react-router-dom'
-import { type LinkProps, HStack, Icon, Link, Text } from '@redesignhealth/ui'
+import { type LinkProps, HStack, Icon, Link, Text } from '@acmehealth/ui'
 
 interface BackButtonProps extends LinkProps {
   children: React.ReactNode

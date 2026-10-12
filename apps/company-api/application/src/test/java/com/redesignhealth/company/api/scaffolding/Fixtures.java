@@ -1,77 +1,77 @@
-package com.redesignhealth.company.api.scaffolding;
+package com.acmehealth.company.api.scaffolding;
 
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_OP_CO_USER;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_OP_CO_USER;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.redesignhealth.company.api.client.search.entity.CeoDirectoryDoc;
-import com.redesignhealth.company.api.client.search.entity.CompanyDoc;
-import com.redesignhealth.company.api.client.search.entity.ExpertNoteSearchDoc;
-import com.redesignhealth.company.api.client.search.entity.IpMarketplaceSearchDoc;
-import com.redesignhealth.company.api.client.search.entity.MemberDoc;
-import com.redesignhealth.company.api.client.search.entity.ResearchAuthor;
-import com.redesignhealth.company.api.client.search.entity.ResearchExternalContentDoc;
-import com.redesignhealth.company.api.client.search.entity.ResearchSearchDoc;
-import com.redesignhealth.company.api.document.Topic;
-import com.redesignhealth.company.api.dto.LinkRef;
-import com.redesignhealth.company.api.dto.enums.CeoBusinessFocusArea;
-import com.redesignhealth.company.api.dto.enums.CeoBusinessType;
-import com.redesignhealth.company.api.dto.enums.CeoCustomerSegment;
-import com.redesignhealth.company.api.dto.enums.CeoHealthcareSector;
-import com.redesignhealth.company.api.dto.enums.CeoVisible;
-import com.redesignhealth.company.api.dto.enums.CompanyFundraiseStatus;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceOrganizationType;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceRegion;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceType;
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
-import com.redesignhealth.company.api.dto.enums.CompanyStatus;
-import com.redesignhealth.company.api.dto.enums.CompanyVendorEngagementStatus;
-import com.redesignhealth.company.api.dto.enums.CompanyVendorType;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceFreedomToOperateCertification;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceOrganOfFocus;
-import com.redesignhealth.company.api.dto.enums.IpMarketplacePatentStatus;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceStatus;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceTrackContactInfo;
-import com.redesignhealth.company.api.dto.enums.LibraryContentType;
-import com.redesignhealth.company.api.dto.enums.RemoteContentSource;
-import com.redesignhealth.company.api.dto.enums.TopicType;
-import com.redesignhealth.company.api.entity.Category;
-import com.redesignhealth.company.api.entity.Ceo;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.CompanyIpMarketplace;
-import com.redesignhealth.company.api.entity.CompanyMember;
-import com.redesignhealth.company.api.entity.Consent;
-import com.redesignhealth.company.api.entity.ExpertNote;
-import com.redesignhealth.company.api.entity.FormDefinition;
-import com.redesignhealth.company.api.entity.IpMarketplace;
-import com.redesignhealth.company.api.entity.IpMarketplaceSeller;
-import com.redesignhealth.company.api.entity.IpMarketplaceTrack;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.Subcategory;
-import com.redesignhealth.company.api.entity.library.Library;
-import com.redesignhealth.company.api.entity.library.LibraryContent;
-import com.redesignhealth.company.api.entity.ref.CategoryRef;
-import com.redesignhealth.company.api.entity.ref.CeoRef;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.ref.CompanyVendorRef;
-import com.redesignhealth.company.api.entity.ref.ContentRef;
-import com.redesignhealth.company.api.entity.ref.ExpertNoteRef;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceRef;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceTrackRef;
-import com.redesignhealth.company.api.entity.ref.LibraryRef;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.entity.ref.ResearchRef;
-import com.redesignhealth.company.api.entity.ref.SubcategoryRef;
-import com.redesignhealth.company.api.entity.ref.TaxonomyRef;
-import com.redesignhealth.company.api.entity.ref.VendorRef;
-import com.redesignhealth.company.api.entity.request.InfrastructureRequest;
-import com.redesignhealth.company.api.entity.request.RequestForm;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.entity.research.Research;
-import com.redesignhealth.company.api.entity.vendor.CompanyVendor;
-import com.redesignhealth.company.api.entity.vendor.CompanyVendorContact;
-import com.redesignhealth.company.api.entity.vendor.Vendor;
-import com.redesignhealth.company.api.taxonomy.CompanyTaxonomy;
+import com.acmehealth.company.api.client.search.entity.CeoDirectoryDoc;
+import com.acmehealth.company.api.client.search.entity.CompanyDoc;
+import com.acmehealth.company.api.client.search.entity.ExpertNoteSearchDoc;
+import com.acmehealth.company.api.client.search.entity.IpMarketplaceSearchDoc;
+import com.acmehealth.company.api.client.search.entity.MemberDoc;
+import com.acmehealth.company.api.client.search.entity.ResearchAuthor;
+import com.acmehealth.company.api.client.search.entity.ResearchExternalContentDoc;
+import com.acmehealth.company.api.client.search.entity.ResearchSearchDoc;
+import com.acmehealth.company.api.document.Topic;
+import com.acmehealth.company.api.dto.LinkRef;
+import com.acmehealth.company.api.dto.enums.CeoBusinessFocusArea;
+import com.acmehealth.company.api.dto.enums.CeoBusinessType;
+import com.acmehealth.company.api.dto.enums.CeoCustomerSegment;
+import com.acmehealth.company.api.dto.enums.CeoHealthcareSector;
+import com.acmehealth.company.api.dto.enums.CeoVisible;
+import com.acmehealth.company.api.dto.enums.CompanyFundraiseStatus;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceOrganizationType;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceRegion;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceType;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.dto.enums.CompanyStatus;
+import com.acmehealth.company.api.dto.enums.CompanyVendorEngagementStatus;
+import com.acmehealth.company.api.dto.enums.CompanyVendorType;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceFreedomToOperateCertification;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceOrganOfFocus;
+import com.acmehealth.company.api.dto.enums.IpMarketplacePatentStatus;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceStatus;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceTrackContactInfo;
+import com.acmehealth.company.api.dto.enums.LibraryContentType;
+import com.acmehealth.company.api.dto.enums.RemoteContentSource;
+import com.acmehealth.company.api.dto.enums.TopicType;
+import com.acmehealth.company.api.entity.Category;
+import com.acmehealth.company.api.entity.Ceo;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.CompanyIpMarketplace;
+import com.acmehealth.company.api.entity.CompanyMember;
+import com.acmehealth.company.api.entity.Consent;
+import com.acmehealth.company.api.entity.ExpertNote;
+import com.acmehealth.company.api.entity.FormDefinition;
+import com.acmehealth.company.api.entity.IpMarketplace;
+import com.acmehealth.company.api.entity.IpMarketplaceSeller;
+import com.acmehealth.company.api.entity.IpMarketplaceTrack;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.Subcategory;
+import com.acmehealth.company.api.entity.library.Library;
+import com.acmehealth.company.api.entity.library.LibraryContent;
+import com.acmehealth.company.api.entity.ref.CategoryRef;
+import com.acmehealth.company.api.entity.ref.CeoRef;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.ref.CompanyVendorRef;
+import com.acmehealth.company.api.entity.ref.ContentRef;
+import com.acmehealth.company.api.entity.ref.ExpertNoteRef;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceRef;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceTrackRef;
+import com.acmehealth.company.api.entity.ref.LibraryRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.ref.ResearchRef;
+import com.acmehealth.company.api.entity.ref.SubcategoryRef;
+import com.acmehealth.company.api.entity.ref.TaxonomyRef;
+import com.acmehealth.company.api.entity.ref.VendorRef;
+import com.acmehealth.company.api.entity.request.InfrastructureRequest;
+import com.acmehealth.company.api.entity.request.RequestForm;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.entity.research.Research;
+import com.acmehealth.company.api.entity.vendor.CompanyVendor;
+import com.acmehealth.company.api.entity.vendor.CompanyVendorContact;
+import com.acmehealth.company.api.entity.vendor.Vendor;
+import com.acmehealth.company.api.taxonomy.CompanyTaxonomy;
 import jakarta.annotation.Nullable;
 import java.time.Instant;
 import java.util.Arrays;
@@ -84,7 +84,7 @@ public class Fixtures {
 
   public static final String TEST_COMPANY_ID = "1KlMnh9a";
   public static final String TEST_LIBRARY_CONTENT_ID = "1KlMnh9a";
-  public static final String TEST_PERSON_EMAIL = "test@redesignhealth.com";
+  public static final String TEST_PERSON_EMAIL = "test@acmehealth.com";
   public static final String TEST_ID = "1KlMnh9a";
   public static final ObjectMapper mapper = new ObjectMapper();
 
@@ -466,7 +466,7 @@ public class Fixtures {
         .businessType("B2B")
         .member(
             MemberDoc.builder()
-                .email("rh@redesignhealth.com")
+                .email("rh@acmehealth.com")
                 .familyName("familyName")
                 .givenName("givenName")
                 .company(
@@ -510,7 +510,7 @@ public class Fixtures {
         .companyApiCompanyId("ZFBkW915")
         .tags(List.of("tags"))
         .associatedEntities(List.of("Eve Nom"))
-        .noteTaker("terra.brandon@redesignhealth.com")
+        .noteTaker("terra.brandon@acmehealth.com")
         .id("ZFBkW915")
         .technologies(List.of("technologies"))
         .taxonomyTerm1(List.of("taxonomy1"))
@@ -528,7 +528,7 @@ public class Fixtures {
 
   public static Vendor testVendor(CompanyVendor companyVendor) {
     var vendor = Vendor.of(VendorRef.of(TEST_ID));
-    var email = "rh@redesignhealth.com";
+    var email = "rh@acmehealth.com";
     vendor.setName("Boomset");
     vendor.setId(1L);
     vendor.setCreated(testDate());
@@ -566,7 +566,7 @@ public class Fixtures {
   public static Research testResearch() {
     var research = Research.of(testResearchRef());
     research.setTitle("PCP Interviews");
-    research.setAuthors(List.of(ResearchAuthor.of("test@redesignhealth.com")));
+    research.setAuthors(List.of(ResearchAuthor.of("test@acmehealth.com")));
     research.setCreated(testDate());
     research.setResearchObjectives("* Objective 1\n* Objective 2");
     research.setResearchServices(List.of("Service 1", "Service 2"));

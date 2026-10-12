@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.search.command;
+package com.acmehealth.company.api.client.search.command;
 
 import java.util.Objects;
 import org.springframework.util.Assert;

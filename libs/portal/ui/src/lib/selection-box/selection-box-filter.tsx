@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@redesignhealth/ui'
+import { Box, BoxProps } from '@acmehealth/ui'
 import { Select } from 'chakra-react-select'
 
 interface SelectionBoxFilterProps {

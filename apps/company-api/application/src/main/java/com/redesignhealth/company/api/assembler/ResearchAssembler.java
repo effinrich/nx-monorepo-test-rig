@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
-import com.redesignhealth.company.api.controller.ResearchController;
-import com.redesignhealth.company.api.dto.ResearchSummary;
-import com.redesignhealth.company.api.entity.research.Research;
+import com.acmehealth.company.api.controller.ResearchController;
+import com.acmehealth.company.api.dto.ResearchSummary;
+import com.acmehealth.company.api.entity.research.Research;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 
 public class ResearchAssembler

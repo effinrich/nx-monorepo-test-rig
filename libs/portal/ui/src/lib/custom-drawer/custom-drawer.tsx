@@ -12,7 +12,7 @@ import {
   DrawerRoot,
   Text,
   useDisclosure
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { AxiosErrorAlert } from '../axios-error-alert/axios-error-alert'
 

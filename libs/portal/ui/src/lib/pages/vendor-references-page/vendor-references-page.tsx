@@ -4,9 +4,9 @@ import {
   type VendorsProps,
   useGetUserInfo,
   useGetVendors
-} from '@redesignhealth/portal/data-assets'
-import { HasRole } from '@redesignhealth/portal/utils'
-import { Box, Button, Loader, SectionHeader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/data-assets'
+import { HasRole } from '@acmehealth/portal/utils'
+import { Box, Button, Loader, SectionHeader } from '@acmehealth/ui'
 
 import VendorFilterBox from './vendor-references-filter-box/vendor-references-filter-box'
 import { VendorReferencesCardsWrapper } from './vendor-references-cards-wrapper'

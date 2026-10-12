@@ -8,7 +8,7 @@ import {
   mockIpMarketplaceWithRequests,
   mockRhUser,
   mockSuperAdminUser
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import { http, HttpResponse } from 'msw'
 import { withRouter } from 'storybook-addon-react-router-v6'
 
@@ -83,7 +83,7 @@ export const EnterpriseSellerUser = {
               {
                 ...mockIpListingWithUnreleasedIPRequest,
                 owner: {
-                  email: 'sazh.katzroy@redesignhealth.com'
+                  email: 'sazh.katzroy@acmehealth.com'
                 }
               }
             ]

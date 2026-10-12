@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.config;
+package com.acmehealth.company.api.config;
 
 import static org.springframework.security.config.Customizer.withDefaults;
 
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.security.RedesignAuthenticationFilter;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.security.RedesignAuthenticationFilter;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

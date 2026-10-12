@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.library.LibraryContent;
-import com.redesignhealth.company.api.entity.ref.ContentRef;
+import com.acmehealth.company.api.entity.library.LibraryContent;
+import com.acmehealth.company.api.entity.ref.ContentRef;
 import java.util.Collection;
 import java.util.Optional;
 import java.util.Set;

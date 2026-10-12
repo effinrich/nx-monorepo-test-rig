@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.assembler.RequestFormAssembler;
-import com.redesignhealth.company.api.entity.request.InfrastructureRequest;
+import com.acmehealth.company.api.assembler.RequestFormAssembler;
+import com.acmehealth.company.api.entity.request.InfrastructureRequest;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.List;
 import org.hibernate.Hibernate;

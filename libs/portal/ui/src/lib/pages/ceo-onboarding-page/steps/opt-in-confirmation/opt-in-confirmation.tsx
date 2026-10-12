@@ -8,7 +8,7 @@ import {
   useGetCeoById,
   useGetUserInfo,
   useUpdateCeoFromForm
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   Button,
   CardRoot,
@@ -16,7 +16,7 @@ import {
   CardFooter,
   Divider,
   Loader
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { CeoForm } from '../../../ceo-directory-page/ceo-form/ceo-form'
 import { ceoFormResolver } from '../../../ceo-directory-page/ceo-form/schema'

@@ -5,7 +5,7 @@ import {
   useFetcher,
   useParams
 } from 'react-router-dom'
-import { useGetInfraRequest } from '@redesignhealth/portal/data-assets'
+import { useGetInfraRequest } from '@acmehealth/portal/data-assets'
 import {
   Alert,
   Badge,
@@ -25,7 +25,7 @@ import {
   Spacer,
   Text,
   useDisclosure
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { QueryClient } from '@tanstack/react-query'
 
 import { createInfraRequest } from '../../../../../../api/infra-request/post'

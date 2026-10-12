@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import { useGetUserInfo, Vendor } from '@redesignhealth/portal/data-assets'
-import { HasRole } from '@redesignhealth/portal/utils'
-import { Button, Stack } from '@redesignhealth/ui'
+import { useGetUserInfo, Vendor } from '@acmehealth/portal/data-assets'
+import { HasRole } from '@acmehealth/portal/utils'
+import { Button, Stack } from '@acmehealth/ui'
 
 import { NoSearchResults } from '../../no-search-results/no-search-results'
 

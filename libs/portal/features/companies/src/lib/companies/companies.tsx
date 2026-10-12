@@ -1,15 +1,15 @@
 import { Helmet } from 'react-helmet'
 import { MdOutlineEdit } from 'react-icons/md'
 import { Link, Outlet } from 'react-router-dom'
-import { VisuallyHidden } from '@redesignhealth/ui'
+import { VisuallyHidden } from '@acmehealth/ui'
 import {
   CompanyCommand,
   useGetCompanies,
   useGetUserInfo
-} from '@redesignhealth/portal/data-assets'
-import { Page } from '@redesignhealth/portal/ui'
-import { HasRole, isAdminRole } from '@redesignhealth/portal/utils'
-import { formatDate } from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/data-assets'
+import { Page } from '@acmehealth/portal/ui'
+import { HasRole, isAdminRole } from '@acmehealth/portal/utils'
+import { formatDate } from '@acmehealth/portal/utils'
 import {
   Badge,
   Box,
@@ -26,7 +26,7 @@ import {
   Th,
   Thead,
   Tr
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import AddCompanyButton from '../add-company-button/add-company-button'
 

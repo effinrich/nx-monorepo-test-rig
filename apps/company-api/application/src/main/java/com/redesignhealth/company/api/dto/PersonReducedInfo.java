@@ -1,12 +1,12 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.Person;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 
 @Getter
 public class PersonReducedInfo {
-  @Schema(example = "sazh.katzroy@redesignhealth.com")
+  @Schema(example = "sazh.katzroy@acmehealth.com")
   private String email;
 
   @Schema(example = "Sazh")

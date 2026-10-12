@@ -5,7 +5,7 @@
 id: stat
 title: Stat
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: As the name implies, the `Stat` component is used to display some statistics.
 
 ---
@@ -20,7 +20,7 @@ import {
   StatHelpText,
   StatLabel,
   StatNumber
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 ## Basic Usage

@@ -2,7 +2,7 @@
 id: box
 category: layout
 title: Box
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Box is the most abstract component on top of which all other Redesign UI
   components are built. By default, it renders a `div` element
@@ -13,7 +13,7 @@ description:
 ## Import
 
 ```js
-import { Box } from '@redesignhealth/ui'
+import { Box } from '@acmehealth/ui'
 ```
 
 ## Usage

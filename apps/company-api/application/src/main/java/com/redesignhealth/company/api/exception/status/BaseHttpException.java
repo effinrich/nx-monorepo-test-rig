@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.exception.status;
+package com.acmehealth.company.api.exception.status;
 
-import com.redesignhealth.company.api.exception.handler.GlobalExceptionHandler;
+import com.acmehealth.company.api.exception.handler.GlobalExceptionHandler;
 import org.springframework.http.HttpStatus;
 
 /**

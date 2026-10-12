@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 @Schema(name = "Role")

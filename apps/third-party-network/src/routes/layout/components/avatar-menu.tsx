@@ -4,9 +4,9 @@ import {
   MenuItem,
   MenuContent
 } from '@chakra-ui/react'
-import { useCurrentUserQuery } from '@redesignhealth/third-party-network/features/authentication'
-import { removeUserAccessToken } from '@redesignhealth/third-party-network/utils'
-import { Avatar, Box } from '@redesignhealth/ui'
+import { useCurrentUserQuery } from '@acmehealth/third-party-network/features/authentication'
+import { removeUserAccessToken } from '@acmehealth/third-party-network/utils'
+import { Avatar, Box } from '@acmehealth/ui'
 
 export const AvatarMenu = () => {
   const { data, refetch } = useCurrentUserQuery()

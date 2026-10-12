@@ -1,6 +1,6 @@
 import { MdOutlineEdit, MdOutlineTheaterComedy } from 'react-icons/md'
 import { Link as RouterLink } from 'react-router-dom'
-import { formatDate } from '@redesignhealth/portal/utils'
+import { formatDate } from '@acmehealth/portal/utils'
 import {
   AvatarRoot,
   AvatarFallback,
@@ -15,7 +15,7 @@ import {
   Tr,
   Wrap,
   WrapItem
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { type UserData } from '../users-table'
 

@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
-import com.redesignhealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

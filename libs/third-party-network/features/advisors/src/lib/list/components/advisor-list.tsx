@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react'
-import { usePagination } from '@redesignhealth/hooks'
-import { Box, Button, Flex, Grid, Loader } from '@redesignhealth/ui'
+import { usePagination } from '@acmehealth/hooks'
+import { Box, Button, Flex, Grid, Loader } from '@acmehealth/ui'
 
 import { useAdvisors, useAllAdvisorsQuery } from '../hooks'
 import { FilterName, Filters } from '../types'

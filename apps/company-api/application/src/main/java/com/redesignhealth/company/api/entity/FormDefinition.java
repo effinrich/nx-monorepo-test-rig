@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.redesignhealth.company.api.dto.SerializableEnum;
+import com.acmehealth.company.api.dto.SerializableEnum;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import jakarta.persistence.*;
 import org.hibernate.annotations.Type;

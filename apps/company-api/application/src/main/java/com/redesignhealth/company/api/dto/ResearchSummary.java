@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.redesignhealth.company.api.client.search.entity.ResearchAuthor;
-import com.redesignhealth.company.api.entity.research.Research;
-import com.redesignhealth.company.api.taxonomy.TaxonomyTerm;
+import com.acmehealth.company.api.client.search.entity.ResearchAuthor;
+import com.acmehealth.company.api.entity.research.Research;
+import com.acmehealth.company.api.taxonomy.TaxonomyTerm;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.time.Instant;
 import java.util.ArrayList;

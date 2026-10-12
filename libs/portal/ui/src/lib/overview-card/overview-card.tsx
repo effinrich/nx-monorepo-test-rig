@@ -5,7 +5,7 @@ import {
   CardRoot,
   Divider,
   SectionHeader
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface OverviewCardProps extends BoxProps {
   title: string

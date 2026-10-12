@@ -1,4 +1,4 @@
-package com.redesignhealth.ff4jrh;
+package com.acmehealth.ff4jrh;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

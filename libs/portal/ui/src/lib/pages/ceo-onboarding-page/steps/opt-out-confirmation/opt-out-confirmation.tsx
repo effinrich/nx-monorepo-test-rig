@@ -3,7 +3,7 @@ import {
   useGetCeoById,
   useGetUserInfo,
   useOptOutCeo
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   Button,
   CardRoot,
@@ -12,7 +12,7 @@ import {
   CardHeader,
   Divider,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface OptOutConfirmationProps {
   handleCancel(): void

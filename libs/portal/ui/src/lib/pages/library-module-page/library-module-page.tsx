@@ -1,8 +1,8 @@
 import { ReactNode /*, useState*/ } from 'react'
 import { useNavigate } from 'react-router-dom'
-import analytics from '@redesignhealth/analytics'
-import { type LibraryDoc } from '@redesignhealth/portal/data-assets'
-import { Box, Flex, SectionHeader } from '@redesignhealth/ui'
+import analytics from '@acmehealth/analytics'
+import { type LibraryDoc } from '@acmehealth/portal/data-assets'
+import { Box, Flex, SectionHeader } from '@acmehealth/ui'
 
 import MobileNav from './mobile-nav'
 import SideNav from './sidenav'

@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.entity.id;
+package com.acmehealth.company.api.entity.id;
 
 import java.security.SecureRandom;
 import java.util.Random;

@@ -1,9 +1,9 @@
 import {
   PagedModelPersonSummary,
   PersonSummary
-} from '@redesignhealth/company-api-types'
-import { axiosApi } from '@redesignhealth/portal/data-assets'
-import { parseRequest } from '@redesignhealth/portal/utils'
+} from '@acmehealth/company-api-types'
+import { axiosApi } from '@acmehealth/portal/data-assets'
+import { parseRequest } from '@acmehealth/portal/utils'
 
 export const getPerson = async (
   email: PersonSummary['email'],

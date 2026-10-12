@@ -1,5 +1,5 @@
-import { printPersonName } from '@redesignhealth/portal/utils'
-import { BoxProps, HStack } from '@redesignhealth/ui'
+import { printPersonName } from '@acmehealth/portal/utils'
+import { BoxProps, HStack } from '@acmehealth/ui'
 
 import { ListCard } from '../../../list-card/list-card'
 import { ListCardHeader } from '../../../list-card/list-card-header'

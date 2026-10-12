@@ -10,7 +10,7 @@ import {
   ModalHeader,
   ModalOverlay,
   UseDisclosureReturn
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { resolver } from '../constants'
 import { useIntroductionRequestMutation } from '../hooks'

@@ -5,7 +5,7 @@ import {
   CardFooter,
   Separator,
   Stack
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface FormProps {
   children: React.ReactNode

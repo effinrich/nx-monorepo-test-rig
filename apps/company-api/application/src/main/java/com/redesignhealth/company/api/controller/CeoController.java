@@ -1,18 +1,18 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.controller.util.Paths.CEO_ID;
+import static com.acmehealth.company.api.controller.util.Paths.CEO_ID;
 import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.http.HttpStatus.OK;
 
-import com.redesignhealth.company.api.assembler.CeoDirectoryAssembler;
-import com.redesignhealth.company.api.dto.CeoSummary;
-import com.redesignhealth.company.api.dto.FilterOptionsSummary;
-import com.redesignhealth.company.api.dto.command.CeoBaseCommand;
-import com.redesignhealth.company.api.dto.command.CeoCreateCommand;
-import com.redesignhealth.company.api.entity.ref.CeoRef;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.CeoService;
+import com.acmehealth.company.api.assembler.CeoDirectoryAssembler;
+import com.acmehealth.company.api.dto.CeoSummary;
+import com.acmehealth.company.api.dto.FilterOptionsSummary;
+import com.acmehealth.company.api.dto.command.CeoBaseCommand;
+import com.acmehealth.company.api.dto.command.CeoCreateCommand;
+import com.acmehealth.company.api.entity.ref.CeoRef;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.CeoService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import java.util.ArrayList;

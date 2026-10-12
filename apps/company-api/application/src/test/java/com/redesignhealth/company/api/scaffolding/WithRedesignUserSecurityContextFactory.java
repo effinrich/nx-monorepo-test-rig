@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.scaffolding;
+package com.acmehealth.company.api.scaffolding;
 
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.CompanyMember;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.security.RedesignUserDetails;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.CompanyMember;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.security.RedesignUserDetails;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

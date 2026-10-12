@@ -20,7 +20,7 @@ This video tutorial demonstrates the steps to set up Vault on an EC2 instance, i
 
 The following diagram provides a high-level overview of the Vault module within the infrastructure.
 
-![Diagram of Vault Module](https://assets.redesignhealth.com/czzFlf5FENscHVPFww1pvsW1NI4LAa3SHuoHyc1b/vault.png)
+![Diagram of Vault Module](https://assets.acmehealth.com/czzFlf5FENscHVPFww1pvsW1NI4LAa3SHuoHyc1b/vault.png)
 
 
 

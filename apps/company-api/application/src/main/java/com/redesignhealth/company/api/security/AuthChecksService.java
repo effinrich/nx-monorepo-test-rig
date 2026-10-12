@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
-import com.redesignhealth.company.api.dto.command.PersonRequestCommand;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.dto.command.PersonRequestCommand;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
 

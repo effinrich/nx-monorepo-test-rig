@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.entity.request;
+package com.acmehealth.company.api.entity.request;
 
-import com.redesignhealth.company.api.dto.SerializableEnum;
+import com.acmehealth.company.api.dto.SerializableEnum;
 
 public enum PublicationStatus implements SerializableEnum {
   NOT_STARTED("Not Started"),

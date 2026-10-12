@@ -1,4 +1,4 @@
-import { companyAPI } from '@redesignhealth/third-party-network/data-assets'
+import { companyAPI } from '@acmehealth/third-party-network/data-assets'
 
 import { CurrentUser } from './types'
 

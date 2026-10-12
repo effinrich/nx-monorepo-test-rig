@@ -15,7 +15,7 @@ In this CEO conversation, CEOs with experience integrating AI into a product roa
 
 **<a id="summary"></a>Summary**
 
-Inspired by interest following the [CEO Summit session on AI](https://www.redesignhealth.com/blog/news/unleashing-the-power-of-generative-ai-and-llms-in-healthcare-insights-from/), OpCo CEOs Corey Zankowski (Primum Health), Adam Pellegrini (Jasper Health), Patrick Mobley (Vivid Health), and Jon Cooper (Overalls) share insights and learnings from their experience building AI into their roadmaps, including tactical insights into:
+Inspired by interest following the [CEO Summit session on AI](https://www.acmehealth.com/blog/news/unleashing-the-power-of-generative-ai-and-llms-in-healthcare-insights-from/), OpCo CEOs Corey Zankowski (Primum Health), Adam Pellegrini (Jasper Health), Patrick Mobley (Vivid Health), and Jon Cooper (Overalls) share insights and learnings from their experience building AI into their roadmaps, including tactical insights into:
 
 * Where and how they got started (analysis and decision processes).
 

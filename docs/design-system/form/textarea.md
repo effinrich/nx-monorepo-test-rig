@@ -2,7 +2,7 @@
 id: textarea
 category: form
 title: Textarea
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: 'The Textarea component allows you to easily create multi-line text inputs.'
 ---
 
@@ -13,12 +13,12 @@ Use the `Textarea` component to easily create multi-line text inputs.
 ## Import
 
 ```js
-import { Textarea } from '@redesignhealth/ui'
+import { Textarea } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-textarea--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-textarea--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

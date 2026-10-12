@@ -10,7 +10,7 @@ import {
   CompanySummary,
   NewNotesProps,
   TaxonomySummary
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   Box,
   Button,
@@ -22,7 +22,7 @@ import {
   Input,
   Spacer,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { CreatableSelect, Select } from 'chakra-react-select'
 
 import { FormField } from '../../../form-field/form-field'

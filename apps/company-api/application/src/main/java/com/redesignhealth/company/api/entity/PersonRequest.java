@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
-import com.redesignhealth.company.api.entity.audit.Auditable;
-import com.redesignhealth.company.api.entity.request.RequestStatus;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.request.RequestStatus;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
 import jakarta.persistence.*;
 import java.util.Set;
 

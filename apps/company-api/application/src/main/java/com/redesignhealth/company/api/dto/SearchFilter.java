@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
 import java.util.List;
 import lombok.EqualsAndHashCode;

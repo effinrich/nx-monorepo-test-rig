@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.client.search.entity;
+package com.acmehealth.company.api.client.search.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.redesignhealth.company.api.dto.LinkRef;
-import com.redesignhealth.company.api.dto.command.ExpertNoteCommand;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.ref.Ref;
+import com.acmehealth.company.api.dto.LinkRef;
+import com.acmehealth.company.api.dto.command.ExpertNoteCommand;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.ref.Ref;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collection;

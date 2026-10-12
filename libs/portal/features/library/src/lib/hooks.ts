@@ -2,7 +2,7 @@ import {
   CategoryGrouping,
   LibraryDoc,
   useLibraryStore
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import { useQuery } from '@tanstack/react-query'
 
 import { getAllContent } from './api'

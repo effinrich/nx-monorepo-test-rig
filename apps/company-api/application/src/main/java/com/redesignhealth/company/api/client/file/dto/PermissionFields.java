@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.file.dto;
+package com.acmehealth.company.api.client.file.dto;
 
 /**
  * Useful for hydrating fields not included by default in the API responses <a

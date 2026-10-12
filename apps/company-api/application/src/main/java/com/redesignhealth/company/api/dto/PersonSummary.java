@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
-import com.redesignhealth.company.api.entity.Person;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.entity.Person;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.time.Instant;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ import org.springframework.hateoas.RepresentationModel;
 @Getter
 public class PersonSummary extends RepresentationModel<PersonSummary> {
 
-  @Schema(example = "sazh.katzroy@redesignhealth.com", requiredMode = Schema.RequiredMode.REQUIRED)
+  @Schema(example = "sazh.katzroy@acmehealth.com", requiredMode = Schema.RequiredMode.REQUIRED)
   private final String email;
 
   @Schema(example = "Sazh")

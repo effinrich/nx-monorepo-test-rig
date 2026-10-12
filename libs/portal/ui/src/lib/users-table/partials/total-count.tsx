@@ -1,4 +1,4 @@
-import { Badge, Flex } from '@redesignhealth/ui'
+import { Badge, Flex } from '@acmehealth/ui'
 
 interface TotalCountProps {
   totalUsers: number | undefined

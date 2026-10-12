@@ -1,4 +1,4 @@
-import { createFilterParam } from '@redesignhealth/portal/utils'
+import { createFilterParam } from '@acmehealth/portal/utils'
 
 import { axiosApi } from '../axios-api'
 import { Option } from '../types'

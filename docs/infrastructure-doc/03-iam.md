@@ -38,7 +38,7 @@ The IAM module is a Terraform module used to set up users and manage permissions
 
 The following diagram illustrates what is deployed by the IAM module. The IAM module focuses on user provisioning and permissions within the core account, which serves as the management account. This module is designed to establish user access and permissions across various accounts within the organization.
 
-![Diagram of IAM Module Architecture](https://assets.redesignhealth.com/NFlAuqCVjIkS27WUppnVOEntvl3P7bUdaf0vYfab/iam-state-module.png)
+![Diagram of IAM Module Architecture](https://assets.acmehealth.com/NFlAuqCVjIkS27WUppnVOEntvl3P7bUdaf0vYfab/iam-state-module.png)
 
 The diagram illustrates two different user groups (**devOps** and **developers**) with access to two different accounts (**Core** and **Dev**).
 
@@ -150,7 +150,7 @@ In the parent IAM module in the **tf-infrastructure** repository, set up the use
 
 You can review accounts and users in the IAM Identify Center.
 
-![image-20230425170343703](https://assets.redesignhealth.com/image/7358d97830ee355982c3d9e042d5ae9286788878.png)
+![image-20230425170343703](https://assets.acmehealth.com/image/7358d97830ee355982c3d9e042d5ae9286788878.png)
 
 
 ## Related Information

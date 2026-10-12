@@ -48,7 +48,7 @@ Create a piece of content.
 
 If a `googleDriveId` is provided, the API will reach out to Google Drive and retrieve a  `text/plain` representation of the document requested. The API will then store that text document along with the payload provided in OpenSearch.
 
-WARNING: All `googleDriveIds` must be shared with the following service account: `km-docs-svc@redesign-os.iam.gserviceaccount.com`
+WARNING: All `googleDriveIds` must be shared with the following service account: `km-docs-svc@acme-os.iam.gserviceaccount.com`
 
 operation::library-content/create[snippets='response-fields,http-request,http-response']
 

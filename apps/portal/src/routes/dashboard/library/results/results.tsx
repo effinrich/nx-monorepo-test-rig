@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router-dom'
-import analytics from '@redesignhealth/analytics'
+import analytics from '@acmehealth/analytics'
 import {
   CompanyApiEnum,
   getSolutionById
-} from '@redesignhealth/portal/data-assets'
-import { ResultCard } from '@redesignhealth/portal/ui'
-import { SimpleGrid } from '@redesignhealth/ui'
+} from '@acmehealth/portal/data-assets'
+import { ResultCard } from '@acmehealth/portal/ui'
+import { SimpleGrid } from '@acmehealth/ui'
 
 interface Doc {
   type: CompanyApiEnum

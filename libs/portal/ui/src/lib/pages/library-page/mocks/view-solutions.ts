@@ -2,7 +2,7 @@ export const viewAllSolutions = {
   links: [
     {
       rel: 'self',
-      href: 'https://company-api.dev.redesignhealth.com/library/MnDeoylC/content?filter=SOLUTION&page=0&size=1000'
+      href: 'https://company-api.dev.acmehealth.com/library/MnDeoylC/content?filter=SOLUTION&page=0&size=1000'
     }
   ],
   content: [
@@ -23,7 +23,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/xajrq1UT'
+          href: 'https://company-api.dev.acmehealth.com/library-content/xajrq1UT'
         },
         {
           rel: 'googleDocs',
@@ -49,7 +49,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/PKsZKQxj'
+          href: 'https://company-api.dev.acmehealth.com/library-content/PKsZKQxj'
         },
         {
           rel: 'googleDocs',
@@ -69,7 +69,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/EEurtPKA'
+          href: 'https://company-api.dev.acmehealth.com/library-content/EEurtPKA'
         }
       ]
     },
@@ -86,7 +86,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/uvaZ5oiF'
+          href: 'https://company-api.dev.acmehealth.com/library-content/uvaZ5oiF'
         }
       ]
     },
@@ -100,7 +100,7 @@ export const viewAllSolutions = {
       },
       parentId: 'CZ7hb2bA',
       remoteContentId:
-        'S3://dev-design.redesignhealth.com/expert-knowledge-library/third-party-resources/paywall-content/guide-to-health-system-pilots.html',
+        'S3://dev-design.acmehealth.com/expert-knowledge-library/third-party-resources/paywall-content/guide-to-health-system-pilots.html',
       remoteContentSource: {
         displayName: 'MkDocs',
         value: 'MKDOCS'
@@ -108,7 +108,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/3daldGxe'
+          href: 'https://company-api.dev.acmehealth.com/library-content/3daldGxe'
         }
       ]
     },
@@ -122,7 +122,7 @@ export const viewAllSolutions = {
       },
       parentId: 'Ih1Cv8Dn',
       remoteContentId:
-        'S3://dev-design.redesignhealth.com/expert-knowledge-library/videos/corporate-practice-of-medicine.html',
+        'S3://dev-design.acmehealth.com/expert-knowledge-library/videos/corporate-practice-of-medicine.html',
       remoteContentSource: {
         displayName: 'MkDocs',
         value: 'MKDOCS'
@@ -130,7 +130,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/dLqhJJzP'
+          href: 'https://company-api.dev.acmehealth.com/library-content/dLqhJJzP'
         }
       ]
     },
@@ -144,7 +144,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/34xLXsjr'
+          href: 'https://company-api.dev.acmehealth.com/library-content/34xLXsjr'
         }
       ]
     },
@@ -166,7 +166,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/reiezREc'
+          href: 'https://company-api.dev.acmehealth.com/library-content/reiezREc'
         },
         {
           rel: 'googleDocs',
@@ -191,7 +191,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/JBjawiIU'
+          href: 'https://company-api.dev.acmehealth.com/library-content/JBjawiIU'
         },
         {
           rel: 'googleDocs',
@@ -216,7 +216,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/Msfk3fp8'
+          href: 'https://company-api.dev.acmehealth.com/library-content/Msfk3fp8'
         },
         {
           rel: 'googleDocs',
@@ -241,7 +241,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/jLc13eWu'
+          href: 'https://company-api.dev.acmehealth.com/library-content/jLc13eWu'
         },
         {
           rel: 'googleDocs',
@@ -259,7 +259,7 @@ export const viewAllSolutions = {
       },
       parentId: 'sOa7veCh',
       remoteContentId:
-        'S3://dev-design.redesignhealth.com/expert-knowledge-library/mvp-product-build/ai-ml-considerations.html',
+        'S3://dev-design.acmehealth.com/expert-knowledge-library/mvp-product-build/ai-ml-considerations.html',
       remoteContentSource: {
         displayName: 'MkDocs',
         value: 'MKDOCS'
@@ -267,7 +267,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/ZN5OMYjE'
+          href: 'https://company-api.dev.acmehealth.com/library-content/ZN5OMYjE'
         }
       ]
     },
@@ -284,7 +284,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/QlVljQxl'
+          href: 'https://company-api.dev.acmehealth.com/library-content/QlVljQxl'
         }
       ]
     },
@@ -301,7 +301,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/dVfF0iaK'
+          href: 'https://company-api.dev.acmehealth.com/library-content/dVfF0iaK'
         }
       ]
     },
@@ -317,7 +317,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/LNI2NUSA'
+          href: 'https://company-api.dev.acmehealth.com/library-content/LNI2NUSA'
         }
       ]
     },
@@ -331,7 +331,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/77IDX47u'
+          href: 'https://company-api.dev.acmehealth.com/library-content/77IDX47u'
         }
       ]
     },
@@ -353,7 +353,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/uNg3hZZV'
+          href: 'https://company-api.dev.acmehealth.com/library-content/uNg3hZZV'
         },
         {
           rel: 'googleDocs',
@@ -379,7 +379,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/wy2xKZ64'
+          href: 'https://company-api.dev.acmehealth.com/library-content/wy2xKZ64'
         },
         {
           rel: 'googleDocs',
@@ -404,7 +404,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/ISMv00aa'
+          href: 'https://company-api.dev.acmehealth.com/library-content/ISMv00aa'
         },
         {
           rel: 'googleDocs',
@@ -429,7 +429,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/rG47Ga6x'
+          href: 'https://company-api.dev.acmehealth.com/library-content/rG47Ga6x'
         },
         {
           rel: 'googleDocs',
@@ -450,7 +450,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/8dKFZk3c'
+          href: 'https://company-api.dev.acmehealth.com/library-content/8dKFZk3c'
         }
       ]
     },
@@ -471,7 +471,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/b7cfpHfW'
+          href: 'https://company-api.dev.acmehealth.com/library-content/b7cfpHfW'
         },
         {
           rel: 'googleDocs',
@@ -496,7 +496,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/s6jwKRTt'
+          href: 'https://company-api.dev.acmehealth.com/library-content/s6jwKRTt'
         },
         {
           rel: 'googleDocs',
@@ -517,7 +517,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/1R4TNZVN'
+          href: 'https://company-api.dev.acmehealth.com/library-content/1R4TNZVN'
         }
       ]
     },
@@ -532,7 +532,7 @@ export const viewAllSolutions = {
       },
       parentId: 'LNI2NUSA',
       remoteContentId:
-        'S3://dev-design.redesignhealth.com/expert-knowledge-library/videos/rishi-sikka-presents.html',
+        'S3://dev-design.acmehealth.com/expert-knowledge-library/videos/rishi-sikka-presents.html',
       remoteContentSource: {
         displayName: 'MkDocs',
         value: 'MKDOCS'
@@ -540,7 +540,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/KW1Jy2UQ'
+          href: 'https://company-api.dev.acmehealth.com/library-content/KW1Jy2UQ'
         }
       ]
     },
@@ -562,7 +562,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/1ibX6M8F'
+          href: 'https://company-api.dev.acmehealth.com/library-content/1ibX6M8F'
         },
         {
           rel: 'googleDocs',
@@ -588,7 +588,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/tEbUrYr8'
+          href: 'https://company-api.dev.acmehealth.com/library-content/tEbUrYr8'
         },
         {
           rel: 'googleDocs',
@@ -606,7 +606,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/UtzLUqXi'
+          href: 'https://company-api.dev.acmehealth.com/library-content/UtzLUqXi'
         }
       ]
     },
@@ -620,7 +620,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/vcOHuYGP'
+          href: 'https://company-api.dev.acmehealth.com/library-content/vcOHuYGP'
         }
       ]
     },
@@ -642,7 +642,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/jzYcED84'
+          href: 'https://company-api.dev.acmehealth.com/library-content/jzYcED84'
         },
         {
           rel: 'googleDocs',
@@ -668,7 +668,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/bASOd8m5'
+          href: 'https://company-api.dev.acmehealth.com/library-content/bASOd8m5'
         },
         {
           rel: 'googleDocs',
@@ -694,7 +694,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/TAHS01Up'
+          href: 'https://company-api.dev.acmehealth.com/library-content/TAHS01Up'
         },
         {
           rel: 'googleDocs',
@@ -720,7 +720,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/O3oU1TAk'
+          href: 'https://company-api.dev.acmehealth.com/library-content/O3oU1TAk'
         },
         {
           rel: 'googleDocs',
@@ -746,7 +746,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/pwgMGYx9'
+          href: 'https://company-api.dev.acmehealth.com/library-content/pwgMGYx9'
         },
         {
           rel: 'googleDocs',
@@ -765,7 +765,7 @@ export const viewAllSolutions = {
       },
       parentId: 'EEurtPKA',
       remoteContentId:
-        'S3://dev-design.redesignhealth.com/expert-knowledge-library/third-party-resources/open-web/analyzing-telehealth-claims.html',
+        'S3://dev-design.acmehealth.com/expert-knowledge-library/third-party-resources/open-web/analyzing-telehealth-claims.html',
       remoteContentSource: {
         displayName: 'MkDocs',
         value: 'MKDOCS'
@@ -773,7 +773,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/3YOka1nd'
+          href: 'https://company-api.dev.acmehealth.com/library-content/3YOka1nd'
         }
       ]
     },
@@ -787,7 +787,7 @@ export const viewAllSolutions = {
       },
       parentId: 'EEurtPKA',
       remoteContentId:
-        'S3://dev-design.redesignhealth.com/expert-knowledge-library/third-party-resources/open-web/channel-partnerships.html',
+        'S3://dev-design.acmehealth.com/expert-knowledge-library/third-party-resources/open-web/channel-partnerships.html',
       remoteContentSource: {
         displayName: 'MkDocs',
         value: 'MKDOCS'
@@ -795,7 +795,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/bmhr0o09'
+          href: 'https://company-api.dev.acmehealth.com/library-content/bmhr0o09'
         }
       ]
     },
@@ -810,7 +810,7 @@ export const viewAllSolutions = {
       },
       parentId: 'EEurtPKA',
       remoteContentId:
-        'S3://dev-design.redesignhealth.com/expert-knowledge-library/third-party-resources/open-web/channels-of-growth.html',
+        'S3://dev-design.acmehealth.com/expert-knowledge-library/third-party-resources/open-web/channels-of-growth.html',
       remoteContentSource: {
         displayName: 'MkDocs',
         value: 'MKDOCS'
@@ -818,7 +818,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/fDimhmfb'
+          href: 'https://company-api.dev.acmehealth.com/library-content/fDimhmfb'
         }
       ]
     },
@@ -835,7 +835,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/FWGXfFwY'
+          href: 'https://company-api.dev.acmehealth.com/library-content/FWGXfFwY'
         }
       ]
     },
@@ -849,7 +849,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/cC9O628c'
+          href: 'https://company-api.dev.acmehealth.com/library-content/cC9O628c'
         }
       ]
     },
@@ -863,7 +863,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/JidbHibE'
+          href: 'https://company-api.dev.acmehealth.com/library-content/JidbHibE'
         }
       ]
     },
@@ -878,7 +878,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/wKB7T8pu'
+          href: 'https://company-api.dev.acmehealth.com/library-content/wKB7T8pu'
         }
       ]
     },
@@ -900,7 +900,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/xRVY0ebB'
+          href: 'https://company-api.dev.acmehealth.com/library-content/xRVY0ebB'
         },
         {
           rel: 'googleDocs',
@@ -926,7 +926,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/EJaiOnEE'
+          href: 'https://company-api.dev.acmehealth.com/library-content/EJaiOnEE'
         },
         {
           rel: 'googleDocs',
@@ -952,7 +952,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/9rGyhmLY'
+          href: 'https://company-api.dev.acmehealth.com/library-content/9rGyhmLY'
         },
         {
           rel: 'googleDocs',
@@ -973,7 +973,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/sed9kJ1B'
+          href: 'https://company-api.dev.acmehealth.com/library-content/sed9kJ1B'
         }
       ]
     },
@@ -995,7 +995,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/93UnHkFQ'
+          href: 'https://company-api.dev.acmehealth.com/library-content/93UnHkFQ'
         },
         {
           rel: 'googleDocs',
@@ -1021,7 +1021,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/s06POXll'
+          href: 'https://company-api.dev.acmehealth.com/library-content/s06POXll'
         },
         {
           rel: 'googleDocs',
@@ -1042,7 +1042,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/B7p5uF4e'
+          href: 'https://company-api.dev.acmehealth.com/library-content/B7p5uF4e'
         }
       ]
     },
@@ -1063,7 +1063,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/ioB4SkVd'
+          href: 'https://company-api.dev.acmehealth.com/library-content/ioB4SkVd'
         },
         {
           rel: 'googleDocs',
@@ -1089,7 +1089,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/OU7p8qcQ'
+          href: 'https://company-api.dev.acmehealth.com/library-content/OU7p8qcQ'
         },
         {
           rel: 'googleDocs',
@@ -1114,7 +1114,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/QSn5qZHI'
+          href: 'https://company-api.dev.acmehealth.com/library-content/QSn5qZHI'
         },
         {
           rel: 'googleDocs',
@@ -1140,7 +1140,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/aVLJrPhV'
+          href: 'https://company-api.dev.acmehealth.com/library-content/aVLJrPhV'
         },
         {
           rel: 'googleDocs',
@@ -1159,7 +1159,7 @@ export const viewAllSolutions = {
       },
       parentId: 'Ih1Cv8Dn',
       remoteContentId:
-        'S3://dev-design.redesignhealth.com/expert-knowledge-library/videos/mso-pc-structure-fireside-chat.html',
+        'S3://dev-design.acmehealth.com/expert-knowledge-library/videos/mso-pc-structure-fireside-chat.html',
       remoteContentSource: {
         displayName: 'MkDocs',
         value: 'MKDOCS'
@@ -1167,7 +1167,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/QEWifixv'
+          href: 'https://company-api.dev.acmehealth.com/library-content/QEWifixv'
         }
       ]
     },
@@ -1184,7 +1184,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/sOa7veCh'
+          href: 'https://company-api.dev.acmehealth.com/library-content/sOa7veCh'
         }
       ]
     },
@@ -1206,7 +1206,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/2piTbN5M'
+          href: 'https://company-api.dev.acmehealth.com/library-content/2piTbN5M'
         },
         {
           rel: 'googleDocs',
@@ -1226,7 +1226,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/zx60fhhp'
+          href: 'https://company-api.dev.acmehealth.com/library-content/zx60fhhp'
         }
       ]
     },
@@ -1248,7 +1248,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/IHXSivc0'
+          href: 'https://company-api.dev.acmehealth.com/library-content/IHXSivc0'
         },
         {
           rel: 'googleDocs',
@@ -1274,7 +1274,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/s58yIv9I'
+          href: 'https://company-api.dev.acmehealth.com/library-content/s58yIv9I'
         },
         {
           rel: 'googleDocs',
@@ -1300,7 +1300,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/z8seWoDU'
+          href: 'https://company-api.dev.acmehealth.com/library-content/z8seWoDU'
         },
         {
           rel: 'googleDocs',
@@ -1319,7 +1319,7 @@ export const viewAllSolutions = {
       },
       parentId: 'LNI2NUSA',
       remoteContentId:
-        'S3://dev-design.redesignhealth.com/expert-knowledge-library/videos/gtm-guest-speaker-mobley.html',
+        'S3://dev-design.acmehealth.com/expert-knowledge-library/videos/gtm-guest-speaker-mobley.html',
       remoteContentSource: {
         displayName: 'MkDocs',
         value: 'MKDOCS'
@@ -1327,7 +1327,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/onqX5iYM'
+          href: 'https://company-api.dev.acmehealth.com/library-content/onqX5iYM'
         }
       ]
     },
@@ -1348,7 +1348,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/3QHSOg5V'
+          href: 'https://company-api.dev.acmehealth.com/library-content/3QHSOg5V'
         },
         {
           rel: 'googleDocs',
@@ -1374,7 +1374,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/kqu0u2l2'
+          href: 'https://company-api.dev.acmehealth.com/library-content/kqu0u2l2'
         },
         {
           rel: 'googleDocs',
@@ -1395,7 +1395,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/tuILzuLo'
+          href: 'https://company-api.dev.acmehealth.com/library-content/tuILzuLo'
         }
       ]
     },
@@ -1417,7 +1417,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/jKRKjS8u'
+          href: 'https://company-api.dev.acmehealth.com/library-content/jKRKjS8u'
         },
         {
           rel: 'googleDocs',
@@ -1443,7 +1443,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/74pSJ5jY'
+          href: 'https://company-api.dev.acmehealth.com/library-content/74pSJ5jY'
         },
         {
           rel: 'googleDocs',
@@ -1464,7 +1464,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/CZ7hb2bA'
+          href: 'https://company-api.dev.acmehealth.com/library-content/CZ7hb2bA'
         }
       ]
     },
@@ -1479,7 +1479,7 @@ export const viewAllSolutions = {
       },
       parentId: 'LNI2NUSA',
       remoteContentId:
-        'S3://dev-design.redesignhealth.com/expert-knowledge-library/videos/ajit-singh-presents.html',
+        'S3://dev-design.acmehealth.com/expert-knowledge-library/videos/ajit-singh-presents.html',
       remoteContentSource: {
         displayName: 'MkDocs',
         value: 'MKDOCS'
@@ -1487,7 +1487,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/ShEHIi3A'
+          href: 'https://company-api.dev.acmehealth.com/library-content/ShEHIi3A'
         }
       ]
     },
@@ -1501,7 +1501,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/0cdPuvjj'
+          href: 'https://company-api.dev.acmehealth.com/library-content/0cdPuvjj'
         }
       ]
     },
@@ -1515,7 +1515,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/iL6q5BvP'
+          href: 'https://company-api.dev.acmehealth.com/library-content/iL6q5BvP'
         }
       ]
     },
@@ -1536,7 +1536,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/crhxXWLx'
+          href: 'https://company-api.dev.acmehealth.com/library-content/crhxXWLx'
         },
         {
           rel: 'googleDocs',
@@ -1562,7 +1562,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/7Zka0ZBj'
+          href: 'https://company-api.dev.acmehealth.com/library-content/7Zka0ZBj'
         },
         {
           rel: 'googleDocs',
@@ -1588,7 +1588,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/bK6A5dy7'
+          href: 'https://company-api.dev.acmehealth.com/library-content/bK6A5dy7'
         },
         {
           rel: 'googleDocs',
@@ -1609,7 +1609,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/J7yYYMUz'
+          href: 'https://company-api.dev.acmehealth.com/library-content/J7yYYMUz'
         }
       ]
     },
@@ -1631,7 +1631,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/1tUTZ9eh'
+          href: 'https://company-api.dev.acmehealth.com/library-content/1tUTZ9eh'
         },
         {
           rel: 'googleDocs',
@@ -1657,7 +1657,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/Klh1FXZB'
+          href: 'https://company-api.dev.acmehealth.com/library-content/Klh1FXZB'
         },
         {
           rel: 'googleDocs',
@@ -1683,7 +1683,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/QQsOQ8os'
+          href: 'https://company-api.dev.acmehealth.com/library-content/QQsOQ8os'
         },
         {
           rel: 'googleDocs',
@@ -1704,7 +1704,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/qXE4iIuJ'
+          href: 'https://company-api.dev.acmehealth.com/library-content/qXE4iIuJ'
         }
       ]
     },
@@ -1720,7 +1720,7 @@ export const viewAllSolutions = {
       links: [
         {
           rel: 'self',
-          href: 'https://company-api.dev.redesignhealth.com/library-content/Ih1Cv8Dn'
+          href: 'https://company-api.dev.acmehealth.com/library-content/Ih1Cv8Dn'
         }
       ]
     }

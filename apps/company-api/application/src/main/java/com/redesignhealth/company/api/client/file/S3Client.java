@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.client.file;
+package com.acmehealth.company.api.client.file;
 
 import com.google.common.annotations.VisibleForTesting;
-import com.redesignhealth.company.api.client.file.dto.RemoteFile;
-import com.redesignhealth.company.api.entity.id.ApiIdGenerator;
-import com.redesignhealth.company.api.exception.RemoteUploadException;
+import com.acmehealth.company.api.client.file.dto.RemoteFile;
+import com.acmehealth.company.api.entity.id.ApiIdGenerator;
+import com.acmehealth.company.api.exception.RemoteUploadException;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import software.amazon.awssdk.core.sync.RequestBody;

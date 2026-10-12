@@ -6,7 +6,7 @@ React component that adds support for light mode and dark mode using
 ## Import
 
 ```js
-import { ColorModeToggle } from '@redesignhealth/ui'
+import { ColorModeToggle } from '@acmehealth/ui'
 ```
 
 To enable this behavior within your apps, wrap your application in a
@@ -14,7 +14,7 @@ To enable this behavior within your apps, wrap your application in a
 
 ```jsx
 import * as React from 'react'
-import { ColorModeProvider } from '@redesignhealth/ui'
+import { ColorModeProvider } from '@acmehealth/ui'
 import theme from './theme'
 
 function App({ children }) {

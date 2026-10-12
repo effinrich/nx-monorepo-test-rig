@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.task;
+package com.acmehealth.company.api.task;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -9,16 +9,16 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.redesignhealth.company.api.client.email.EmailSender;
-import com.redesignhealth.company.api.client.file.GoogleDriveClient;
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.CompanyMember;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.TaskHistory;
-import com.redesignhealth.company.api.entity.ref.TaskRef;
-import com.redesignhealth.company.api.repository.CompanyMemberRepository;
-import com.redesignhealth.company.api.repository.TaskRepository;
+import com.acmehealth.company.api.client.email.EmailSender;
+import com.acmehealth.company.api.client.file.GoogleDriveClient;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.CompanyMember;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.TaskHistory;
+import com.acmehealth.company.api.entity.ref.TaskRef;
+import com.acmehealth.company.api.repository.CompanyMemberRepository;
+import com.acmehealth.company.api.repository.TaskRepository;
 import java.util.List;
 import java.util.Optional;
 import org.junit.jupiter.api.Test;
@@ -40,7 +40,7 @@ public class RevokeGooglePermissionsTaskTest {
   @Test
   public void Test_When_There_Is_Mismatch_Into_Member_And_GFolderAccess() {
     var someId = "some_id";
-    var person = Person.from("testUser@redesignhealth.com");
+    var person = Person.from("testUser@acmehealth.com");
     var company = Company.from("asghjh");
     company.setOnboardDocsFolderId(someId);
     var member = new CompanyMember(company, person, CompanyMemberStatus.INACTIVE, true);
@@ -62,7 +62,7 @@ public class RevokeGooglePermissionsTaskTest {
   @Test
   public void Test_When_There_Is_Not_Mismatch_Into_Member_And_GFolderAccess() {
     var someId = "some_id";
-    var person = Person.from("testUser@redesignhealth.com");
+    var person = Person.from("testUser@acmehealth.com");
     var company = Company.from("asghjh");
     company.setOnboardDocsFolderId(someId);
     var member = new CompanyMember(company, person, CompanyMemberStatus.INACTIVE, true);
@@ -82,7 +82,7 @@ public class RevokeGooglePermissionsTaskTest {
   @Test
   public void Test_When_There_Is_Mismatch_Into_Member_And_GFolderAccess_But_OnboardIsNull() {
     var someId = "some_id";
-    var person = Person.from("testUser@redesignhealth.com");
+    var person = Person.from("testUser@acmehealth.com");
     var company = Company.from("asghjh");
     var member = new CompanyMember(company, person, CompanyMemberStatus.INACTIVE, true);
     when(taskRepository.findByName(taskHistory.getName())).thenReturn(Optional.of(taskHistory));

@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.exception.status;
+package com.acmehealth.company.api.exception.status;
 
-import com.redesignhealth.company.api.exception.dto.FieldErrorDetails;
+import com.acmehealth.company.api.exception.dto.FieldErrorDetails;
 import org.springframework.http.HttpStatus;
 
 public abstract class UnprocessableEntityException extends BaseHttpException {

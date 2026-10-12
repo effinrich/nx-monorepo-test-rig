@@ -1,4 +1,4 @@
-import { CompanyApiEnum } from '@redesignhealth/portal/data-assets'
+import { CompanyApiEnum } from '@acmehealth/portal/data-assets'
 import { create } from 'zustand'
 
 export interface Category {

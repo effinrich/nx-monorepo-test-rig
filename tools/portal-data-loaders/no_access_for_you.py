@@ -30,7 +30,7 @@ def put_rh_user(email, given_name, family_name):
 
 fake_list = [{
     '': '',
-    'Email': 'philip.poley@redesignhealth.com',
+    'Email': 'philip.poley@acmehealth.com',
     'First name': 'Philip',
     'Last name': 'Poley'
 }]

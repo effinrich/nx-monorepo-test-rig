@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.file.dto;
+package com.acmehealth.company.api.client.file.dto;
 
 import lombok.Builder;
 import lombok.Getter;

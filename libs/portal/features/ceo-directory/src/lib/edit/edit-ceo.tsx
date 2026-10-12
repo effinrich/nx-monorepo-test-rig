@@ -7,14 +7,14 @@ import {
   CEO_FORM_DEFAULT_VALUES,
   useGetCeoById,
   useUpdateCeoFromForm
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   AxiosErrorAlert,
   CeoForm,
   ceoFormResolver,
   Page
-} from '@redesignhealth/portal/ui'
-import { Box, Button, Loader, SectionHeader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/ui'
+import { Box, Button, Loader, SectionHeader } from '@acmehealth/ui'
 
 export const EditCeo = () => {
   const { ceoId } = useParams()

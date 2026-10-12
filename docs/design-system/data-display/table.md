@@ -2,7 +2,7 @@
 id: table
 title: Table
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   'Table component is used to organize and display data efficiently. It renders
   a `<table>` element by default'
@@ -26,12 +26,12 @@ import {
   Td,
   TableCaption,
   TableContainer
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-table-simple--simple-sm&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-table-simple--simple-sm&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Table Container
 

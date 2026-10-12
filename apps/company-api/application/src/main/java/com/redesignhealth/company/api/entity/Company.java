@@ -1,16 +1,16 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
 import static jakarta.persistence.EnumType.STRING;
 
-import com.redesignhealth.company.api.dto.enums.CompanyFundraiseStatus;
-import com.redesignhealth.company.api.dto.enums.CompanyStage;
-import com.redesignhealth.company.api.dto.enums.CompanyStatus;
-import com.redesignhealth.company.api.entity.audit.Auditable;
-import com.redesignhealth.company.api.entity.converter.CompanyRefConverter;
-import com.redesignhealth.company.api.entity.converter.TaxonomyRefConverter;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.ref.TaxonomyRef;
-import com.redesignhealth.company.api.taxonomy.TaxonomyTerm;
+import com.acmehealth.company.api.dto.enums.CompanyFundraiseStatus;
+import com.acmehealth.company.api.dto.enums.CompanyStage;
+import com.acmehealth.company.api.dto.enums.CompanyStatus;
+import com.acmehealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.converter.CompanyRefConverter;
+import com.acmehealth.company.api.entity.converter.TaxonomyRefConverter;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.ref.TaxonomyRef;
+import com.acmehealth.company.api.taxonomy.TaxonomyTerm;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;

@@ -1,5 +1,5 @@
 import { MdCheck } from 'react-icons/md'
-import { Button, HStack, Icon, Text } from '@redesignhealth/ui'
+import { Button, HStack, Icon, Text } from '@acmehealth/ui'
 
 interface BuyerRequestButtonProps {
   onClick(): void

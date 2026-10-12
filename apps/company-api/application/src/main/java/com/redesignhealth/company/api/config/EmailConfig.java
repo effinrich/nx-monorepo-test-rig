@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.config;
+package com.acmehealth.company.api.config;
 
-import com.redesignhealth.company.api.client.email.EmailSender;
-import com.redesignhealth.company.api.client.email.NoopEmailSender;
-import com.redesignhealth.company.api.client.email.SesEmailSender;
-import com.redesignhealth.company.api.template.TemplateGenerator;
+import com.acmehealth.company.api.client.email.EmailSender;
+import com.acmehealth.company.api.client.email.NoopEmailSender;
+import com.acmehealth.company.api.client.email.SesEmailSender;
+import com.acmehealth.company.api.template.TemplateGenerator;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;

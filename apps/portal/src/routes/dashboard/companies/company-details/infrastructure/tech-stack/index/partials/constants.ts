@@ -1,4 +1,4 @@
-import { DrawerFormAccordionProps } from '@redesignhealth/portal/ui'
+import { DrawerFormAccordionProps } from '@acmehealth/portal/ui'
 
 export const formItems: Record<
   string,

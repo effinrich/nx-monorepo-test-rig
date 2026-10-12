@@ -2,14 +2,14 @@
 id: text
 category: typography
 title: Text
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Text is the used to render text and paragraphs within an interface.
 ---
 
 ## Import
 
 ```js
-import { Text } from '@redesignhealth/ui'
+import { Text } from '@acmehealth/ui'
 ```
 
 ## Changing the font size

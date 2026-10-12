@@ -1,4 +1,4 @@
-import { act, mocks, render, testA11y } from '@redesignhealth/shared-utils-jest'
+import { act, mocks, render, testA11y } from '@acmehealth/shared-utils-jest'
 
 import { AvatarRoot, AvatarImage, AvatarFallback, AvatarBadge } from './avatar'
 

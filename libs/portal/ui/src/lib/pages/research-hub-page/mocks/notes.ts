@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker'
 import {
   CallNoteFilterOptions,
   CallNoteWithId
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 
 faker.seed(456)
 

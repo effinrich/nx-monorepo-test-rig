@@ -1,4 +1,4 @@
-import { ListRoot, Stack, StackSeparator, StackProps } from '@redesignhealth/ui'
+import { ListRoot, Stack, StackSeparator, StackProps } from '@acmehealth/ui'
 
 interface DetailsCardBodyProps extends StackProps {
   children: React.ReactNode

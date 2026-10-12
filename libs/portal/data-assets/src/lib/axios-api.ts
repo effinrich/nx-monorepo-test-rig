@@ -1,7 +1,7 @@
 import {
   getImpersonatedEmail,
   getUserAccessToken
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 import axios from 'axios'
 import qs from 'qs'
 

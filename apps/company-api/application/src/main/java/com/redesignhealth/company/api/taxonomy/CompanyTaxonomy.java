@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.taxonomy;
+package com.acmehealth.company.api.taxonomy;
 
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.ref.TaxonomyRef;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.ref.TaxonomyRef;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

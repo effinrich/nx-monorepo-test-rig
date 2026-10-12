@@ -2,20 +2,20 @@
 id: useDisclosure
 category: hooks
 title: useDisclosure
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: 'React hook to handle common open and close scenarios in UI components'
 ---
 
 `useDisclosure` is a custom hook used to help handle common `open`, `close`, or
 `toggle` scenarios. It can be used to control feedback component such as
-[Modal](https://dev-design.redesignhealth.com/design-system/overlay/modal.html),
-[AlertDialog](https://dev-design.redesignhealth.com/design-system/overlay/alert-dialog.html),
-[Drawer](https://dev-design.redesignhealth.com/design-system/overlay/drawer.html), etc.
+[Modal](https://dev-design.acmehealth.com/design-system/overlay/modal.html),
+[AlertDialog](https://dev-design.acmehealth.com/design-system/overlay/alert-dialog.html),
+[Drawer](https://dev-design.acmehealth.com/design-system/overlay/drawer.html), etc.
 
 ## Import
 
 ```js
-import { useDisclosure } from '@redesignhealth/ui'
+import { useDisclosure } from '@acmehealth/ui'
 ```
 
 ## Return value

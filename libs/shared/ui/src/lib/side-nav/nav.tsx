@@ -8,7 +8,7 @@ import { useColorModeValue } from '../color-mode/color-mode'
 
 import { Divider } from '../divider/divider'
 import { Flex } from '../flex/flex'
-import { RedesignLogo } from '../logos/redesign-logo/redesign-logo'
+import { RedesignLogo } from '../logos/acme-logo/acme-logo'
 import { Stack } from '../stack/stack'
 
 import { NavButton } from './nav-button'

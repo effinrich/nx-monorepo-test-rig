@@ -127,7 +127,7 @@ SI["Sign-In View<br/>src/views/sign-in/sign-in.tsx"]
 AU["Auth Utils<br/>src/utils/auth.ts"]
 CH["Chat View<br/>src/views/chat/chat.tsx"]
 EC["@embeddedchat/react<br/>src/rocketchat.d.ts"]
-RC["Rocket.Chat Host<br/>https://rocketchat-poc.dev.redesignhealth.com"]
+RC["Rocket.Chat Host<br/>https://rocketchat-poc.dev.acmehealth.com"]
 U --> R
 R --> RT
 RT --> SI

@@ -2,7 +2,7 @@
 id: simple-grid
 category: layout
 title: SimpleGrid
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   SimpleGrid provides a friendly interface to create responsive grid layouts
   with ease.
@@ -16,12 +16,12 @@ with ease.
 ## Import
 
 ```js
-import { SimpleGrid } from '@redesignhealth/ui'
+import { SimpleGrid } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?id=components-layout-simplegrid--auto-responsive&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?id=components-layout-simplegrid--auto-responsive&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

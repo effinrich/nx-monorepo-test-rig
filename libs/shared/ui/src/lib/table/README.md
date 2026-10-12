@@ -2,7 +2,7 @@
 id: table
 title: Table
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   'Table component is used to organize and display data efficiently. It renders
   a `<table>` element by default'
@@ -21,7 +21,7 @@ import {
   Td,
   TableCaption,
   TableContainer
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 ## Table Container

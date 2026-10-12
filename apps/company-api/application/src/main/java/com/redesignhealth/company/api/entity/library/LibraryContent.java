@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.entity.library;
+package com.acmehealth.company.api.entity.library;
 
-import com.redesignhealth.company.api.dto.enums.LibraryContentType;
-import com.redesignhealth.company.api.dto.enums.RemoteContentSource;
-import com.redesignhealth.company.api.entity.audit.Auditable;
-import com.redesignhealth.company.api.entity.converter.ContentRefConverter;
-import com.redesignhealth.company.api.entity.ref.ContentRef;
+import com.acmehealth.company.api.dto.enums.LibraryContentType;
+import com.acmehealth.company.api.dto.enums.RemoteContentSource;
+import com.acmehealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.converter.ContentRefConverter;
+import com.acmehealth.company.api.entity.ref.ContentRef;
 import jakarta.persistence.Column;
 import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;

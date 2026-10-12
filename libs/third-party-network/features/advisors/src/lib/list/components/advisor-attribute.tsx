@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { Flex, ListItem, Text } from '@redesignhealth/ui'
+import { Flex, ListItem, Text } from '@acmehealth/ui'
 
 interface AdvisorAttributeProps {
   attribute: string

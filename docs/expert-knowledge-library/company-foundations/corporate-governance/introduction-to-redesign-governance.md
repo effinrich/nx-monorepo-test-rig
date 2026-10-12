@@ -8,6 +8,6 @@ labels:
 # Introduction to Redesign Governance
 
 <iframe
-  src="https://assets.redesignhealth.com/oLnuOSkm14orA06CDgA9rH5zwwVBMYMyOf6HbERA/introduction-to-redesign-governance.pdf"
+  src="https://assets.acmehealth.com/oLnuOSkm14orA06CDgA9rH5zwwVBMYMyOf6HbERA/introduction-to-acme-governance.pdf"
   style="display: block; width: 100%; height: 800px;">
 </iframe>

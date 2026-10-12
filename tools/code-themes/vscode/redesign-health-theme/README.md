@@ -5,7 +5,7 @@
 ## How to install
 1. Add a symlink to `~/.vscode/extensions`
 ```bash
-$ ln -s /path/to/redesign-health-theme ~/.vscode/extensions/redesign-health-theme
+$ ln -s /path/to/acme-health-theme ~/.vscode/extensions/acme-health-theme
 ```
 2. Open VS Code and hit `cmd` + `shift` + `p`
 3. Type `Color Theme` and select `Preferences: Color Theme`
@@ -13,12 +13,12 @@ $ ln -s /path/to/redesign-health-theme ~/.vscode/extensions/redesign-health-them
 5. 🎉
 
 ## Developing improvements for the theme
-Not all the colors have been updated and contributions are welcomed 🎨 
+Not all the colors have been updated and contributions are welcomed 🎨
 
 The best workflow I've found is copying the theme into your `settings.json` file, making some changes, and then updating this repo.
 
 Here's how we do that
-1. hit `cmd` + `shift` + `p` 
+1. hit `cmd` + `shift` + `p`
 2. Type `User Settings` and select `Preferences: User Settings (JSON)`
 3. Add a section for `"workbench.colorCustomizations"` and `"editor.tokenColorCustomizations"`
 4. hit `cmd` + `shift` + `p`
@@ -43,7 +43,7 @@ Here's how we do that
       ...
     ]
   }
-		
+
 ```
 
 ## More resources

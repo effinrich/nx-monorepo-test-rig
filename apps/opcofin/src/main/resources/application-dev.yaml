@@ -1,6 +1,6 @@
 snowflake:
   account: EGA88532
-  login: OCC_EXT_CONSUMER 
+  login: OCC_EXT_CONSUMER
   host: ega88532.us-east-1.snowflakecomputing.com
   public: classpath:rsa_key.pub
   private: arn:aws:secretsmanager:us-east-1:082533342824:secret:dev/opcofin/snowflake-priv-DzGCGi
@@ -9,7 +9,7 @@ snowflake:
 
 webhook:
   endpoint: arn:aws:secretsmanager:us-east-1:082533342824:secret:dev/opcofin/brooklyndata-overalls-transactions-6P3h0Q
-  state: redesignhealth-opcofin-dev
+  state: acmehealth-opcofin-dev
 
 subsidiaries:
   disallow: 1, 4

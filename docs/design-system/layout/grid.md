@@ -2,7 +2,7 @@
 id: grid
 category: layout
 title: Grid
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Grid is a layout for managing grid layouts
 ---
 
@@ -13,7 +13,7 @@ Use the `Grid` component to lay out grids.
 ## Import
 
 ```js
-import { Grid, GridItem } from '@redesignhealth/ui'
+import { Grid, GridItem } from '@acmehealth/ui'
 ```
 
 - **Grid:** The main wrapper with `display: grid`.
@@ -22,7 +22,7 @@ import { Grid, GridItem } from '@redesignhealth/ui'
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?id=components-layout-grid--template-areas&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?id=components-layout-grid--template-areas&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Template columns
 

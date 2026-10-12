@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.client.search.entity.FilterOptions;
+import com.acmehealth.company.api.client.search.entity.FilterOptions;
 import java.util.List;
 import lombok.Getter;
 

@@ -2,7 +2,7 @@
 id: divider
 title: Divider
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Dividers are used to visually separate content in a list or group.
 ---
 
@@ -13,12 +13,12 @@ Use the `Divider` component to visually separate content in a list or group.
 ## Import
 
 ```js
-import { Divider } from '@redesignhealth/ui'
+import { Divider } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-divider--vertical&viewMode=story" height=200px width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-divider--vertical&viewMode=story" height=200px width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

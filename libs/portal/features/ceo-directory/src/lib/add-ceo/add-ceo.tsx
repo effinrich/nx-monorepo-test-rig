@@ -6,14 +6,14 @@ import {
   CEO_FORM_DEFAULT_VALUES,
   CeoFormFields,
   useCreateCeo
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   AxiosErrorAlert,
   CeoForm,
   ceoFormResolver,
   Page
-} from '@redesignhealth/portal/ui'
-import { Box, Button, SectionHeader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/ui'
+import { Box, Button, SectionHeader } from '@acmehealth/ui'
 
 export const AddCeo = () => {
   const navigate = useNavigate()

@@ -2,7 +2,7 @@
 id: useDisclosure
 category: hooks
 title: useDisclosure
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: 'React hook to handle common open and close scenarios in UI components'
 ---
 
@@ -15,13 +15,13 @@ description: 'React hook to handle common open and close scenarios in UI compone
 ## Import
 
 ```js
-import { useDisclosure } from '@redesignhealth/ui'
+import { useDisclosure } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
 <div style="position: relative;width: 100%;max-width:825px;padding-top: 25%;">
-  <iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=hooks-usedisclosure--with-drawer&viewMode=story" frameborder="0" style="border:2px solid black;position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe></div>
+  <iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=hooks-usedisclosure--with-drawer&viewMode=story" frameborder="0" style="border:2px solid black;position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe></div>
 </div>
 
 ## Return value

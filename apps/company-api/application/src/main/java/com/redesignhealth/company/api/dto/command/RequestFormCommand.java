@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.redesignhealth.company.api.entity.request.PublicationStatus;
+import com.acmehealth.company.api.entity.request.PublicationStatus;
 
 public class RequestFormCommand {
   public PublicationStatus status;

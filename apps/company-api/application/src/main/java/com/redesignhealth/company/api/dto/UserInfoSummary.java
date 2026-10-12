@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.security.RedesignUserDetails;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.security.RedesignUserDetails;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 /**

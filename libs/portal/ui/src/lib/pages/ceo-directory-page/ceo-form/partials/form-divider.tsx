@@ -1,4 +1,4 @@
-import { type BoxProps, AbsoluteCenter, Box, Divider } from '@redesignhealth/ui'
+import { type BoxProps, AbsoluteCenter, Box, Divider } from '@acmehealth/ui'
 
 interface FormDividerProps extends BoxProps {
   title: string

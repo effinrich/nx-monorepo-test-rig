@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.openapi;
+package com.acmehealth.company.api.openapi;
 
-import static com.redesignhealth.company.api.config.OpenApiConfig.GOOGLE_ID_SCHEME;
-import static com.redesignhealth.company.api.config.OpenApiConfig.IMPERSONATION_EMAIL_SCHEME;
+import static com.acmehealth.company.api.config.OpenApiConfig.GOOGLE_ID_SCHEME;
+import static com.acmehealth.company.api.config.OpenApiConfig.IMPERSONATION_EMAIL_SCHEME;
 import static java.lang.annotation.ElementType.ANNOTATION_TYPE;
 import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.ElementType.TYPE;
@@ -18,7 +18,7 @@ import java.lang.annotation.Target;
  *
  * <p>Automatically add headers to requests
  *
- * <p>see: {@link com.redesignhealth.company.api.config.OpenApiConfig} for more details
+ * <p>see: {@link com.acmehealth.company.api.config.OpenApiConfig} for more details
  */
 @Target({METHOD, TYPE, ANNOTATION_TYPE})
 @Retention(RetentionPolicy.RUNTIME)

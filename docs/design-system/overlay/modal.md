@@ -2,7 +2,7 @@
 id: modal
 category: overlay
 title: Modal
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   A modal is a dialog that focuses the user's attention exclusively on an
   information via a window that is overlaid on primary content.
@@ -34,12 +34,12 @@ import {
   ModalFooter,
   ModalBody,
   ModalCloseButton
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-overlay-modal--with-custom-motion-props&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-overlay-modal--with-custom-motion-props&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

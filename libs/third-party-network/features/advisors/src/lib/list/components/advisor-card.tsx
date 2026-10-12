@@ -2,7 +2,7 @@ import { memo } from 'react'
 import { MdMoreHoriz } from 'react-icons/md'
 import { Link as RouterLink } from 'react-router-dom'
 import { MenuRoot, MenuTrigger, MenuItem, MenuContent } from '@chakra-ui/react'
-import { useCurrentUserQuery } from '@redesignhealth/third-party-network/features/authentication'
+import { useCurrentUserQuery } from '@acmehealth/third-party-network/features/authentication'
 import {
   AvatarRoot,
   AvatarFallback,
@@ -18,7 +18,7 @@ import {
   TagLabel,
   Text,
   useDisclosure
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { IntroductionRequestForm } from '../../introduction-request/introduction-request'
 

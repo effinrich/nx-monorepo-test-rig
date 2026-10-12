@@ -8,7 +8,7 @@ import {
   PopoverPositioner,
   PopoverTrigger
 } from '@chakra-ui/react'
-import { Box } from '@redesignhealth/ui'
+import { Box } from '@acmehealth/ui'
 
 interface AdvisorBioProps {
   bio?: string

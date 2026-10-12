@@ -2,7 +2,7 @@
 id: list
 title: List
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: 'List is used to display list items. It renders a <ul> element by default.'
 ---
 
@@ -15,7 +15,7 @@ import {
   ListIcon,
   OrderedList,
   UnorderedList
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 ## Unordered List

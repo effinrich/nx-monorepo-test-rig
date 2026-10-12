@@ -10,8 +10,8 @@ import {
   useGetUserInfo,
   useGetUsersByRole,
   usePostResearchSprint
-} from '@redesignhealth/portal/data-assets'
-import { dirtyValuesOnly } from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/data-assets'
+import { dirtyValuesOnly } from '@acmehealth/portal/utils'
 import * as yup from 'yup'
 
 import FormMaster from '../../../form-master/form-master'

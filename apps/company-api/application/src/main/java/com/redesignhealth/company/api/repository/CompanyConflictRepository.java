@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.CompanyConflict;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.CompanyConflict;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

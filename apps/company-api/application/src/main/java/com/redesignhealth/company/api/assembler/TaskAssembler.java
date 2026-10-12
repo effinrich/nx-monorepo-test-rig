@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
-import com.redesignhealth.company.api.controller.TaskController;
-import com.redesignhealth.company.api.dto.TaskSummary;
-import com.redesignhealth.company.api.entity.TaskHistory;
+import com.acmehealth.company.api.controller.TaskController;
+import com.acmehealth.company.api.dto.TaskSummary;
+import com.acmehealth.company.api.entity.TaskHistory;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 
 public class TaskAssembler extends RepresentationModelAssemblerSupport<TaskHistory, TaskSummary> {

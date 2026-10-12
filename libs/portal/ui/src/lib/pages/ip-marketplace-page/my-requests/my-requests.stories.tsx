@@ -7,7 +7,7 @@ import {
   mockIpListingWithUnreleasedIPRequest,
   mockIpMarketplaceFilters,
   mockIpMarketplaceNoResults
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import { http, HttpResponse } from 'msw'
 import { withRouter } from 'storybook-addon-react-router-v6'
 
@@ -88,7 +88,7 @@ export const SellerView = {
                 ...mockIpListingWithReleasedIPRequest,
                 id: '123abc',
                 owner: {
-                  email: 'sazh.katzroy@redesignhealth.com'
+                  email: 'sazh.katzroy@acmehealth.com'
                 },
                 metrics: {
                   viewCount: 21,
@@ -99,7 +99,7 @@ export const SellerView = {
                 ...mockIpListingWithUnreleasedIPRequest,
                 id: '456abc',
                 owner: {
-                  email: 'sazh.katzroy@redesignhealth.com'
+                  email: 'sazh.katzroy@acmehealth.com'
                 },
                 metrics: {
                   viewCount: 5,
@@ -111,7 +111,7 @@ export const SellerView = {
                 id: '789abc',
                 name: 'Marvelous Idea with Multiple Buyer Requests',
                 owner: {
-                  email: 'sazh.katzroy@redesignhealth.com'
+                  email: 'sazh.katzroy@acmehealth.com'
                 },
                 metrics: {
                   viewCount: 300,

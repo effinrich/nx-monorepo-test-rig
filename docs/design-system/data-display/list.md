@@ -2,7 +2,7 @@
 id: list
 title: List
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: 'List is used to display list items. It renders a <ul> element by default.'
 ---
 
@@ -19,12 +19,12 @@ import {
   ListIcon,
   OrderedList,
   UnorderedList
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-list--unordered&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-list--unordered&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Unordered List
 

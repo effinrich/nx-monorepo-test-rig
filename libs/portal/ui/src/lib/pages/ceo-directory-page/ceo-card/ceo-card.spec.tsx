@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from '@redesignhealth/shared-utils-jest'
+import { fireEvent, render, screen } from '@acmehealth/shared-utils-jest'
 import { within } from '@testing-library/react'
 
 import { CeoCard } from './ceo-card'

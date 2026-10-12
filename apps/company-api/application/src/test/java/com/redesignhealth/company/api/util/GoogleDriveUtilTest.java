@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.util;
+package com.acmehealth.company.api.util;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

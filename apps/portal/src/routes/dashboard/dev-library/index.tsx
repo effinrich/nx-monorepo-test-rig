@@ -2,13 +2,13 @@ import { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
 import { useNavigate } from 'react-router-dom'
 import { useLocalStorage } from 'react-use'
-import { axiosApi, CompanyApiEnum } from '@redesignhealth/portal/data-assets'
+import { axiosApi, CompanyApiEnum } from '@acmehealth/portal/data-assets'
 import {
   DisclaimerBox,
   DisclaimerModal,
   DisclaimerText,
   Page
-} from '@redesignhealth/portal/ui'
+} from '@acmehealth/portal/ui'
 import {
   Box,
   Button,
@@ -19,7 +19,7 @@ import {
   Text,
   UnorderedList,
   VStack
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { AsyncSelect, OptionBase } from 'chakra-react-select'
 
 import { Results } from '../library/results/results'

@@ -1,11 +1,11 @@
-# @redesignhealth/shared-analytics
+# @acmehealth/shared-analytics
 
 Shared Google Analytics 4 event helpers for Redesign Health frontend applications. Wraps `react-ga4` with typed, named event functions that follow the GA4 recommended event schema.
 
 ## Usage
 
 ```ts
-import analytics from '@redesignhealth/shared-analytics'
+import analytics from '@acmehealth/shared-analytics'
 
 // Fire a page view
 analytics.sendPageView()

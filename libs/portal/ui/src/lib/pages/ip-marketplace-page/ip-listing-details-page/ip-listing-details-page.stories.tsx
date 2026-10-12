@@ -5,7 +5,7 @@ import {
   mockIpListing,
   mockIpListingWithRequests,
   mockIpMarketplaceContactInfo
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import { http, HttpResponse } from 'msw'
 import {
   reactRouterParameters,

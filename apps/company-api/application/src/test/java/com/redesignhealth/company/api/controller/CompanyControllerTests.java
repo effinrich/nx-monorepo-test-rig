@@ -1,43 +1,43 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_OP_CO_CONTRACTOR;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_RH_USER;
-import static com.redesignhealth.company.api.expansion.Expansion.MEMBERS;
-import static com.redesignhealth.company.api.expansion.Expansion.MEMBER_OF;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.companiesLink;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.companyLink;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.createdField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.descriptionField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.emailField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.expandQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.familyNameField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.givenNameField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.hasPlatformAgreementField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.hrefField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.idField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.lastModifiedField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.legalNameField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.linksField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.membersField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.membersLink;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.nameField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.numberField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.onboardDocsLink;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pageFields;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pageQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.roleField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.rolesField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.selfLink;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.sizeQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.sortQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.stageField;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.TEST_COMPANY_ID;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompany;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyRef;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testIpMarketPlace;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testIpMarketplaceTrack;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPerson;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_OP_CO_CONTRACTOR;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_RH_USER;
+import static com.acmehealth.company.api.expansion.Expansion.MEMBERS;
+import static com.acmehealth.company.api.expansion.Expansion.MEMBER_OF;
+import static com.acmehealth.company.api.scaffolding.DocUtils.companiesLink;
+import static com.acmehealth.company.api.scaffolding.DocUtils.companyLink;
+import static com.acmehealth.company.api.scaffolding.DocUtils.createdField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.descriptionField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.emailField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.expandQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.familyNameField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.givenNameField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.hasPlatformAgreementField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.hrefField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.idField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.lastModifiedField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.legalNameField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.linksField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.membersField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.membersLink;
+import static com.acmehealth.company.api.scaffolding.DocUtils.nameField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.numberField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.onboardDocsLink;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pageFields;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pageQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.roleField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.rolesField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.selfLink;
+import static com.acmehealth.company.api.scaffolding.DocUtils.sizeQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.sortQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.stageField;
+import static com.acmehealth.company.api.scaffolding.Fixtures.TEST_COMPANY_ID;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompany;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyRef;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testIpMarketPlace;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testIpMarketplaceTrack;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPerson;
 import static org.hamcrest.Matchers.hasLength;
 import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -64,52 +64,52 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.redesignhealth.company.api.assembler.CompanyAssembler;
-import com.redesignhealth.company.api.assembler.CompanyDtoAssembler;
-import com.redesignhealth.company.api.assembler.CompanyMemberAuditAssembler;
-import com.redesignhealth.company.api.assembler.CompanyVendorAssembler;
-import com.redesignhealth.company.api.assembler.google.OnboardDocsLinkGenerator;
-import com.redesignhealth.company.api.assembler.google.XCloudCrmLinkGenerator;
-import com.redesignhealth.company.api.client.file.GoogleDriveClient;
-import com.redesignhealth.company.api.dto.CompanyMemberDto;
-import com.redesignhealth.company.api.dto.command.CompanyCommand;
-import com.redesignhealth.company.api.dto.command.CompanyMemberCommand;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceOrganizationType;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceRegion;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceType;
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
-import com.redesignhealth.company.api.dto.enums.CompanyStage;
-import com.redesignhealth.company.api.dto.enums.CompanyStatus;
-import com.redesignhealth.company.api.entity.Ceo;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.CompanyConflict;
-import com.redesignhealth.company.api.entity.CompanyIpMarketplace;
-import com.redesignhealth.company.api.entity.CompanyMember;
-import com.redesignhealth.company.api.entity.CompanyMemberAudit;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.exception.CompanyNotFoundException;
-import com.redesignhealth.company.api.exception.ForbiddenAddConflictsException;
-import com.redesignhealth.company.api.exception.ForbiddenAddMemberException;
-import com.redesignhealth.company.api.exception.ForbiddenDeleteCompanyException;
-import com.redesignhealth.company.api.exception.GoogleDriveException;
-import com.redesignhealth.company.api.exception.LinkedCompanyException;
-import com.redesignhealth.company.api.exception.PersonNotFoundException;
-import com.redesignhealth.company.api.exception.StageConflictException;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.repository.CompanyConflictRepository;
-import com.redesignhealth.company.api.repository.CompanyMemberAuditRepository;
-import com.redesignhealth.company.api.repository.CompanyRepository;
-import com.redesignhealth.company.api.repository.IpMarketplaceTrackRepository;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.repository.VendorRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.Fixtures;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.CompanyService;
-import com.redesignhealth.company.api.taxonomy.CompanyTaxonomy;
+import com.acmehealth.company.api.assembler.CompanyAssembler;
+import com.acmehealth.company.api.assembler.CompanyDtoAssembler;
+import com.acmehealth.company.api.assembler.CompanyMemberAuditAssembler;
+import com.acmehealth.company.api.assembler.CompanyVendorAssembler;
+import com.acmehealth.company.api.assembler.google.OnboardDocsLinkGenerator;
+import com.acmehealth.company.api.assembler.google.XCloudCrmLinkGenerator;
+import com.acmehealth.company.api.client.file.GoogleDriveClient;
+import com.acmehealth.company.api.dto.CompanyMemberDto;
+import com.acmehealth.company.api.dto.command.CompanyCommand;
+import com.acmehealth.company.api.dto.command.CompanyMemberCommand;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceOrganizationType;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceRegion;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceType;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.dto.enums.CompanyStage;
+import com.acmehealth.company.api.dto.enums.CompanyStatus;
+import com.acmehealth.company.api.entity.Ceo;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.CompanyConflict;
+import com.acmehealth.company.api.entity.CompanyIpMarketplace;
+import com.acmehealth.company.api.entity.CompanyMember;
+import com.acmehealth.company.api.entity.CompanyMemberAudit;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.exception.CompanyNotFoundException;
+import com.acmehealth.company.api.exception.ForbiddenAddConflictsException;
+import com.acmehealth.company.api.exception.ForbiddenAddMemberException;
+import com.acmehealth.company.api.exception.ForbiddenDeleteCompanyException;
+import com.acmehealth.company.api.exception.GoogleDriveException;
+import com.acmehealth.company.api.exception.LinkedCompanyException;
+import com.acmehealth.company.api.exception.PersonNotFoundException;
+import com.acmehealth.company.api.exception.StageConflictException;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.repository.CompanyConflictRepository;
+import com.acmehealth.company.api.repository.CompanyMemberAuditRepository;
+import com.acmehealth.company.api.repository.CompanyRepository;
+import com.acmehealth.company.api.repository.IpMarketplaceTrackRepository;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.repository.VendorRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.Fixtures;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.CompanyService;
+import com.acmehealth.company.api.taxonomy.CompanyTaxonomy;
 import java.time.Instant;
 import java.util.List;
 import java.util.Optional;
@@ -1076,7 +1076,7 @@ public class CompanyControllerTests {
   @Test
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void testUpdateOne_Change_To_PAUSED_Or_ARCHIVED() throws Exception {
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = Person.from(personRef);
     var company = testCompany();
     company.setOnboardDocsFolderId("any_id");
@@ -1119,7 +1119,7 @@ public class CompanyControllerTests {
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void testUpdateOne_Change_To_PAUSED_Or_ARCHIVED_Member_Inactive_Should_Not_Save()
       throws Exception {
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = Person.from(personRef);
     var company = testCompany();
     company.setOnboardDocsFolderId("any_id");
@@ -1188,7 +1188,7 @@ public class CompanyControllerTests {
   public void testCreateConflicts_With_Members_In_Common_should_fail() throws Exception {
     var company = testCompany();
     var company1 = testCompany("xyzhij");
-    var email = "common@redesignhealth.com";
+    var email = "common@acmehealth.com";
     var person = Person.from(email);
     var companyMember1 = new CompanyMember(company, person, CompanyMemberStatus.ACTIVE);
     var companyMember2 = new CompanyMember(company1, person, CompanyMemberStatus.ACTIVE);
@@ -1623,7 +1623,7 @@ public class CompanyControllerTests {
     mockMvc
         .perform(get("/company/{apiId}/members", companyRef))
         .andExpect(status().isOk())
-        .andExpect(jsonPath("$.content[0].email", is("test@redesignhealth.com")))
+        .andExpect(jsonPath("$.content[0].email", is("test@acmehealth.com")))
         .andDo(
             document(
                 "get-members",
@@ -1648,7 +1648,7 @@ public class CompanyControllerTests {
     companyMemberCommand.setStatus(Optional.of(CompanyMemberStatus.ACTIVE));
     mockMvc
         .perform(
-            put("/company/{apiId}/member/{email}", "unknown", "test@redesignhealth.com")
+            put("/company/{apiId}/member/{email}", "unknown", "test@acmehealth.com")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(mapper.writeValueAsString(companyMemberCommand)))
         .andExpect(status().isNotFound())
@@ -1664,7 +1664,7 @@ public class CompanyControllerTests {
     var companyMemberCommand = new CompanyMemberCommand();
     mockMvc
         .perform(
-            put("/company/{apiId}/member/{email}", companyRef, "unknown@redesignhealth.com")
+            put("/company/{apiId}/member/{email}", companyRef, "unknown@acmehealth.com")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(mapper.writeValueAsString(companyMemberCommand)))
         .andExpect(status().isNotFound())
@@ -1680,12 +1680,12 @@ public class CompanyControllerTests {
     var companyMemberCommand = new CompanyMemberCommand();
     companyMemberCommand.setStatus(Optional.of(CompanyMemberStatus.ACTIVE));
     when(companyRepository.findByApiId(companyRef, MEMBERS)).thenReturn(Optional.of(company));
-    when(personRepository.findByEmail(PersonRef.of("new@redesignhealth.com"), MEMBER_OF))
-        .thenReturn(Optional.of(Person.from(PersonRef.of("new@redesignhealth.com"))));
+    when(personRepository.findByEmail(PersonRef.of("new@acmehealth.com"), MEMBER_OF))
+        .thenReturn(Optional.of(Person.from(PersonRef.of("new@acmehealth.com"))));
 
     mockMvc
         .perform(
-            put("/company/{apiId}/member/{email}", companyRef, "new@redesignhealth.com")
+            put("/company/{apiId}/member/{email}", companyRef, "new@acmehealth.com")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(mapper.writeValueAsString(companyMemberCommand)))
         .andExpect(status().isOk())
@@ -1699,19 +1699,19 @@ public class CompanyControllerTests {
   public void testAddMember_CEO_exists_Active_In_Another_Company() throws Exception {
     var company = testCompany(testPerson());
     var companyMemberCommand = new CompanyMemberCommand();
-    var person = Person.from(PersonRef.of("new@redesignhealth.com"));
+    var person = Person.from(PersonRef.of("new@acmehealth.com"));
     person.setCeo(new Ceo());
     var company2 = testCompany("anyCompanyId");
     var companyMember = new CompanyMember(company2, person, CompanyMemberStatus.ACTIVE);
     person.setMemberOf(Set.of(companyMember));
     companyMemberCommand.setStatus(Optional.of(CompanyMemberStatus.ACTIVE));
     when(companyRepository.findByApiId(companyRef, MEMBERS)).thenReturn(Optional.of(company));
-    when(personRepository.findByEmail(PersonRef.of("new@redesignhealth.com"), MEMBER_OF))
+    when(personRepository.findByEmail(PersonRef.of("new@acmehealth.com"), MEMBER_OF))
         .thenReturn(Optional.of(person));
 
     mockMvc
         .perform(
-            put("/company/{apiId}/member/{email}", companyRef, "new@redesignhealth.com")
+            put("/company/{apiId}/member/{email}", companyRef, "new@acmehealth.com")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(mapper.writeValueAsString(companyMemberCommand)))
         .andExpect(status().isForbidden())
@@ -1728,7 +1728,7 @@ public class CompanyControllerTests {
     when(companyRepository.findByApiId(companyRef, MEMBERS)).thenReturn(Optional.of(company));
     mockMvc
         .perform(
-            put("/company/{apiId}/member/{email}", companyRef, "new@redesignhealth.com")
+            put("/company/{apiId}/member/{email}", companyRef, "new@acmehealth.com")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(mapper.writeValueAsString(companyMemberCommand)))
         .andExpect(status().isForbidden())
@@ -1747,7 +1747,7 @@ public class CompanyControllerTests {
     when(companyRepository.findByApiId(companyRef, MEMBERS)).thenReturn(Optional.of(company));
     mockMvc
         .perform(
-            put("/company/{apiId}/member/{email}", companyRef, "new@redesignhealth.com")
+            put("/company/{apiId}/member/{email}", companyRef, "new@acmehealth.com")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(mapper.writeValueAsString(companyMemberCommand)))
         .andExpect(status().isForbidden())
@@ -1766,12 +1766,12 @@ public class CompanyControllerTests {
     var companyConflict = new CompanyConflict();
     companyConflict.setMemberOfId(company1);
     companyConflict.setCompanyConflictsId(companyToAdd);
-    var personMember = Person.from(PersonRef.of("new@redesignhealth.com"));
+    var personMember = Person.from(PersonRef.of("new@acmehealth.com"));
     var companyMember = new CompanyMember(company1, personMember, CompanyMemberStatus.ACTIVE);
     personMember.setMemberOf(Set.of(companyMember));
 
     when(companyRepository.findByApiId(companyRef, MEMBERS)).thenReturn(Optional.of(companyToAdd));
-    when(personRepository.findByEmail(PersonRef.of("new@redesignhealth.com"), MEMBER_OF))
+    when(personRepository.findByEmail(PersonRef.of("new@acmehealth.com"), MEMBER_OF))
         .thenReturn(Optional.of(personMember));
     when(companyConflictRepository.findByMemberOfId(companyToAdd)).thenReturn(List.of());
     when(companyConflictRepository.findByCompanyConflictsId(companyToAdd))
@@ -1779,7 +1779,7 @@ public class CompanyControllerTests {
 
     mockMvc
         .perform(
-            put("/company/{apiId}/member/{email}", companyRef, "new@redesignhealth.com")
+            put("/company/{apiId}/member/{email}", companyRef, "new@acmehealth.com")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(mapper.writeValueAsString(companyMemberCommand)))
         .andExpect(status().isForbidden())
@@ -1792,7 +1792,7 @@ public class CompanyControllerTests {
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void testDeleteMember_404UnknownCompany() throws Exception {
     mockMvc
-        .perform(delete("/company/{apiId}/member/{email}", "unknown", "test@redesignhealth.com"))
+        .perform(delete("/company/{apiId}/member/{email}", "unknown", "test@acmehealth.com"))
         .andExpect(status().isNotFound())
         .andExpect(
             (result) ->
@@ -1808,7 +1808,7 @@ public class CompanyControllerTests {
 
     mockMvc
         .perform(
-            delete("/company/{apiId}/member/{email}", companyRef, "unknown@redesignhealth.com"))
+            delete("/company/{apiId}/member/{email}", companyRef, "unknown@acmehealth.com"))
         .andExpect(status().isNotFound())
         .andExpect(
             (result) ->
@@ -1822,7 +1822,7 @@ public class CompanyControllerTests {
   public void testDeleteMember_success() throws Exception {
     var company = testCompany(testPerson());
     company.setId(1L);
-    var personRef = PersonRef.of("test@redesignhealth.com");
+    var personRef = PersonRef.of("test@acmehealth.com");
     var person = Person.from(personRef);
     person.setId(1L);
     var companyMember = new CompanyMember(company, person, CompanyMemberStatus.ACTIVE);
@@ -1831,12 +1831,12 @@ public class CompanyControllerTests {
         .thenReturn(companyMember);
 
     when(companyRepository.findByApiId(companyRef)).thenReturn(Optional.of(company));
-    when(personRepository.findByEmail(PersonRef.of("test@redesignhealth.com")))
+    when(personRepository.findByEmail(PersonRef.of("test@acmehealth.com")))
         .thenReturn(Optional.of(person));
     when(companyRepository.deleteMember(any(Long.class), any(Long.class))).thenReturn(1);
 
     mockMvc
-        .perform(delete("/company/{apiId}/member/{email}", companyRef, "test@redesignhealth.com"))
+        .perform(delete("/company/{apiId}/member/{email}", companyRef, "test@acmehealth.com"))
         .andExpect(status().isOk())
         .andDo(document("remove-member"));
     verify(companyRepository, times(1)).deleteMember(any(Long.class), any(Long.class));
@@ -1851,7 +1851,7 @@ public class CompanyControllerTests {
     ipMarketPlace
         .getCompanyIpMarketplace()
         .setActivityType(CompanyIPMarketplaceType.ENTERPRISE_BUYER);
-    var personRef = PersonRef.of("test@redesignhealth.com");
+    var personRef = PersonRef.of("test@acmehealth.com");
     var person = Person.from(personRef);
 
     person.setId(1L);
@@ -1863,7 +1863,7 @@ public class CompanyControllerTests {
         .thenReturn(companyMember);
 
     when(companyRepository.findByApiId(companyRef)).thenReturn(Optional.of(company));
-    when(personRepository.findByEmail(PersonRef.of("test@redesignhealth.com")))
+    when(personRepository.findByEmail(PersonRef.of("test@acmehealth.com")))
         .thenReturn(Optional.of(person));
     when(companyRepository.deleteMember(any(Long.class), any(Long.class))).thenReturn(1);
     var responseIpMarketplaceTracks = List.of(ipMarketplaceTrack);
@@ -1872,7 +1872,7 @@ public class CompanyControllerTests {
         .thenReturn(responseIpMarketplaceTracks);
 
     mockMvc
-        .perform(delete("/company/{apiId}/member/{email}", companyRef, "test@redesignhealth.com"))
+        .perform(delete("/company/{apiId}/member/{email}", companyRef, "test@acmehealth.com"))
         .andExpect(status().isOk());
     verify(companyRepository, times(1)).deleteMember(any(Long.class), any(Long.class));
     verify(companyMemberAuditRepository, times(1)).save(any(CompanyMemberAudit.class));
@@ -1921,7 +1921,7 @@ public class CompanyControllerTests {
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void testDelete_success_With_Members() throws Exception {
     var company = Fixtures.testCompany();
-    var personMember = Person.from(PersonRef.of("new@redesignhealth.com"));
+    var personMember = Person.from(PersonRef.of("new@acmehealth.com"));
     var companyMember = new CompanyMember(company, personMember, CompanyMemberStatus.ACTIVE);
     ;
     company.setMembers(Set.of(companyMember));

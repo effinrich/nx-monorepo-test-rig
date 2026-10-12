@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.dto.enums.CompanyFundraiseStatus;
-import com.redesignhealth.company.api.entity.Ceo;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.util.EntityUtil;
+import com.acmehealth.company.api.dto.enums.CompanyFundraiseStatus;
+import com.acmehealth.company.api.entity.Ceo;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.util.EntityUtil;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.ArrayList;
 import java.util.List;

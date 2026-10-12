@@ -4,9 +4,9 @@ import {
   useGetCompanyById,
   useGetCompanyMembers,
   useGetUserInfo
-} from '@redesignhealth/portal/data-assets'
-import { OverviewCard } from '@redesignhealth/portal/ui'
-import { HasRole } from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/data-assets'
+import { OverviewCard } from '@acmehealth/portal/ui'
+import { HasRole } from '@acmehealth/portal/utils'
 import {
   Button,
   Loader,
@@ -17,7 +17,7 @@ import {
   Th,
   Thead,
   Tr
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 const getDescriptionText = (company?: CompanySummary) => {
   if (

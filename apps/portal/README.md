@@ -90,6 +90,6 @@ nx run portal:lint
 
 ## Notes
 
-- **Chakra UI v3** — the shared UI library (`@redesignhealth/ui`) provides backward-compatible shims for components renamed or restructured in the v2→v3 migration.
+- **Chakra UI v3** — the shared UI library (`@acmehealth/ui`) provides backward-compatible shims for components renamed or restructured in the v2→v3 migration.
 - **`chakra-react-select`** — redirected via a Vite alias to a `react-select` shim (`src/shims/chakra-react-select.ts`) because the library is not compatible with Chakra v3.
 - **React Query** (`@tanstack/react-query`) is used for all API data fetching; query clients and hooks live in `libs/portal/data-assets`.

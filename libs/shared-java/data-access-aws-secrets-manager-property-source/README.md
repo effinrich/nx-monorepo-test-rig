@@ -34,7 +34,7 @@ Example `settings.xml` file:
         </repository>
         <repository>
           <id>rh-design-library</id>
-          <url>https://maven.pkg.github.com/redesignhealth/rh-design-library</url>
+          <url>https://maven.pkg.github.com/acmehealth/rh-design-library</url>
           <snapshots>
             <enabled>true</enabled>
           </snapshots>
@@ -62,7 +62,7 @@ More info here: [Working with the apache maven registry](https://docs.github.com
 Add the following to your `<dependencies>`
 ```xml
 <dependency>
-  <groupId>com.redesignhealth</groupId>
+  <groupId>com.acmehealth</groupId>
   <artifactId>aws-secrets-manager-property-source</artifactId>
   <version>1.0.0</version>
 </dependency>
@@ -80,7 +80,7 @@ Add the following to your `<project>` in `pom.xml`
   <repository>
     <id>github</id>
     <name>GitHub Packages from rh-design-library</name>
-    <url>https://maven.pkg.github.com/redesignhealth/rh-design-system</url>
+    <url>https://maven.pkg.github.com/acmehealth/rh-design-system</url>
   </repository>
 </repositories>
 ```
@@ -157,7 +157,7 @@ $ mvn versions:set -DnewVersion=VERSION
 2. README.md under [Update pom.xml](#update-pomxml)
 ```xml
 <dependency>
-  <groupId>com.redesignhealth</groupId>
+  <groupId>com.acmehealth</groupId>
   <artifactId>aws-secrets-manager-property-source</artifactId>
   <version>VERSION</version>
 </dependency>

@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.entity.ref;
+package com.acmehealth.company.api.entity.ref;
 
 import java.util.Objects;
 

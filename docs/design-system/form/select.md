@@ -2,7 +2,7 @@
 id: select
 category: form
 title: Select
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Select component is a component that allows users pick a value from predefined
   options.
@@ -17,12 +17,12 @@ otherwise you might consider using a radio group instead.
 ## Import
 
 ```js
-import { Select } from '@redesignhealth/ui'
+import { Select } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-select--basic-usage&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-select--basic-usage&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

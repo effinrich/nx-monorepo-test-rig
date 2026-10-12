@@ -2,7 +2,7 @@
 id: tag
 title: Tag
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: "Tag component is used for items that need to be labeled, categorized, or
 organized using keywords that describe them."
 ---
@@ -29,12 +29,12 @@ import {
   TagLeftIcon,
   TagRightIcon,
   TagCloseButton
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-tag--color-schemes&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-tag--color-schemes&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

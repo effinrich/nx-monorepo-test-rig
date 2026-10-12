@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceType;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceType;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
 import java.util.Collection;
 import java.util.Set;
 import org.springframework.data.repository.CrudRepository;

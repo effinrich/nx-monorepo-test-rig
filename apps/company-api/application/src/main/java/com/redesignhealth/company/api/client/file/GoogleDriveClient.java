@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.client.file;
+package com.acmehealth.company.api.client.file;
 
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.exception.GoogleDriveException;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.exception.GoogleDriveException;
 import java.util.Optional;
 
 public interface GoogleDriveClient extends RemoteFileClient {

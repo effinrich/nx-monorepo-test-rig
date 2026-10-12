@@ -2,12 +2,12 @@ import {
   CompanyApiEnum,
   mockGetIpListing,
   mockIpListingWithMetrics
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   render,
   screen,
   waitForLoadingToFinish
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 import { within } from '@testing-library/react'
 import { setupServer } from 'msw/node'
 

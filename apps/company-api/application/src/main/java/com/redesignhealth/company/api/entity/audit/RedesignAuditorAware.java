@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.entity.audit;
+package com.acmehealth.company.api.entity.audit;
 
-import com.redesignhealth.company.api.security.RedesignUserDetails;
+import com.acmehealth.company.api.security.RedesignUserDetails;
 import java.util.Optional;
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.core.Authentication;

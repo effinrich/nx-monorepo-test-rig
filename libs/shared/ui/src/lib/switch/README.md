@@ -2,7 +2,7 @@
 id: switch
 category: form
 title: Switch
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: 'The Switch component is used as an alternative for the checkbox component.'
 ---
 
@@ -16,7 +16,7 @@ workflow as a `Checkbox`.
 ## Import
 
 ```js
-import { Switch } from '@redesignhealth/ui'
+import { Switch } from '@acmehealth/ui'
 ```
 
 ## Usage

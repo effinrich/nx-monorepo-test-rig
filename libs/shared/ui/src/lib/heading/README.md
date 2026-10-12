@@ -2,14 +2,14 @@
 id: heading
 category: typography
 title: Heading
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Heading is used to render semantic HTML heading elements.
 ---
 
 ## Import
 
 ```js
-import { Heading } from '@redesignhealth/ui'
+import { Heading } from '@acmehealth/ui'
 ```
 
 ## Usage

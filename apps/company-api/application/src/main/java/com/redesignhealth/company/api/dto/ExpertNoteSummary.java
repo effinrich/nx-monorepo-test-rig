@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.redesignhealth.company.api.entity.ExpertNote;
+import com.acmehealth.company.api.entity.ExpertNote;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.time.Instant;
 import java.util.List;
@@ -25,7 +25,7 @@ public class ExpertNoteSummary extends RepresentationModel<ExpertNoteSummary> {
   @Schema(example = "jane.doe@example.com")
   private String intervieweeEmail;
 
-  @Schema(example = "test@redesignhealth.com")
+  @Schema(example = "test@acmehealth.com")
   private String noteTaker;
 
   @Schema(example = "2023-06-29T00:00:00Z")

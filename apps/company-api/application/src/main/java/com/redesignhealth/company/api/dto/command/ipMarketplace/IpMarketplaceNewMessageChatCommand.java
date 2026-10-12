@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.dto.command.ipMarketplace;
+package com.acmehealth.company.api.dto.command.ipMarketplace;
 
 import java.net.URI;
 import lombok.AllArgsConstructor;

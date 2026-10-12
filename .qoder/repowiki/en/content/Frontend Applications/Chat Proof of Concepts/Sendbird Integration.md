@@ -257,7 +257,7 @@ External libraries and versions are declared in the root package.json. The proje
 graph TB
 App["sendbird-poc app.tsx"] --> React["@sendbird/uikit-react"]
 App --> Emotion["@emotion/styled"]
-App --> DesignSystem["@redesignhealth/ui"]
+App --> DesignSystem["@acmehealth/ui"]
 App --> ReactDOM["react, react-dom"]
 Vite["vite.config.ts"] --> NxTargets["project.json targets"]
 NxTargets --> Build["@nx/vite:build"]

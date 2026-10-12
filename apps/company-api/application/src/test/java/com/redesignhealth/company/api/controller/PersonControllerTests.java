@@ -1,30 +1,30 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_OP_CO_CONTRACTOR;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_OP_CO_USER;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_RH_USER;
-import static com.redesignhealth.company.api.expansion.Expansion.MEMBER_OF;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.createdByField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.createdField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.expandQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.lastModifiedField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.lastModifiedFieldBy;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.linksField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.memberOfField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pageFields;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pageQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.roleField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.rolesField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.selfLink;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.sizeQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.sortQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.statusesField;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.TEST_COMPANY_ID;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompany;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyRef;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPerson;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPersonRef;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_OP_CO_CONTRACTOR;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_OP_CO_USER;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_RH_USER;
+import static com.acmehealth.company.api.expansion.Expansion.MEMBER_OF;
+import static com.acmehealth.company.api.scaffolding.DocUtils.createdByField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.createdField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.expandQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.lastModifiedField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.lastModifiedFieldBy;
+import static com.acmehealth.company.api.scaffolding.DocUtils.linksField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.memberOfField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pageFields;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pageQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.roleField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.rolesField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.selfLink;
+import static com.acmehealth.company.api.scaffolding.DocUtils.sizeQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.sortQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.statusesField;
+import static com.acmehealth.company.api.scaffolding.Fixtures.TEST_COMPANY_ID;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompany;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyRef;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPerson;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPersonRef;
 import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
@@ -45,22 +45,22 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.assembler.CompanyMemberAuditAssembler;
-import com.redesignhealth.company.api.client.email.EmailSender;
-import com.redesignhealth.company.api.dto.enums.CompanyMemberAuditOperation;
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
-import com.redesignhealth.company.api.entity.CompanyMember;
-import com.redesignhealth.company.api.entity.CompanyMemberAudit;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.exception.PersonNotFoundException;
-import com.redesignhealth.company.api.exception.RoleNotFoundException;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.repository.CompanyMemberAuditRepository;
-import com.redesignhealth.company.api.repository.CompanyRepository;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.PersonService;
+import com.acmehealth.company.api.assembler.CompanyMemberAuditAssembler;
+import com.acmehealth.company.api.client.email.EmailSender;
+import com.acmehealth.company.api.dto.enums.CompanyMemberAuditOperation;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.entity.CompanyMember;
+import com.acmehealth.company.api.entity.CompanyMemberAudit;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.exception.PersonNotFoundException;
+import com.acmehealth.company.api.exception.RoleNotFoundException;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.repository.CompanyMemberAuditRepository;
+import com.acmehealth.company.api.repository.CompanyRepository;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.PersonService;
 import java.net.URI;
 import java.time.Instant;
 import java.util.List;
@@ -134,7 +134,7 @@ public class PersonControllerTests {
     mockMvc
         .perform(get("/person?expand=memberOf&size=20&page=0&sort=created,desc"))
         .andExpect(status().isOk())
-        .andExpect(jsonPath("$.content[0].email", is("test@redesignhealth.com")))
+        .andExpect(jsonPath("$.content[0].email", is("test@acmehealth.com")))
         .andDo(
             document(
                 "list",
@@ -164,7 +164,7 @@ public class PersonControllerTests {
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void testGetOne_returns404ForUnknown() throws Exception {
     mockMvc
-        .perform(get("/person/{email}", "unknown@redesignhealth.com"))
+        .perform(get("/person/{email}", "unknown@acmehealth.com"))
         .andExpect(status().isNotFound())
         .andExpect(
             (result) ->
@@ -182,7 +182,7 @@ public class PersonControllerTests {
     mockMvc
         .perform(get("/person/{email}?expand=memberOf", personRef))
         .andExpect(status().isOk())
-        .andExpect(jsonPath("$.email", is("test@redesignhealth.com")))
+        .andExpect(jsonPath("$.email", is("test@acmehealth.com")))
         .andExpect(jsonPath("$.givenName", is("Terra")))
         .andExpect(jsonPath("$.familyName", is("Branford")))
         .andExpect(jsonPath("$.roles[0].authority", is("ROLE_OP_CO_USER")))
@@ -210,7 +210,7 @@ public class PersonControllerTests {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_OP_CO_USER, email = "test@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_OP_CO_USER, email = "test@acmehealth.com")
   public void testGetOne_As_OP_CO_USER_Receives_OK_If_Email_Is_Equals_To_Requester()
       throws Exception {
     var person = testPerson(ROLE_OP_CO_USER);
@@ -222,7 +222,7 @@ public class PersonControllerTests {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_OP_CO_USER, email = "test2t@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_OP_CO_USER, email = "test2t@acmehealth.com")
   public void testGetOne_As_OP_CO_USER_Receives_OK_If_Email_Is_Not_Equals_To_Requester()
       throws Exception {
     var person = testPerson(ROLE_OP_CO_USER);
@@ -247,12 +247,12 @@ public class PersonControllerTests {
                         {
                           "givenName":"Terra",
                           "familyName": "Branford",
-                          "email":  "test@redesignhealth.com",
+                          "email":  "test@acmehealth.com",
                           "role": "ROLE_RH_USER"
                         }
                     """))
         .andExpect(status().isCreated())
-        .andExpect(jsonPath("$.email", is("test@redesignhealth.com")))
+        .andExpect(jsonPath("$.email", is("test@acmehealth.com")))
         .andExpect(jsonPath("$.givenName", is("Terra")))
         .andExpect(jsonPath("$.familyName", is("Branford")))
         .andExpect(jsonPath("$.role.authority", is("ROLE_RH_USER")))
@@ -288,11 +288,11 @@ public class PersonControllerTests {
             post("/person")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(
-                    "{\"givenName\":\"Terra\", \"familyName\": \"Branford\", \"email\":  \"test@redesignhealth.com\"}"))
+                    "{\"givenName\":\"Terra\", \"familyName\": \"Branford\", \"email\":  \"test@acmehealth.com\"}"))
         .andExpect(status().isUnprocessableEntity())
         .andExpect(jsonPath("$.message", is("Invalid field values")))
         .andExpect(jsonPath("$.errors[0].name", is("email")))
-        .andExpect(jsonPath("$.errors[0].rejectedValue", is("test@redesignhealth.com")))
+        .andExpect(jsonPath("$.errors[0].rejectedValue", is("test@acmehealth.com")))
         .andExpect(jsonPath("$.errors[0].description", is("must be unique")));
   }
 
@@ -323,7 +323,7 @@ public class PersonControllerTests {
                 .contentType(MediaType.APPLICATION_JSON)
                 .content("{\"givenName\":\"Terra\", \"familyName\": \"Branford\"}"))
         .andExpect(status().isOk())
-        .andExpect(jsonPath("$.email", is("test@redesignhealth.com")))
+        .andExpect(jsonPath("$.email", is("test@acmehealth.com")))
         .andExpect(jsonPath("$.givenName", is("Terra")))
         .andExpect(jsonPath("$.familyName", is("Branford")))
         .andDo(
@@ -356,7 +356,7 @@ public class PersonControllerTests {
                 .contentType(MediaType.APPLICATION_JSON)
                 .content("{\"givenName\":\"Terra\", \"familyName\": \"Branford\"}"))
         .andExpect(status().isOk())
-        .andExpect(jsonPath("$.email", is("test@redesignhealth.com")))
+        .andExpect(jsonPath("$.email", is("test@acmehealth.com")))
         .andExpect(jsonPath("$.givenName", is("Terra")))
         .andExpect(jsonPath("$.familyName", is("Branford")));
 
@@ -368,7 +368,7 @@ public class PersonControllerTests {
   public void testAddRole_404UnknownPerson() throws Exception {
     mockMvc
         .perform(
-            put("/person/{email}/role/{authority}", "unknown@redesignhealth.com", ROLE_RH_ADMIN))
+            put("/person/{email}/role/{authority}", "unknown@acmehealth.com", ROLE_RH_ADMIN))
         .andExpect(status().isNotFound())
         .andExpect(
             (result) ->
@@ -404,7 +404,7 @@ public class PersonControllerTests {
   public void testDeleteRole_404UnknownPerson() throws Exception {
     mockMvc
         .perform(
-            delete("/person/{email}/role/{authority}", "unknown@redesignhealth.com", ROLE_RH_ADMIN))
+            delete("/person/{email}/role/{authority}", "unknown@acmehealth.com", ROLE_RH_ADMIN))
         .andExpect(status().isNotFound())
         .andExpect(
             (result) ->
@@ -441,7 +441,7 @@ public class PersonControllerTests {
     when(personRepository.findByEmail(personRef)).thenReturn(Optional.empty());
 
     mockMvc
-        .perform(delete("/person/{email}", "test@redesignhealth.com"))
+        .perform(delete("/person/{email}", "test@acmehealth.com"))
         .andExpect(status().isNotFound());
   }
 
@@ -451,7 +451,7 @@ public class PersonControllerTests {
     when(personRepository.findByEmail(personRef)).thenReturn(Optional.of(testPerson()));
 
     mockMvc
-        .perform(delete("/person/{email}", "test@redesignhealth.com"))
+        .perform(delete("/person/{email}", "test@acmehealth.com"))
         .andExpect(status().isNoContent())
         .andDo(document("delete"));
   }
@@ -461,7 +461,7 @@ public class PersonControllerTests {
   public void testGetMemberChanges_returnsChanges() throws Exception {
     var companyRef = testCompanyRef();
     var person = testPerson(ROLE_RH_ADMIN);
-    var email = "test@redesignhealth.com";
+    var email = "test@acmehealth.com";
     var company = testCompany();
     var companyMemberAudit = new CompanyMemberAudit();
     companyMemberAudit.setMemberOfId(company.getName());

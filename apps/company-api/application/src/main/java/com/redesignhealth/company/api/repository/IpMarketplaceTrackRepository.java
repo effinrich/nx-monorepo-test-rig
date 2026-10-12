@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.dto.BuyerAndSellerChattingDto;
-import com.redesignhealth.company.api.entity.CompanyIpMarketplace;
-import com.redesignhealth.company.api.entity.IpMarketplaceTrack;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceTrackRef;
+import com.acmehealth.company.api.dto.BuyerAndSellerChattingDto;
+import com.acmehealth.company.api.entity.CompanyIpMarketplace;
+import com.acmehealth.company.api.entity.IpMarketplaceTrack;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceTrackRef;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -17,7 +17,7 @@ public interface IpMarketplaceTrackRepository
   List<IpMarketplaceTrack> findByApiIdIsNull();
 
   @Query(
-      "SELECT new com.redesignhealth.company.api.dto.BuyerAndSellerChattingDto(ipmt.buyer, ipms.seller, ipmt.roomId, "
+      "SELECT new com.acmehealth.company.api.dto.BuyerAndSellerChattingDto(ipmt.buyer, ipms.seller, ipmt.roomId, "
           + "ipmt.ipMarketplace.name) "
           + "from IpMarketplaceTrack ipmt inner join IpMarketplaceSeller ipms  on ipmt.ipMarketplace = ipms.ipMarketplace "
           + "where ipmt.roomId IS NOT NULL")

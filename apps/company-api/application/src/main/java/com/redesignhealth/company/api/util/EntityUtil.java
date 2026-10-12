@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.util;
+package com.acmehealth.company.api.util;
 
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.CompanyMember;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.exception.CompanyNotFoundException;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.CompanyMember;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.exception.CompanyNotFoundException;
 import java.util.Optional;
 
 public class EntityUtil {

@@ -1,6 +1,6 @@
 import { useTitle } from 'react-use'
-import { Login as UserLogin } from '@redesignhealth/third-party-network/features/authentication'
-import { Box, Flex, Grid, RedesignLogo } from '@redesignhealth/ui'
+import { Login as UserLogin } from '@acmehealth/third-party-network/features/authentication'
+import { Box, Flex, Grid, RedesignLogo } from '@acmehealth/ui'
 
 import { Graphic } from './components/graphic'
 

@@ -6,7 +6,7 @@ import {
   MenuTrigger,
   MenuItem,
   MenuContent
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 const AddCompanyButton = () => (
   <MenuRoot>

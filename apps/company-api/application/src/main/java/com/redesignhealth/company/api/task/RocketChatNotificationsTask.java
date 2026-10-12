@@ -1,18 +1,18 @@
-package com.redesignhealth.company.api.task;
+package com.acmehealth.company.api.task;
 
-import static com.redesignhealth.company.api.util.EntityUtil.getCompanyFromFirstCompanyMember;
+import static com.acmehealth.company.api.util.EntityUtil.getCompanyFromFirstCompanyMember;
 
-import com.redesignhealth.company.api.client.email.EmailSender;
-import com.redesignhealth.company.api.client.rocketchat.RocketChatClient;
-import com.redesignhealth.company.api.client.rocketchat.dto.AuthInfo;
-import com.redesignhealth.company.api.dto.BuyerAndSellerChattingDto;
-import com.redesignhealth.company.api.dto.command.ipMarketplace.IpMarketplaceNewMessageChatCommand;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.RocketChatCheckMonitoring;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.repository.IpMarketplaceTrackRepository;
-import com.redesignhealth.company.api.repository.RocketChatCheckMonitoringRepository;
-import com.redesignhealth.company.api.repository.TaskRepository;
+import com.acmehealth.company.api.client.email.EmailSender;
+import com.acmehealth.company.api.client.rocketchat.RocketChatClient;
+import com.acmehealth.company.api.client.rocketchat.dto.AuthInfo;
+import com.acmehealth.company.api.dto.BuyerAndSellerChattingDto;
+import com.acmehealth.company.api.dto.command.ipMarketplace.IpMarketplaceNewMessageChatCommand;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.RocketChatCheckMonitoring;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.repository.IpMarketplaceTrackRepository;
+import com.acmehealth.company.api.repository.RocketChatCheckMonitoringRepository;
+import com.acmehealth.company.api.repository.TaskRepository;
 import java.net.URI;
 import java.time.Instant;
 import java.util.Map;

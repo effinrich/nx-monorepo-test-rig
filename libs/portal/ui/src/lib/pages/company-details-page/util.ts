@@ -1,5 +1,5 @@
-import { CompanySummary } from '@redesignhealth/portal/data-assets'
-import { TabConfig, useSetActiveTab } from '@redesignhealth/portal/utils'
+import { CompanySummary } from '@acmehealth/portal/data-assets'
+import { TabConfig, useSetActiveTab } from '@acmehealth/portal/utils'
 
 /**
  * Handle routing to the first tab if none are selected

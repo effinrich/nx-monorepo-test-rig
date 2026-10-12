@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
-import com.redesignhealth.company.api.dto.enums.LibraryContentType;
-import com.redesignhealth.company.api.dto.enums.RemoteContentSource;
-import com.redesignhealth.company.api.entity.ref.ContentRef;
-import com.redesignhealth.company.api.entity.ref.LibraryRef;
+import com.acmehealth.company.api.dto.enums.LibraryContentType;
+import com.acmehealth.company.api.dto.enums.RemoteContentSource;
+import com.acmehealth.company.api.entity.ref.ContentRef;
+import com.acmehealth.company.api.entity.ref.LibraryRef;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -1,18 +1,18 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.controller.util.Paths.EXPERT_NOTE_ID;
+import static com.acmehealth.company.api.controller.util.Paths.EXPERT_NOTE_ID;
 import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.http.HttpStatus.NO_CONTENT;
 
-import com.redesignhealth.company.api.assembler.ExpertNoteAssembler;
-import com.redesignhealth.company.api.dto.ExpertNoteSummary;
-import com.redesignhealth.company.api.dto.FilterOptionsSummary;
-import com.redesignhealth.company.api.dto.command.ExpertNoteCommand;
-import com.redesignhealth.company.api.entity.ExpertNote;
-import com.redesignhealth.company.api.entity.ref.ExpertNoteRef;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.ExpertNoteService;
+import com.acmehealth.company.api.assembler.ExpertNoteAssembler;
+import com.acmehealth.company.api.dto.ExpertNoteSummary;
+import com.acmehealth.company.api.dto.FilterOptionsSummary;
+import com.acmehealth.company.api.dto.command.ExpertNoteCommand;
+import com.acmehealth.company.api.entity.ExpertNote;
+import com.acmehealth.company.api.entity.ref.ExpertNoteRef;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.ExpertNoteService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import java.util.List;

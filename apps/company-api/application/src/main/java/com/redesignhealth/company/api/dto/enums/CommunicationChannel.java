@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.dto.enums;
+package com.acmehealth.company.api.dto.enums;
 
 public enum CommunicationChannel {
   EMAIL("Email"),

@@ -1,6 +1,6 @@
 import { MdCheck } from 'react-icons/md'
 import { useNavigate } from 'react-router-dom'
-import { Button, Center, Icon, Stack, Text } from '@redesignhealth/ui'
+import { Button, Center, Icon, Stack, Text } from '@acmehealth/ui'
 
 export const CeoOnboardingSuccess = () => {
   const navigate = useNavigate()

@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.property;
+package com.acmehealth.company.api.property;
 
 import lombok.Getter;
 import lombok.Setter;

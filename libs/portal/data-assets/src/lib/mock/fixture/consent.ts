@@ -10,7 +10,7 @@ export const mockConsent: ConsentSummary = {
   links: [
     {
       rel: 'me',
-      href: 'http://localhost:8080/person/test@redesignhealth.com'
+      href: 'http://localhost:8080/person/test@acmehealth.com'
     }
   ]
 }
@@ -25,7 +25,7 @@ export const mockConsentWithStaleVersion: ConsentSummary = {
   links: [
     {
       rel: 'me',
-      href: 'http://localhost:8080/person/test@redesignhealth.com'
+      href: 'http://localhost:8080/person/test@acmehealth.com'
     }
   ]
 }

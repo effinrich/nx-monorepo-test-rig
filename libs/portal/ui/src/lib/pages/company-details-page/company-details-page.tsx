@@ -1,13 +1,13 @@
 import { Link as RouterLink, Outlet, useParams } from 'react-router-dom'
-import { useGetCompanyById } from '@redesignhealth/portal/data-assets'
-import { useGetActiveTab } from '@redesignhealth/portal/utils'
+import { useGetCompanyById } from '@acmehealth/portal/data-assets'
+import { useGetActiveTab } from '@acmehealth/portal/utils'
 import {
   Loader,
   Stack,
   Tab,
   TabList,
   TabsRoot
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import BackButton from '../../back-button/back-button'
 

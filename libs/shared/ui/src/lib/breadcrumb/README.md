@@ -2,7 +2,7 @@
 id: breadcrumb
 category: navigation
 title: Breadcrumb
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Breadcrumbs is a navigation pattern that helps users understand the hierarchy
   of a website.
@@ -26,7 +26,7 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbSeparator
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 ## Usage

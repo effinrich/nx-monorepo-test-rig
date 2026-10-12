@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
-import com.redesignhealth.company.api.assembler.jira.JiraLinkGenerator;
-import com.redesignhealth.company.api.controller.PersonRequestController;
-import com.redesignhealth.company.api.dto.PersonRequestSummary;
-import com.redesignhealth.company.api.entity.PersonRequest;
+import com.acmehealth.company.api.assembler.jira.JiraLinkGenerator;
+import com.acmehealth.company.api.controller.PersonRequestController;
+import com.acmehealth.company.api.dto.PersonRequestSummary;
+import com.acmehealth.company.api.entity.PersonRequest;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;
 

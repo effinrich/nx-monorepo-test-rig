@@ -1,4 +1,4 @@
-import { render, screen } from '@redesignhealth/shared-utils-jest'
+import { render, screen } from '@acmehealth/shared-utils-jest'
 
 import CeoDirectory from './ceo-directory'
 

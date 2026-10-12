@@ -2,7 +2,7 @@
 id: aspect-ratio
 category: layout
 title: Aspect Ratio
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: AspectRatio component is used to embed responsive videos and maps, etc.
 ---
 
@@ -13,12 +13,12 @@ Use the `AspectRatio` component to embed responsive videos, maps, and so on.
 ## Import
 
 ```js
-import { AspectRatio } from '@redesignhealth/ui'
+import { AspectRatio } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-layout-aspectratio--with-map&viewMode=story" height="400px" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-layout-aspectratio--with-map&viewMode=story" height="400px" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Embed Video
 

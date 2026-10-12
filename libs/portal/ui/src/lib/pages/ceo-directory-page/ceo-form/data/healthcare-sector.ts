@@ -1,4 +1,4 @@
-import { Option } from '@redesignhealth/portal/data-assets'
+import { Option } from '@acmehealth/portal/data-assets'
 
 export const healthcareSector: Option[] = [
   { value: 'BIOPHARMA_AND_DEVICE', label: 'Biopharma & Device' },

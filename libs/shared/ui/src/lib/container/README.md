@@ -2,7 +2,7 @@
 id: container
 category: layout
 title: 'Container'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Containers are used to constrain a content's width to the current breakpoint,
   while keeping it fluid.
@@ -13,7 +13,7 @@ description:
 ## Import
 
 ```js
-import { Container } from '@redesignhealth/ui'
+import { Container } from '@acmehealth/ui'
 ```
 
 ## Usage

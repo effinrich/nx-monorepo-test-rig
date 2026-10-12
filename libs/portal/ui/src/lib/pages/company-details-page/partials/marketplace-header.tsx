@@ -1,8 +1,8 @@
 import { MdEdit } from 'react-icons/md'
 import { Link as RouterLink } from 'react-router-dom'
-import { useGetUserInfo } from '@redesignhealth/portal/data-assets'
-import { HasRole } from '@redesignhealth/portal/utils'
-import { Icon, IconButton, Loader, SectionHeader } from '@redesignhealth/ui'
+import { useGetUserInfo } from '@acmehealth/portal/data-assets'
+import { HasRole } from '@acmehealth/portal/utils'
+import { Icon, IconButton, Loader, SectionHeader } from '@acmehealth/ui'
 interface MarketplaceHeaderProps {
   companyName: string
   activityType?: string

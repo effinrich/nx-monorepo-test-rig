@@ -1,13 +1,13 @@
-package com.redesignhealth.company.api.service;
+package com.acmehealth.company.api.service;
 
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCategory;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompany;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyVendor;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyVendorContact;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPerson;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPersonRef;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testSubcategory;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testVendor;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCategory;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompany;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyVendor;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyVendorContact;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPerson;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPersonRef;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testSubcategory;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testVendor;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
@@ -16,20 +16,20 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.redesignhealth.company.api.client.email.EmailSender;
-import com.redesignhealth.company.api.dto.PersonReducedInfo;
-import com.redesignhealth.company.api.dto.SubcategorySummary;
-import com.redesignhealth.company.api.dto.command.vendor.CompanyVendorChangeCommand;
-import com.redesignhealth.company.api.dto.command.vendor.CompanyVendorCommand;
-import com.redesignhealth.company.api.dto.command.vendor.CreateCompanyVendorCommand;
-import com.redesignhealth.company.api.dto.enums.CompanyStage;
-import com.redesignhealth.company.api.dto.enums.CompanyStatus;
-import com.redesignhealth.company.api.exception.status.ForbiddenException;
-import com.redesignhealth.company.api.exception.status.UnprocessableEntityException;
-import com.redesignhealth.company.api.repository.CompanyRepository;
-import com.redesignhealth.company.api.repository.CompanyVendorRepository;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.security.RedesignUserDetails;
+import com.acmehealth.company.api.client.email.EmailSender;
+import com.acmehealth.company.api.dto.PersonReducedInfo;
+import com.acmehealth.company.api.dto.SubcategorySummary;
+import com.acmehealth.company.api.dto.command.vendor.CompanyVendorChangeCommand;
+import com.acmehealth.company.api.dto.command.vendor.CompanyVendorCommand;
+import com.acmehealth.company.api.dto.command.vendor.CreateCompanyVendorCommand;
+import com.acmehealth.company.api.dto.enums.CompanyStage;
+import com.acmehealth.company.api.dto.enums.CompanyStatus;
+import com.acmehealth.company.api.exception.status.ForbiddenException;
+import com.acmehealth.company.api.exception.status.UnprocessableEntityException;
+import com.acmehealth.company.api.repository.CompanyRepository;
+import com.acmehealth.company.api.repository.CompanyVendorRepository;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.security.RedesignUserDetails;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -140,7 +140,7 @@ class CompanyVendorServiceTests {
     var result = companyVendorService.create(company.getApiId(), command);
     var createdContact = result.getContacts().iterator().next();
 
-    assertThat(createdContact.getPerson().getEmail().value()).isEqualTo("test@redesignhealth.com");
+    assertThat(createdContact.getPerson().getEmail().value()).isEqualTo("test@acmehealth.com");
     assertThat(createdContact.getCompanyVendor()).isEqualTo(result);
     assertThat(createdContact.getWillingToDiscuss()).isTrue();
   }
@@ -211,7 +211,7 @@ class CompanyVendorServiceTests {
     assertThat(result.getContacts()).hasSize(1);
 
     var createdContact = result.getContacts().iterator().next();
-    assertThat(createdContact.getPerson().getEmail().value()).isEqualTo("test@redesignhealth.com");
+    assertThat(createdContact.getPerson().getEmail().value()).isEqualTo("test@acmehealth.com");
     assertThat(createdContact.getCompanyVendor()).isEqualTo(result);
     assertThat(createdContact.getWillingToDiscuss()).isTrue();
   }
@@ -234,7 +234,7 @@ class CompanyVendorServiceTests {
     assertThat(result.getContacts()).hasSize(1);
 
     var createdContact = result.getContacts().iterator().next();
-    assertThat(createdContact.getPerson().getEmail().value()).isEqualTo("test@redesignhealth.com");
+    assertThat(createdContact.getPerson().getEmail().value()).isEqualTo("test@acmehealth.com");
     assertThat(createdContact.getCompanyVendor()).isEqualTo(result);
     assertThat(createdContact.getWillingToDiscuss()).isTrue();
   }

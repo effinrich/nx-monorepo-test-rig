@@ -7,7 +7,7 @@ import {
   PopoverPositioner,
   PopoverTrigger
 } from '@chakra-ui/react'
-import { Text } from '@redesignhealth/ui'
+import { Text } from '@acmehealth/ui'
 
 interface OpcoEngagementsPopoverProps {
   opcoName?: string

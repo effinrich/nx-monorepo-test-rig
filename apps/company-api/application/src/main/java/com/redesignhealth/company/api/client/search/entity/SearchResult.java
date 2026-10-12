@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.search.entity;
+package com.acmehealth.company.api.client.search.entity;
 
 import jakarta.annotation.Nullable;
 import java.util.List;

@@ -1,12 +1,12 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompany;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPerson;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompany;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPerson;
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
-import com.redesignhealth.company.api.entity.CompanyMember;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.entity.CompanyMember;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
 import java.util.Set;
 import org.junit.jupiter.api.Test;
 
@@ -59,6 +59,6 @@ public class RedesignUserDetailsTests {
     person.setRole(RoleAuthority.ROLE_OP_CO_USER);
     var userDetails = RedesignUserDetails.from(person);
 
-    assertThat(userDetails.getUsername()).isEqualTo("test@redesignhealth.com");
+    assertThat(userDetails.getUsername()).isEqualTo("test@acmehealth.com");
   }
 }

@@ -32,7 +32,7 @@ The following diagram illustrates what is deployed by the VPC module. The peerin
 - VPC endpoints provided by AWS for services like S3 avoid public endpoints and save cost. VPC flow logs enabled to capture incoming traffic for analytic and audit purposes.
 - Network Access Control List (NACL) is initially open, but can be used to control access. NACL serves as an additional layer of security within the VPC setup.
 
-![Diagram of VPC Module Architecture](https://assets.redesignhealth.com/W1yl74bpSBnMjjvSMJXlA4Vrg0IuPJSrFbEg1eXO/vpc-module.png)
+![Diagram of VPC Module Architecture](https://assets.acmehealth.com/W1yl74bpSBnMjjvSMJXlA4Vrg0IuPJSrFbEg1eXO/vpc-module.png)
 
 -
 
@@ -71,7 +71,7 @@ This section provides a high-level overview of the steps for deploying the Netwo
 
 From here, you can click on a specific peering connection to view its details, including the IDs of the VPCs involved, the status of the connection, and any route tables associated with the connection.
 
-![Peering Connections](https://assets.redesignhealth.com/image/2d55a88d6808202aed631e468e8f0e540ed0830f.png)
+![Peering Connections](https://assets.acmehealth.com/image/2d55a88d6808202aed631e468e8f0e540ed0830f.png)
 
 
 

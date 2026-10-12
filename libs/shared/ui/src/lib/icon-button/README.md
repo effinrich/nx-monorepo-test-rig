@@ -2,14 +2,14 @@
 id: icon-button
 category: form
 title: Icon Button
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Icon button renders an icon within in a button.
 ---
 
 ## Import
 
 ```js
-import { IconButton } from '@redesignhealth/ui'
+import { IconButton } from '@acmehealth/ui'
 ```
 
 ## Usage

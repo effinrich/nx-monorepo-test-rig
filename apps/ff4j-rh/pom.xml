@@ -8,7 +8,7 @@
 		<version>3.0.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.redesignhealth</groupId>
+	<groupId>com.acmehealth</groupId>
 	<artifactId>ff4j-rh</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ff4j-rh</name>
@@ -38,7 +38,7 @@
 			<artifactId>ff4j-spring-boot-starter-webmvc</artifactId>
 			<version>${ff4j.version}</version>
 		</dependency>
-    
+
 	</dependencies>
 
 	<build>

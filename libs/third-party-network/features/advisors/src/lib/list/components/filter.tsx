@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { FormControl, FormLabel } from '@redesignhealth/ui'
+import { FormControl, FormLabel } from '@acmehealth/ui'
 import { Select } from 'chakra-react-select'
 
 import { useAllAdvisorsQuery } from '../hooks'

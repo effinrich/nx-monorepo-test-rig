@@ -1,14 +1,14 @@
-package com.redesignhealth.company.api.service;
+package com.acmehealth.company.api.service;
 
-import com.redesignhealth.company.api.controller.ConsentCommand;
-import com.redesignhealth.company.api.entity.Consent;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.exception.ConsentNotFoundException;
-import com.redesignhealth.company.api.exception.PersonNotFoundException;
-import com.redesignhealth.company.api.repository.ConsentRepository;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.security.RedesignUserDetails;
+import com.acmehealth.company.api.controller.ConsentCommand;
+import com.acmehealth.company.api.entity.Consent;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.exception.ConsentNotFoundException;
+import com.acmehealth.company.api.exception.PersonNotFoundException;
+import com.acmehealth.company.api.repository.ConsentRepository;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.security.RedesignUserDetails;
 import jakarta.transaction.Transactional;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-import { type BoxProps, Button, Flex, Text } from '@redesignhealth/ui'
+import { type BoxProps, Button, Flex, Text } from '@acmehealth/ui'
 
 interface FiltersProps extends BoxProps {
   children: React.ReactNode

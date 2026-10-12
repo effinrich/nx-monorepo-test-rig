@@ -8,5 +8,5 @@ labels:
 # Local SEO Playbook
 
 <iframe
-  src="https://assets.redesignhealth.com/68rtFMafDb5nH1moAO0A86fgvyaoab7M2IMNV3dG/local-seo-playbook.pdf"  style="display: block; width: 100%; height: 800px;">
+  src="https://assets.acmehealth.com/68rtFMafDb5nH1moAO0A86fgvyaoab7M2IMNV3dG/local-seo-playbook.pdf"  style="display: block; width: 100%; height: 800px;">
 </iframe>

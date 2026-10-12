@@ -1,5 +1,5 @@
-import { SCROLL_CONTAINER_ID, scrollToTop } from '@redesignhealth/portal/utils'
-import { Button, Flex, Text } from '@redesignhealth/ui'
+import { SCROLL_CONTAINER_ID, scrollToTop } from '@acmehealth/portal/utils'
+import { Button, Flex, Text } from '@acmehealth/ui'
 
 export interface PaginationProps {
   handlePageChange(newPage: number): void

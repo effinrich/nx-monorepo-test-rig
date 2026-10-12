@@ -1,5 +1,5 @@
 
-## Authentication 
+## Authentication
 Authentication is done through the Authorization header using a Json Web Token (JWT) from GoogleID.
 
 JWTs are generated using the OAuth2 authorization_code flow. You’ll need a client_id/client_sercret to generate a JWT yourself. Information on generating a JWT can be found here: https://developers.google.com/identity/protocols/oauth2/native-app
@@ -7,7 +7,7 @@ JWTs are generated using the OAuth2 authorization_code flow. You’ll need a cli
 Once a JWT is obtained, you can make requests to the API with the header `Authorization: Bearer JWT`.
 
 ```bash
-$ curl -h 'Authorization: bearer token.value.goes-here` https://prod-opco-service-api.redesignhealth.com/op-co
+$ curl -h 'Authorization: bearer token.value.goes-here` https://prod-opco-service-api.acmehealth.com/op-co
 ```
 
 ## Pagination

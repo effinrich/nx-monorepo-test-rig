@@ -1,26 +1,26 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.client.search.entity.CeoDirectoryDoc.BUSINESS_TYPE;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_OP_CO_USER;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_RH_USER;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.expandQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.filterQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.highlightedTextField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.idField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.keyField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.linksField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.optionsField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pageFields;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pageQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.qQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.sizeQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.sortQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCeo;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCeoDirectoryCallSearchDoc;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompany;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyRef;
-import static com.redesignhealth.company.api.service.CeoService.VALID_SEARCH_FILTERS;
+import static com.acmehealth.company.api.client.search.entity.CeoDirectoryDoc.BUSINESS_TYPE;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_OP_CO_USER;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_RH_USER;
+import static com.acmehealth.company.api.scaffolding.DocUtils.expandQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.filterQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.highlightedTextField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.idField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.keyField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.linksField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.optionsField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pageFields;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pageQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.qQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.sizeQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.sortQueryParameter;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCeo;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCeoDirectoryCallSearchDoc;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompany;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyRef;
+import static com.acmehealth.company.api.service.CeoService.VALID_SEARCH_FILTERS;
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
 import static org.mockito.Mockito.when;
@@ -37,31 +37,31 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.assembler.CeoDirectoryAssembler;
-import com.redesignhealth.company.api.client.search.SearchClient;
-import com.redesignhealth.company.api.client.search.command.SearchCommand;
-import com.redesignhealth.company.api.client.search.command.SearchFilterOptionsCommand;
-import com.redesignhealth.company.api.client.search.command.SearchIndex;
-import com.redesignhealth.company.api.client.search.entity.CeoDirectoryDoc;
-import com.redesignhealth.company.api.client.search.entity.FilterOptions;
-import com.redesignhealth.company.api.client.search.entity.SearchResult;
-import com.redesignhealth.company.api.client.search.entity.Term;
-import com.redesignhealth.company.api.dto.SearchFilter;
-import com.redesignhealth.company.api.dto.enums.CompanyFundraiseStatus;
-import com.redesignhealth.company.api.dto.enums.CompanyMemberStatus;
-import com.redesignhealth.company.api.entity.CompanyMember;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.CeoRef;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.property.CeoDirectoryConverter;
-import com.redesignhealth.company.api.repository.CeoRepository;
-import com.redesignhealth.company.api.repository.CompanyRepository;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.CeoService;
+import com.acmehealth.company.api.assembler.CeoDirectoryAssembler;
+import com.acmehealth.company.api.client.search.SearchClient;
+import com.acmehealth.company.api.client.search.command.SearchCommand;
+import com.acmehealth.company.api.client.search.command.SearchFilterOptionsCommand;
+import com.acmehealth.company.api.client.search.command.SearchIndex;
+import com.acmehealth.company.api.client.search.entity.CeoDirectoryDoc;
+import com.acmehealth.company.api.client.search.entity.FilterOptions;
+import com.acmehealth.company.api.client.search.entity.SearchResult;
+import com.acmehealth.company.api.client.search.entity.Term;
+import com.acmehealth.company.api.dto.SearchFilter;
+import com.acmehealth.company.api.dto.enums.CompanyFundraiseStatus;
+import com.acmehealth.company.api.dto.enums.CompanyMemberStatus;
+import com.acmehealth.company.api.entity.CompanyMember;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.CeoRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.property.CeoDirectoryConverter;
+import com.acmehealth.company.api.repository.CeoRepository;
+import com.acmehealth.company.api.repository.CompanyRepository;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.CeoService;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -124,7 +124,7 @@ public class CeoControllerTest {
   @Test
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void CreateCeo() throws Exception {
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     var company = testCompany();
     company.setFundraiseStatus(CompanyFundraiseStatus.PRE_SERIES_A);
@@ -154,7 +154,7 @@ public class CeoControllerTest {
         "additionalInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
         "linkedinHref": "http//www.example.com/",
         "visible": "OPT_IN",
-        "email": "anytest@redesignhealth.com"
+        "email": "anytest@acmehealth.com"
       }
       """;
     mockMvc
@@ -196,7 +196,7 @@ public class CeoControllerTest {
   @Test
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void CreateCeo_Only_With_Email() throws Exception {
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     var company = testCompany();
     company.setFundraiseStatus(CompanyFundraiseStatus.PRE_SERIES_A);
@@ -208,7 +208,7 @@ public class CeoControllerTest {
     when(ceoRepository.existsCeoByEmail(personRef)).thenReturn(false);
     var payload = """
      {
-      "email": "anytest@redesignhealth.com"
+      "email": "anytest@acmehealth.com"
     }
     """;
     mockMvc
@@ -219,7 +219,7 @@ public class CeoControllerTest {
   @Test
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void CreateCeo_Txn_Conflict() throws Exception {
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     var company = testCompany();
     company.setFundraiseStatus(CompanyFundraiseStatus.PRE_SERIES_A);
@@ -233,7 +233,7 @@ public class CeoControllerTest {
     when(ceoRepository.existsCeoByEmail(personRef)).thenThrow(ex);
     var payload = """
      {
-      "email": "anytest@redesignhealth.com"
+      "email": "anytest@acmehealth.com"
     }
     """;
     mockMvc
@@ -244,7 +244,7 @@ public class CeoControllerTest {
   @Test
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void CreateCeo_Generic_Jpa_Error() throws Exception {
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     var company = testCompany();
     company.setFundraiseStatus(CompanyFundraiseStatus.PRE_SERIES_A);
@@ -257,7 +257,7 @@ public class CeoControllerTest {
     when(ceoRepository.existsCeoByEmail(personRef)).thenThrow(ex);
     var payload = """
      {
-      "email": "anytest@redesignhealth.com"
+      "email": "anytest@acmehealth.com"
     }
     """;
     mockMvc
@@ -288,7 +288,7 @@ public class CeoControllerTest {
         "additionalInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
         "linkedinHref": "http//www.example.com/",
         "visible": "OPT_IN",
-        "email": "anytest@redesignhealth.com"
+        "email": "anytest@acmehealth.com"
       }
       """;
     mockMvc
@@ -327,7 +327,7 @@ public class CeoControllerTest {
   @Test
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void CreateCeo_Invalid_Location() throws Exception {
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     var company = testCompany();
     company.setOnboardDocsFolderId("any_id");
@@ -356,7 +356,7 @@ public class CeoControllerTest {
         "additionalInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
         "linkedinHref": "http//www.example.com/",
         "visible": "OPT_IN",
-        "email": "anytest@redesignhealth.com"
+        "email": "anytest@acmehealth.com"
       }
       """;
     mockMvc
@@ -368,7 +368,7 @@ public class CeoControllerTest {
   @Test
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void CreateCeo_Ceo_Exists() throws Exception {
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     var company = testCompany();
     company.setOnboardDocsFolderId("any_id");
@@ -397,7 +397,7 @@ public class CeoControllerTest {
         "additionalInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
         "linkedinHref": "http//www.example.com/",
         "visible": "OPT_IN",
-        "email": "anytest@redesignhealth.com"
+        "email": "anytest@acmehealth.com"
       }
       """;
     mockMvc
@@ -409,7 +409,7 @@ public class CeoControllerTest {
   @Test
   @WithRedesignUser(role = ROLE_RH_ADMIN)
   public void CreateCeo_Ceo_Active_in_More_Than_One_Company() throws Exception {
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     var company = testCompany();
     var company2 = testCompany("amyApiId");
@@ -440,7 +440,7 @@ public class CeoControllerTest {
       "additionalInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
       "linkedinHref": "http//www.example.com/",
       "visible": "OPT_IN",
-      "email": "anytest@redesignhealth.com"
+      "email": "anytest@acmehealth.com"
     }
     """;
     mockMvc
@@ -452,11 +452,11 @@ public class CeoControllerTest {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "anytest@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "anytest@acmehealth.com")
   public void GetCeo_One() throws Exception {
     var ceoId = "anyCeoId";
     var ceoRef = CeoRef.of(ceoId);
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     var ceo = testCeo(ceoRef, personRef);
     ceo.setPerson(person);
@@ -494,7 +494,7 @@ public class CeoControllerTest {
   public void testDelete_success() throws Exception {
     var ceoId = "anyCeoId";
     var ceoRef = CeoRef.of(ceoId);
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var ceo = testCeo(ceoRef, personRef);
     when(ceoRepository.findCeoByApiId(ceoRef)).thenReturn(Optional.of(ceo));
     mockMvc
@@ -576,18 +576,18 @@ public class CeoControllerTest {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "anytest@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "anytest@acmehealth.com")
   public void GetCeo_Not_Found() throws Exception {
     var ceoId = "anyCeoId";
     mockMvc.perform(get("/ceos/{ceoId}", ceoId)).andExpect(status().isNotFound());
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "anytest@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "anytest@acmehealth.com")
   public void UpdateCeo() throws Exception {
     var ceoId = "anyCeoId";
     var ceoRef = CeoRef.of(ceoId);
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     var ceo = testCeo(ceoRef, personRef);
     ceo.setPerson(person);
@@ -656,11 +656,11 @@ public class CeoControllerTest {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "anytest@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "anytest@acmehealth.com")
   public void UpdateCeo_Invalid_Location() throws Exception {
     var ceoId = "anyCeoId";
     var ceoRef = CeoRef.of(ceoId);
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     var ceo = testCeo(ceoRef, personRef);
     ceo.setPerson(person);
@@ -700,7 +700,7 @@ public class CeoControllerTest {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "anytest@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_RH_ADMIN, email = "anytest@acmehealth.com")
   public void UpdateCeo_Ceo_Not_Found() throws Exception {
     var ceoId = "anyCeoId";
     var company = testCompany();
@@ -734,11 +734,11 @@ public class CeoControllerTest {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_OP_CO_USER, email = "anytest2@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_OP_CO_USER, email = "anytest2@acmehealth.com")
   public void UpdateCeo_Invalid_Editor_Role_It_Is_Not_CEO() throws Exception {
     var ceoId = "anyCeoId";
     var ceoRef = CeoRef.of(ceoId);
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     person.setRole(ROLE_OP_CO_USER);
     var ceo = testCeo(ceoRef, personRef);
@@ -779,11 +779,11 @@ public class CeoControllerTest {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_RH_USER, email = "anytest2@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_RH_USER, email = "anytest2@acmehealth.com")
   public void UpdateCeo_Invalid_Editor_Role_It_Is_ROLE_RH_USER() throws Exception {
     var ceoId = "anyCeoId";
     var ceoRef = CeoRef.of(ceoId);
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     person.setRole(ROLE_OP_CO_USER);
     var ceo = testCeo(ceoRef, personRef);
@@ -824,11 +824,11 @@ public class CeoControllerTest {
   }
 
   @Test
-  @WithRedesignUser(role = ROLE_OP_CO_USER, email = "anytest@redesignhealth.com")
+  @WithRedesignUser(role = ROLE_OP_CO_USER, email = "anytest@acmehealth.com")
   public void UpdateCeo_CEO_Edit_its_Info() throws Exception {
     var ceoId = "anyCeoId";
     var ceoRef = CeoRef.of(ceoId);
-    var personRef = PersonRef.of("anytest@redesignhealth.com");
+    var personRef = PersonRef.of("anytest@acmehealth.com");
     var person = testPerson(personRef);
     person.setRole(ROLE_OP_CO_USER);
     var ceo = testCeo(ceoRef, personRef);
@@ -929,21 +929,21 @@ public class CeoControllerTest {
     return subsectionWithPath("customerSegment")
         .description(
             "List for different segments for which the CEO could have experience. Valid values: "
-                + "https://github.com/redesignhealth/rh-design-system/blob/main/apps/company-api/application/src/main/java/com/redesignhealth/company/api/dto/enums/CeoCustomerSegment.java#L6-L10[company-api-repo]");
+                + "https://github.com/acmehealth/rh-design-system/blob/main/apps/company-api/application/src/main/java/com/acmehealth/company/api/dto/enums/CeoCustomerSegment.java#L6-L10[company-api-repo]");
   }
 
   private static FieldDescriptor businessFocusAreaField() {
     return subsectionWithPath("businessFocusArea")
         .description(
             "List to define the businesses where the CEO has more expertise. Valid values: "
-                + "https://github.com/redesignhealth/rh-design-system/blob/main/apps/company-api/application/src/main/java/com/redesignhealth/company/api/dto/enums/CeoBusinessFocusArea.java#L6-L56[company-api-repo]");
+                + "https://github.com/acmehealth/rh-design-system/blob/main/apps/company-api/application/src/main/java/com/acmehealth/company/api/dto/enums/CeoBusinessFocusArea.java#L6-L56[company-api-repo]");
   }
 
   private static FieldDescriptor healthcareSectorField() {
     return fieldWithPath("healthcareSector")
         .description(
             "Sector where the CEO has experience, Valid values: "
-                + "https://github.com/redesignhealth/rh-design-system/blob/main/apps/company-api/application/src/main/java/com/redesignhealth/company/api/dto/enums/CeoHealthcareSector.java#L6-L15[company-api-repo]");
+                + "https://github.com/acmehealth/rh-design-system/blob/main/apps/company-api/application/src/main/java/com/acmehealth/company/api/dto/enums/CeoHealthcareSector.java#L6-L15[company-api-repo]");
   }
 
   private static FieldDescriptor bioField() {

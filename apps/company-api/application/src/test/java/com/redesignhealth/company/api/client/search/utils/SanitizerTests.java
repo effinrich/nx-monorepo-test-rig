@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.client.search.utils;
+package com.acmehealth.company.api.client.search.utils;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.redesignhealth.company.api.client.search.entity.CeoDirectoryDoc;
-import com.redesignhealth.company.api.client.search.entity.SearchResult;
-import com.redesignhealth.company.api.property.EntityConverter;
+import com.acmehealth.company.api.client.search.entity.CeoDirectoryDoc;
+import com.acmehealth.company.api.client.search.entity.SearchResult;
+import com.acmehealth.company.api.property.EntityConverter;
 import java.util.List;
 import java.util.Map;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.redesignhealth.ff4jrh.config;
+package com.acmehealth.ff4jrh.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

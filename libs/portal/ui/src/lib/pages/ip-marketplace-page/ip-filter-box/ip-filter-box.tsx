@@ -1,11 +1,11 @@
 import { Controller, useFormContext } from 'react-hook-form'
-import analytics from '@redesignhealth/analytics'
+import analytics from '@acmehealth/analytics'
 import {
   IpMarketplaceFilters,
   IPSearchValues,
   useGetIPFilters
-} from '@redesignhealth/portal/data-assets'
-import { multiSelectTransformer } from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/data-assets'
+import { multiSelectTransformer } from '@acmehealth/portal/utils'
 
 import { Filter, FilterBox, Filters, Search } from '../../../filter-box'
 

@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from '@redesignhealth/shared-utils-jest'
+import { render, screen, waitFor } from '@acmehealth/shared-utils-jest'
 import { setupServer } from 'msw/node'
 
 import { adminUser, registerMockEndpoints } from './mocks'

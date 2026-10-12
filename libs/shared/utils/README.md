@@ -1,4 +1,4 @@
-# @redesignhealth/shared-utils
+# @acmehealth/shared-utils
 
 General-purpose utility functions shared across Redesign Health frontend applications.
 
@@ -21,7 +21,7 @@ General-purpose utility functions shared across Redesign Health frontend applica
 ## Usage
 
 ```ts
-import { cx, getInitials, stripTags } from '@redesignhealth/shared-utils'
+import { cx, getInitials, stripTags } from '@acmehealth/shared-utils'
 
 cx('btn', isActive && 'btn--active')  // 'btn btn--active'
 getInitials('Jane Doe')               // 'JD'

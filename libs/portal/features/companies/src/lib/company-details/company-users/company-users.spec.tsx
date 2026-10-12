@@ -6,8 +6,8 @@ import {
   mockMarketplaceBuyerCompany,
   mockMarketplaceSellerCompany,
   mockRhOpCoCompany
-} from '@redesignhealth/portal/data-assets'
-import { render, screen } from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/portal/data-assets'
+import { render, screen } from '@acmehealth/shared-utils-jest'
 import { within } from '@testing-library/react'
 import { setupServer } from 'msw/node'
 
@@ -67,7 +67,7 @@ describe('CompanyUsers', () => {
     expect(users).toHaveLength(1)
     expect(within(users[0]).getByText('Sazh Katzroy')).toBeInTheDocument()
     expect(
-      within(users[0]).getByText('sazh.katzroy@redesignhealth.com')
+      within(users[0]).getByText('sazh.katzroy@acmehealth.com')
     ).toBeInTheDocument()
   })
 

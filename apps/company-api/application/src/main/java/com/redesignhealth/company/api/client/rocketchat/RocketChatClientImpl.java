@@ -1,14 +1,14 @@
-package com.redesignhealth.company.api.client.rocketchat;
+package com.acmehealth.company.api.client.rocketchat;
 
-import com.redesignhealth.company.api.client.rocketchat.dto.AuthInfo;
-import com.redesignhealth.company.api.client.rocketchat.dto.CreateRoomResponse;
-import com.redesignhealth.company.api.client.rocketchat.dto.GroupCountersResponse;
-import com.redesignhealth.company.api.client.rocketchat.dto.GroupMembersResponse;
-import com.redesignhealth.company.api.client.rocketchat.dto.LoginResponse;
-import com.redesignhealth.company.api.client.rocketchat.dto.LogoutResponse;
-import com.redesignhealth.company.api.client.rocketchat.dto.UnreadResponse;
-import com.redesignhealth.company.api.client.rocketchat.dto.UserCreateTokenResponse;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.client.rocketchat.dto.AuthInfo;
+import com.acmehealth.company.api.client.rocketchat.dto.CreateRoomResponse;
+import com.acmehealth.company.api.client.rocketchat.dto.GroupCountersResponse;
+import com.acmehealth.company.api.client.rocketchat.dto.GroupMembersResponse;
+import com.acmehealth.company.api.client.rocketchat.dto.LoginResponse;
+import com.acmehealth.company.api.client.rocketchat.dto.LogoutResponse;
+import com.acmehealth.company.api.client.rocketchat.dto.UnreadResponse;
+import com.acmehealth.company.api.client.rocketchat.dto.UserCreateTokenResponse;
+import com.acmehealth.company.api.entity.ref.PersonRef;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

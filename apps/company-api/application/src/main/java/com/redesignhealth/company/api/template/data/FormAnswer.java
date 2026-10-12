@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.template.data;
+package com.acmehealth.company.api.template.data;
 
 import static java.util.Map.entry;
 

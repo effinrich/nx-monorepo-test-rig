@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.client.search.entity;
+package com.acmehealth.company.api.client.search.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.util.EntityUtil;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.util.EntityUtil;
 import lombok.Builder;
 import lombok.Getter;
 

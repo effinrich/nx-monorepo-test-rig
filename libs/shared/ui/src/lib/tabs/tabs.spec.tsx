@@ -3,7 +3,7 @@ import {
   render,
   screen,
   testA11y
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 
 import { Tab, TabList, TabPanel, TabsRoot } from './tabs'
 

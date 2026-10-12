@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker'
 import {
   ResearchSprintCardProps,
   ResearchSprintWithId
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 
 faker.seed(123)
 

@@ -2,7 +2,7 @@ import {
   createExpandParams,
   createFilterParamFromStringArray,
   createSortParam
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 
 import { axiosApi } from '../axios-api'
 import { FilterField, PagedResult } from '../types'

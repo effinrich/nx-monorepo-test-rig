@@ -18,7 +18,7 @@ Content-Length: 1030
     "href" : "http://localhost:8080/op-co/1KlMnh9a"
   } ],
   "content" : [ {
-    "email" : "test@redesignhealth.com",
+    "email" : "test@acmehealth.com",
     "givenName" : "Terra",
     "familyName" : "Branford",
     "roles" : [ {
@@ -43,7 +43,7 @@ Content-Length: 1030
     } ],
     "links" : [ {
       "rel" : "self",
-      "href" : "http://localhost:8080/person/test@redesignhealth.com"
+      "href" : "http://localhost:8080/person/test@acmehealth.com"
     } ]
   } ]
 }

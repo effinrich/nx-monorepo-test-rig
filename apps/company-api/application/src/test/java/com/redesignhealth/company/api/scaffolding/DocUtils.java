@@ -1,13 +1,13 @@
-package com.redesignhealth.company.api.scaffolding;
+package com.acmehealth.company.api.scaffolding;
 
 import static org.springframework.restdocs.hypermedia.HypermediaDocumentation.linkWithRel;
 import static org.springframework.restdocs.payload.PayloadDocumentation.fieldWithPath;
 import static org.springframework.restdocs.payload.PayloadDocumentation.subsectionWithPath;
 import static org.springframework.restdocs.request.RequestDocumentation.parameterWithName;
 
-import com.redesignhealth.company.api.dto.SerializableEnum;
-import com.redesignhealth.company.api.dto.enums.RemoteContentSource;
-import com.redesignhealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.dto.SerializableEnum;
+import com.acmehealth.company.api.dto.enums.RemoteContentSource;
+import com.acmehealth.company.api.expansion.Expansion;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 import org.springframework.restdocs.hypermedia.LinkDescriptor;

@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.jira;
+package com.acmehealth.company.api.client.jira;
 
 import java.util.List;
 import java.util.Map;

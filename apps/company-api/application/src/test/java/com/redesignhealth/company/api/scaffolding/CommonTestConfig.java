@@ -1,17 +1,17 @@
-package com.redesignhealth.company.api.scaffolding;
+package com.acmehealth.company.api.scaffolding;
 
 import static org.springframework.restdocs.operation.preprocess.Preprocessors.prettyPrint;
 
-import com.redesignhealth.company.api.assembler.google.OnboardDocsLinkGenerator;
-import com.redesignhealth.company.api.assembler.google.XCloudCrmLinkGenerator;
-import com.redesignhealth.company.api.assembler.jira.JiraLinkGenerator;
-import com.redesignhealth.company.api.config.SecurityConfig;
-import com.redesignhealth.company.api.property.ExpertNoteEntityConverter;
-import com.redesignhealth.company.api.property.JiraClientProperties;
-import com.redesignhealth.company.api.property.ResearchEntityConverter;
-import com.redesignhealth.company.api.security.AuthChecksService;
-import com.redesignhealth.company.api.service.RedesignUserDetailsService;
-import com.redesignhealth.company.api.taxonomy.CompanyTaxonomy;
+import com.acmehealth.company.api.assembler.google.OnboardDocsLinkGenerator;
+import com.acmehealth.company.api.assembler.google.XCloudCrmLinkGenerator;
+import com.acmehealth.company.api.assembler.jira.JiraLinkGenerator;
+import com.acmehealth.company.api.config.SecurityConfig;
+import com.acmehealth.company.api.property.ExpertNoteEntityConverter;
+import com.acmehealth.company.api.property.JiraClientProperties;
+import com.acmehealth.company.api.property.ResearchEntityConverter;
+import com.acmehealth.company.api.security.AuthChecksService;
+import com.acmehealth.company.api.service.RedesignUserDetailsService;
+import com.acmehealth.company.api.taxonomy.CompanyTaxonomy;
 import org.mockito.Mockito;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.test.autoconfigure.restdocs.RestDocsMockMvcConfigurationCustomizer;
@@ -28,7 +28,7 @@ import org.springframework.context.annotation.Import;
 })
 public class CommonTestConfig {
   @Bean
-  public RedesignUserDetailsService redesignUserDetailsService() {
+  public RedesignUserDetailsService acmeUserDetailsService() {
     return Mockito.mock(RedesignUserDetailsService.class);
   }
 
@@ -36,7 +36,7 @@ public class CommonTestConfig {
   public JiraLinkGenerator jiraLinkGenerator() {
     return new JiraLinkGenerator(
         new JiraClientProperties(
-            true, "test@example.com", "REDACTED", "https://redesignhealth.atlassian.net"));
+            true, "test@example.com", "REDACTED", "https://acmehealth.atlassian.net"));
   }
 
   @Bean

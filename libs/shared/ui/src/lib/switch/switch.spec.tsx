@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { fireEvent, render } from '@redesignhealth/shared-utils-jest'
+import { fireEvent, render } from '@acmehealth/shared-utils-jest'
 
 import { FormControl, FormLabel } from '../form-control/form-control'
 

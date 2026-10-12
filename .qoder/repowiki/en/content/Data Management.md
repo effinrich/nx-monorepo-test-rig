@@ -9,14 +9,14 @@
 - [0010-natural-key-refs.md](file://apps/company-api/doc/architecture/decisions/0010-natural-key-refs.md)
 - [0015-use-pooled-database-sequences.md](file://apps/company-api/doc/architecture/decisions/0015-use-pooled-database-sequences.md)
 - [0018-store-enums-as-strings.md](file://apps/company-api/doc/architecture/decisions/0018-store-enums-as-strings.md)
-- [BaseCustomRepository.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/BaseCustomRepository.java)
-- [Company.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/Company.java)
-- [Ceo.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/Ceo.java)
-- [CompanyMember.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/CompanyMember.java)
-- [CompanyRepository.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/CompanyRepository.java)
-- [Auditable.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/audit/Auditable.java)
-- [Ref.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/ref/Ref.java)
-- [FieldErrorType.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/dto/FieldErrorType.java)
+- [BaseCustomRepository.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/BaseCustomRepository.java)
+- [Company.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/Company.java)
+- [Ceo.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/Ceo.java)
+- [CompanyMember.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/CompanyMember.java)
+- [CompanyRepository.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/CompanyRepository.java)
+- [Auditable.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/audit/Auditable.java)
+- [Ref.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/ref/Ref.java)
+- [FieldErrorType.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/dto/FieldErrorType.java)
 - [generate.js](file://apps/api-server/src/data/generate.js)
 - [db.json](file://apps/api-server/src/data/db.json)
 </cite>
@@ -87,14 +87,14 @@ D1 --> D2
 **Diagram sources**
 - [V202209261654__init.sql:1-24](file://apps/company-api/application/src/main/resources/db/migration/V202209261654__init.sql#L1-L24)
 - [V202302160953__create_form_definition.sql:1-10](file://apps/company-api/application/src/main/resources/db/migration/V202302160953__create_form_definition.sql#L1-L10)
-- [Company.java:1-124](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/Company.java#L1-L124)
-- [Ceo.java:1-134](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/Ceo.java#L1-L134)
-- [CompanyMember.java:1-59](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/CompanyMember.java#L1-L59)
-- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/CompanyRepository.java#L1-L23)
-- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/BaseCustomRepository.java#L1-L77)
-- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/audit/Auditable.java#L1-L60)
-- [Ref.java:1-36](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/ref/Ref.java#L1-L36)
-- [FieldErrorType.java:1-24](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/dto/FieldErrorType.java#L1-L24)
+- [Company.java:1-124](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/Company.java#L1-L124)
+- [Ceo.java:1-134](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/Ceo.java#L1-L134)
+- [CompanyMember.java:1-59](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/CompanyMember.java#L1-L59)
+- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/CompanyRepository.java#L1-L23)
+- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/BaseCustomRepository.java#L1-L77)
+- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/audit/Auditable.java#L1-L60)
+- [Ref.java:1-36](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/ref/Ref.java#L1-L36)
+- [FieldErrorType.java:1-24](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/dto/FieldErrorType.java#L1-L24)
 - [generate.js:15-303](file://apps/api-server/src/data/generate.js#L15-L303)
 - [db.json](file://apps/api-server/src/data/db.json)
 
@@ -118,7 +118,7 @@ Key capabilities:
 **Section sources**
 - [0010-natural-key-refs.md:1-44](file://apps/company-api/doc/architecture/decisions/0010-natural-key-refs.md#L1-L44)
 - [0018-store-enums-as-strings.md:1-41](file://apps/company-api/doc/architecture/decisions/0018-store-enums-as-strings.md#L1-L41)
-- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/audit/Auditable.java#L1-L60)
+- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/audit/Auditable.java#L1-L60)
 - [0015-use-pooled-database-sequences.md:1-52](file://apps/company-api/doc/architecture/decisions/0015-use-pooled-database-sequences.md#L1-L52)
 
 ## Architecture Overview
@@ -141,8 +141,8 @@ Flyway --> DB
 ```
 
 **Diagram sources**
-- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/BaseCustomRepository.java#L1-L77)
-- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/CompanyRepository.java#L1-L23)
+- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/BaseCustomRepository.java#L1-L77)
+- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/CompanyRepository.java#L1-L23)
 - [V202209261654__init.sql:1-24](file://apps/company-api/application/src/main/resources/db/migration/V202209261654__init.sql#L1-L24)
 
 ## Detailed Component Analysis
@@ -242,16 +242,16 @@ Person "1" -- "many" CompanyMember : "hasMany"
 ```
 
 **Diagram sources**
-- [Company.java:1-124](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/Company.java#L1-L124)
-- [CompanyMember.java:1-59](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/CompanyMember.java#L1-L59)
-- [Ceo.java:1-134](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/Ceo.java#L1-L134)
-- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/audit/Auditable.java#L1-L60)
+- [Company.java:1-124](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/Company.java#L1-L124)
+- [CompanyMember.java:1-59](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/CompanyMember.java#L1-L59)
+- [Ceo.java:1-134](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/Ceo.java#L1-L134)
+- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/audit/Auditable.java#L1-L60)
 
 **Section sources**
-- [Company.java:1-124](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/Company.java#L1-L124)
-- [CompanyMember.java:1-59](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/CompanyMember.java#L1-L59)
-- [Ceo.java:1-134](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/Ceo.java#L1-L134)
-- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/audit/Auditable.java#L1-L60)
+- [Company.java:1-124](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/Company.java#L1-L124)
+- [CompanyMember.java:1-59](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/CompanyMember.java#L1-L59)
+- [Ceo.java:1-134](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/Ceo.java#L1-L134)
+- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/audit/Auditable.java#L1-L60)
 
 ### Spring Data JPA Repository Pattern and Custom Extensions
 - CompanyRepository extends CrudRepository and declares method signatures for existence checks and bulk lookups by typed identifiers.
@@ -273,12 +273,12 @@ Repo-->>Svc : "Page<Company>"
 ```
 
 **Diagram sources**
-- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/CompanyRepository.java#L1-L23)
-- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/BaseCustomRepository.java#L1-L77)
+- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/CompanyRepository.java#L1-L23)
+- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/BaseCustomRepository.java#L1-L77)
 
 **Section sources**
-- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/CompanyRepository.java#L1-L23)
-- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/BaseCustomRepository.java#L1-L77)
+- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/CompanyRepository.java#L1-L23)
+- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/BaseCustomRepository.java#L1-L77)
 
 ### Entity Lifecycle Management and Audit Fields
 - Auditable base class standardizes audit metadata across entities.
@@ -295,10 +295,10 @@ Persist --> End(["Operation Complete"])
 ```
 
 **Diagram sources**
-- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/audit/Auditable.java#L1-L60)
+- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/audit/Auditable.java#L1-L60)
 
 **Section sources**
-- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/audit/Auditable.java#L1-L60)
+- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/audit/Auditable.java#L1-L60)
 
 ### Typed Natural Keys and Reference Converters
 - Natural keys are represented as typed Ref instances to avoid leaking internal IDs and to provide compile-time safety.
@@ -321,11 +321,11 @@ Ref <|-- CeoRef
 ```
 
 **Diagram sources**
-- [Ref.java:1-36](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/ref/Ref.java#L1-L36)
+- [Ref.java:1-36](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/ref/Ref.java#L1-L36)
 
 **Section sources**
 - [0010-natural-key-refs.md:1-44](file://apps/company-api/doc/architecture/decisions/0010-natural-key-refs.md#L1-L44)
-- [Ref.java:1-36](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/ref/Ref.java#L1-L36)
+- [Ref.java:1-36](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/ref/Ref.java#L1-L36)
 
 ### Data Validation Rules and Business Constraints
 - Unique constraints enforced at the database level (e.g., unique email, unique slug, unique type).
@@ -345,12 +345,12 @@ NextCheck --> Done["Validation Passed"]
 ```
 
 **Diagram sources**
-- [FieldErrorType.java:1-24](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/dto/FieldErrorType.java#L1-L24)
+- [FieldErrorType.java:1-24](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/dto/FieldErrorType.java#L1-L24)
 - [V202209261654__init.sql:1-24](file://apps/company-api/application/src/main/resources/db/migration/V202209261654__init.sql#L1-L24)
 - [V202302160953__create_form_definition.sql:1-10](file://apps/company-api/application/src/main/resources/db/migration/V202302160953__create_form_definition.sql#L1-L10)
 
 **Section sources**
-- [FieldErrorType.java:1-24](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/dto/FieldErrorType.java#L1-L24)
+- [FieldErrorType.java:1-24](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/dto/FieldErrorType.java#L1-L24)
 - [0018-store-enums-as-strings.md:1-41](file://apps/company-api/doc/architecture/decisions/0018-store-enums-as-strings.md#L1-L41)
 - [V202209261654__init.sql:1-24](file://apps/company-api/application/src/main/resources/db/migration/V202209261654__init.sql#L1-L24)
 
@@ -421,17 +421,17 @@ REF --> ENT3
 
 **Diagram sources**
 - [V202209261654__init.sql:1-24](file://apps/company-api/application/src/main/resources/db/migration/V202209261654__init.sql#L1-L24)
-- [Company.java:1-124](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/Company.java#L1-L124)
-- [Ceo.java:1-134](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/Ceo.java#L1-L134)
-- [CompanyMember.java:1-59](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/CompanyMember.java#L1-L59)
-- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/CompanyRepository.java#L1-L23)
-- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/BaseCustomRepository.java#L1-L77)
-- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/audit/Auditable.java#L1-L60)
-- [Ref.java:1-36](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/ref/Ref.java#L1-L36)
+- [Company.java:1-124](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/Company.java#L1-L124)
+- [Ceo.java:1-134](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/Ceo.java#L1-L134)
+- [CompanyMember.java:1-59](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/CompanyMember.java#L1-L59)
+- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/CompanyRepository.java#L1-L23)
+- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/BaseCustomRepository.java#L1-L77)
+- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/audit/Auditable.java#L1-L60)
+- [Ref.java:1-36](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/ref/Ref.java#L1-L36)
 
 **Section sources**
-- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/CompanyRepository.java#L1-L23)
-- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/BaseCustomRepository.java#L1-L77)
+- [CompanyRepository.java:1-23](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/CompanyRepository.java#L1-L23)
+- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/BaseCustomRepository.java#L1-L77)
 
 ## Performance Considerations
 - Pooled sequences reduce lock contention and improve insert throughput.
@@ -445,7 +445,7 @@ Recommendations:
 
 **Section sources**
 - [0015-use-pooled-database-sequences.md:1-52](file://apps/company-api/doc/architecture/decisions/0015-use-pooled-database-sequences.md#L1-L52)
-- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/BaseCustomRepository.java#L1-L77)
+- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/BaseCustomRepository.java#L1-L77)
 - [0018-store-enums-as-strings.md:1-41](file://apps/company-api/doc/architecture/decisions/0018-store-enums-as-strings.md#L1-L41)
 
 ## Troubleshooting Guide
@@ -457,9 +457,9 @@ Common issues and resolutions:
 
 **Section sources**
 - [0004-database-migration-tool.md:1-33](file://apps/company-api/doc/architecture/decisions/0004-database-migration-tool.md#L1-L33)
-- [FieldErrorType.java:1-24](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/exception/dto/FieldErrorType.java#L1-L24)
-- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/repository/BaseCustomRepository.java#L1-L77)
-- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/entity/audit/Auditable.java#L1-L60)
+- [FieldErrorType.java:1-24](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/exception/dto/FieldErrorType.java#L1-L24)
+- [BaseCustomRepository.java:1-77](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/repository/BaseCustomRepository.java#L1-L77)
+- [Auditable.java:1-60](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/entity/audit/Auditable.java#L1-L60)
 
 ## Conclusion
 The Redesign Health data management system leverages Flyway for robust schema evolution, Spring Data JPA for type-safe data access, and typed natural keys for secure and flexible identifiers. Audit fields, expansion-aware repositories, and strict validation rules ensure data integrity and operability. The mock data generator streamlines development and testing. Together, these patterns provide a scalable, maintainable foundation for healthcare data operations.

@@ -16,7 +16,7 @@ template_config {
 }
 
 vault {
-  address = "https://vault.core.redesignhealth.com"
+  address = "https://vault.core.acmehealth.com"
 }
 
 env_template "ROCKETCHAT_POC_CLIENT_ID" {

@@ -3,7 +3,7 @@ import { Filters, PagedResult } from '../../types'
 
 export const mockCeoOptIn: Ceo = {
   member: {
-    email: 'sazh.katzroy@redesignhealth.com',
+    email: 'sazh.katzroy@acmehealth.com',
     givenName: 'Sazh',
     familyName: 'Katzroy',
     company: {
@@ -55,7 +55,7 @@ export const mockCeoOptIn: Ceo = {
 
 export const mockCeoOptOut: Ceo = {
   member: {
-    email: 'sazh.katzroy@redesignhealth.com',
+    email: 'sazh.katzroy@acmehealth.com',
     givenName: 'Sazh',
     familyName: 'Katzroy',
     company: {
@@ -153,7 +153,7 @@ export const mockCeos: PagedResult<Ceo> = {
         }
       ],
       pictureHref:
-        'https://assets.redesignhealth.com/jPfOBSxL5eEejybPc3Iex7SchgDYTkhqzJ3GkB65/Avatar-2.png',
+        'https://assets.acmehealth.com/jPfOBSxL5eEejybPc3Iex7SchgDYTkhqzJ3GkB65/Avatar-2.png',
       bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
       additionalInfo:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
@@ -205,7 +205,7 @@ export const mockCeos: PagedResult<Ceo> = {
         }
       ],
       pictureHref:
-        'https://assets.redesignhealth.com/FF2E8wgfFIWeXarovyVZ2n3MScXBkqivPW8vDTY7/Avatar-3.png',
+        'https://assets.acmehealth.com/FF2E8wgfFIWeXarovyVZ2n3MScXBkqivPW8vDTY7/Avatar-3.png',
       bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
       additionalInfo:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
@@ -256,7 +256,7 @@ export const mockCeos: PagedResult<Ceo> = {
         }
       ],
       pictureHref:
-        'https://assets.redesignhealth.com/B1lG7yyNMeFbLB6gfo2CuTx9gAB6dRJNTyKrQXkZ/Avatar-4.png',
+        'https://assets.acmehealth.com/B1lG7yyNMeFbLB6gfo2CuTx9gAB6dRJNTyKrQXkZ/Avatar-4.png',
       bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
       additionalInfo:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
@@ -269,7 +269,7 @@ export const mockCeos: PagedResult<Ceo> = {
     },
     {
       member: {
-        email: 'stephanie.velazquez@redesignhealth.com',
+        email: 'stephanie.velazquez@acmehealth.com',
         givenName: 'h',
         familyName: 'h',
         company: {
@@ -308,7 +308,7 @@ export const mockCeos: PagedResult<Ceo> = {
         }
       ],
       pictureHref:
-        'https://assets.redesignhealth.com/AOOnkFxmJHeMEQPVI1gsGeplLvukZwRyag4wfhgO/Avatar.png',
+        'https://assets.acmehealth.com/AOOnkFxmJHeMEQPVI1gsGeplLvukZwRyag4wfhgO/Avatar.png',
       bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
       additionalInfo:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do',
@@ -321,7 +321,7 @@ export const mockCeos: PagedResult<Ceo> = {
     },
     {
       member: {
-        email: 'kyle.copeland@redesignhealth.com',
+        email: 'kyle.copeland@acmehealth.com',
         givenName: 'Kyle',
         familyName: 'Copeland',
         company: {
@@ -372,7 +372,7 @@ export const mockCeos: PagedResult<Ceo> = {
     },
     {
       member: {
-        email: 'example@redesignhealth.com',
+        email: 'example@acmehealth.com',
         givenName: 'Example',
         familyName: 'NotDecidedOpt',
         company: {

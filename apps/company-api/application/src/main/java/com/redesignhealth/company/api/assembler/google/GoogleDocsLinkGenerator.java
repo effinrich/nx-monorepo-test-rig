@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.assembler.google;
+package com.acmehealth.company.api.assembler.google;
 
-import com.redesignhealth.company.api.assembler.LinkGenerator;
+import com.acmehealth.company.api.assembler.LinkGenerator;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.hateoas.Link;
 import org.springframework.stereotype.Component;

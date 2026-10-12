@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.entity.request;
+package com.acmehealth.company.api.entity.request;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.redesignhealth.company.api.entity.FormDefinition;
-import com.redesignhealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.FormDefinition;
+import com.acmehealth.company.api.entity.audit.Auditable;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import jakarta.persistence.*;
 import java.util.Objects;

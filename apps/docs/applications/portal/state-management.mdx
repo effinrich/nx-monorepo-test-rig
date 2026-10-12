@@ -68,7 +68,7 @@ libs/portal/data-assets/src/lib/
 Use `useQuery` hooks from data-assets for reading data:
 
 ```tsx
-import { useCompanies } from '@redesignhealth/portal/data-assets'
+import { useCompanies } from '@acmehealth/portal/data-assets'
 
 function CompaniesList() {
   const { data, isLoading, error } = useCompanies(filters)
@@ -81,7 +81,7 @@ function CompaniesList() {
 Use `useMutation` hooks for creating, updating, or deleting data:
 
 ```tsx
-import { useCreateCompany } from '@redesignhealth/portal/data-assets'
+import { useCreateCompany } from '@acmehealth/portal/data-assets'
 
 function AddCompanyForm() {
   const mutation = useCreateCompany()

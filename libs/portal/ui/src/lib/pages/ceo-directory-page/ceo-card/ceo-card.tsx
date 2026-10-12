@@ -10,8 +10,8 @@ import {
   CompanyApiEnum,
   HighlightedText,
   RoleAuthorityEnum
-} from '@redesignhealth/portal/data-assets'
-import { HasRole } from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/data-assets'
+import { HasRole } from '@acmehealth/portal/utils'
 import {
   AvatarRoot,
   AvatarImage,
@@ -27,7 +27,7 @@ import {
   TooltipContent,
   TooltipArrow,
   TooltipPositioner
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { ListCard } from '../../../list-card/list-card'
 import { ListCardHeader } from '../../../list-card/list-card-header'

@@ -21,7 +21,7 @@ export function Chat() {
   document?.querySelector('iframe')?.contentWindow?.postMessage(
     {
       externalCommand: 'login-with-token',
-      path: 'https://rocketchat-poc.dev.redesignhealth.com/api/v1/login'
+      path: 'https://rocketchat-poc.dev.acmehealth.com/api/v1/login'
     },
     '*'
   )

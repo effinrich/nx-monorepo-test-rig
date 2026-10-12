@@ -5,7 +5,7 @@ import {
   AlertTitle,
   Box,
   Button
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 export interface InfoAlertProps {
   children: ReactNode

@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.service.RedesignUserDetailsService;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.service.RedesignUserDetailsService;
 import org.springframework.security.authentication.AccountExpiredException;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.InsufficientAuthenticationException;
@@ -16,12 +16,12 @@ import org.springframework.stereotype.Component;
 public class JwtAuthenticationProvider implements AuthenticationProvider {
 
   private final JwtService jwtService;
-  private final RedesignUserDetailsService redesignUserDetailsService;
+  private final RedesignUserDetailsService acmeUserDetailsService;
 
   public JwtAuthenticationProvider(
-      JwtService jwtService, RedesignUserDetailsService redesignUserDetailsService) {
+      JwtService jwtService, RedesignUserDetailsService acmeUserDetailsService) {
     this.jwtService = jwtService;
-    this.redesignUserDetailsService = redesignUserDetailsService;
+    this.acmeUserDetailsService = acmeUserDetailsService;
   }
 
   @Override
@@ -48,13 +48,13 @@ public class JwtAuthenticationProvider implements AuthenticationProvider {
 
   private RedesignUserDetails reconcilePrincipal(
       PersonRef jwtEmail, PersonRef impersonationRequest) {
-    var personMakingRequest = redesignUserDetailsService.loadUserByUsername(jwtEmail);
+    var personMakingRequest = acmeUserDetailsService.loadUserByUsername(jwtEmail);
 
     if (null != impersonationRequest) {
       if (personMakingRequest
           .getAuthorities()
           .contains(new SimpleGrantedAuthority(RoleAuthority.ROLE_SUPER_ADMIN.name()))) {
-        return redesignUserDetailsService.loadUserByUsername(impersonationRequest);
+        return acmeUserDetailsService.loadUserByUsername(impersonationRequest);
       } else {
         throw new InsufficientAuthenticationException(
             String.format("Cannot impersonate %s with this level of access", impersonationRequest));

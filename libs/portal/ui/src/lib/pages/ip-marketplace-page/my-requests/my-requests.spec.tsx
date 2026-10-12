@@ -11,13 +11,13 @@ import {
   mockIpMarketplaceContactInfo,
   mockIpMarketplaceFilters,
   mockPutMeIpMarketplaceContactInfo
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   fireEvent,
   mocks,
   render,
   screen
-} from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/shared-utils-jest'
 import { within } from '@testing-library/react'
 import { waitForElementToBeRemoved } from '@testing-library/react'
 import { setupServer } from 'msw/node'
@@ -108,7 +108,7 @@ describe('My Requests Page', () => {
           ...mockIpListingWithReleasedIPRequest,
           id: '123abc',
           owner: {
-            email: 'sazh.katzroy@redesignhealth.com'
+            email: 'sazh.katzroy@acmehealth.com'
           },
           metrics: {
             viewCount: 21,
@@ -119,7 +119,7 @@ describe('My Requests Page', () => {
           ...mockIpListingWithUnreleasedIPRequest,
           id: '456abc',
           owner: {
-            email: 'sazh.katzroy@redesignhealth.com'
+            email: 'sazh.katzroy@acmehealth.com'
           },
           metrics: {
             viewCount: 5,
@@ -177,7 +177,7 @@ describe('My Requests Page', () => {
           ...mockIpListingWithRequests,
           id: '789abc',
           owner: {
-            email: 'sazh.katzroy@redesignhealth.com'
+            email: 'sazh.katzroy@acmehealth.com'
           },
           metrics: {
             viewCount: 300,

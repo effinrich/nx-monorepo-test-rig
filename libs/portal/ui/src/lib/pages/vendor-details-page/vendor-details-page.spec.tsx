@@ -1,6 +1,6 @@
-import { mockVendor } from '@redesignhealth/portal/data-assets'
-import { getVendorCategories } from '@redesignhealth/portal/data-assets'
-import { render, screen } from '@redesignhealth/shared-utils-jest'
+import { mockVendor } from '@acmehealth/portal/data-assets'
+import { getVendorCategories } from '@acmehealth/portal/data-assets'
+import { render, screen } from '@acmehealth/shared-utils-jest'
 import { within } from '@testing-library/react'
 
 import { default as VendorDetailsPage } from './vendor-details-page'
@@ -25,9 +25,9 @@ describe('Vendor Details Page', () => {
     const categoriesExpected = ['IT Ops', 'Infrastructure']
     const subcategoriesExpected = ['Hardware', 'Electronics / Software']
     const companyContactsExpected = [
-      { name: 'Matt Stephenson', email: 'matt.stephenson@redesignhealth.com' }
+      { name: 'Matt Stephenson', email: 'matt.stephenson@acmehealth.com' }
     ]
-    const vendorContactExpected = 'matt.stephenson@redesignhealth.com'
+    const vendorContactExpected = 'matt.stephenson@acmehealth.com'
 
     const descriptionExpected =
       'Manufacturer of consumer electronics and provider of software and online services.'

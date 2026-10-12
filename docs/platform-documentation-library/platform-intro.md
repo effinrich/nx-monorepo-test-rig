@@ -8,7 +8,7 @@ sectionOrder:
 
 The Developer Library provides documentation on the use of the Redesign Health Innovation Platform and its subcomponents.
 
-![Platform components](https://assets.redesignhealth.com/image/c057417a26b59ea47ed6d9587d14fb03cb3d1b84.png)
+![Platform components](https://assets.acmehealth.com/image/c057417a26b59ea47ed6d9587d14fb03cb3d1b84.png)
 
 [comment]: # '``` mermaid'
 [comment]: # 'A[Platform] --> B[Tools];'

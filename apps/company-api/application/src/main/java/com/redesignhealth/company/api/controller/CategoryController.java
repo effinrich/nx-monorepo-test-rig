@@ -1,15 +1,15 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.controller.util.Paths.CATEGORY_ID;
+import static com.acmehealth.company.api.controller.util.Paths.CATEGORY_ID;
 import static org.springframework.http.HttpStatus.CREATED;
 
-import com.redesignhealth.company.api.client.search.command.SearchCommand;
-import com.redesignhealth.company.api.dto.CategorySummary;
-import com.redesignhealth.company.api.dto.command.CategoryCommand;
-import com.redesignhealth.company.api.entity.ref.CategoryRef;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.CategoryService;
+import com.acmehealth.company.api.client.search.command.SearchCommand;
+import com.acmehealth.company.api.dto.CategorySummary;
+import com.acmehealth.company.api.dto.command.CategoryCommand;
+import com.acmehealth.company.api.entity.ref.CategoryRef;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.CategoryService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import java.util.List;

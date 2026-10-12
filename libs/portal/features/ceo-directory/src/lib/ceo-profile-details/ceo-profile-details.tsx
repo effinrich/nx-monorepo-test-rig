@@ -4,10 +4,10 @@ import {
   CompanyApiEnum,
   useGetCeoById,
   useGetUserInfo
-} from '@redesignhealth/portal/data-assets'
-import { CeoProfileDetailsPage } from '@redesignhealth/portal/ui'
-import { printPersonName } from '@redesignhealth/portal/utils'
-import { Loader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/data-assets'
+import { CeoProfileDetailsPage } from '@acmehealth/portal/ui'
+import { printPersonName } from '@acmehealth/portal/utils'
+import { Loader } from '@acmehealth/ui'
 
 export const CeoProfileDetails = () => {
   const { ceoId } = useParams()

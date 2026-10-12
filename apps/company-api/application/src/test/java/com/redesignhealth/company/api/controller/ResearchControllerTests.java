@@ -1,32 +1,32 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.client.search.entity.ResearchSearchDoc.AUTHORS_FIELD;
-import static com.redesignhealth.company.api.client.search.entity.ResearchSearchDoc.SPRINT_NAME_FIELD;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.canAccessField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.createdField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.expandQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.filterQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.highlightedTextField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.idField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.keyField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.linksField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.optionsField;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pageFields;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.pageQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.qQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.sizeQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.sortQueryParameter;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.taxonomyTag1Field;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.taxonomyTag2Field;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.taxonomyTag3Field;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompany;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testCompanyRef;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testHighlightedText;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPersonRef;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testResearch;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testResearchRef;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testResearchSearchDoc;
-import static com.redesignhealth.company.api.service.ResearchService.VALID_SEARCH_FILTERS;
+import static com.acmehealth.company.api.client.search.entity.ResearchSearchDoc.AUTHORS_FIELD;
+import static com.acmehealth.company.api.client.search.entity.ResearchSearchDoc.SPRINT_NAME_FIELD;
+import static com.acmehealth.company.api.scaffolding.DocUtils.canAccessField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.createdField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.expandQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.filterQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.highlightedTextField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.idField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.keyField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.linksField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.optionsField;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pageFields;
+import static com.acmehealth.company.api.scaffolding.DocUtils.pageQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.qQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.sizeQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.sortQueryParameter;
+import static com.acmehealth.company.api.scaffolding.DocUtils.taxonomyTag1Field;
+import static com.acmehealth.company.api.scaffolding.DocUtils.taxonomyTag2Field;
+import static com.acmehealth.company.api.scaffolding.DocUtils.taxonomyTag3Field;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompany;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testCompanyRef;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testHighlightedText;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPersonRef;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testResearch;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testResearchRef;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testResearchSearchDoc;
+import static com.acmehealth.company.api.service.ResearchService.VALID_SEARCH_FILTERS;
 import static org.hamcrest.Matchers.hasItem;
 import static org.hamcrest.Matchers.is;
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
@@ -44,29 +44,29 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.client.file.GoogleDriveClient;
-import com.redesignhealth.company.api.client.search.SearchClient;
-import com.redesignhealth.company.api.client.search.command.SearchCommand;
-import com.redesignhealth.company.api.client.search.command.SearchFilterOptionsCommand;
-import com.redesignhealth.company.api.client.search.command.SearchIndex;
-import com.redesignhealth.company.api.client.search.entity.FilterOptions;
-import com.redesignhealth.company.api.client.search.entity.ResearchSearchDoc;
-import com.redesignhealth.company.api.client.search.entity.SearchResult;
-import com.redesignhealth.company.api.client.search.entity.Term;
-import com.redesignhealth.company.api.conflicts.ConflictsEngine;
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.entity.research.Research;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.property.ResearchEntityConverter;
-import com.redesignhealth.company.api.repository.CompanyRepository;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.repository.ResearchRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.ResearchService;
-import com.redesignhealth.company.api.taxonomy.CompanyTaxonomy;
+import com.acmehealth.company.api.client.file.GoogleDriveClient;
+import com.acmehealth.company.api.client.search.SearchClient;
+import com.acmehealth.company.api.client.search.command.SearchCommand;
+import com.acmehealth.company.api.client.search.command.SearchFilterOptionsCommand;
+import com.acmehealth.company.api.client.search.command.SearchIndex;
+import com.acmehealth.company.api.client.search.entity.FilterOptions;
+import com.acmehealth.company.api.client.search.entity.ResearchSearchDoc;
+import com.acmehealth.company.api.client.search.entity.SearchResult;
+import com.acmehealth.company.api.client.search.entity.Term;
+import com.acmehealth.company.api.conflicts.ConflictsEngine;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.entity.research.Research;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.property.ResearchEntityConverter;
+import com.acmehealth.company.api.repository.CompanyRepository;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.repository.ResearchRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.ResearchService;
+import com.acmehealth.company.api.taxonomy.CompanyTaxonomy;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -123,7 +123,7 @@ class ResearchControllerTests {
   }
 
   @Test
-  @WithRedesignUser(role = RoleAuthority.ROLE_OP_CO_USER, email = "new@redesignhealth.com")
+  @WithRedesignUser(role = RoleAuthority.ROLE_OP_CO_USER, email = "new@acmehealth.com")
   public void testQuery_returnsResults_No_Owner_No_Conflict() throws Exception {
     var command =
         SearchCommand.builder()
@@ -141,8 +141,8 @@ class ResearchControllerTests {
                     SearchResult.of(testResearchSearchDoc(), testHighlightedText(), "documentId")),
                 pageable,
                 1));
-    when(personRepository.findByEmail(PersonRef.of("new@redesignhealth.com")))
-        .thenReturn(Optional.of(Person.from(PersonRef.of("new@redesignhealth.com"))));
+    when(personRepository.findByEmail(PersonRef.of("new@acmehealth.com")))
+        .thenReturn(Optional.of(Person.from(PersonRef.of("new@acmehealth.com"))));
     when(companyRepository.findAllByApiIdIn(Set.of(testCompanyRef())))
         .thenReturn(Set.of(testCompany()));
     mockMvc

@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.config;
+package com.acmehealth.company.api.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.redesignhealth.company.api.client.search.NoopSearchClient;
-import com.redesignhealth.company.api.client.search.OpenSearchClient;
-import com.redesignhealth.company.api.client.search.SearchClient;
+import com.acmehealth.company.api.client.search.NoopSearchClient;
+import com.acmehealth.company.api.client.search.OpenSearchClient;
+import com.acmehealth.company.api.client.search.SearchClient;
 import org.apache.http.HttpHost;
 import org.opensearch.client.RestClient;
 import org.opensearch.client.json.jackson.JacksonJsonpMapper;

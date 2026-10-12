@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto.command.ipMarketplace;
+package com.acmehealth.company.api.dto.command.ipMarketplace;
 
-import com.redesignhealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.entity.ref.PersonRef;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.Optional;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.exception.dto;
+package com.acmehealth.company.api.exception.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import org.springframework.validation.FieldError;

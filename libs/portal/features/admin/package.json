@@ -1,5 +1,5 @@
 {
-  "name": "@redesignhealth/portal/features/admin",
+  "name": "@acmehealth/portal/features/admin",
   "version": "2.0.0",
   "main": "./index.js",
   "types": "./index.d.ts",

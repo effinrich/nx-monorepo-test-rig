@@ -24,17 +24,17 @@ aws:
   s3:
     assets:
       bucket: rh-dev-company-api-assets
-      url: https://company-api-assets.dev.redesignhealth.com
+      url: https://company-api-assets.dev.acmehealth.com
 
 jira:
   enabled: true
-  username: jiraplatformservice@redesignhealth.com
+  username: jiraplatformservice@acmehealth.com
   # password supplied through secret manager
 
 search:
   hostname: vpc-search-migrated-nz4hln4tgzdsn6l3lmtyp3oq2m.us-east-1.es.amazonaws.com
 
 library-feedback:
-  recipients: stephanie.velazquez@redesignhealth.com, matt.stephenson@redesignhealth.com, vickey.morrow@redesignhealth.com
+  recipients: stephanie.velazquez@acmehealth.com, matt.stephenson@acmehealth.com, vickey.morrow@acmehealth.com
 rocket-chat-service:
-  base-url: https://rocketchat-poc.dev.redesignhealth.com
+  base-url: https://rocketchat-poc.dev.acmehealth.com

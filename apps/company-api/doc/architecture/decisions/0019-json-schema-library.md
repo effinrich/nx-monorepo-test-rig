@@ -9,7 +9,7 @@ Accepted
 ## Context
 
 We've been looking for a tool that will allow us to maintain dynamic forms,
-while also giving us type safety. This discussion started after we realized the backend and frontend both needed to understand the shape of our form results: https://redesignhealth.atlassian.net/wiki/x/AQBlCw
+while also giving us type safety. This discussion started after we realized the backend and frontend both needed to understand the shape of our form results: https://acmehealth.atlassian.net/wiki/x/AQBlCw
 
 ## Decision
 

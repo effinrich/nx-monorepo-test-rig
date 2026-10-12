@@ -1,12 +1,12 @@
 import { Helmet } from 'react-helmet'
 import { useParams } from 'react-router-dom'
-import { useGetVendorById } from '@redesignhealth/portal/data-assets'
+import { useGetVendorById } from '@acmehealth/portal/data-assets'
 import {
   // ceoFormResolver,
   EditVendorPage,
   Page
-} from '@redesignhealth/portal/ui'
-import { Loader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/ui'
+import { Loader } from '@acmehealth/ui'
 
 export const EditVendor = () => {
   const { vendorId } = useParams()

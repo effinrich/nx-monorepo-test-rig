@@ -296,7 +296,7 @@ export interface components {
       name?: string
     }
     PersonSummary: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email: string
       /** @example Sazh */
       givenName?: string
@@ -522,7 +522,7 @@ export interface components {
       links?: components['schemas']['Link'][]
     }
     CompanyMemberSummary: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email: string
       /** @example Sazh */
       givenName?: string
@@ -622,7 +622,7 @@ export interface components {
       links?: components['schemas']['Link'][]
     }
     PersonReducedInfo: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email?: string
       /** @example Sazh */
       givenName?: string
@@ -717,7 +717,7 @@ export interface components {
       specializedMethods?: string[]
       /**
        * @example [
-       *   "terra.branford@redesignhealth.com"
+       *   "terra.branford@acmehealth.com"
        * ]
        */
       authors: string[]
@@ -865,11 +865,11 @@ export interface components {
       givenName?: string
       /** @example Shaheen */
       familyName?: string
-      /** @example brett.shaheen@redesignhealth.com */
+      /** @example brett.shaheen@acmehealth.com */
       email: string
     }
     PersonRequestCommand: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email?: string
       /** @example Katzroy */
       familyName?: string
@@ -889,7 +889,7 @@ export interface components {
       givenName?: string
       /** @example Katzroy */
       familyName?: string
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email: string
       /** @example TICKET-1 */
       jiraIssueId?: string
@@ -987,7 +987,7 @@ export interface components {
       intervieweeCompany?: string
       /** @example jane.doe@example.com */
       intervieweeEmail?: string
-      /** @example test@redesignhealth.com */
+      /** @example test@acmehealth.com */
       noteTaker?: string
       /**
        * Format: date-time
@@ -1109,7 +1109,7 @@ export interface components {
       accessToken?: string
     }
     TaskCommand: {
-      /** @example com.redesignhealth.company.api.task.UpdateInfraStatusTask */
+      /** @example com.acmehealth.company.api.task.UpdateInfraStatusTask */
       name?: string
     }
     TaskSummary: {
@@ -1147,7 +1147,7 @@ export interface components {
       subcategories?: components['schemas']['SubcategorySummary'][]
     }
     UserInfoSummary: {
-      /** @example sazh.katzroy@redesignhealth.com */
+      /** @example sazh.katzroy@acmehealth.com */
       email: string
       /** @example Sazh */
       givenName?: string

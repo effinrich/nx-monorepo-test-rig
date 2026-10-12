@@ -11,8 +11,8 @@
 - [portal data-assets index.ts](file://libs/portal/data-assets/src/index.ts)
 - [third-party-network data-assets index.ts](file://libs/third-party-network/data-assets/src/index.ts)
 - [authentication.ts](file://libs/third-party-network/utils/src/lib/authentication.ts)
-- [AwsSecretsManagerPropertySource.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/main/java/com/redesignhealth/property/AwsSecretsManagerPropertySource.java)
-- [AwsSecretsManagerPropertySourceTest.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/test/com/redesignhealth/property/AwsSecretsManagerPropertySourceTest.java)
+- [AwsSecretsManagerPropertySource.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/main/java/com/acmehealth/property/AwsSecretsManagerPropertySource.java)
+- [AwsSecretsManagerPropertySourceTest.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/test/com/acmehealth/property/AwsSecretsManagerPropertySourceTest.java)
 </cite>
 
 ## Table of Contents
@@ -29,7 +29,7 @@
 
 ## Introduction
 This document describes the shared libraries in the Redesign Health monorepo with a focus on:
-- The Chakra UI v3 component library (@redesignhealth/ui), including component exports, theming migration, and design system integration
+- The Chakra UI v3 component library (@acmehealth/ui), including component exports, theming migration, and design system integration
 - The Portal data assets library providing API clients, hooks, types, and mock data for the portal application
 - The Third Party Network data assets library for advisor network features
 - Shared Java libraries for common functionality and integration patterns
@@ -42,7 +42,7 @@ The shared libraries are organized under libs/ with distinct packages for UI, an
 ```mermaid
 graph TB
 subgraph "Shared UI Library"
-A["@redesignhealth/ui<br/>Chakra UI v3 components"]
+A["@acmehealth/ui<br/>Chakra UI v3 components"]
 end
 subgraph "Portal Library"
 B["Portal Data Assets"]
@@ -68,7 +68,7 @@ D --> E
 ## Core Components
 This section outlines the primary exported APIs and capabilities of each shared library.
 
-- @redesignhealth/ui (Chakra UI v3)
+- @acmehealth/ui (Chakra UI v3)
   - Exports a comprehensive set of UI components and hooks for building applications with Chakra UI v3
   - Includes design system primitives, layout components, form controls, overlays, and utility components
   - Provides theming via a dedicated provider and tokens system
@@ -110,7 +110,7 @@ The shared libraries are designed to be consumed by multiple applications within
 
 ```mermaid
 graph TB
-UI["@redesignhealth/ui<br/>Components + Theme"] --> APPS["Portal & TPN Apps"]
+UI["@acmehealth/ui<br/>Components + Theme"] --> APPS["Portal & TPN Apps"]
 PORTAL["Portal Data Assets"] --> APPS
 TPN["TPN Data Assets"] --> APPS
 AUTH["TPN Utils (Auth)"] --> TPN
@@ -126,7 +126,7 @@ INFRA --> JAVA
 
 ## Detailed Component Analysis
 
-### @redesignhealth/ui (Chakra UI v3 Component Library)
+### @acmehealth/ui (Chakra UI v3 Component Library)
 - Purpose
   - Provide a unified set of Chakra UI v3 components and design system primitives
   - Offer a theming provider and tokens-based theme configuration
@@ -268,7 +268,7 @@ Reset --> End
 
 - Usage Patterns
   - Import from the index to access domain-specific clients and utilities
-  - Use alongside @redesignhealth/ui for consistent UI and theming
+  - Use alongside @acmehealth/ui for consistent UI and theming
 
 - Integration Guidelines
   - Keep client configurations and types in sync with backend contracts
@@ -286,7 +286,7 @@ Reset --> End
 
 - Usage Patterns
   - Integrate with authentication utilities for secure advisor features
-  - Use alongside @redesignhealth/ui for consistent UX
+  - Use alongside @acmehealth/ui for consistent UX
 
 - Integration Guidelines
   - Align API clients with backend contracts
@@ -354,12 +354,12 @@ AwsSecretsManagerPropertySource <.. TestAwsSecretsManagerPropertySource : "teste
 ```
 
 **Diagram sources**
-- [AwsSecretsManagerPropertySource.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/main/java/com/redesignhealth/property/AwsSecretsManagerPropertySource.java)
-- [AwsSecretsManagerPropertySourceTest.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/test/com/redesignhealth/property/AwsSecretsManagerPropertySourceTest.java)
+- [AwsSecretsManagerPropertySource.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/main/java/com/acmehealth/property/AwsSecretsManagerPropertySource.java)
+- [AwsSecretsManagerPropertySourceTest.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/test/com/acmehealth/property/AwsSecretsManagerPropertySourceTest.java)
 
 **Section sources**
-- [AwsSecretsManagerPropertySource.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/main/java/com/redesignhealth/property/AwsSecretsManagerPropertySource.java)
-- [AwsSecretsManagerPropertySourceTest.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/test/com/redesignhealth/property/AwsSecretsManagerPropertySourceTest.java)
+- [AwsSecretsManagerPropertySource.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/main/java/com/acmehealth/property/AwsSecretsManagerPropertySource.java)
+- [AwsSecretsManagerPropertySourceTest.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/test/com/acmehealth/property/AwsSecretsManagerPropertySourceTest.java)
 
 ## Dependency Analysis
 - UI Library Dependencies
@@ -375,7 +375,7 @@ AwsSecretsManagerPropertySource <.. TestAwsSecretsManagerPropertySource : "teste
 
 ```mermaid
 graph LR
-UI["@redesignhealth/ui"] --> Portal["Portal App"]
+UI["@acmehealth/ui"] --> Portal["Portal App"]
 UI --> TPN["TPN App"]
 Portal --> PortalDA["Portal Data Assets"]
 TPN --> TPNDA["TPN Data Assets"]
@@ -422,10 +422,10 @@ AuthUtils --> JavaLib["AWS Secrets Manager Property Source"]
 - [MIGRATION.md:1-34](file://libs/shared/ui/MIGRATION.md#L1-L34)
 - [hooks.ts:20-37](file://libs/shared/analytics/src/lib/hooks.ts#L20-L37)
 - [use-pagination.tsx:3-16](file://libs/shared/hooks/src/lib/use-pagination/use-pagination.tsx#L3-L16)
-- [AwsSecretsManagerPropertySource.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/main/java/com/redesignhealth/property/AwsSecretsManagerPropertySource.java)
+- [AwsSecretsManagerPropertySource.java](file://libs/shared-java/data-access-aws-secrets-manager-property-source/src/main/java/com/acmehealth/property/AwsSecretsManagerPropertySource.java)
 
 ## Conclusion
-The shared libraries in the Redesign Health monorepo provide a cohesive foundation for building applications with consistent UI, reliable data access, and secure integrations. The @redesignhealth/ui library modernizes the design system with Chakra UI v3, while the Portal and Third Party Network libraries offer domain-specific assets and utilities. The Java library ensures secure secret management. Following the migration and integration guidelines will help maintain backward compatibility and smooth upgrades.
+The shared libraries in the Redesign Health monorepo provide a cohesive foundation for building applications with consistent UI, reliable data access, and secure integrations. The @acmehealth/ui library modernizes the design system with Chakra UI v3, while the Portal and Third Party Network libraries offer domain-specific assets and utilities. The Java library ensures secure secret management. Following the migration and integration guidelines will help maintain backward compatibility and smooth upgrades.
 
 [No sources needed since this section summarizes without analyzing specific files]
 

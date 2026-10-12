@@ -2,7 +2,7 @@
 id: link-overlay
 category: navigation
 title: Link Overlay
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   'Link overlay is a semantic component used to wrap elements (cards, blog post,
   articles, etc.) in a link.'
@@ -16,12 +16,12 @@ articles, etc.) in a link.
 ## Import
 
 ```js
-import { LinkBox, LinkOverlay } from '@redesignhealth/ui'
+import { LinkBox, LinkOverlay } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-navigation-link--with-link-overlay&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-navigation-link--with-link-overlay&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

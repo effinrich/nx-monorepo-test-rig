@@ -1,5 +1,5 @@
 import { EmbeddedChat } from '@embeddedchat/react'
-import { Box } from '@redesignhealth/ui'
+import { Box } from '@acmehealth/ui'
 
 import FullScreenLoader from '../../components/fullscreen-loader'
 import { getAccessToken, getExpiryDate, getIdToken } from '../../utils/auth'
@@ -13,7 +13,7 @@ export function Chat() {
     <Box>
       {accessToken ? (
         <EmbeddedChat
-          host="https://rocketchat-poc.dev.redesignhealth.com"
+          host="https://rocketchat-poc.dev.acmehealth.com"
           roomId="GENERAL"
           channelName="GENERAL"
           anonymousMode

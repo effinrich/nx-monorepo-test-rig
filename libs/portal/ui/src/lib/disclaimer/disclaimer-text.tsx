@@ -1,4 +1,4 @@
-import { Box, Text } from '@redesignhealth/ui'
+import { Box, Text } from '@acmehealth/ui'
 
 export const DisclaimerText = () => {
   return (

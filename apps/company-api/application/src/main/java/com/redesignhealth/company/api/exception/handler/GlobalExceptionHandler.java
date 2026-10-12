@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.exception.handler;
+package com.acmehealth.company.api.exception.handler;
 
-import com.redesignhealth.company.api.exception.dto.ApiError;
-import com.redesignhealth.company.api.exception.dto.ApiFieldError;
-import com.redesignhealth.company.api.exception.dto.FieldErrorDetails;
-import com.redesignhealth.company.api.exception.status.*;
+import com.acmehealth.company.api.exception.dto.ApiError;
+import com.acmehealth.company.api.exception.dto.ApiFieldError;
+import com.acmehealth.company.api.exception.dto.FieldErrorDetails;
+import com.acmehealth.company.api.exception.status.*;
 import jakarta.servlet.RequestDispatcher;
 import java.time.Instant;
 import org.slf4j.Logger;

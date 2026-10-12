@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.exception.dto;
+package com.acmehealth.company.api.exception.dto;
 
 /** Types of errors API fields can have, with human-readable descriptions */
 public enum FieldErrorType {

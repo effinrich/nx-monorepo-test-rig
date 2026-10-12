@@ -4,13 +4,13 @@ import {
   convertCompanyToCommand,
   useGetCompanyById,
   useUpdateCompany
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   BackButton,
   MarketplaceCompanyForm,
   Page
-} from '@redesignhealth/portal/ui'
-import { Loader, SectionHeader } from '@redesignhealth/ui'
+} from '@acmehealth/portal/ui'
+import { Loader, SectionHeader } from '@acmehealth/ui'
 
 const EditMarketplaceCompany = () => {
   const { companyId } = useParams()

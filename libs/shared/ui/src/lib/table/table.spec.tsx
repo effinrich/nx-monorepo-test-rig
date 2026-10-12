@@ -1,4 +1,4 @@
-import { testA11y } from '@redesignhealth/shared-utils-jest'
+import { testA11y } from '@acmehealth/shared-utils-jest'
 
 import { TableRoot, TableCaption, Tbody, Td, Tfoot, Th, Thead, Tr } from './table'
 

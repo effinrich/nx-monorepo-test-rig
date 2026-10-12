@@ -1,15 +1,15 @@
-package com.redesignhealth.company.api.dto.command.ipMarketplace;
+package com.acmehealth.company.api.dto.command.ipMarketplace;
 
-import com.redesignhealth.company.api.dto.LinkRef;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceFreedomToOperateCertification;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceOrganOfFocus;
-import com.redesignhealth.company.api.dto.enums.IpMarketplacePatentGeographyValidity;
-import com.redesignhealth.company.api.dto.enums.IpMarketplacePatentStatus;
-import com.redesignhealth.company.api.dto.enums.IpMarketplacePreferredTerms;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceSpeciality;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceStatus;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceTechnologyLevelOfMaturity;
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceTechnologyType;
+import com.acmehealth.company.api.dto.LinkRef;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceFreedomToOperateCertification;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceOrganOfFocus;
+import com.acmehealth.company.api.dto.enums.IpMarketplacePatentGeographyValidity;
+import com.acmehealth.company.api.dto.enums.IpMarketplacePatentStatus;
+import com.acmehealth.company.api.dto.enums.IpMarketplacePreferredTerms;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceSpeciality;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceStatus;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceTechnologyLevelOfMaturity;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceTechnologyType;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;

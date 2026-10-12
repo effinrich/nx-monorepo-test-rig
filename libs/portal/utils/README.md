@@ -1,4 +1,4 @@
-# @redesignhealth/portal/utils
+# @acmehealth/portal/utils
 
 Portal-specific utility functions and helpers used across the Platform Portal's feature libraries.
 
@@ -25,7 +25,7 @@ Portal-specific utility functions and helpers used across the Platform Portal's 
 ## Usage
 
 ```ts
-import { hasRole, formatDate, buildFilterParams } from '@redesignhealth/portal/utils'
+import { hasRole, formatDate, buildFilterParams } from '@acmehealth/portal/utils'
 ```
 
 ## Running Tests

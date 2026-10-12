@@ -13,7 +13,7 @@ src/lib/
 ## Usage
 
 ```ts
-import { useAdvisors } from '@redesignhealth/third-party-network/data-assets'
+import { useAdvisors } from '@acmehealth/third-party-network/data-assets'
 ```
 
 ## Running Tests

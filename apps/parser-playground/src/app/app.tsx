@@ -4,7 +4,7 @@ import {
   Route,
   RouterProvider
 } from 'react-router-dom'
-import { Loader } from '@redesignhealth/ui'
+import { Loader } from '@acmehealth/ui'
 
 import { Home } from './views/home/home'
 import { Signin } from './views/sign-in/sign-in'

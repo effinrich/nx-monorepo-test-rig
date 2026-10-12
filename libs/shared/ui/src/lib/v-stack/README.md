@@ -2,7 +2,7 @@
 id: stack
 category: layout
 title: Stack
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Stack is a layout component used to group elements together and apply a space
   between them.
@@ -12,7 +12,7 @@ video: 'https://youtu.be/6Az4Yd6f8RA'
 ## Import
 
 ```js
-import { Stack, HStack, VStack } from '@redesignhealth/ui'
+import { Stack, HStack, VStack } from '@acmehealth/ui'
 ```
 
 - VStack: used to stack elements in the vertical direction

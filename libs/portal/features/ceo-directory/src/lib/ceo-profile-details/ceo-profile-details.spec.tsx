@@ -7,8 +7,8 @@ import {
   mockGetCeoById,
   mockGetUserInfo,
   mockRhUser
-} from '@redesignhealth/portal/data-assets'
-import { render, screen, waitFor } from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/portal/data-assets'
+import { render, screen, waitFor } from '@acmehealth/shared-utils-jest'
 import { setupServer } from 'msw/node'
 
 import CeoProfileDetails from './ceo-profile-details'

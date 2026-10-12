@@ -1,4 +1,4 @@
-import { render, screen } from '@redesignhealth/shared-utils-jest'
+import { render, screen } from '@acmehealth/shared-utils-jest'
 import { within } from '@testing-library/react'
 
 import CeoProfileDetailsPage from './ceo-profile-details-page'

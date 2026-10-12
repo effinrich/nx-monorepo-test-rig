@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
-import com.redesignhealth.company.api.controller.ExpertNoteController;
-import com.redesignhealth.company.api.dto.ExpertNoteSummary;
-import com.redesignhealth.company.api.entity.ExpertNote;
+import com.acmehealth.company.api.controller.ExpertNoteController;
+import com.acmehealth.company.api.dto.ExpertNoteSummary;
+import com.acmehealth.company.api.entity.ExpertNote;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 
 public class ExpertNoteAssembler

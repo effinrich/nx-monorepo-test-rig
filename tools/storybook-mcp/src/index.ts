@@ -20,13 +20,13 @@ const COMPONENT_LIBS = {
   'shared-ui': {
     path: 'libs/shared/ui/src/lib',
     storyPath: 'libs/shared/ui/src/lib',
-    importPath: '@redesignhealth/ui',
+    importPath: '@acmehealth/ui',
     storybookPort: 4400,
   },
   'portal-ui': {
     path: 'libs/portal/ui/src/lib',
     storyPath: 'libs/portal/ui/src/lib',
-    importPath: '@redesignhealth/portal-ui',
+    importPath: '@acmehealth/portal-ui',
     storybookPort: 4401,
   },
 } as const;
@@ -421,7 +421,7 @@ async function handleAnalyzeComponent(args: { componentPath: string }) {
     storyPath: hasStory ? storyPath : null,
     props,
     imports: imports.slice(0, 20), // Limit imports shown
-    usesChakra: content.includes('@chakra-ui') || content.includes('@redesignhealth/ui'),
+    usesChakra: content.includes('@chakra-ui') || content.includes('@acmehealth/ui'),
     usesRouter: content.includes('react-router') || content.includes('useNavigate') || content.includes('useParams'),
     usesQuery: content.includes('@tanstack/react-query') || content.includes('useQuery'),
     suggestions: generateSuggestions(content, library, props),
@@ -476,7 +476,7 @@ async function handleGenerateStory(args: {
   // Check for dependencies
   const usesRouter = content.includes('react-router') || content.includes('useNavigate') || content.includes('Link');
   const usesQuery = content.includes('@tanstack/react-query') || content.includes('useQuery');
-  const usesChakra = content.includes('@chakra-ui') || content.includes('@redesignhealth/ui');
+  const usesChakra = content.includes('@chakra-ui') || content.includes('@acmehealth/ui');
 
   // Build story content
   const story = generateStoryContent({

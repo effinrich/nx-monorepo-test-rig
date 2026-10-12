@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.ref.VendorRef;
-import com.redesignhealth.company.api.entity.vendor.Vendor;
+import com.acmehealth.company.api.entity.ref.VendorRef;
+import com.acmehealth.company.api.entity.vendor.Vendor;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;

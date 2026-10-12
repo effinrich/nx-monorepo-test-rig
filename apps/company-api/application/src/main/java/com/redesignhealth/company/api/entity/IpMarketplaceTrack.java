@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.entity;
+package com.acmehealth.company.api.entity;
 
 import static jakarta.persistence.EnumType.STRING;
 
-import com.redesignhealth.company.api.dto.enums.IpMarketplaceTrackContactInfo;
-import com.redesignhealth.company.api.entity.audit.Auditable;
-import com.redesignhealth.company.api.entity.converter.IpMarketplaceTrackConverter;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceTrackRef;
+import com.acmehealth.company.api.dto.enums.IpMarketplaceTrackContactInfo;
+import com.acmehealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.converter.IpMarketplaceTrackConverter;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceTrackRef;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;

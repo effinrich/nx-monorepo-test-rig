@@ -9,7 +9,7 @@ export const modules = [
     },
     parentId: 'sOa7veCh',
     remoteContentId:
-      'S3://dev-design.redesignhealth.com/expert-knowledge-library/mvp-product-build/ai-ml-considerations.html',
+      'S3://dev-design.acmehealth.com/expert-knowledge-library/mvp-product-build/ai-ml-considerations.html',
     remoteContentSource: {
       displayName: 'MkDocs',
       value: 'MKDOCS'

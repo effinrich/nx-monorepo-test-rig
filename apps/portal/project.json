@@ -92,7 +92,7 @@
       "executor": "nx:run-commands",
       "options": {
         "commands": [
-          "npx nx workspace-generator openapi-to-axios-client --clientName=CompanyAPI --location=/src/external/company-api --projectName=portal --url=https://company-api.dev.redesignhealth.com/public/open-api",
+          "npx nx workspace-generator openapi-to-axios-client --clientName=CompanyAPI --location=/src/external/company-api --projectName=portal --url=https://company-api.dev.acmehealth.com/public/open-api",
           "npx prettier --write ./apps/portal/src/external/company-api/*.{d.ts,ts}"
         ],
         "parallel": false

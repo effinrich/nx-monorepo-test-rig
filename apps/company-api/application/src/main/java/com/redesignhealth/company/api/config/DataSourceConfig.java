@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.config;
+package com.acmehealth.company.api.config;
 
-import static com.redesignhealth.company.api.config.DataSourceConfig.DATE_TIME_PROVIDER_BEAN;
+import static com.acmehealth.company.api.config.DataSourceConfig.DATE_TIME_PROVIDER_BEAN;
 
-import com.redesignhealth.company.api.entity.audit.Auditable;
+import com.acmehealth.company.api.entity.audit.Auditable;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Optional;

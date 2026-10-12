@@ -9,7 +9,7 @@ import {
   Icon,
   Text,
   VStack
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface NoSearchTermsProps {
   children?: React.ReactNode

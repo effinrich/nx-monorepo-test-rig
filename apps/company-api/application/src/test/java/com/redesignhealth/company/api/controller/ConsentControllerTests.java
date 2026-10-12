@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.entity.Consent.Type.TERMS_OF_SERVICE;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.linksField;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testConsent;
-import static com.redesignhealth.company.api.scaffolding.Fixtures.testPerson;
+import static com.acmehealth.company.api.entity.Consent.Type.TERMS_OF_SERVICE;
+import static com.acmehealth.company.api.scaffolding.DocUtils.linksField;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testConsent;
+import static com.acmehealth.company.api.scaffolding.Fixtures.testPerson;
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
@@ -16,12 +16,12 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.repository.ConsentRepository;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.ConsentService;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.repository.ConsentRepository;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.ConsentService;
 import java.util.Optional;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
@@ -58,11 +58,11 @@ public class ConsentControllerTests {
   }
 
   @Test
-  @WithRedesignUser(email = "test@redesignhealth.com")
+  @WithRedesignUser(email = "test@acmehealth.com")
   public void testGet_returnsResult() throws Exception {
     var person = testPerson();
     var consent = testConsent(person);
-    when(personRepository.findByEmail(PersonRef.of("test@redesignhealth.com")))
+    when(personRepository.findByEmail(PersonRef.of("test@acmehealth.com")))
         .thenReturn(Optional.of(person));
     when(consentRepository.findByTypeAndPerson(TERMS_OF_SERVICE, testPerson()))
         .thenReturn(Optional.of(consent));
@@ -78,9 +78,9 @@ public class ConsentControllerTests {
   }
 
   @Test
-  @WithRedesignUser(email = "test@redesignhealth.com")
+  @WithRedesignUser(email = "test@acmehealth.com")
   public void testGet_handles404() throws Exception {
-    when(personRepository.findByEmail(PersonRef.of("test@redesignhealth.com")))
+    when(personRepository.findByEmail(PersonRef.of("test@acmehealth.com")))
         .thenReturn(Optional.of(testPerson()));
     when(consentRepository.findByTypeAndPerson(TERMS_OF_SERVICE, testPerson()))
         .thenReturn(Optional.empty());
@@ -89,9 +89,9 @@ public class ConsentControllerTests {
   }
 
   @Test
-  @WithRedesignUser(email = "test@redesignhealth.com")
+  @WithRedesignUser(email = "test@acmehealth.com")
   public void testUpsert_handlesNewEntry() throws Exception {
-    when(personRepository.findByEmail(PersonRef.of("test@redesignhealth.com")))
+    when(personRepository.findByEmail(PersonRef.of("test@acmehealth.com")))
         .thenReturn(Optional.of(testPerson()));
     when(consentRepository.save(any())).then(returnsFirstArg());
 

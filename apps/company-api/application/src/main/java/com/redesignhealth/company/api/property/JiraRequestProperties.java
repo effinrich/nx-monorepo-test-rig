@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.property;
+package com.acmehealth.company.api.property;
 
-import com.redesignhealth.company.api.entity.request.RequestStatus;
+import com.acmehealth.company.api.entity.request.RequestStatus;
 import java.util.Map;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

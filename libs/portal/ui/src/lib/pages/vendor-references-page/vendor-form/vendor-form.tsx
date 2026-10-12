@@ -5,12 +5,12 @@ import {
   useGetCategoriesFilters,
   VENDOR_FORM_DEFAULT_VALUES,
   VendorFormProps
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   FORM_ERROR_MESSAGES,
   selectTransformer,
   TEXTAREA_CHARACTER_LIMIT
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 import {
   Input,
   Radio,
@@ -18,7 +18,7 @@ import {
   Stack,
   StackSeparator,
   Textarea
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { AxiosError } from 'axios'
 import { Select } from 'chakra-react-select'
 import * as yup from 'yup'

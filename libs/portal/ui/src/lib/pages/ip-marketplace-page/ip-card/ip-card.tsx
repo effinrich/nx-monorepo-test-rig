@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Button, Text } from '@redesignhealth/ui'
+import { Button, Text } from '@acmehealth/ui'
 
 import { ListCard } from '../../../list-card/list-card'
 import { ListCardHeader } from '../../../list-card/list-card-header'

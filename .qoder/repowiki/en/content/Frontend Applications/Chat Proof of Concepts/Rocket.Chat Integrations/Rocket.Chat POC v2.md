@@ -302,7 +302,7 @@ Key internal and external dependencies:
 graph LR
 MAIN["main.tsx"] --> REACTQUERY["@tanstack/react-query"]
 MAIN --> GOOGLEOAUTH["@react-oauth/google"]
-MAIN --> RHPROVIDER["@redesignhealth/ui"]
+MAIN --> RHPROVIDER["@acmehealth/ui"]
 APP["app.tsx"] --> ROUTERDOM["react-router-dom"]
 SIGNIN["sign-in.tsx"] --> GOOGLEOAUTH
 SIGNIN --> AXIOS["axios"]

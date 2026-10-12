@@ -9,7 +9,7 @@ import {
   mockRhUser,
   PagedResult,
   UserInfoSummary
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import { http, HttpResponse } from 'msw'
 import { withRouter } from 'storybook-addon-react-router-v6'
 

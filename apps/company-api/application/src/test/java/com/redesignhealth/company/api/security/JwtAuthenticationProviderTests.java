@@ -1,15 +1,15 @@
-package com.redesignhealth.company.api.security;
+package com.acmehealth.company.api.security;
 
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.*;
-import static com.redesignhealth.company.api.expansion.Expansion.*;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.*;
+import static com.acmehealth.company.api.expansion.Expansion.*;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
-import com.redesignhealth.company.api.entity.Person;
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.service.RedesignUserDetailsService;
+import com.acmehealth.company.api.entity.Person;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.service.RedesignUserDetailsService;
 import java.util.Map;
 import java.util.Optional;
 import org.junit.jupiter.api.BeforeEach;
@@ -31,7 +31,7 @@ class JwtAuthenticationProviderTests {
   private AuthenticationProvider authenticationProvider;
 
   private static final JwtAuthentication requestedJwt = JwtAuthentication.of(JwtRef.of("token"));
-  private static final PersonRef email = PersonRef.of("test@redesignhealth.com");
+  private static final PersonRef email = PersonRef.of("test@acmehealth.com");
 
   @BeforeEach
   public void setup() {
@@ -72,13 +72,13 @@ class JwtAuthenticationProviderTests {
             AuthenticationException.class, () -> authenticationProvider.authenticate(requestedJwt));
 
     assertThat(e.getMessage())
-        .isEqualTo("Person test@redesignhealth.com does not exist in our system");
+        .isEqualTo("Person test@acmehealth.com does not exist in our system");
   }
 
   @Test
   public void testAuthenticate_authenticates() {
     when(jwtService.verify(requestedJwt.getRef()))
-        .thenReturn(Optional.of(Map.of("email", "test@redesignhealth.com")));
+        .thenReturn(Optional.of(Map.of("email", "test@acmehealth.com")));
     when(personRepository.findByEmail(email, MEMBER_OF))
         .thenReturn(Optional.of(Person.from(email)));
 
@@ -96,7 +96,7 @@ class JwtAuthenticationProviderTests {
 
     var personMakingRequest = Person.from(email);
     personMakingRequest.setRole(ROLE_SUPER_ADMIN);
-    var impersonation = Person.from(PersonRef.of("other@redesignhealth.com"));
+    var impersonation = Person.from(PersonRef.of("other@acmehealth.com"));
     when(personRepository.findByEmail(personMakingRequest.getEmail(), MEMBER_OF))
         .thenReturn(Optional.of(personMakingRequest));
     when(personRepository.findByEmail(impersonation.getEmail(), MEMBER_OF))
@@ -109,11 +109,11 @@ class JwtAuthenticationProviderTests {
 
     var auth = authenticationProvider.authenticate(jwt);
     assertThat(auth.isAuthenticated()).isTrue();
-    assertThat(auth.getName()).isEqualTo("other@redesignhealth.com");
+    assertThat(auth.getName()).isEqualTo("other@acmehealth.com");
     assertThat(auth.getCredentials()).isEqualTo(JwtRef.of("REDACTED"));
 
     var user = (UserDetails) auth.getPrincipal();
-    assertThat(user.getUsername()).isEqualTo("other@redesignhealth.com");
+    assertThat(user.getUsername()).isEqualTo("other@acmehealth.com");
     assertThat(user.getAuthorities().isEmpty()).isTrue();
   }
 
@@ -121,7 +121,7 @@ class JwtAuthenticationProviderTests {
   public void testAuthenticate_failsImpersonation() {
     var personMakingRequest = Person.from(email);
     personMakingRequest.setRole(ROLE_RH_ADMIN);
-    var impersonation = Person.from(PersonRef.of("other@redesignhealth.com"));
+    var impersonation = Person.from(PersonRef.of("other@acmehealth.com"));
     when(personRepository.findByEmail(personMakingRequest.getEmail(), MEMBER_OF))
         .thenReturn(Optional.of(personMakingRequest));
 
@@ -134,6 +134,6 @@ class JwtAuthenticationProviderTests {
         assertThrows(AuthenticationException.class, () -> authenticationProvider.authenticate(jwt));
 
     assertThat(e.getMessage())
-        .isEqualTo("Cannot impersonate other@redesignhealth.com with this level of access");
+        .isEqualTo("Cannot impersonate other@acmehealth.com with this level of access");
   }
 }

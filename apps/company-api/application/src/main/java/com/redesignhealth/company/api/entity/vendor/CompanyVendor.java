@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.entity.vendor;
+package com.acmehealth.company.api.entity.vendor;
 
-import com.redesignhealth.company.api.dto.enums.CompanyVendorEngagementStatus;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.Subcategory;
-import com.redesignhealth.company.api.entity.converter.CompanyVendorRefConverter;
-import com.redesignhealth.company.api.entity.ref.CompanyVendorRef;
+import com.acmehealth.company.api.dto.enums.CompanyVendorEngagementStatus;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.Subcategory;
+import com.acmehealth.company.api.entity.converter.CompanyVendorRefConverter;
+import com.acmehealth.company.api.entity.ref.CompanyVendorRef;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;

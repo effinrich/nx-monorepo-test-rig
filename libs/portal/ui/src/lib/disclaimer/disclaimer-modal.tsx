@@ -9,7 +9,7 @@ import {
   DialogPositioner,
   DialogRoot,
   useDisclosure
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 export interface DisclaimerModalProps {
   children: ReactNode

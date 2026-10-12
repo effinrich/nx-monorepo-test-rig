@@ -4,7 +4,7 @@ import {
   DetailsCardHeader,
   DetailsCardRow,
   Page
-} from '@redesignhealth/portal/ui'
+} from '@acmehealth/portal/ui'
 
 const EnvironmentDetails = () => (
   <Page>

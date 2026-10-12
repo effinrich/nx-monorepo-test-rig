@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.message;
+package com.acmehealth.company.api.client.message;
 
 /** Interface for managing messages from external services */
 public class Message<T> {

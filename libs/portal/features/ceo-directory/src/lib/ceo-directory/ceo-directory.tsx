@@ -5,9 +5,9 @@ import {
   Ceo,
   useGetCeoById,
   useGetUserInfo
-} from '@redesignhealth/portal/data-assets'
-import { CeoDirectoryPage, Page } from '@redesignhealth/portal/ui'
-import { Stack } from '@redesignhealth/ui'
+} from '@acmehealth/portal/data-assets'
+import { CeoDirectoryPage, Page } from '@acmehealth/portal/ui'
+import { Stack } from '@acmehealth/ui'
 
 const hasNotCompletedOnboarding = (ceo?: Ceo) =>
   ceo && ceo.visible === undefined

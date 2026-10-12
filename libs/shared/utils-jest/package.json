@@ -1,5 +1,5 @@
 {
-  "name": "@redesignhealth/shared-utils-jest",
+  "name": "@acmehealth/shared-utils-jest",
   "version": "2.0.0",
   "main": "./index.js",
   "types": "./index.d.ts",

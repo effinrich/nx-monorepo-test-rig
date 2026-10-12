@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.config;
+package com.acmehealth.company.api.config;
 
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -7,9 +7,9 @@ import com.google.api.client.googleapis.auth.oauth2.GoogleIdTokenVerifier;
 import com.google.api.client.googleapis.auth.oauth2.GooglePublicKeysManager;
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.json.gson.GsonFactory;
-import com.redesignhealth.company.api.expansion.StringToExpansionConverter;
-import com.redesignhealth.company.api.security.GoogleJwtService;
-import com.redesignhealth.company.api.security.JwtService;
+import com.acmehealth.company.api.expansion.StringToExpansionConverter;
+import com.acmehealth.company.api.security.GoogleJwtService;
+import com.acmehealth.company.api.security.JwtService;
 import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.util.Collection;

@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.controller.AssetController.MULTIPART_FILE_KEY;
-import static com.redesignhealth.company.api.scaffolding.DocUtils.linksField;
+import static com.acmehealth.company.api.controller.AssetController.MULTIPART_FILE_KEY;
+import static com.acmehealth.company.api.scaffolding.DocUtils.linksField;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 import static org.springframework.http.MediaType.TEXT_PLAIN;
@@ -11,12 +11,12 @@ import static org.springframework.restdocs.payload.PayloadDocumentation.response
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.client.file.RemoteFileUploader;
-import com.redesignhealth.company.api.client.file.dto.RemoteFile;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.AssetService;
+import com.acmehealth.company.api.client.file.RemoteFileUploader;
+import com.acmehealth.company.api.client.file.dto.RemoteFile;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.AssetService;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

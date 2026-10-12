@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,22 +10,22 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.redesignhealth.company.api.assembler.PersonRequestAssembler;
-import com.redesignhealth.company.api.assembler.jira.JiraLinkGenerator;
-import com.redesignhealth.company.api.client.jira.IssueCreated;
-import com.redesignhealth.company.api.client.jira.JiraClient;
-import com.redesignhealth.company.api.dto.command.PersonRequestCommand;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.PersonRequest;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.request.RoleAuthority;
-import com.redesignhealth.company.api.exception.InvalidFieldException;
-import com.redesignhealth.company.api.property.JiraRequestProperties;
-import com.redesignhealth.company.api.repository.CompanyRepository;
-import com.redesignhealth.company.api.repository.PersonRequestRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.PersonRequestService;
+import com.acmehealth.company.api.assembler.PersonRequestAssembler;
+import com.acmehealth.company.api.assembler.jira.JiraLinkGenerator;
+import com.acmehealth.company.api.client.jira.IssueCreated;
+import com.acmehealth.company.api.client.jira.JiraClient;
+import com.acmehealth.company.api.dto.command.PersonRequestCommand;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.PersonRequest;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.request.RoleAuthority;
+import com.acmehealth.company.api.exception.InvalidFieldException;
+import com.acmehealth.company.api.property.JiraRequestProperties;
+import com.acmehealth.company.api.repository.CompanyRepository;
+import com.acmehealth.company.api.repository.PersonRequestRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.PersonRequestService;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -80,7 +80,7 @@ public class PersonRequestControllerTests {
   public void testRequestPerson_handlesUnknownCompany() throws Exception {
     var companiesRequested = List.of("unknown-company", "ever-body");
     var command =
-        PersonRequestCommand.builder("test@redesignhealth.com")
+        PersonRequestCommand.builder("test@acmehealth.com")
             .companies(companiesRequested)
             .build();
 
@@ -108,7 +108,7 @@ public class PersonRequestControllerTests {
     var companiesRequested = List.of("ever-body");
     var rolesRequested = List.of(RoleAuthority.ROLE_RH_ADMIN);
     var command =
-        PersonRequestCommand.builder("test@redesignhealth.com")
+        PersonRequestCommand.builder("test@acmehealth.com")
             .companies(companiesRequested)
             .roles(rolesRequested)
             .build();
@@ -129,6 +129,6 @@ public class PersonRequestControllerTests {
         .andExpect(jsonPath("$.links[0].rel", is("jiraTicket")))
         .andExpect(
             jsonPath(
-                "$.links[0].href", is("https://redesignhealth.atlassian.net/browse/TICKET-1")));
+                "$.links[0].href", is("https://acmehealth.atlassian.net/browse/TICKET-1")));
   }
 }

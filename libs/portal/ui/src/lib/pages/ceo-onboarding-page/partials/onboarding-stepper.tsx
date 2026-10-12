@@ -5,7 +5,7 @@ import {
   StepsIndicator,
   StepsSeparator,
   StepsStatus
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface OnboardingStepperProps {
   activeStep: number

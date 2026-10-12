@@ -2,7 +2,7 @@
 id: wrap
 category: layout
 title: Wrap
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   "Wrap is a layout component used to add space between elements and wraps
   automatically if there isn't enough space."
@@ -16,7 +16,7 @@ automatically if there isn't enough space.
 ## Import
 
 ```js
-import { Wrap, WrapItem } from '@redesignhealth/ui'
+import { Wrap, WrapItem } from '@acmehealth/ui'
 ```
 
 - **Wrap**: Wrap composes the `Box` component and renders a `<ul>` tag
@@ -25,7 +25,7 @@ import { Wrap, WrapItem } from '@redesignhealth/ui'
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-layout-wrap--responsive&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-layout-wrap--responsive&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

@@ -5,7 +5,7 @@
 id: statcard
 title: StatCard
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: The `StatCard` component is used to display Stat components in a variety of conigurations and styles per use-case.
 
 ---
@@ -13,7 +13,7 @@ description: The `StatCard` component is used to display Stat components in a va
 ## Import
 
 ```js
-import { StatCard } from '@redesignhealth/ui'
+import { StatCard } from '@acmehealth/ui'
 ```
 
 ### Basic Usage

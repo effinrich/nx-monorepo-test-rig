@@ -6,7 +6,7 @@ import {
   useGetAllResearch,
   useGetFilterOptions,
   useResearchStore
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   Box,
   Button,
@@ -24,7 +24,7 @@ import {
   MenuItem,
   MenuContent,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import NoSearchResults from '../../../no-search-results/no-search-results'
 import { SelectionBox } from '../../../selection-box/selection-box'

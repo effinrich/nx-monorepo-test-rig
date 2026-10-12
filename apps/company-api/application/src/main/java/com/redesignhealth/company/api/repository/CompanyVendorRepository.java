@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.ref.CompanyVendorRef;
-import com.redesignhealth.company.api.entity.vendor.CompanyVendor;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.ref.CompanyVendorRef;
+import com.acmehealth.company.api.entity.vendor.CompanyVendor;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.domain.Pageable;

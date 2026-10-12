@@ -2,7 +2,7 @@ import { MdInfoOutline } from 'react-icons/md'
 import {
   Link as LinkType,
   RoleAuthorityEnum
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   Flex,
   Icon,
@@ -12,7 +12,7 @@ import {
   TooltipContent,
   TooltipArrow,
   TooltipPositioner
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import DetailsCard from '../../details-card/details-card'
 import DetailsCardBody from '../../details-card/details-card-body'

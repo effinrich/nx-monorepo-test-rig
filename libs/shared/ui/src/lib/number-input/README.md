@@ -2,7 +2,7 @@
 id: number-input
 category: form
 title: Number Input
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: The NumberInput component is similar to the Input component, but it has
   controls for incrementing or decrementing numeric values.
 ---
@@ -18,7 +18,7 @@ Redesign UI exports 5 components for the NumberInput.
 - `NumberDecrementStepper`: The button to decrement the value of the input.
 
 ```js
-import { NumberInput, NumberInputField, NumberInputStepper, NumberIncrementStepper, NumberDecrementStepper } from '@redesignhealth/ui'
+import { NumberInput, NumberInputField, NumberInputStepper, NumberIncrementStepper, NumberDecrementStepper } from '@acmehealth/ui'
 ```
 
 ## Usage

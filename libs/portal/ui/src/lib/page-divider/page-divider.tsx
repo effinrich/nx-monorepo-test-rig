@@ -1,4 +1,4 @@
-import { AbsoluteCenter, Box, Divider } from '@redesignhealth/ui'
+import { AbsoluteCenter, Box, Divider } from '@acmehealth/ui'
 
 interface PageDividerProps {
   content: string

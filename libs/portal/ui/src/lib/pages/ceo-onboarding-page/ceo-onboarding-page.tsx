@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Box, SectionHeader, useSteps } from '@redesignhealth/ui'
+import { Box, SectionHeader, useSteps } from '@acmehealth/ui'
 
 import OnboardingStepper from './partials/onboarding-stepper'
 import OptInConfirmation from './steps/opt-in-confirmation/opt-in-confirmation'

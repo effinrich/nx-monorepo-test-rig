@@ -2,7 +2,7 @@
 id: close-button
 category: other
 title: Close Button
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   CloseButton is essentially a button with a close icon. It is used to trigger
   close functionality in components.
@@ -16,12 +16,12 @@ close functionality in components.
 ## Import
 
 ```js
-import { CloseButton } from '@redesignhealth/ui'
+import { CloseButton } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-closebutton--default&viewMode=story" width="100%" style="border:1px solid black;" ></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-closebutton--default&viewMode=story" width="100%" style="border:1px solid black;" ></iframe></div>
 
 ## Usage
 

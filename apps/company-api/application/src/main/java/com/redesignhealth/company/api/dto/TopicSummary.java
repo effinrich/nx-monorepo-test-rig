@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.document.Topic;
+import com.acmehealth.company.api.document.Topic;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.Map;
 import org.springframework.hateoas.RepresentationModel;

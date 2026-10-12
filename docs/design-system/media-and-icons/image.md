@@ -2,7 +2,7 @@
 id: image
 category: media-and-icons
 title: Image
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: The Image component is used to display images with support for fallback.
 ---
 
@@ -13,12 +13,12 @@ Use the `Image` component to display images with support for fallback.
 ## Import
 
 ```js
-import { Image } from '@redesignhealth/ui'
+import { Image } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-media-icons-image--basic&viewMode=story" height="400px" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-media-icons-image--basic&viewMode=story" height="400px" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 
@@ -90,7 +90,7 @@ You can also opt out of this behavior by passing the `ignoreFallback` prop.
 ## Usage with SSR
 
 ```js
-import { Img } from '@redesignhealth/ui'
+import { Img } from '@acmehealth/ui'
 ```
 
 The `Img` Component provides a fallback for SSR applications which uses the

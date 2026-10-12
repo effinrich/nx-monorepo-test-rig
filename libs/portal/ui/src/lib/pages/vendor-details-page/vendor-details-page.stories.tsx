@@ -1,5 +1,5 @@
-import { mockVendor } from '@redesignhealth/portal/data-assets'
-import { getVendorCategories } from '@redesignhealth/portal/data-assets'
+import { mockVendor } from '@acmehealth/portal/data-assets'
+import { getVendorCategories } from '@acmehealth/portal/data-assets'
 import { withRouter } from 'storybook-addon-react-router-v6'
 
 import type { Meta } from '@storybook/react-vite'

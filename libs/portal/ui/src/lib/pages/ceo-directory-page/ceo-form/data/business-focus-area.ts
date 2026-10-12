@@ -1,4 +1,4 @@
-import { ReactSelectOption } from '@redesignhealth/portal/data-assets'
+import { ReactSelectOption } from '@acmehealth/portal/data-assets'
 
 export const businessFocusArea: ReactSelectOption[] = [
   { value: 'APM_INCENTIVES_DESIGN', displayName: 'APM Incentives Design' },

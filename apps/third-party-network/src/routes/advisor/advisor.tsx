@@ -3,8 +3,8 @@ import { useTitle } from 'react-use'
 import {
   AdvisorDetails,
   useAdvisorQuery
-} from '@redesignhealth/third-party-network/features/advisors'
-import { Box, Button } from '@redesignhealth/ui'
+} from '@acmehealth/third-party-network/features/advisors'
+import { Box, Button } from '@acmehealth/ui'
 
 export const Advisor = () => {
   const { advisorId = '' } = useParams()

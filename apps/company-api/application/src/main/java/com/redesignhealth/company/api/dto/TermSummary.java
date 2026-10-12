@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.client.search.entity.Term;
+import com.acmehealth.company.api.client.search.entity.Term;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

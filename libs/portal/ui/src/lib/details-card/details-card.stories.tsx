@@ -1,5 +1,5 @@
 import { MdAlternateEmail } from 'react-icons/md'
-import { Button, Tab, TabList, TabsRoot, Text } from '@redesignhealth/ui'
+import { Button, Tab, TabList, TabsRoot, Text } from '@acmehealth/ui'
 import { withRouter } from 'storybook-addon-react-router-v6'
 
 import type { Meta } from '@storybook/react-vite'

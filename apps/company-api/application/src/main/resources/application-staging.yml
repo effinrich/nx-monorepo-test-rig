@@ -24,11 +24,11 @@ aws:
   s3:
     assets:
       bucket: rh-staging-company-api-assets
-      url: https://company-api-assets.staging.redesignhealth.com
+      url: https://company-api-assets.staging.acmehealth.com
 
 jira:
   enabled: true
-  username: jiraplatformservice@redesignhealth.com
+  username: jiraplatformservice@acmehealth.com
   request:
     user:
       project: 10106 # DP (DevOps Platform)
@@ -40,9 +40,9 @@ search:
 
 notification:
   portal:
-    hostname: https://platform.staging.redesignhealth.com
+    hostname: https://platform.staging.acmehealth.com
   advise:
-    hostname: https://third-party-network.staging.redesignhealth.com
+    hostname: https://third-party-network.staging.acmehealth.com
 
 google-drive-lambda:
   hostname: https://2b636bbrcpkei4zp7tbq32hede0obyyq.lambda-url.us-east-1.on.aws/
@@ -50,5 +50,5 @@ mkdocs-lambda:
   hostname: https://2b636bbrcpkei4zp7tbq32hede0obyyq.lambda-url.us-east-1.on.aws/
 
 prometheus-service:
-  instance: company-api.staging.redesignhealth.com:80
+  instance: company-api.staging.acmehealth.com:80
 

@@ -1,5 +1,5 @@
 import { MdLock, MdWarning } from 'react-icons/md'
-import { Button, HStack, Link, Text } from '@redesignhealth/ui'
+import { Button, HStack, Link, Text } from '@acmehealth/ui'
 
 import type { Meta } from '@storybook/react-vite'
 
@@ -23,8 +23,8 @@ export const CEOProfileDetails = {
     children: (
       <Text>
         The ability to customize your own profile is coming soon! Please contact{' '}
-        <Link href="mailto:platform-support@redesignhealth.com" color="inherit">
-          platform-support@redesignhealth.com
+        <Link href="mailto:platform-support@acmehealth.com" color="inherit">
+          platform-support@acmehealth.com
         </Link>{' '}
         to make edits to your profile.
       </Text>

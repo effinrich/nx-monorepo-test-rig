@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@redesignhealth/ui'
+import { Box, BoxProps } from '@acmehealth/ui'
 
 export interface PageProps extends BoxProps {
   children: React.ReactNode

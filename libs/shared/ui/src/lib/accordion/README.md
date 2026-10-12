@@ -2,7 +2,7 @@
 id: accordion
 title: Accordion
 category: 'disclosure'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Accordions display a list of high-level options that can expand/collapse to
   reveal more information.

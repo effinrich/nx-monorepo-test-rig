@@ -4,8 +4,8 @@ import { Button, Flex, Image, Stack, Text } from '@chakra-ui/react'
 import { ErrorCode, useGoogleLogin } from '@react-oauth/google'
 
 import BackgroundImage from '../../assets/background.jpeg'
-import RedesignHealthPrism from '../../assets/redesign-health-prism.svg'
-import RedesignHealthText from '../../assets/redesign-health-text.svg'
+import RedesignHealthPrism from '../../assets/acme-health-prism.svg'
+import RedesignHealthText from '../../assets/acme-health-text.svg'
 import api from '../../utils/api'
 import { getAccessToken, setTokens } from '../../utils/auth'
 

@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.exception;
+package com.acmehealth.company.api.exception;
 
-import com.redesignhealth.company.api.entity.FormDefinition;
-import com.redesignhealth.company.api.exception.status.BadRequestException;
+import com.acmehealth.company.api.entity.FormDefinition;
+import com.acmehealth.company.api.exception.status.BadRequestException;
 import java.util.Set;
 
 public class RequiredFormsMissingException extends BadRequestException {

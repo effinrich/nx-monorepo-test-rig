@@ -2,14 +2,14 @@
 id: center
 category: layout
 title: Center
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Center is a layout component that centers its child within itself.
 ---
 
 ## Import
 
 ```js
-import { Center, Square, Circle } from '@redesignhealth/ui'
+import { Center, Square, Circle } from '@acmehealth/ui'
 ```
 
 - **Center:** centers its child given `width` and `height`

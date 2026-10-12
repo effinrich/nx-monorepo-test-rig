@@ -1,7 +1,7 @@
 import { MouseEventHandler } from 'react'
 import { MdInbox } from 'react-icons/md'
-import { useGetIPs, UserInfoSummary } from '@redesignhealth/portal/data-assets'
-import { Circle } from '@redesignhealth/ui'
+import { useGetIPs, UserInfoSummary } from '@acmehealth/portal/data-assets'
+import { Circle } from '@acmehealth/ui'
 
 import { NavButton } from '../nav-button'
 

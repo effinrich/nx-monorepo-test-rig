@@ -1,12 +1,12 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 
-import com.redesignhealth.company.api.controller.ConsentController;
-import com.redesignhealth.company.api.controller.PersonController;
-import com.redesignhealth.company.api.dto.ConsentSummary;
-import com.redesignhealth.company.api.entity.Consent;
-import com.redesignhealth.company.api.entity.Person;
+import com.acmehealth.company.api.controller.ConsentController;
+import com.acmehealth.company.api.controller.PersonController;
+import com.acmehealth.company.api.dto.ConsentSummary;
+import com.acmehealth.company.api.entity.Consent;
+import com.acmehealth.company.api.entity.Person;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 

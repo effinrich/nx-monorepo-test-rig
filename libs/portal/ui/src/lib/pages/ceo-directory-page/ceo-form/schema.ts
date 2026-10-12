@@ -1,5 +1,5 @@
 import { yupResolver } from '@hookform/resolvers/yup'
-import { FORM_ERROR_MESSAGES } from '@redesignhealth/portal/utils'
+import { FORM_ERROR_MESSAGES } from '@acmehealth/portal/utils'
 import * as yup from 'yup'
 
 const { REQUIRED, INVALID_URL } = FORM_ERROR_MESSAGES

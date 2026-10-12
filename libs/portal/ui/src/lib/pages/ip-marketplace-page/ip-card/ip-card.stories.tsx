@@ -1,5 +1,5 @@
 import { Link as RouterLink } from 'react-router-dom'
-import { Button } from '@redesignhealth/ui'
+import { Button } from '@acmehealth/ui'
 import { withRouter } from 'storybook-addon-react-router-v6'
 
 import type { Meta } from '@storybook/react-vite'
@@ -64,7 +64,7 @@ export const BuyerView = {
           givenName: 'Sazh',
           familyName: 'Katzroy',
           companyName: 'Avalanche',
-          email: 'sazh.katzroy@redesignhealth.com'
+          email: 'sazh.katzroy@acmehealth.com'
         }}
         releasedDate="2023-11-02T15:12:59.605Z"
       />
@@ -86,7 +86,7 @@ export const IpListingRequestReleasedView = {
           givenName: 'Sazh',
           familyName: 'Katzroy',
           companyName: 'Avalanche',
-          email: 'sazh.katzroy@redesignhealth.com'
+          email: 'sazh.katzroy@acmehealth.com'
         }}
         releasedDate="2023-11-02T15:12:59.605Z"
       />

@@ -2,7 +2,7 @@ import {
   CompanyMemberRole,
   TabConfig,
   useSetActiveTab
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 
 /**
  * Handle routing to the first tab if none are selected

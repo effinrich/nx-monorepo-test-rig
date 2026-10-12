@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.ref.Ref;
-import com.redesignhealth.company.api.exception.UnsupportedExpansionException;
-import com.redesignhealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.entity.ref.Ref;
+import com.acmehealth.company.api.exception.UnsupportedExpansionException;
+import com.acmehealth.company.api.expansion.Expansion;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.NoResultException;
 import jakarta.persistence.PersistenceContext;

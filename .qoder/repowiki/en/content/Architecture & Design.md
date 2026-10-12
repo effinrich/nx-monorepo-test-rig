@@ -53,17 +53,17 @@ APIServer["API Server<br/>Express + tsx"]
 CompanyAPI["Company API<br/>Spring Boot (multi-module)"]
 end
 subgraph "Shared Libraries"
-SharedUI["@redesignhealth/ui<br/>Chakra UI v3"]
-SharedAnalytics["@redesignhealth/analytics"]
-SharedHooks["@redesignhealth/hooks"]
-SharedUtils["@redesignhealth/shared-utils"]
-PortalFeatures["@redesignhealth/portal/features/*"]
-PortalUI["@redesignhealth/portal/ui"]
-PortalUtils["@redesignhealth/portal/utils"]
-TPNFeatures["@redesignhealth/third-party-network/features/*"]
-TPNUi["@redesignhealth/third-party-network/ui"]
-TPNUtils["@redesignhealth/third-party-network/utils"]
-CompanyApiTypes["@redesignhealth/company-api-types"]
+SharedUI["@acmehealth/ui<br/>Chakra UI v3"]
+SharedAnalytics["@acmehealth/analytics"]
+SharedHooks["@acmehealth/hooks"]
+SharedUtils["@acmehealth/shared-utils"]
+PortalFeatures["@acmehealth/portal/features/*"]
+PortalUI["@acmehealth/portal/ui"]
+PortalUtils["@acmehealth/portal/utils"]
+TPNFeatures["@acmehealth/third-party-network/features/*"]
+TPNUi["@acmehealth/third-party-network/ui"]
+TPNUtils["@acmehealth/third-party-network/utils"]
+CompanyApiTypes["@acmehealth/company-api-types"]
 end
 Portal --> SharedUI
 Portal --> SharedAnalytics
@@ -227,7 +227,7 @@ CompanyAPI --> CockroachDB : "uses"
 - [apps/company-api/doc/architecture/decisions/0005-orm.md:1-31](file://apps/company-api/doc/architecture/decisions/0005-orm.md#L1-L31)
 - [apps/company-api/doc/architecture/decisions/0007-multi-module-project.md:1-21](file://apps/company-api/doc/architecture/decisions/0007-multi-module-project.md#L1-L21)
 
-### Shared UI Library (@redesignhealth/ui)
+### Shared UI Library (@acmehealth/ui)
 The shared UI library exports a comprehensive set of Chakra UI v3 components and hooks. It enables consistent theming and component composition across applications.
 
 ```mermaid
@@ -333,7 +333,7 @@ end
 subgraph "Portal"
 Router["Router"]
 Queries["React Query"]
-UI["@redesignhealth/ui"]
+UI["@acmehealth/ui"]
 end
 subgraph "Backend"
 APIServer["API Server (Express)"]

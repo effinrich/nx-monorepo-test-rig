@@ -1,5 +1,5 @@
-import { formatDate } from '@redesignhealth/portal/utils'
-import { Text } from '@redesignhealth/ui'
+import { formatDate } from '@acmehealth/portal/utils'
+import { Text } from '@acmehealth/ui'
 
 interface DetailsOfRequestReleaseViewProps {
   dateRequest: string

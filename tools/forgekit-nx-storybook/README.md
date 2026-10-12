@@ -188,7 +188,7 @@ npx nx run shared-ui:watch-stories
 | Feature | Detection | Effect |
 |---|---|---|
 | **React Router** | Imports from `react-router-dom` / `react-router` | Adds `withRouter` decorator |
-| **Chakra UI** | Imports from `@chakra-ui/react` / `@redesignhealth/ui` | Flagged in report |
+| **Chakra UI** | Imports from `@chakra-ui/react` / `@acmehealth/ui` | Flagged in report |
 | **React Query** | Imports from `@tanstack/react-query` | Flagged in report |
 | **Union props** | `'a' \| 'b' \| 'c'` type literals | `select` control + variant stories + screenshot tests |
 | **Callback props** | `on*` naming or arrow function types | `action` argType + interaction tests |

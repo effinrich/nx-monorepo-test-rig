@@ -1,12 +1,12 @@
 import { Fragment } from 'react'
 import { useNavigate } from 'react-router-dom'
-import analytics from '@redesignhealth/analytics'
+import analytics from '@acmehealth/analytics'
 import {
   type LibraryDoc,
   CategoryGrouping,
   getSolutionById
-} from '@redesignhealth/portal/data-assets'
-import { Box, Heading, SimpleGrid } from '@redesignhealth/ui'
+} from '@acmehealth/portal/data-assets'
+import { Box, Heading, SimpleGrid } from '@acmehealth/ui'
 
 import { NoSearchResults } from '../../no-search-results/no-search-results'
 

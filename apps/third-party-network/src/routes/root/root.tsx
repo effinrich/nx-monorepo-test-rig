@@ -1,6 +1,6 @@
 import { useTitle } from 'react-use'
-import { AdvisorList } from '@redesignhealth/third-party-network/features/advisors'
-import { Box, Button, Flex, Text } from '@redesignhealth/ui'
+import { AdvisorList } from '@acmehealth/third-party-network/features/advisors'
+import { Box, Button, Flex, Text } from '@acmehealth/ui'
 
 export const Home = () => {
   useTitle('RH Advise | Home')

@@ -1,8 +1,8 @@
 import { MdEdit, MdEmail, MdLocationPin, MdVisibilityOff } from 'react-icons/md'
 import { Link as RouterLink } from 'react-router-dom'
-import { RoleAuthorityEnum } from '@redesignhealth/portal/data-assets'
-import { HasRole } from '@redesignhealth/portal/utils'
-import { hasRoleMatch } from '@redesignhealth/portal/utils'
+import { RoleAuthorityEnum } from '@acmehealth/portal/data-assets'
+import { HasRole } from '@acmehealth/portal/utils'
+import { hasRoleMatch } from '@acmehealth/portal/utils'
 import {
   AvatarRoot,
   AvatarImage,
@@ -15,7 +15,7 @@ import {
   Stack,
   Text,
   Tooltip
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import DetailsCardHeader from '../../../details-card/details-card-header'
 

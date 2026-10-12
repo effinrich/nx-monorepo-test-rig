@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from '@redesignhealth/shared-utils-jest'
+import { fireEvent, render, screen } from '@acmehealth/shared-utils-jest'
 
 import AddCompanyButton from './add-company-button'
 

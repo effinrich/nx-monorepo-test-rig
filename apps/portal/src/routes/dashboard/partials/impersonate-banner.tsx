@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
-import { BannerAlert } from '@redesignhealth/portal/ui'
-import { unsetImpersonatedEmail } from '@redesignhealth/portal/utils'
-import { Button, Text } from '@redesignhealth/ui'
+import { BannerAlert } from '@acmehealth/portal/ui'
+import { unsetImpersonatedEmail } from '@acmehealth/portal/utils'
+import { Button, Text } from '@acmehealth/ui'
 
 interface ImpersonateBannerProps {
   userInfo: {

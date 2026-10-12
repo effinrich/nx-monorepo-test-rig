@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
 public class CreatedIssue {
 

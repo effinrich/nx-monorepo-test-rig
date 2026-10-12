@@ -3,8 +3,8 @@ import styled from '@emotion/styled'
 import {
   useAcceptConsent,
   useGetTermsHtml
-} from '@redesignhealth/portal/data-assets'
-import { logout } from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/data-assets'
+import { logout } from '@acmehealth/portal/utils'
 import {
   Button,
   Modal,
@@ -13,7 +13,7 @@ import {
   ModalFooter,
   ModalHeader,
   ModalOverlay
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import parse from 'html-react-parser'
 
 const StyledTerms = styled.div`

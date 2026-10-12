@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.dto.command.vendor;
+package com.acmehealth.company.api.dto.command.vendor;
 
-import com.redesignhealth.company.api.dto.PersonReducedInfo;
-import com.redesignhealth.company.api.dto.SerializableEnum;
-import com.redesignhealth.company.api.entity.Subcategory;
-import com.redesignhealth.company.api.entity.vendor.CompanyVendor;
+import com.acmehealth.company.api.dto.PersonReducedInfo;
+import com.acmehealth.company.api.dto.SerializableEnum;
+import com.acmehealth.company.api.entity.Subcategory;
+import com.acmehealth.company.api.entity.vendor.CompanyVendor;
 import java.time.Instant;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;

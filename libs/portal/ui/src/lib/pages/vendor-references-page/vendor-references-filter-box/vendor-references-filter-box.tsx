@@ -1,10 +1,10 @@
 import { Controller, useFormContext } from 'react-hook-form'
-import analytics from '@redesignhealth/analytics'
+import analytics from '@acmehealth/analytics'
 import {
   type VendorsProps,
   Option,
   useGetCategoriesFilters
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 
 import { Filter, FilterBox, Filters, Search } from '../../../filter-box'
 

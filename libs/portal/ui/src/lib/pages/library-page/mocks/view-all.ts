@@ -1,4 +1,4 @@
-import { CategoryGrouping } from '@redesignhealth/portal/data-assets'
+import { CategoryGrouping } from '@acmehealth/portal/data-assets'
 
 export const viewAll: CategoryGrouping[] = [
   {

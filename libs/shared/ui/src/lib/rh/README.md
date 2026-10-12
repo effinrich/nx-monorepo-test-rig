@@ -3,7 +3,7 @@
 ---
 
 - title: 'Redesign UI Factory'
-- package: '@redesignhealth/ui'
+- package: '@acmehealth/ui'
 - description: Using the Redesign UI Factory and elements
 - category: 'features'
 
@@ -14,7 +14,7 @@ Redesign UI Factory serves as an **object of rh enabled JSX elements**, and also
 style props.
 
 ```bash
-import { rh } from "@redesignhealth/ui"
+import { rh } from "@acmehealth/ui"
 ```
 
 ## Redesign JSX Elements
@@ -56,7 +56,7 @@ The function will infer the prop types from the wrapped component and also add
 rh style props.
 
 ```jsx
-import { rh } from '@redesignhealth/ui'
+import { rh } from '@acmehealth/ui'
 import Textarea from 'react-input-autoresize'
 
 const AutoResizeInput = rh(Textarea)
@@ -114,7 +114,7 @@ Another example that combines the default `shouldForwardProp` from Redesign UI
 with custom logic.
 
 ```jsx
-import { rh, shouldForwardProp } from '@redesignhealth/ui'
+import { rh, shouldForwardProp } from '@acmehealth/ui'
 
 const Div = rh('div', {
   shouldForwardProp: prop => {
@@ -134,7 +134,7 @@ package.
 
 ```jsx
 import isValidHTMLProp from '@emotion/is-prop-valid'
-import { rh, shouldForwardProp } from '@redesignhealth/ui'
+import { rh, shouldForwardProp } from '@acmehealth/ui'
 
 const Div = rh('div', {
   shouldForwardProp: prop => {

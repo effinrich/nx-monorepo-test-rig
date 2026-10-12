@@ -291,8 +291,8 @@ Main --> GAuth["GoogleOAuthProvider"]
 App["app.tsx"] --> Router["RouterProvider"]
 Hooks["Domain Hooks"] --> RQ["@tanstack/react-query"]
 Hooks --> API["api.ts (Axios)"]
-API --> Utils["@redesignhealth/portal/utils"]
-API --> Shared["@redesignhealth/shared-utils"]
+API --> Utils["@acmehealth/portal/utils"]
+API --> Shared["@acmehealth/shared-utils"]
 ```
 
 **Diagram sources**

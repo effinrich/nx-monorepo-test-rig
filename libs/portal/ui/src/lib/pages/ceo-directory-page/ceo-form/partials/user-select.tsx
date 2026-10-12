@@ -1,5 +1,5 @@
-import { Option, useGetUsersByRole } from '@redesignhealth/portal/data-assets'
-import { printPersonName } from '@redesignhealth/portal/utils'
+import { Option, useGetUsersByRole } from '@acmehealth/portal/data-assets'
+import { printPersonName } from '@acmehealth/portal/utils'
 import { Select } from 'chakra-react-select'
 
 interface UserSelectProps {

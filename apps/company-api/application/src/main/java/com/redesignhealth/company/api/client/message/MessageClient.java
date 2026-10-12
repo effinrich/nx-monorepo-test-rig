@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.message;
+package com.acmehealth.company.api.client.message;
 
 import java.util.List;
 

@@ -1,18 +1,18 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
 import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.http.HttpStatus.NO_CONTENT;
 
-import com.redesignhealth.company.api.assembler.LibraryContentAssembler;
-import com.redesignhealth.company.api.controller.util.Paths;
-import com.redesignhealth.company.api.dto.LibraryContentSummary;
-import com.redesignhealth.company.api.dto.command.ContentCommand;
-import com.redesignhealth.company.api.dto.command.LibraryFeedbackCommand;
-import com.redesignhealth.company.api.entity.library.LibraryContent;
-import com.redesignhealth.company.api.entity.ref.ContentRef;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.LibraryContentService;
+import com.acmehealth.company.api.assembler.LibraryContentAssembler;
+import com.acmehealth.company.api.controller.util.Paths;
+import com.acmehealth.company.api.dto.LibraryContentSummary;
+import com.acmehealth.company.api.dto.command.ContentCommand;
+import com.acmehealth.company.api.dto.command.LibraryFeedbackCommand;
+import com.acmehealth.company.api.entity.library.LibraryContent;
+import com.acmehealth.company.api.entity.ref.ContentRef;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.LibraryContentService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import java.util.List;

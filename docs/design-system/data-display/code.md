@@ -2,7 +2,7 @@
 id: code
 title: Code
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Code is a component used to display inline code. It is composed from the Box
   component with a font family of `mono` for displaying code.
@@ -14,12 +14,12 @@ Use the `Code` component to display inline code. It is composed from the Box com
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-code--default&viewMode=story"  height=60px width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-data-display-code--default&viewMode=story"  height=60px width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Import
 
 ```js
-import { Code } from '@redesignhealth/ui'
+import { Code } from '@acmehealth/ui'
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ prop.
 ```jsx
 <Stack direction="row">
   <Code children="console.log(welcome)" />
-  <Code colorScheme="red" children="var redesign = 'awesome!'" />
-  <Code colorScheme="yellow" children="npm install redesign" />
+  <Code colorScheme="red" children="var acme = 'awesome!'" />
+  <Code colorScheme="yellow" children="npm install acme" />
 </Stack>
 ```

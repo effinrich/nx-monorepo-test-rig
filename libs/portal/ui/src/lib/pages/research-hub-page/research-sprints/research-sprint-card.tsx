@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { MdLock, MdOpenInNew } from 'react-icons/md'
-import { ResearchSprintCardProps } from '@redesignhealth/portal/data-assets'
-import { formatDate } from '@redesignhealth/portal/utils'
+import { ResearchSprintCardProps } from '@acmehealth/portal/data-assets'
+import { formatDate } from '@acmehealth/portal/utils'
 import {
   AlertRoot,
   AlertIcon,
@@ -11,7 +11,7 @@ import {
   Button,
   Flex,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { ListCard } from '../../../list-card/list-card'
 import SelectedExcerptsRow from '../../../selected-excerpts-row/selected-excerpts-row'

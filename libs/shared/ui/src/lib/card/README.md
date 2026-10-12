@@ -2,7 +2,7 @@
 id: card
 category: 'data-display'
 title: Card
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   Card is a flexible component used to group and display content in a clear and
   concise format.
@@ -15,7 +15,7 @@ description:
 Redesign UI exports 4 components to help you create a Card.
 
 ```js
-import { Card, CardHeader, CardBody, CardFooter } from '@redesignhealth/ui'
+import { Card, CardHeader, CardBody, CardFooter } from '@acmehealth/ui'
 ```
 
 - **Card:** The parent wrapper that provides context for its children.

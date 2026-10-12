@@ -13018,7 +13018,7 @@
         "properties": {
           "email": {
             "type": "string",
-            "example": "sazh.katzroy@redesignhealth.com"
+            "example": "sazh.katzroy@acmehealth.com"
           },
           "givenName": {
             "type": "string",
@@ -13252,7 +13252,7 @@
         "properties": {
           "email": {
             "type": "string",
-            "example": "sazh.katzroy@redesignhealth.com"
+            "example": "sazh.katzroy@acmehealth.com"
           },
           "givenName": {
             "type": "string",
@@ -14127,7 +14127,7 @@
         "properties": {
           "email": {
             "type": "string",
-            "example": "sazh.katzroy@redesignhealth.com"
+            "example": "sazh.katzroy@acmehealth.com"
           },
           "givenName": {
             "type": "string",
@@ -14148,7 +14148,7 @@
         "properties": {
           "email": {
             "type": "string",
-            "example": "sazh.katzroy@redesignhealth.com"
+            "example": "sazh.katzroy@acmehealth.com"
           },
           "givenName": {
             "type": "string",
@@ -14466,7 +14466,7 @@
         "properties": {
           "email": {
             "type": "string",
-            "example": "sazh.katzroy@redesignhealth.com"
+            "example": "sazh.katzroy@acmehealth.com"
           },
           "givenName": {
             "type": "string",
@@ -14750,7 +14750,7 @@
         "properties": {
           "email": {
             "type": "string",
-            "example": "sazh.katzroy@redesignhealth.com"
+            "example": "sazh.katzroy@acmehealth.com"
           },
           "givenName": {
             "type": "string",
@@ -15034,10 +15034,10 @@
           },
           "authors": {
             "type": "array",
-            "example": ["terra.branford@redesignhealth.com"],
+            "example": ["terra.branford@acmehealth.com"],
             "items": {
               "type": "string",
-              "example": "[\"terra.branford@redesignhealth.com\"]"
+              "example": "[\"terra.branford@acmehealth.com\"]"
             }
           },
           "companyId": {
@@ -15344,7 +15344,7 @@
           },
           "email": {
             "type": "string",
-            "example": "brett.shaheen@redesignhealth.com"
+            "example": "brett.shaheen@acmehealth.com"
           }
         }
       },
@@ -15353,7 +15353,7 @@
         "properties": {
           "email": {
             "type": "string",
-            "example": "sazh.katzroy@redesignhealth.com"
+            "example": "sazh.katzroy@acmehealth.com"
           },
           "familyName": {
             "type": "string",
@@ -15400,7 +15400,7 @@
           },
           "email": {
             "type": "string",
-            "example": "sazh.katzroy@redesignhealth.com"
+            "example": "sazh.katzroy@acmehealth.com"
           },
           "jiraIssueId": {
             "type": "string",
@@ -15855,7 +15855,7 @@
           },
           "noteTaker": {
             "type": "string",
-            "example": "test@redesignhealth.com"
+            "example": "test@acmehealth.com"
           },
           "created": {
             "type": "string",
@@ -16147,7 +16147,7 @@
           },
           "email": {
             "type": "string",
-            "example": "rh@redesignhealth.com"
+            "example": "rh@acmehealth.com"
           }
         }
       },
@@ -16192,7 +16192,7 @@
         "properties": {
           "name": {
             "type": "string",
-            "example": "com.redesignhealth.company.api.task.UpdateInfraStatusTask"
+            "example": "com.acmehealth.company.api.task.UpdateInfraStatusTask"
           }
         }
       },
@@ -16288,7 +16288,7 @@
         "properties": {
           "email": {
             "type": "string",
-            "example": "sazh.katzroy@redesignhealth.com"
+            "example": "sazh.katzroy@acmehealth.com"
           },
           "givenName": {
             "type": "string",

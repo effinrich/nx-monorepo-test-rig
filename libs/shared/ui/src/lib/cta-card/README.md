@@ -2,7 +2,7 @@
 id: ctacard
 title: CtaCard
 category: 'data-display'
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: The `CtaCard` component is used to display a CTA and associated content to inform the user of each CTA's purpose.
 ---
 
@@ -11,7 +11,7 @@ description: The `CtaCard` component is used to display a CTA and associated con
 ## Import
 
 ```js
-import { CtaCard } from '@redesignhealth/ui'
+import { CtaCard } from '@acmehealth/ui'
 ```
 
 ### Basic Usage

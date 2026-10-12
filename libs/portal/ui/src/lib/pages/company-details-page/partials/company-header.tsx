@@ -1,7 +1,7 @@
 import { MdEdit } from 'react-icons/md'
 import { Link as RouterLink } from 'react-router-dom'
-import { useGetUserInfo } from '@redesignhealth/portal/data-assets'
-import { HasRole } from '@redesignhealth/portal/utils'
+import { useGetUserInfo } from '@acmehealth/portal/data-assets'
+import { HasRole } from '@acmehealth/portal/utils'
 import {
   Badge,
   Box,
@@ -10,7 +10,7 @@ import {
   IconButton,
   Loader,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 interface CompanyHeaderProps {
   companyId: string
   companyName: string

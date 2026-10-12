@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.ResearchArticle;
+import com.acmehealth.company.api.entity.ResearchArticle;
 import org.springframework.data.repository.CrudRepository;
 
 public interface ResearchArticleRepository

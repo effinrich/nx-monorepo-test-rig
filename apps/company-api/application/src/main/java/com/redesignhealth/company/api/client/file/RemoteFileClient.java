@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.file;
+package com.acmehealth.company.api.client.file;
 
 import org.springframework.util.MimeType;
 

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
-import analytics from '@redesignhealth/analytics'
-import { useLibraryStore } from '@redesignhealth/portal/data-assets'
-import { Button } from '@redesignhealth/ui'
+import analytics from '@acmehealth/analytics'
+import { useLibraryStore } from '@acmehealth/portal/data-assets'
+import { Button } from '@acmehealth/ui'
 
 import { DisclaimerModal, DisclaimerText } from '../../../disclaimer'
 import { FilterBox, Filters, Search } from '../../../filter-box'

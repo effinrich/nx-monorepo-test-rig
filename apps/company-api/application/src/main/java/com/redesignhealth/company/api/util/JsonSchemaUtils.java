@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.util;
+package com.acmehealth.company.api.util;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.networknt.schema.JsonSchema;
 import com.networknt.schema.JsonSchemaFactory;
 import com.networknt.schema.SpecVersion;
 import com.networknt.schema.ValidationMessage;
-import com.redesignhealth.company.api.exception.dto.FieldErrorDetails;
+import com.acmehealth.company.api.exception.dto.FieldErrorDetails;
 import java.net.URI;
 import java.util.Set;
 

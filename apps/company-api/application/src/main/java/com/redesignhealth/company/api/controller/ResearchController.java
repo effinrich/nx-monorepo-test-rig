@@ -1,20 +1,20 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.controller.util.Paths.RESEARCH_ID;
+import static com.acmehealth.company.api.controller.util.Paths.RESEARCH_ID;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.http.HttpStatus.NO_CONTENT;
 
-import com.redesignhealth.company.api.assembler.ResearchAssembler;
-import com.redesignhealth.company.api.dto.FilterOptionsSummary;
-import com.redesignhealth.company.api.dto.ResearchSummary;
-import com.redesignhealth.company.api.dto.command.ResearchCommand;
-import com.redesignhealth.company.api.entity.ref.ResearchRef;
-import com.redesignhealth.company.api.entity.research.Research;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.ResearchService;
+import com.acmehealth.company.api.assembler.ResearchAssembler;
+import com.acmehealth.company.api.dto.FilterOptionsSummary;
+import com.acmehealth.company.api.dto.ResearchSummary;
+import com.acmehealth.company.api.dto.command.ResearchCommand;
+import com.acmehealth.company.api.entity.ref.ResearchRef;
+import com.acmehealth.company.api.entity.research.Research;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.ResearchService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import java.util.List;

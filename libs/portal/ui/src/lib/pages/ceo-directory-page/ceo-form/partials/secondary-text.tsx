@@ -1,5 +1,5 @@
 import { ElementType } from 'react'
-import { Flex, Icon, Text } from '@redesignhealth/ui'
+import { Flex, Icon, Text } from '@acmehealth/ui'
 
 interface SecondaryTextProps {
   children: React.ReactNode

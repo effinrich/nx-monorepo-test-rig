@@ -3,7 +3,7 @@ import {
   InfraRequestSummary,
   RequestFormCommandStatusEnum,
   RequestFormSummary
-} from '@redesignhealth/company-api-types'
+} from '@acmehealth/company-api-types'
 
 export const getIsFormSubmissionPending = (
   privacyFormStatus: RequestFormSummary['status']['value'],

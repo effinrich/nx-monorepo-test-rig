@@ -1,11 +1,11 @@
-package com.redesignhealth.company.api.client.search.entity;
+package com.acmehealth.company.api.client.search.entity;
 
-import static com.redesignhealth.company.api.taxonomy.TaxonomyTerm.LEAF_NODE_LEVEL;
+import static com.acmehealth.company.api.taxonomy.TaxonomyTerm.LEAF_NODE_LEVEL;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.redesignhealth.company.api.dto.LinkRef;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.ResearchArticle;
+import com.acmehealth.company.api.dto.LinkRef;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.ResearchArticle;
 import java.time.Instant;
 import java.util.List;
 import lombok.Builder;

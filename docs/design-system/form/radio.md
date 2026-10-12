@@ -2,7 +2,7 @@
 id: radio
 category: form
 title: Radio
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Radios are used when only one choice may be selected in a series of options.
 ---
 
@@ -13,12 +13,12 @@ Use the `Radio` component when only one choice can be selected in a series of op
 ## Import
 
 ```js
-import { Radio, RadioGroup } from '@redesignhealth/ui'
+import { Radio, RadioGroup } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-radio--group-with-stack&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-radio--group-with-stack&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.exception;
+package com.acmehealth.company.api.exception;
 
-import com.redesignhealth.company.api.exception.dto.FieldErrorDetails;
-import com.redesignhealth.company.api.exception.dto.FieldErrorType;
-import com.redesignhealth.company.api.exception.status.UnprocessableEntityException;
+import com.acmehealth.company.api.exception.dto.FieldErrorDetails;
+import com.acmehealth.company.api.exception.dto.FieldErrorType;
+import com.acmehealth.company.api.exception.status.UnprocessableEntityException;
 import java.util.Collection;
 
 public class InvalidFieldException extends UnprocessableEntityException {

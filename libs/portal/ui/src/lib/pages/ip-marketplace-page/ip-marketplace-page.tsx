@@ -1,17 +1,17 @@
 import { useEffect, useState } from 'react'
 import { Controller, FormProvider, useForm } from 'react-hook-form'
-import analytics from '@redesignhealth/analytics'
+import analytics from '@acmehealth/analytics'
 import {
   IP_MARKETPLACE_DEFAULT_VALUES,
   IP_MARKETPLACE_SORT_OPTIONS,
   IPSearchValues,
   useGetIPs,
   useGetUserInfo
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   getCompanyMemberRole,
   selectTransformer
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 import {
   Box,
   CheckboxRoot,
@@ -21,7 +21,7 @@ import {
   SectionHeader,
   Text,
   VStack
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { Select } from 'chakra-react-select'
 
 import { NoSearchResults } from '../../no-search-results/no-search-results'

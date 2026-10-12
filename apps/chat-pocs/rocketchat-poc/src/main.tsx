@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { GoogleOAuthProvider } from '@react-oauth/google'
 // import { GoogleOAuthProvider } from '@react-oauth/google'
-import { RhProvider, theme } from '@redesignhealth/ui'
+import { RhProvider, theme } from '@acmehealth/ui'
 
 import App from './app/app'
 const GOOGLE_CLIENT_ID =

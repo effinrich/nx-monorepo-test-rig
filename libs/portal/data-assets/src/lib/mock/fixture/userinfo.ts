@@ -6,7 +6,7 @@ import {
 } from './company'
 
 export const mockSuperAdminUser: UserInfoSummary = {
-  email: 'sazh.katzroy@redesignhealth.com',
+  email: 'sazh.katzroy@acmehealth.com',
   givenName: 'Sazh',
   familyName: 'Katzroy',
   role: {
@@ -24,7 +24,7 @@ export const mockSuperAdminUser: UserInfoSummary = {
 }
 
 export const mockAdminUser: UserInfoSummary = {
-  email: 'sazh.katzroy@redesignhealth.com',
+  email: 'sazh.katzroy@acmehealth.com',
   givenName: 'Sazh',
   familyName: 'Katzroy',
   role: {
@@ -42,7 +42,7 @@ export const mockAdminUser: UserInfoSummary = {
 }
 
 export const mockRhUser: UserInfoSummary = {
-  email: 'sazh.katzroy@redesignhealth.com',
+  email: 'sazh.katzroy@acmehealth.com',
   givenName: 'Sazh',
   familyName: 'Katzroy',
   role: {
@@ -60,7 +60,7 @@ export const mockRhUser: UserInfoSummary = {
 }
 
 export const mockCompanyUser: UserInfoSummary = {
-  email: 'sazh.katzroy@redesignhealth.com',
+  email: 'sazh.katzroy@acmehealth.com',
   givenName: 'Sazh',
   familyName: 'Katzroy',
   role: {
@@ -78,7 +78,7 @@ export const mockCompanyUser: UserInfoSummary = {
 }
 
 export const mockCEOCompanyUser: UserInfoSummary = {
-  email: 'sazh.katzroy@redesignhealth.com',
+  email: 'sazh.katzroy@acmehealth.com',
   givenName: 'Sazh',
   familyName: 'Katzroy',
   role: {
@@ -96,7 +96,7 @@ export const mockCEOCompanyUser: UserInfoSummary = {
 }
 
 export const mockEnterpriseBuyerUser: UserInfoSummary = {
-  email: 'sazh.katzroy@redesignhealth.com',
+  email: 'sazh.katzroy@acmehealth.com',
   givenName: 'Sazh',
   familyName: 'Katzroy',
   role: {
@@ -114,7 +114,7 @@ export const mockEnterpriseBuyerUser: UserInfoSummary = {
 }
 
 export const mockEnterpriseSellerUser: UserInfoSummary = {
-  email: 'sazh.katzroy@redesignhealth.com',
+  email: 'sazh.katzroy@acmehealth.com',
   givenName: 'Sazh',
   familyName: 'Katzroy',
   role: {
@@ -132,7 +132,7 @@ export const mockEnterpriseSellerUser: UserInfoSummary = {
 }
 
 export const mockInvalidEnterpriseBuyerAndSellerUser: UserInfoSummary = {
-  email: 'sazh.katzroy@redesignhealth.com',
+  email: 'sazh.katzroy@acmehealth.com',
   givenName: 'Sazh',
   familyName: 'Katzroy',
   role: {

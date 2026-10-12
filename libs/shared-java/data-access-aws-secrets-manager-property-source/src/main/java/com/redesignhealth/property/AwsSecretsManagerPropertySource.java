@@ -1,4 +1,4 @@
-package com.redesignhealth.property;
+package com.acmehealth.property;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

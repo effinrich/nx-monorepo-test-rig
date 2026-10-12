@@ -13,7 +13,7 @@ import {
   Divider,
   Heading,
   IconButton
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 // import { motion } from 'framer-motion'
 
 export interface ResultCardProps extends BoxProps {

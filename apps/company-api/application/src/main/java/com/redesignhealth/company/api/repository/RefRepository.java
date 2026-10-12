@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.ref.Ref;
+import com.acmehealth.company.api.entity.ref.Ref;
 
 public interface RefRepository {
 

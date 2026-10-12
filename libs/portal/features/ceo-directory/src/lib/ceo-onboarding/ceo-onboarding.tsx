@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet'
-import { CeoDirectoryOnboardingPage, Page } from '@redesignhealth/portal/ui'
+import { CeoDirectoryOnboardingPage, Page } from '@acmehealth/portal/ui'
 
 export const CeoOnboarding = () => {
   return (

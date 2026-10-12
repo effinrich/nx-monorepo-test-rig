@@ -2,7 +2,7 @@
 id: visually-hidden
 category: disclosure
 title: Visually Hidden
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: The visually hidden component styles itself so that it’s content is not visible,
 but it is available to assistive technologies like screen readers and other text
 to speech programs.
@@ -17,17 +17,17 @@ to speech programs.
 ## Installation
 
 ```sh
-yarn add @redesignhealth/ui
+yarn add @acmehealth/ui
 
 # or
 
-npm i @redesignhealth/ui
+npm i @acmehealth/ui
 ```
 
 ## Import component
 
 ````jsx
-import { VisuallyHidden } from '@redesignhealth/ui'
+import { VisuallyHidden } from '@acmehealth/ui'
 
 ## Basic usage
 

@@ -1,5 +1,5 @@
-import type { LibraryDoc } from '@redesignhealth/portal/data-assets'
-import { axiosApi } from '@redesignhealth/portal/data-assets'
+import type { LibraryDoc } from '@acmehealth/portal/data-assets'
+import { axiosApi } from '@acmehealth/portal/data-assets'
 
 export const getAllContent = async (
   libraryId: string,

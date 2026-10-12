@@ -2,7 +2,7 @@
 id: input
 category: form
 title: Input
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: Input component is a component that is used to get user input in a text field.
 video: 'https://youtu.be/4y86kDy3Z2E'
 ---
@@ -14,12 +14,12 @@ Use the `Input` component to get user input in a text field.
 ## Import
 
 ```js
-import { Input } from '@redesignhealth/ui'
+import { Input } from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-input--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=&id=components-forms-input--basic&viewMode=story" width="100%" style="border:1px solid black;"></iframe></div>
 
 ## Usage
 

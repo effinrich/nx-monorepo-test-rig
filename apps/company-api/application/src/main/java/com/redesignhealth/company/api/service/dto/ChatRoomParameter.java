@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.service.dto;
+package com.acmehealth.company.api.service.dto;
 
-import com.redesignhealth.company.api.entity.IpMarketplaceTrack;
+import com.acmehealth.company.api.entity.IpMarketplaceTrack;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

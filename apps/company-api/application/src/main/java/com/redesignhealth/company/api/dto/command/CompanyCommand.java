@@ -1,15 +1,15 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.redesignhealth.company.api.dto.enums.CompanyFundraiseStatus;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceOrganizationType;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceRegion;
-import com.redesignhealth.company.api.dto.enums.CompanyIPMarketplaceType;
-import com.redesignhealth.company.api.dto.enums.CompanyStage;
-import com.redesignhealth.company.api.dto.enums.CompanyStatus;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.entity.ref.TaxonomyRef;
+import com.acmehealth.company.api.dto.enums.CompanyFundraiseStatus;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceOrganizationType;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceRegion;
+import com.acmehealth.company.api.dto.enums.CompanyIPMarketplaceType;
+import com.acmehealth.company.api.dto.enums.CompanyStage;
+import com.acmehealth.company.api.dto.enums.CompanyStatus;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.entity.ref.TaxonomyRef;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import java.util.Optional;

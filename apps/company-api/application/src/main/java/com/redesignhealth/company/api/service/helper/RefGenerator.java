@@ -1,18 +1,18 @@
-package com.redesignhealth.company.api.service.helper;
+package com.acmehealth.company.api.service.helper;
 
-import com.redesignhealth.company.api.entity.id.ApiIdGenerator;
-import com.redesignhealth.company.api.entity.ref.CategoryRef;
-import com.redesignhealth.company.api.entity.ref.CeoRef;
-import com.redesignhealth.company.api.entity.ref.CompanyVendorRef;
-import com.redesignhealth.company.api.entity.ref.ExpertNoteRef;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceRef;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceTrackRef;
-import com.redesignhealth.company.api.entity.ref.Ref;
-import com.redesignhealth.company.api.entity.ref.ResearchArticleRef;
-import com.redesignhealth.company.api.entity.ref.ResearchRef;
-import com.redesignhealth.company.api.entity.ref.SubcategoryRef;
-import com.redesignhealth.company.api.entity.ref.VendorRef;
-import com.redesignhealth.company.api.repository.RefRepository;
+import com.acmehealth.company.api.entity.id.ApiIdGenerator;
+import com.acmehealth.company.api.entity.ref.CategoryRef;
+import com.acmehealth.company.api.entity.ref.CeoRef;
+import com.acmehealth.company.api.entity.ref.CompanyVendorRef;
+import com.acmehealth.company.api.entity.ref.ExpertNoteRef;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceRef;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceTrackRef;
+import com.acmehealth.company.api.entity.ref.Ref;
+import com.acmehealth.company.api.entity.ref.ResearchArticleRef;
+import com.acmehealth.company.api.entity.ref.ResearchRef;
+import com.acmehealth.company.api.entity.ref.SubcategoryRef;
+import com.acmehealth.company.api.entity.ref.VendorRef;
+import com.acmehealth.company.api.repository.RefRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

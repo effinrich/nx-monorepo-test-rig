@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.dto;
+package com.acmehealth.company.api.dto;
 
-import com.redesignhealth.company.api.dto.enums.CompanyVendorType;
-import com.redesignhealth.company.api.entity.vendor.Vendor;
+import com.acmehealth.company.api.dto.enums.CompanyVendorType;
+import com.acmehealth.company.api.entity.vendor.Vendor;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.time.Instant;
 import java.util.List;

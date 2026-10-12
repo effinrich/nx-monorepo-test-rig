@@ -13,14 +13,14 @@ import {
   MdWidgets
 } from 'react-icons/md'
 import { useLocation, useNavigate } from 'react-router-dom'
-import type { UserInfoSummary } from '@redesignhealth/portal/data-assets'
+import type { UserInfoSummary } from '@acmehealth/portal/data-assets'
 import {
   getCompanyMemberRole,
   HasRole,
   hasRoleMatch,
   logout,
   printPersonName
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 import {
   Avatar,
   Box,
@@ -31,7 +31,7 @@ import {
   RedesignLogo,
   Stack,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { useQueryClient } from '@tanstack/react-query'
 
 import MyRequestsNavButton from './partials/my-requests-nav-button'

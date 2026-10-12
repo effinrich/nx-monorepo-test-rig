@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import static com.redesignhealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
+import static com.acmehealth.company.api.entity.request.RoleAuthority.ROLE_RH_ADMIN;
 import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.doThrow;
@@ -12,17 +12,17 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.redesignhealth.company.api.entity.Category;
-import com.redesignhealth.company.api.entity.Subcategory;
-import com.redesignhealth.company.api.entity.ref.CategoryRef;
-import com.redesignhealth.company.api.entity.ref.SubcategoryRef;
-import com.redesignhealth.company.api.exception.CategoryNotFoundException;
-import com.redesignhealth.company.api.exception.SubcategoryNotFoundException;
-import com.redesignhealth.company.api.repository.SubcategoryRepository;
-import com.redesignhealth.company.api.scaffolding.CommonTestConfig;
-import com.redesignhealth.company.api.scaffolding.WithRedesignUser;
-import com.redesignhealth.company.api.service.CategoryService;
-import com.redesignhealth.company.api.service.SubcategoryService;
+import com.acmehealth.company.api.entity.Category;
+import com.acmehealth.company.api.entity.Subcategory;
+import com.acmehealth.company.api.entity.ref.CategoryRef;
+import com.acmehealth.company.api.entity.ref.SubcategoryRef;
+import com.acmehealth.company.api.exception.CategoryNotFoundException;
+import com.acmehealth.company.api.exception.SubcategoryNotFoundException;
+import com.acmehealth.company.api.repository.SubcategoryRepository;
+import com.acmehealth.company.api.scaffolding.CommonTestConfig;
+import com.acmehealth.company.api.scaffolding.WithRedesignUser;
+import com.acmehealth.company.api.service.CategoryService;
+import com.acmehealth.company.api.service.SubcategoryService;
 import java.util.List;
 import java.util.Optional;
 import org.junit.jupiter.api.Test;

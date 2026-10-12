@@ -1,4 +1,4 @@
-import { SellerDisclaimerHtml } from '@redesignhealth/portal/data-assets'
+import { SellerDisclaimerHtml } from '@acmehealth/portal/data-assets'
 import {
   Button,
   ModalBody,
@@ -6,7 +6,7 @@ import {
   ModalContent,
   ModalFooter,
   ModalHeader
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 interface DisclaimerProps {
   onCancel(): void

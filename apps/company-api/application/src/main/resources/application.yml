@@ -66,7 +66,7 @@ google:
   docs:
     hostname: https://docs.google.com
   service:
-    email: km-docs-svc@redesign-os.iam.gserviceaccount.com
+    email: km-docs-svc@acme-os.iam.gserviceaccount.com
   drive:
     hostname: https://drive.google.com
     # Used for storing company-specific documentation
@@ -75,7 +75,7 @@ google:
 
 jira:
   enabled: false
-  host: https://redesignhealth.atlassian.net
+  host: https://acmehealth.atlassian.net
   request:
     user:
       project: 10115 # DPT (DevOps Platform Test)
@@ -102,21 +102,21 @@ build:
   version: '@project.version@' # pom.xml version
 
 cors:
-  allowedOriginPatterns: http://localhost:[*], https://*.redesignhealth.com
+  allowedOriginPatterns: http://localhost:[*], https://*.acmehealth.com
   allowedMethods: PUT,GET,DELETE,POST
   allowedHeaders: Authorization,Content-Type,Accept,RH-Impersonation-Email,RH-Google-Access-Token
 
 db:
   seed:
-    emails: kyle.copeland@redesignhealth.com, antonio.bastardo@redesignhealth.com, matt.stephenson@redesignhealth.com, nancy.heiss@redesignhealth.com, rich.tillman@redesignhealth.com, antonio.bastardo@redesignhealth.com, stephanie.velazquez@redesignhealth.com, rhdevopstest2@gmail.com, rebecca.poch@redesignhealth.com, devops-test@redesignhealth.com
+    emails: kyle.copeland@acmehealth.com, antonio.bastardo@acmehealth.com, matt.stephenson@acmehealth.com, nancy.heiss@acmehealth.com, rich.tillman@acmehealth.com, antonio.bastardo@acmehealth.com, stephanie.velazquez@acmehealth.com, rhdevopstest2@gmail.com, rebecca.poch@acmehealth.com, devops-test@acmehealth.com
 
 notification:
   portal:
-    hostname: https://platform.dev.redesignhealth.com
+    hostname: https://platform.dev.acmehealth.com
     routes:
       infrastructure: ${notification.portal.hostname}/companies/{companyId}/infrastructure
   advise:
-    hostname: https://third-party-network.dev.redesignhealth.com
+    hostname: https://third-party-network.dev.acmehealth.com
 
 google-drive-lambda:
   hostname: https://hwqysdq6fmb2ox5j7ezvvzvske0lpxjf.lambda-url.us-east-1.on.aws
@@ -202,10 +202,10 @@ ip-marketplace-entity-converter:
     status: status
 
 company-vendor-change:
-  recipients: antonio.bastardo@redesignhealth.com, kyle.copeland@redesignhealth.com
+  recipients: antonio.bastardo@acmehealth.com, kyle.copeland@acmehealth.com
 
 library-feedback:
-  recipients: matt.stephenson@redesignhealth.com, vickey.morrow@redesignhealth.com
+  recipients: matt.stephenson@acmehealth.com, vickey.morrow@acmehealth.com
 
 # Set max concurrency for Mono/Flux related calls
 rate-limit:
@@ -594,10 +594,10 @@ ceo-data:
   valid-locations: atlanta,austin,boise,boston,denver/boulder,indianapolis,minneapolis,nyc,orlando/jacksonville,philadelphia,portland,reno,san francisco,seattle,st. louis,tampa,washington dc,raleigh
 
 gdrive-revoke-permission-notification:
-  recipients: antonio.bastardo@redesignhealth.com, kyle.copeland@redesignhealth.com, nancy.heiss@redesignhealth.com
+  recipients: antonio.bastardo@acmehealth.com, kyle.copeland@acmehealth.com, nancy.heiss@acmehealth.com
 
 xcloud:
-  url: https://redesignhealth--uat.sandbox.my.site.com/OpCo/
+  url: https://acmehealth--uat.sandbox.my.site.com/OpCo/
   only-offer-to: >
     q4mFw6H5,
     u8RYypOd,
@@ -605,8 +605,8 @@ xcloud:
     6a26GLoT,
     QtCXCoJk
 prometheus-service:
-  base-url: https://mimir.core.redesignhealth.com/prometheus
-  instance: "company-api.dev.redesignhealth.com:80"
+  base-url: https://mimir.core.acmehealth.com/prometheus
+  instance: "company-api.dev.acmehealth.com:80"
 rocket-chat-service:
   base-url:
   notifications:

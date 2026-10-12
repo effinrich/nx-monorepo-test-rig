@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import com.redesignhealth.company.api.assembler.ConsentAssembler;
-import com.redesignhealth.company.api.dto.ConsentSummary;
-import com.redesignhealth.company.api.entity.Consent;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.service.ConsentService;
+import com.acmehealth.company.api.assembler.ConsentAssembler;
+import com.acmehealth.company.api.dto.ConsentSummary;
+import com.acmehealth.company.api.entity.Consent;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.service.ConsentService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
 

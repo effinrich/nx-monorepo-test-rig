@@ -1,7 +1,7 @@
 import { MdEdit } from 'react-icons/md'
 import { Link as RouterLink, useParams } from 'react-router-dom'
-import { useGetCompanyVendors } from '@redesignhealth/portal/data-assets'
-import { OverviewCard, VendorCard } from '@redesignhealth/portal/ui'
+import { useGetCompanyVendors } from '@acmehealth/portal/data-assets'
+import { OverviewCard, VendorCard } from '@acmehealth/portal/ui'
 import {
   Button,
   Icon,
@@ -9,7 +9,7 @@ import {
   Loader,
   Stack,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 const CompanyVendors = () => {
   const { companyId } = useParams()

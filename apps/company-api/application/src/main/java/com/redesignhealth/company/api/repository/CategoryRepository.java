@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.Category;
-import com.redesignhealth.company.api.entity.ref.CategoryRef;
+import com.acmehealth.company.api.entity.Category;
+import com.acmehealth.company.api.entity.ref.CategoryRef;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;

@@ -7,11 +7,11 @@ import {
   IPSearchValues,
   useGetIPs,
   useGetUserInfo
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   getCompanyMemberRole,
   selectTransformer
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 import {
   Box,
   Button,
@@ -21,7 +21,7 @@ import {
   SectionHeader,
   Text,
   VStack
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { Select } from 'chakra-react-select'
 
 import { NoSearchResults } from '../../../no-search-results/no-search-results'

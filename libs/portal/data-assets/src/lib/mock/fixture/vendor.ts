@@ -4,7 +4,7 @@ export const mockVendor: Vendor = {
   name: 'Apple',
   contacts: [
     {
-      email: 'matt.stephenson@redesignhealth.com',
+      email: 'matt.stephenson@acmehealth.com',
       givenName: 'Matt',
       familyName: 'Stephenson',
       willingToDiscuss: true
@@ -34,7 +34,7 @@ export const mockVendor: Vendor = {
     displayName: 'Vendor',
     value: 'VENDOR'
   },
-  vendorPointContact: 'matt.stephenson@redesignhealth.com',
+  vendorPointContact: 'matt.stephenson@acmehealth.com',
   description:
     'Manufacturer of consumer electronics and provider of software and online services.',
   pros: 'Justo pulvinar est tortor ut pretium ultrices vitae penatibus libero.',

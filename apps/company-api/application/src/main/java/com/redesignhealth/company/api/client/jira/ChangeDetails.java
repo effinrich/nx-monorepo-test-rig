@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.jira;
+package com.acmehealth.company.api.client.jira;
 
 /**
  * Represents a single change item in a Jira changelog.

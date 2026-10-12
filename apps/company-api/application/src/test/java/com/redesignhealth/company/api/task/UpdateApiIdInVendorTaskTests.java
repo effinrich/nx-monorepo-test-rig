@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.task;
+package com.acmehealth.company.api.task;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.ArgumentMatchers.any;
@@ -8,9 +8,9 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.redesignhealth.company.api.entity.vendor.Vendor;
-import com.redesignhealth.company.api.repository.TaskRepository;
-import com.redesignhealth.company.api.repository.VendorRepository;
+import com.acmehealth.company.api.entity.vendor.Vendor;
+import com.acmehealth.company.api.repository.TaskRepository;
+import com.acmehealth.company.api.repository.VendorRepository;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

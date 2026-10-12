@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { type BoxProps, Box } from '@redesignhealth/ui'
+import { type BoxProps, Box } from '@acmehealth/ui'
 
 import TextBlock from './text-block'
 

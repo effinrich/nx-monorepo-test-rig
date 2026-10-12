@@ -5,15 +5,15 @@
 - [pom.xml](file://apps/company-api/pom.xml)
 - [README.md](file://apps/company-api/README.md)
 - [docker-compose.yml](file://apps/company-api/docker-compose.yml)
-- [Application.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/Application.java)
+- [Application.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/Application.java)
 - [application.yml](file://apps/company-api/application/src/main/resources/application.yml)
 - [application-dev.yml](file://apps/company-api/application/src/main/resources/application-dev.yml)
 - [application-local.yml](file://apps/company-api/application/src/main/resources/application-local.yml)
 - [index.ts](file://apps/oauth-jwt-generator/src/index.ts)
 - [pom.xml](file://apps/ff4j-rh/pom.xml)
 - [Dockerfile](file://apps/prometheus/Dockerfile)
-- [CompanyController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/CompanyController.java)
-- [VendorController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/VendorController.java)
+- [CompanyController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/CompanyController.java)
+- [VendorController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/VendorController.java)
 </cite>
 
 ## Table of Contents
@@ -63,12 +63,12 @@ FF4J_Pom --> PROM_Docker
 ```
 
 **Diagram sources**
-- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/Application.java#L1-L53)
+- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/Application.java#L1-L53)
 - [application.yml:1-616](file://apps/company-api/application/src/main/resources/application.yml#L1-L616)
 - [application-dev.yml:1-41](file://apps/company-api/application/src/main/resources/application-dev.yml#L1-L41)
 - [application-local.yml:1-22](file://apps/company-api/application/src/main/resources/application-local.yml#L1-L22)
-- [CompanyController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/CompanyController.java)
-- [VendorController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/VendorController.java)
+- [CompanyController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/CompanyController.java)
+- [VendorController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/VendorController.java)
 - [index.ts:1-74](file://apps/oauth-jwt-generator/src/index.ts#L1-L74)
 - [pom.xml:1-54](file://apps/ff4j-rh/pom.xml#L1-L54)
 - [Dockerfile:1-3](file://apps/prometheus/Dockerfile#L1-L3)
@@ -98,7 +98,7 @@ FF4J_Pom --> PROM_Docker
 **Section sources**
 - [pom.xml:1-33](file://apps/company-api/pom.xml#L1-L33)
 - [README.md:1-259](file://apps/company-api/README.md#L1-L259)
-- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/Application.java#L1-L53)
+- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/Application.java#L1-L53)
 - [application.yml:1-616](file://apps/company-api/application/src/main/resources/application.yml#L1-L616)
 - [index.ts:1-74](file://apps/oauth-jwt-generator/src/index.ts#L1-L74)
 - [pom.xml:1-54](file://apps/ff4j-rh/pom.xml#L1-L54)
@@ -127,7 +127,7 @@ PROM --> FF4J
 
 **Diagram sources**
 - [index.ts:1-74](file://apps/oauth-jwt-generator/src/index.ts#L1-L74)
-- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/Application.java#L1-L53)
+- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/Application.java#L1-L53)
 - [pom.xml:1-54](file://apps/ff4j-rh/pom.xml#L1-L54)
 - [Dockerfile:1-3](file://apps/prometheus/Dockerfile#L1-L3)
 
@@ -176,18 +176,18 @@ Application --> VendorController : "registers"
 ```
 
 **Diagram sources**
-- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/Application.java#L1-L53)
-- [CompanyController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/CompanyController.java)
-- [VendorController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/VendorController.java)
+- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/Application.java#L1-L53)
+- [CompanyController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/CompanyController.java)
+- [VendorController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/VendorController.java)
 
 **Section sources**
 - [README.md:1-259](file://apps/company-api/README.md#L1-L259)
-- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/Application.java#L1-L53)
+- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/Application.java#L1-L53)
 - [application.yml:1-616](file://apps/company-api/application/src/main/resources/application.yml#L1-L616)
 - [application-dev.yml:1-41](file://apps/company-api/application/src/main/resources/application-dev.yml#L1-L41)
 - [application-local.yml:1-22](file://apps/company-api/application/src/main/resources/application-local.yml#L1-L22)
-- [CompanyController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/CompanyController.java)
-- [VendorController.java](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/controller/VendorController.java)
+- [CompanyController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/CompanyController.java)
+- [VendorController.java](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/controller/VendorController.java)
 
 ### OAuth JWT Generator Service
 - Purpose: Handles Google OAuth authorization code exchange and returns an ID token to clients.
@@ -357,4 +357,4 @@ The backend services in the Redesign Health monorepo demonstrate a modular, obse
 **Section sources**
 - [README.md:1-259](file://apps/company-api/README.md#L1-L259)
 - [docker-compose.yml:1-82](file://apps/company-api/docker-compose.yml#L1-L82)
-- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/redesignhealth/company/api/Application.java#L1-L53)
+- [Application.java:1-53](file://apps/company-api/application/src/main/java/com/acmehealth/company/api/Application.java#L1-L53)

@@ -1,19 +1,19 @@
-package com.redesignhealth.company.api.service;
+package com.acmehealth.company.api.service;
 
-import static com.redesignhealth.company.api.client.search.utils.Sanitizer.sanitizeHighlightedText;
+import static com.acmehealth.company.api.client.search.utils.Sanitizer.sanitizeHighlightedText;
 
-import com.redesignhealth.company.api.client.search.SearchClient;
-import com.redesignhealth.company.api.client.search.command.SearchCommand;
-import com.redesignhealth.company.api.client.search.command.SearchField;
-import com.redesignhealth.company.api.client.search.command.SearchIndex;
-import com.redesignhealth.company.api.client.search.entity.SearchResult;
-import com.redesignhealth.company.api.dto.SearchFilter;
-import com.redesignhealth.company.api.entity.Company;
-import com.redesignhealth.company.api.entity.ref.CompanyRef;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.property.EntityConverter;
-import com.redesignhealth.company.api.repository.CompanyRepository;
-import com.redesignhealth.company.api.util.ApiToSearchConverter;
+import com.acmehealth.company.api.client.search.SearchClient;
+import com.acmehealth.company.api.client.search.command.SearchCommand;
+import com.acmehealth.company.api.client.search.command.SearchField;
+import com.acmehealth.company.api.client.search.command.SearchIndex;
+import com.acmehealth.company.api.client.search.entity.SearchResult;
+import com.acmehealth.company.api.dto.SearchFilter;
+import com.acmehealth.company.api.entity.Company;
+import com.acmehealth.company.api.entity.ref.CompanyRef;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.property.EntityConverter;
+import com.acmehealth.company.api.repository.CompanyRepository;
+import com.acmehealth.company.api.util.ApiToSearchConverter;
 import jakarta.annotation.Nullable;
 import java.util.List;
 import java.util.Map;

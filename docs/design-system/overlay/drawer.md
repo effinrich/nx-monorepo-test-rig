@@ -2,7 +2,7 @@
 id: drawer
 category: overlay
 title: Drawer
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   The Drawer component is a panel that slides out from the edge of the screen.
   It can be useful when you need users to complete a task or view some details
@@ -26,12 +26,12 @@ import {
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 ```
 
 <div style="display:none">## Example
 
-<iframe src="https://dev-design.redesignhealth.com/storybook/shared-ui/iframe.html?args=size:lg&id=components-overlay-drawer--drawer-example&viewMode=story" width="100%" style="border:1px solid black;" ></iframe></div>
+<iframe src="https://dev-design.acmehealth.com/storybook/shared-ui/iframe.html?args=size:lg&id=components-overlay-drawer--drawer-example&viewMode=story" width="100%" style="border:1px solid black;" ></iframe></div>
 
 ## Usage
 

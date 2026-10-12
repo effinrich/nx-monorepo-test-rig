@@ -7,16 +7,16 @@ import {
   mockIpListingWithUnreleasedIPRequest,
   mockRhUser,
   mockSuperAdminUser
-} from '@redesignhealth/portal/data-assets'
-import { logout } from '@redesignhealth/portal/utils'
-import { render } from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/portal/data-assets'
+import { logout } from '@acmehealth/portal/utils'
+import { render } from '@acmehealth/shared-utils-jest'
 import { fireEvent, screen, within } from '@testing-library/react'
 import { setupServer } from 'msw/node'
 
 import { Nav } from './nav'
 
-jest.mock('@redesignhealth/portal/utils', () => {
-  const originalModule = jest.requireActual('@redesignhealth/portal/utils')
+jest.mock('@acmehealth/portal/utils', () => {
+  const originalModule = jest.requireActual('@acmehealth/portal/utils')
   return {
     __esModule: true,
     ...originalModule,
@@ -172,7 +172,7 @@ describe('Nav', () => {
           {
             ...mockIpListingWithUnreleasedIPRequest,
             owner: {
-              email: 'sazh.katzroy@redesignhealth.com'
+              email: 'sazh.katzroy@acmehealth.com'
             }
           }
         ])

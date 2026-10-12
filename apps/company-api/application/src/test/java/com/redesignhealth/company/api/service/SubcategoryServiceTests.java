@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.service;
+package com.acmehealth.company.api.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -7,18 +7,18 @@ import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.when;
 
-import com.redesignhealth.company.api.dto.CategorySummary;
-import com.redesignhealth.company.api.dto.SubcategorySummary;
-import com.redesignhealth.company.api.dto.command.CategoryCommand;
-import com.redesignhealth.company.api.entity.Category;
-import com.redesignhealth.company.api.entity.Subcategory;
-import com.redesignhealth.company.api.entity.ref.CategoryRef;
-import com.redesignhealth.company.api.entity.ref.SubcategoryRef;
-import com.redesignhealth.company.api.exception.CategoryNotFoundException;
-import com.redesignhealth.company.api.exception.InvalidFieldException;
-import com.redesignhealth.company.api.exception.dto.FieldErrorType;
-import com.redesignhealth.company.api.repository.SubcategoryRepository;
-import com.redesignhealth.company.api.service.helper.BuilderForException;
+import com.acmehealth.company.api.dto.CategorySummary;
+import com.acmehealth.company.api.dto.SubcategorySummary;
+import com.acmehealth.company.api.dto.command.CategoryCommand;
+import com.acmehealth.company.api.entity.Category;
+import com.acmehealth.company.api.entity.Subcategory;
+import com.acmehealth.company.api.entity.ref.CategoryRef;
+import com.acmehealth.company.api.entity.ref.SubcategoryRef;
+import com.acmehealth.company.api.exception.CategoryNotFoundException;
+import com.acmehealth.company.api.exception.InvalidFieldException;
+import com.acmehealth.company.api.exception.dto.FieldErrorType;
+import com.acmehealth.company.api.repository.SubcategoryRepository;
+import com.acmehealth.company.api.service.helper.BuilderForException;
 import java.util.List;
 import java.util.Set;
 import org.junit.jupiter.api.BeforeEach;

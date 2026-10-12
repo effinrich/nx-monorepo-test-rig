@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
-import { ColorModeProvider, system } from '@redesignhealth/ui'
+import { ColorModeProvider, system } from '@acmehealth/ui'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { initialize, mswLoader } from 'msw-storybook-addon'
 

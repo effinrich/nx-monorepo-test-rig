@@ -2,7 +2,7 @@
 id: simple-grid
 category: layout
 title: SimpleGrid
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description:
   SimpleGrid provides a friendly interface to create responsive grid layouts
   with ease.
@@ -11,7 +11,7 @@ description:
 ## Import
 
 ```js
-import { SimpleGrid } from '@redesignhealth/ui'
+import { SimpleGrid } from '@acmehealth/ui'
 ```
 
 ## Usage

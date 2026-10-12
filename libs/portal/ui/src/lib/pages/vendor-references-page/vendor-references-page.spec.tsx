@@ -6,8 +6,8 @@ import {
   mockGetVendors,
   mockSuperAdminUser,
   mockVendor
-} from '@redesignhealth/portal/data-assets'
-import { mocks, render, screen } from '@redesignhealth/shared-utils-jest'
+} from '@acmehealth/portal/data-assets'
+import { mocks, render, screen } from '@acmehealth/shared-utils-jest'
 import { setupServer } from 'msw/node'
 
 import { VendorReferencesPage } from './vendor-references-page'

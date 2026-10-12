@@ -1,6 +1,6 @@
-package com.redesignhealth.company.api.exception;
+package com.acmehealth.company.api.exception;
 
-import com.redesignhealth.company.api.exception.status.InternalServerErrorException;
+import com.acmehealth.company.api.exception.status.InternalServerErrorException;
 import org.springframework.util.MimeType;
 
 public class UnsupportedMimeTypeException extends InternalServerErrorException {

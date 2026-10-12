@@ -1,8 +1,8 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
-import com.redesignhealth.company.api.controller.CompanyController;
-import com.redesignhealth.company.api.dto.CompanyMemberAuditDto;
-import com.redesignhealth.company.api.dto.CompanyMemberAuditSummary;
+import com.acmehealth.company.api.controller.CompanyController;
+import com.acmehealth.company.api.dto.CompanyMemberAuditDto;
+import com.acmehealth.company.api.dto.CompanyMemberAuditSummary;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;
 

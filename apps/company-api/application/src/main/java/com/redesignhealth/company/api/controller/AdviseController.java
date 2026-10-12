@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.controller;
+package com.acmehealth.company.api.controller;
 
-import com.redesignhealth.company.api.dto.AdviseTokenExchangeSummary;
-import com.redesignhealth.company.api.openapi.IncludeSecurityHeaders;
-import com.redesignhealth.company.api.security.RedesignUserDetails;
-import com.redesignhealth.company.api.service.AdviseService;
+import com.acmehealth.company.api.dto.AdviseTokenExchangeSummary;
+import com.acmehealth.company.api.openapi.IncludeSecurityHeaders;
+import com.acmehealth.company.api.security.RedesignUserDetails;
+import com.acmehealth.company.api.service.AdviseService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.access.prepost.PreAuthorize;

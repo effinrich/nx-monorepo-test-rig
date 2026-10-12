@@ -10,11 +10,11 @@ import {
   useGetCategoriesFilters,
   useGetVendorsNames,
   useGetVendorTags
-} from '@redesignhealth/portal/data-assets'
+} from '@acmehealth/portal/data-assets'
 import {
   FORM_ERROR_MESSAGES,
   selectTransformer
-} from '@redesignhealth/portal/utils'
+} from '@acmehealth/portal/utils'
 import {
   type InputProps,
   Box,
@@ -31,7 +31,7 @@ import {
   Spacer,
   Stack,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 import { CreatableSelect, Select } from 'chakra-react-select'
 import * as yup from 'yup'
 

@@ -1,7 +1,7 @@
-package com.redesignhealth.company.api.repository;
+package com.acmehealth.company.api.repository;
 
-import com.redesignhealth.company.api.entity.IpMarketplace;
-import com.redesignhealth.company.api.entity.ref.IpMarketplaceRef;
+import com.acmehealth.company.api.entity.IpMarketplace;
+import com.acmehealth.company.api.entity.ref.IpMarketplaceRef;
 import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;
 

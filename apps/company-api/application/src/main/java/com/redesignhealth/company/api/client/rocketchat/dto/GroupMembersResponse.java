@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.client.rocketchat.dto;
+package com.acmehealth.company.api.client.rocketchat.dto;
 
 import java.util.List;
 import java.util.Map;

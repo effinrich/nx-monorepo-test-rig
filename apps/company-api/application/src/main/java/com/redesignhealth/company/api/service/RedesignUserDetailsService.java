@@ -1,9 +1,9 @@
-package com.redesignhealth.company.api.service;
+package com.acmehealth.company.api.service;
 
-import com.redesignhealth.company.api.entity.ref.PersonRef;
-import com.redesignhealth.company.api.expansion.Expansion;
-import com.redesignhealth.company.api.repository.PersonRepository;
-import com.redesignhealth.company.api.security.RedesignUserDetails;
+import com.acmehealth.company.api.entity.ref.PersonRef;
+import com.acmehealth.company.api.expansion.Expansion;
+import com.acmehealth.company.api.repository.PersonRepository;
+import com.acmehealth.company.api.security.RedesignUserDetails;
 import org.springframework.security.authentication.InsufficientAuthenticationException;
 import org.springframework.stereotype.Service;
 

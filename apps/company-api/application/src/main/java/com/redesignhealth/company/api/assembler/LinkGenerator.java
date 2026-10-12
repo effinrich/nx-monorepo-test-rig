@@ -1,4 +1,4 @@
-package com.redesignhealth.company.api.assembler;
+package com.acmehealth.company.api.assembler;
 
 import org.springframework.hateoas.Link;
 

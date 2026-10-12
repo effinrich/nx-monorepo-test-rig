@@ -5,7 +5,7 @@ import {
   MdOutlineThumbDown,
   MdOutlineThumbUp
 } from 'react-icons/md'
-import { Button, HStack, Icon, IconButton } from '@redesignhealth/ui'
+import { Button, HStack, Icon, IconButton } from '@acmehealth/ui'
 
 import { FeedbackModal, FeedbackProps } from './feedback-modal'
 import { usePutFeedbackMutation } from './hooks'

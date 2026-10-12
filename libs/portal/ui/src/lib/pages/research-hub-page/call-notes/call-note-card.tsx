@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { MdLock, MdOpenInNew } from 'react-icons/md'
-import { CallNoteCardProps } from '@redesignhealth/portal/data-assets'
-import { formatDate } from '@redesignhealth/portal/utils'
+import { CallNoteCardProps } from '@acmehealth/portal/data-assets'
+import { formatDate } from '@acmehealth/portal/utils'
 import {
   AlertRoot,
   AlertIcon,
@@ -11,7 +11,7 @@ import {
   TagRoot,
   TagLabel,
   Text
-} from '@redesignhealth/ui'
+} from '@acmehealth/ui'
 
 import { ListCard } from '../../../list-card/list-card'
 import { SearchMatches } from '../../../search-matches/search-matches'

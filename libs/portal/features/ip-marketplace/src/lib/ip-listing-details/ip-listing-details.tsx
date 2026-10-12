@@ -1,8 +1,8 @@
 import { Helmet } from 'react-helmet'
 import { useParams } from 'react-router-dom'
-import { useGetIpListing } from '@redesignhealth/portal/data-assets'
-import { IpListingDetailsPage, Page } from '@redesignhealth/portal/ui'
-import { Loader } from '@redesignhealth/ui'
+import { useGetIpListing } from '@acmehealth/portal/data-assets'
+import { IpListingDetailsPage, Page } from '@acmehealth/portal/ui'
+import { Loader } from '@acmehealth/ui'
 
 const IpListingDetails = () => {
   const { ipListingId } = useParams()

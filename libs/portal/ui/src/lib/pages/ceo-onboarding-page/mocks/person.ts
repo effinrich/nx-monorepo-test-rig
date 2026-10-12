@@ -1,5 +1,5 @@
 export const person = {
-  email: 'sazh.katzroy@redesignhealth.com',
+  email: 'sazh.katzroy@acmehealth.com',
   givenName: 'Sazh',
   familyName: 'Katzroy',
   roles: [

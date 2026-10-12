@@ -1,10 +1,10 @@
-package com.redesignhealth.company.api.dto.command;
+package com.acmehealth.company.api.dto.command;
 
-import com.redesignhealth.company.api.dto.enums.CeoBusinessFocusArea;
-import com.redesignhealth.company.api.dto.enums.CeoBusinessType;
-import com.redesignhealth.company.api.dto.enums.CeoCustomerSegment;
-import com.redesignhealth.company.api.dto.enums.CeoHealthcareSector;
-import com.redesignhealth.company.api.dto.enums.CeoVisible;
+import com.acmehealth.company.api.dto.enums.CeoBusinessFocusArea;
+import com.acmehealth.company.api.dto.enums.CeoBusinessType;
+import com.acmehealth.company.api.dto.enums.CeoCustomerSegment;
+import com.acmehealth.company.api.dto.enums.CeoHealthcareSector;
+import com.acmehealth.company.api.dto.enums.CeoVisible;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.util.List;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-import { AlertRoot, AlertDescription, AlertTitle } from '@redesignhealth/ui'
+import { AlertRoot, AlertDescription, AlertTitle } from '@acmehealth/ui'
 
 export const ErrorAlert = () => {
   return (

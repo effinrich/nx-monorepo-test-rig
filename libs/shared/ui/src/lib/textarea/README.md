@@ -2,14 +2,14 @@
 id: textarea
 category: form
 title: Textarea
-package: '@redesignhealth/ui'
+package: '@acmehealth/ui'
 description: 'The Textarea component allows you to easily create multi-line text inputs.'
 ---
 
 ## Import
 
 ```js
-import { Textarea } from '@redesignhealth/ui'
+import { Textarea } from '@acmehealth/ui'
 ```
 
 ### Usage
